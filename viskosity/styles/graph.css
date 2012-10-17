@@ -1,0 +1,26 @@
+.viz svg {
+	display: block;
+	margin: 0 auto;
+	border: 1px solid #AAA;
+}
+
+.viz .node path {
+	stroke: #AAA;
+	stroke-width: 1;
+	cursor: move;
+}
+
+.viz .edge {
+	fill: none;
+	stroke: #999;
+	stroke-opacity: 0.25;
+}
+
+.viz .extensible path {
+	stroke: #FFD700;
+	cursor: pointer;
+}
+
+.viz .active path {
+	fill: #FFD700 !important; /* XXX: necessary to override inline styles */
+}
