@@ -1,0 +1,514 @@
+<?xml version="1.0"?>
+<!--<!DOCTYPE metadata SYSTEM "http://www.esri.com/metadata/esriprof80.dtd">-->
+<metadata xml:lang="fr">
+	<Esri>
+		<CreaDate>20110630</CreaDate>
+		<CreaTime>08420600</CreaTime>
+		<SyncOnce>FALSE</SyncOnce>
+		<SyncDate>20120703</SyncDate>
+		<SyncTime>10222100</SyncTime>
+		<ModDate>20120703</ModDate>
+		<ModTime>10222100</ModTime>
+		<DataProperties>
+			<lineage>
+				<Process Name="BuildPyramids_1" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\BuildPyramids" Date="20060329" Time="081930">BuildPyramids "D:\Documents and Settings\terrond\Application Data\ESRI\ArcCatalog\Connection to MIERIS.sde\A.CAD_GRID_AUTRES_OBJETS" "D:\Documents and Settings\terrond\Application Data\ESRI\ArcCatalog\Connection to MIERIS.sde\A.CAD_GRID_AUTRES_OBJETS"</Process>
+				<Process Name="CalculateStatistics_2" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateStatistics" Date="20060329" Time="082336">CalculateStatistics "D:\Documents and Settings\terrond\Application Data\ESRI\ArcCatalog\Connection to MIERIS.sde\A.CAD_GRID_AUTRES_OBJETS" 1 1 # "D:\Documents and Settings\terrond\Application Data\ESRI\ArcCatalog\Connection to MIERIS.sde\A.CAD_GRID_AUTRES_OBJETS"</Process>
+				<Process Name="CreateRasterDataset_27" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CreateRasterDataset" Date="20060406" Time="102408">CreateRasterDataset "Database Connections\Connection to mieris esri_sde_new.sde" GEO_RASTER_PV10000_COULEURS # 8_BIT_UNSIGNED PROJCS['CH_1903_LV03',GEOGCS['GCS_CH1903',DATUM['D_CH1903',SPHEROID['Bessel_1841',6377397.155,299.1528128]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]],PROJECTION['Hotine_Oblique_Mercator_Azimuth_Center'],PARAMETER['False_Easting',600000.0],PARAMETER['False_Northing',200000.0],PARAMETER['Scale_Factor',1.0],PARAMETER['Azimuth',90.0],PARAMETER['Longitude_Of_Center',7.4395833333],PARAMETER['Latitude_Of_Center',46.9524055556],UNIT['Meter',1.0]] 1 RASTER "PYRAMIDS -1 NEAREST" "128 128" LZ77 # "Database Connections\Connection to mieris esri_sde_new.sde\A.CAD_GRID_AUTRES_OBJETS"</Process>
+				<Process Name="Mosaic_31" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\Mosaic" Date="20060406" Time="103120">Mosaic D:\raster\PV_10000_COULEURS\PV_24.tif;D:\raster\PV_10000_COULEURS\PV_14.tif;D:\raster\PV_10000_COULEURS\PV_15.tif;D:\raster\PV_10000_COULEURS\PV_16.tif;D:\raster\PV_10000_COULEURS\PV_17.tif;D:\raster\PV_10000_COULEURS\PV_18.tif;D:\raster\PV_10000_COULEURS\PV_23.tif;D:\raster\PV_10000_COULEURS\PV_13.tif;D:\raster\PV_10000_COULEURS\PV_22.tif;D:\raster\PV_10000_COULEURS\PV_12.tif;D:\raster\PV_10000_COULEURS\PV_21.tif;D:\raster\PV_10000_COULEURS\PV_03.tif;D:\raster\PV_10000_COULEURS\PV_04.tif;D:\raster\PV_10000_COULEURS\PV_05.tif;D:\raster\PV_10000_COULEURS\PV_06.tif;D:\raster\PV_10000_COULEURS\PV_07.tif;D:\raster\PV_10000_COULEURS\PV_08.tif;D:\raster\PV_10000_COULEURS\PV_09.tif;D:\raster\PV_10000_COULEURS\PV_02.tif;D:\raster\PV_10000_COULEURS\PV_11.tif;D:\raster\PV_10000_COULEURS\PV_20.tif;D:\raster\PV_10000_COULEURS\PV_01.tif;D:\raster\PV_10000_COULEURS\PV_10.tif;D:\raster\PV_10000_COULEURS\PV_19.tif "Database Connections\Connection to mieris esri_sde_new.sde\A.CAD_GRID_AUTRES_OBJETS" LAST FIRST # # NONE 0 "Database Connections\Connection to mieris esri_sde_new.sde\A.CAD_GRID_AUTRES_OBJETS"</Process>
+				<Process Name="BuildPyramids_4" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\BuildPyramids" Date="20060602" Time="141522">BuildPyramids "Database Connections\Connection to MIERIS esri_sde.sde\A.CAD_GRID_AUTRES_OBJETS" "Database Connections\Connection to MIERIS esri_sde.sde\A.CAD_GRID_AUTRES_OBJETS"</Process>
+				<Process Name="BuildPyramids_5" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\BuildPyramids" Date="20060602" Time="141732">BuildPyramids "Database Connections\Connection to MIERIS esri_sde.sde\A.CAD_GRID_AUTRES_OBJETS" "Database Connections\Connection to MIERIS esri_sde.sde\A.CAD_GRID_AUTRES_OBJETS"</Process>
+			</lineage>
+			<XTinfo>
+				<esrtype>Raster Dataset</esrtype>
+				<esrname>A.CAD_GRID_CHANGEMENTS</esrname>
+			</XTinfo>
+		</DataProperties>
+		<MetaID>{AC80701E-A081-4A80-81A0-EAC1C2700802}</MetaID></Esri>
+	<idinfo>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 1; ESRI ArcCatalog 9.2.6.1500</native>
+		<descript>
+			<langdata Sync="TRUE">fr</langdata>
+			<abstract>REQUIRED: A brief narrative summary of the data set.</abstract>
+			<purpose>REQUIRED: A summary of the intentions with which the data set was developed.</purpose>
+		</descript>
+		<citation>
+			<citeinfo>
+				<origin>REQUIRED: The name of an organization or individual that developed the data set.</origin>
+				<pubdate>REQUIRED: The date when the data set is published or otherwise made available for release.</pubdate>
+				<title Sync="TRUE">A.CAD_GRID_CHANGEMENTS</title>
+				<ftname Sync="TRUE">A.CAD_GRID_CHANGEMENTS</ftname>
+				<geoform Sync="TRUE">SDE raster digital data</geoform>
+				<onlink Sync="TRUE">Server=CONSULTATION-SITG; Service=esri_sde; User=a; Version=SDE.DEFAULT</onlink>
+			</citeinfo>
+		</citation>
+		<timeperd>
+			<current>REQUIRED: The basis on which the time period of content information is determined.</current>
+			<timeinfo>
+				<sngdate>
+					<caldate>REQUIRED: The year (and optionally month, or month and day) for which the data set corresponds to the ground.</caldate>
+				</sngdate>
+			</timeinfo>
+		</timeperd>
+		<status>
+			<progress>REQUIRED: The state of the data set.</progress>
+			<update>REQUIRED: The frequency with which changes and additions are made to the data set after the initial data set is completed.</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">5.918669</westbc>
+				<eastbc Sync="TRUE">6.314182</eastbc>
+				<northbc Sync="TRUE">46.379977</northbc>
+				<southbc Sync="TRUE">46.105563</southbc>
+			</bounding>
+			<lboundng>
+				<leftbc Sync="TRUE">2483000.000000</leftbc>
+				<rightbc Sync="TRUE">2513000.000000</rightbc>
+				<bottombc Sync="TRUE">1107000.000000</bottombc>
+				<topbc Sync="TRUE">1137000.000000</topbc>
+			</lboundng>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>REQUIRED: Reference to a formally registered thesaurus or a similar authoritative source of theme keywords.</themekt>
+				<themekey>REQUIRED: Common-use word or phrase used to describe the subject of the data set.</themekey>
+			</theme>
+		</keywords>
+		<accconst>REQUIRED: Restrictions and legal prerequisites for accessing the data set.</accconst>
+		<useconst>REQUIRED: Restrictions and legal prerequisites for using the data set after access is granted.</useconst>
+		<natvform Sync="TRUE">Jeu de données Raster ArcSDE</natvform>
+	</idinfo>
+	<dataIdInfo>
+		<envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.6.1500</envirDesc>
+		<dataLang>
+			<languageCode Sync="FALSE" value="fr">
+			</languageCode>
+		</dataLang>
+		<idCitation>
+			<resTitle>GRID CLASSIFICATION CHANGEMENTS 2000-2005</resTitle>
+			<presForm>
+				<PresFormCd Sync="TRUE" value="005">
+				</PresFormCd>
+			</presForm>
+			<resRefDate>
+				<refDate>20070101</refDate>
+				<refDateType>
+					<DateTypCd value="001" Sync="FALSE">
+					</DateTypCd>
+				</refDateType>
+			</resRefDate>
+			<citRespParty>
+				<rpIndName>Guy Perruchoud</rpIndName>
+				<rpXTIndLastName>Perruchoud</rpXTIndLastName>
+				<rpXTIndFirstName>Guy</rpXTIndFirstName>
+				<rpOrgName>Service de la mensuration officielle</rpOrgName>
+				<rpXTOrgAcronym>SEMO</rpXTOrgAcronym>
+				<rpXTPartName>DIME - Département de l'intérieur, de la mobilité et de l'environnement</rpXTPartName>
+				<rpCntInfo>
+					<cntPhone>
+						<voiceNum>+4122 546 72 04</voiceNum>
+						<faxNum>+4122 546 72 24</faxNum>
+					</cntPhone>
+					<cntAddress>
+						<eMailAdd>guy.perruchoud@etat.ge.ch</eMailAdd>
+						<XTName>quai du Rhône</XTName>
+						<XTNumber>12</XTNumber>
+						<delPoint>quai du Rhône 12</delPoint>
+						<postCode>1205</postCode>
+						<XTpostBox></XTpostBox>
+						<city>Genève</city>
+						<country>ch</country>
+						<XTLine></XTLine>
+						<adminArea></adminArea>
+					</cntAddress>
+					<cntOnlineRes>
+						<linkage>http://www.ge.ch/semo</linkage>
+					</cntOnlineRes>
+					<cntHours></cntHours>
+					<cntInstr></cntInstr>
+				</rpCntInfo>
+				<rpPosName>Adjoint de direction</rpPosName>
+				<rpXTBID>447c4793-c304-4c77-ab3f-f5a74a149323</rpXTBID>
+			</citRespParty>
+			<resXTUpdateFicheDate><refDate>20110630</refDate><refDateType><DateTypCd value="001" Sync="FALSE"></DateTypCd></refDateType></resXTUpdateFicheDate></idCitation>
+		<dataExt>
+			<geoEle>
+				<GeoBndBox esriExtentType="native">
+					<westBL Sync="TRUE">2483000</westBL>
+					<eastBL Sync="TRUE">2513000</eastBL>
+					<northBL Sync="TRUE">1137000</northBL>
+					<southBL Sync="TRUE">1107000</southBL>
+					<exTypeCode Sync="TRUE">1</exTypeCode>
+					<XTdesc>Cadre de référence MN95</XTdesc>
+				</GeoBndBox>
+			</geoEle>
+		</dataExt>
+		<geoBox esriExtentType="decdegrees">
+			<westBL Sync="TRUE">5.918669</westBL>
+			<eastBL Sync="TRUE">6.314182</eastBL>
+			<northBL Sync="TRUE">46.379977</northBL>
+			<southBL Sync="TRUE">46.105563</southBL>
+			<exTypeCode Sync="TRUE">1</exTypeCode>
+		</geoBox>
+		<spatRpType>
+			<SpatRepTypCd Sync="TRUE" value="002">
+			</SpatRepTypCd>
+		</spatRpType>
+		<idAbs>Les différences entre les Modèles Numériques de Terrain (MNT) de 2000 et 2005, celles entre les Modèles Numériques de Surface (MNS) ainsi que celles entre les orthophotos de 2001 et 2005 ont été utilisées pour diagnostiquer les changements intervenus ces dernières années au niveau des objet de la couverture du sol.
+
+Ont été mis en évidence
+
+- les bâtiments nouveaux, détruits ou modifiés
+- les zones d'abattage ou de plantation d'arbres
+- les lieux d'exploitation ou de remise en état de gravières, décharges, etc.
+
+Date d'acquisition : 2005
+	
+Méthode d'acquisition : Mise en évidence des différences entre les précédents MNS, MNT et orthophotos et les mêmes données actuelles
+	
+Taille du pixel (résolution) : 1 m
+		
+Nombre de bits : 8, signed integer
+	
+Valeur du pixel : code couleur RGB (nuances de gris)
+	
+Précision planimétrique/altimétrique : - / -</idAbs>
+		<idXTInfoLink>http://www.ge.ch/semo</idXTInfoLink>
+		<idXTLegalLink>http://etat.geneve.ch/geoportail/metadataws/Publish/legal/cadastre.htm</idXTLegalLink>
+		<dataChar>
+			<CharSetCd value="004" Sync="FALSE">
+			</CharSetCd>
+		</dataChar>
+		<resMaint>
+			<maintFreq>
+				<MaintFreqCd value="011" Sync="FALSE">
+				</MaintFreqCd>
+				<descXT>Non planifié</descXT></maintFreq>
+			<maintScp>
+				<ScopeCd value="005" Sync="FALSE">
+				</ScopeCd>
+			</maintScp>
+		</resMaint>
+		<resConst>
+			<Consts>
+				<useLimit>Extraction limitée à 400 hectares pour les tiers non partenaires du SITG</useLimit>
+			</Consts>
+		</resConst>
+		<descKeys KeyTypCd="005" Sync="FALSE">
+			<keyword>administratif</keyword>
+			<keyTyp>
+				<keyTypCd value="005" Sync="FALSE">
+				</keyTypCd>
+			</keyTyp>
+		</descKeys>
+		<lnkObjects>
+			<lnkObject>
+				<lnkBID>331590e0-859c-46d4-b4af-8c916d04867a</lnkBID>
+				<lnkType>Image</lnkType>
+				<lnkLink>http://etat.geneve.ch/geoportail/metadataws/Publish/images/GRID_CHANGEMENTS_00_05.gif</lnkLink>
+			</lnkObject>
+		</lnkObjects>
+		<tpCat><TopicCatCd value="010" Sync="FALSE"></TopicCatCd><descXT>Imagerie, fonds de carte et occupation du sol</descXT></tpCat></dataIdInfo>
+	<metainfo>
+		<langmeta Sync="TRUE">fr</langmeta>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntper>REQUIRED: The person responsible for the metadata information.</cntper>
+					<cntorg>REQUIRED: The organization responsible for the metadata information.</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>REQUIRED: The mailing and/or physical address for the organization or individual.</addrtype>
+					<city>REQUIRED: The city of the address.</city>
+					<state>REQUIRED: The state or province of the address.</state>
+					<postal>REQUIRED: The ZIP or other postal code of the address.</postal>
+				</cntaddr>
+				<cntvoice>REQUIRED: The telephone number by which individuals can speak to the organization or individual.</cntvoice>
+			</cntinfo>
+		</metc>
+		<metd Sync="TRUE">20120703</metd>
+		<metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<mdLang>
+		<languageCode Sync="FALSE" value="fr">
+		</languageCode>
+	</mdLang>
+	<mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+	<mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+	<mdChar>
+		<CharSetCd Sync="TRUE" value="004">
+		</CharSetCd>
+	</mdChar>
+	<mdHrLv>
+		<ScopeCd Sync="TRUE" value="005">
+		</ScopeCd>
+	</mdHrLv>
+	<mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+	<spdoinfo>
+		<direct Sync="TRUE">Raster</direct>
+		<rastinfo>
+			<rasttype Sync="TRUE">Pixel</rasttype>
+			<rowcount Sync="TRUE">30000</rowcount>
+			<colcount Sync="TRUE">30000</colcount>
+			<rastxsz Sync="TRUE">1.000000</rastxsz>
+			<rastysz Sync="TRUE">1.000000</rastysz>
+			<rastbpp Sync="TRUE">16</rastbpp>
+			<vrtcount Sync="TRUE">1</vrtcount>
+			<rastorig Sync="TRUE">Upper Left</rastorig>
+			<rastcmap Sync="TRUE">FALSE</rastcmap>
+			<rastcomp Sync="TRUE">LZ77</rastcomp>
+			<rastband Sync="TRUE">1</rastband>
+			<rastdtyp Sync="TRUE">pixel codes</rastdtyp>
+			<rastplyr Sync="TRUE">TRUE</rastplyr>
+			<rastifor Sync="TRUE">SDR</rastifor>
+		</rastinfo>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<cordsysn>
+				<geogcsn Sync="TRUE">GCS_CH1903+</geogcsn>
+				<projcsn Sync="TRUE">CH1903+_LV95</projcsn>
+			</cordsysn>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">row and column</plance>
+					<plandu Sync="TRUE">meters</plandu>
+					<coordrep>
+						<absres Sync="TRUE">1.000000</absres>
+						<ordres Sync="TRUE">1.000000</ordres>
+					</coordrep>
+				</planci>
+				<mapproj><mapprojn Sync="TRUE">Oblique Mercator</mapprojn><obqmerc><sfctrlin Sync="TRUE">1.000000</sfctrlin><obqlazim><azimangl Sync="TRUE">90.000000</azimangl><azimptl Sync="TRUE">7.439583</azimptl></obqlazim><latprjo Sync="TRUE">46.952406</latprjo><feast Sync="TRUE">2600000.000000</feast><fnorth Sync="TRUE">1200000.000000</fnorth></obqmerc></mapproj></planar>
+			<geodetic>
+				<horizdn Sync="TRUE">D_CH1903+</horizdn>
+				<ellips Sync="TRUE">Bessel_1841</ellips>
+				<semiaxis Sync="TRUE">6377397.155000</semiaxis>
+				<denflat Sync="TRUE">299.152813</denflat>
+			</geodetic>
+		</horizsys>
+		<vertdef>
+			<altsys>
+				<altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc>
+				<altres Sync="TRUE">1.000000</altres>
+			</altsys>
+		</vertdef>
+	</spref>
+	<refSysInfo>
+		<RefSystem>
+			<refSysID>
+				<identCode>CH1903+_LV95</identCode>
+			</refSysID>
+		</RefSystem>
+	</refSysInfo>
+	<spatRepInfo>
+		<GridSpatRep>
+			<numDims Sync="TRUE">2</numDims>
+			<axDimProps>
+				<Dimen>
+					<dimName>
+						<DimNameTypCd Sync="TRUE" value="002">
+						</DimNameTypCd>
+					</dimName>
+					<dimSize Sync="TRUE">3000</dimSize>
+					<dimResol Sync="TRUE">1.0</dimResol>
+				</Dimen>
+				<Dimen>
+					<dimName>
+						<DimNameTypCd Sync="TRUE" value="001">
+						</DimNameTypCd>
+					</dimName>
+					<dimSize Sync="TRUE">3000</dimSize>
+					<dimResol Sync="TRUE">1.</dimResol>
+				</Dimen>
+			</axDimProps>
+			<cellGeo>
+				<CellGeoCd Sync="TRUE" value="002">
+				</CellGeoCd>
+			</cellGeo>
+			<tranParaAv Sync="TRUE">1</tranParaAv>
+			<rsXTBitsParPlan>1</rsXTBitsParPlan>
+			<rsXTPlansCount>1</rsXTPlansCount>
+			<colXTColorsCount>2</colXTColorsCount>
+			<orgXTTuileCount>57</orgXTTuileCount>
+		</GridSpatRep>
+	</spatRepInfo>
+	<eainfo>
+		<detailed Name="Band_1">
+			<enttyp>
+				<enttypl Sync="TRUE">Band_1</enttypl>
+				<enttypt Sync="TRUE">Table</enttypt>
+				<enttypc Sync="TRUE">234</enttypc>
+			</enttyp>
+			<attr>
+				<attrlabl Sync="TRUE">ObjectID</attrlabl>
+				<attalias Sync="TRUE">ObjectID</attalias>
+				<attrtype Sync="TRUE">OID</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">Value</attrlabl>
+				<attalias Sync="TRUE">Value</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">0</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">Red</attrlabl>
+				<attalias Sync="TRUE">Red</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">0</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">Green</attrlabl>
+				<attalias Sync="TRUE">Green</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">0</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">Blue</attrlabl>
+				<attalias Sync="TRUE">Blue</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">0</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+		</detailed>
+	</eainfo>
+	<distInfo>
+		<distributor>
+			<distorTran>
+				<onLineSrc>
+					<linkage>http://www.sitg.ch</linkage>
+					<protocol></protocol>
+					<linkOrderForm>http://etat.geneve.ch/geoportail/formsitg/</linkOrderForm>
+					<orFunct>
+						<OnFunctCd value="004" Sync="FALSE">
+						</OnFunctCd>
+					</orFunct>
+					<orDesc></orDesc></onLineSrc>
+				<transSize Sync="TRUE">0.000</transSize>
+				<offLineMed>
+					<medName>
+						<MedNameCd value="001" Sync="FALSE">
+						</MedNameCd>
+					</medName>
+				</offLineMed>
+				<transThirds value="True" Sync="FALSE">
+				</transThirds>
+			</distorTran>
+			<distorCont>
+				<rpIndName>Pierre Lafontaine</rpIndName>
+				<rpXTIndLastName>Lafontaine</rpXTIndLastName>
+				<rpXTIndFirstName>Pierre</rpXTIndFirstName>
+				<rpOrgName>Service de l'organisation et des systèmes d'information</rpOrgName>
+				<rpXTOrgAcronym>SOSI</rpXTOrgAcronym>
+				<rpXTPartName>DIME - Département de l'intérieur, de la mobilité et de l'environnement</rpXTPartName>
+				<rpCntInfo>
+					<cntPhone>
+						<voiceNum>+4122 546 72 81</voiceNum>
+						<faxNum>+4122 546 72 70</faxNum>
+					</cntPhone>
+					<cntAddress>
+						<eMailAdd>pierre.lafontaine@etat.ge.ch</eMailAdd>
+						<XTName>rue des Gazomètres</XTName>
+						<XTNumber>7</XTNumber>
+						<delPoint>rue des Gazomètres 7</delPoint>
+						<postCode>1211</postCode>
+						<XTpostBox>36</XTpostBox>
+						<city>Genève 8</city>
+						<country>ch</country>
+						<XTLine></XTLine>
+						<adminArea></adminArea>
+					</cntAddress>
+					<cntOnlineRes>
+						<linkage>http://etat.geneve.ch/dt/geomatique/accueil.html</linkage>
+					</cntOnlineRes>
+					<cntHours></cntHours>
+					<cntInstr></cntInstr>
+				</rpCntInfo>
+				<rpPosName>Technicien en géomatique, resp. Métadonnées</rpPosName>
+				<rpXTBID>61beb9aa-9f41-4c2f-8ab4-2765d23df7e1</rpXTBID>
+			</distorCont>
+			<distorFormat><formatName>Grid</formatName><formatVer>Sur demande</formatVer></distorFormat></distributor>
+	</distInfo>
+	<distinfo>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<transize Sync="TRUE">0.000</transize>
+					<dssize Sync="TRUE">0.000</dssize>
+				</digtinfo>
+			</digform>
+		</stdorder>
+		<resdesc Sync="TRUE">Downloadable Data</resdesc>
+	</distinfo>
+	<mdDateSt Sync="TRUE">20110630</mdDateSt>
+	<mdContact>
+		<rpIndName>Pierre Lafontaine</rpIndName>
+		<rpXTIndLastName>Lafontaine</rpXTIndLastName>
+		<rpXTIndFirstName>Pierre</rpXTIndFirstName>
+		<rpOrgName>Service de l'organisation et des systèmes d'information</rpOrgName>
+		<rpXTOrgAcronym>SOSI</rpXTOrgAcronym>
+		<rpXTPartName>DIME - Département de l'intérieur, de la mobilité et de l'environnement</rpXTPartName>
+		<rpCntInfo>
+			<cntPhone>
+				<voiceNum>+4122 546 72 81</voiceNum>
+				<faxNum>+4122 546 72 70</faxNum>
+			</cntPhone>
+			<cntAddress>
+				<eMailAdd>pierre.lafontaine@etat.ge.ch</eMailAdd>
+				<XTName>rue des Gazomètres</XTName>
+				<XTNumber>7</XTNumber>
+				<delPoint>rue des Gazomètres 7</delPoint>
+				<postCode>1211</postCode>
+				<XTpostBox>36</XTpostBox>
+				<city>Genève 8</city>
+				<country>ch</country>
+				<XTLine></XTLine>
+				<adminArea></adminArea>
+			</cntAddress>
+			<cntOnlineRes>
+				<linkage>http://etat.geneve.ch/dt/geomatique/accueil.html</linkage>
+			</cntOnlineRes>
+			<cntHours></cntHours>
+			<cntInstr></cntInstr>
+		</rpCntInfo>
+		<rpPosName>Technicien en géomatique, resp. Métadonnées</rpPosName>
+		<rpXTBID>61beb9aa-9f41-4c2f-8ab4-2765d23df7e1</rpXTBID>
+	</mdContact>
+	<dqInfo>
+		<dqXTEdit>
+			<edtMethod>Interférométrie laser aéroportée et classification automatique</edtMethod>
+		</dqXTEdit>
+	</dqInfo>
+	<mdXTInfoLink>http://www.sitg.ch</mdXTInfoLink>
+	<dataqual>
+		<lineage>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">D:\Donnees\XML\Test_META_DONNEES\CAD_GRID_AUTRES_OBJETS.xml</srcused>
+				<date Sync="TRUE">20070329</date>
+				<time Sync="TRUE">15080400</time>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">X:\SITG\METADATA\XML_BACKUP\CAD\cad_grid_changements.xml</srcused>
+				<date Sync="TRUE">20080820</date>
+				<time Sync="TRUE">13293000</time>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">D:\CAD_MN95\cad_grid_changements.xml</srcused><date Sync="TRUE">20110630</date><time Sync="TRUE">08420600</time></procstep></lineage>
+	</dataqual>
+	<tpXTThemes><theme>Territoire</theme></tpXTThemes></metadata>

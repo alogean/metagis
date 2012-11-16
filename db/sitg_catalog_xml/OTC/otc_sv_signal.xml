@@ -1,0 +1,662 @@
+<?xml version="1.0"?>
+<!--<!DOCTYPE metadata SYSTEM "http://www.esri.com/metadata/esriprof80.dtd">-->
+<metadata xml:lang="fr">
+	<Esri>
+		<CreaDate>20110726</CreaDate>
+		<CreaTime>10245700</CreaTime>
+		<SyncOnce>FALSE</SyncOnce>
+		<DataProperties>
+			<XTinfo>
+				<esrtype>Feature Class</esrtype>
+				<esrfctype>1</esrfctype>
+				<esralias>A.OTC_SV_SIGNAL</esralias>
+				<esrname>A.OTC_SV_SIGNAL</esrname>
+			</XTinfo>
+		</DataProperties>
+		<SyncDate>20121003</SyncDate>
+		<SyncTime>08571900</SyncTime>
+		<ModDate>20121003</ModDate>
+		<ModTime>08571900</ModTime>
+		<MetaID>{D9956686-8AF4-4825-AF33-624A69DE3207}</MetaID></Esri>
+	<idinfo>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 1; ESRI ArcCatalog 9.2.6.1500</native>
+		<descript>
+			<langdata Sync="TRUE">fr</langdata>
+			<abstract>REQUIRED: A brief narrative summary of the data set.</abstract>
+			<purpose>REQUIRED: A summary of the intentions with which the data set was developed.</purpose>
+		</descript>
+		<citation>
+			<citeinfo>
+				<origin>REQUIRED: The name of an organization or individual that developed the data set.</origin>
+				<pubdate>REQUIRED: The date when the data set is published or otherwise made available for release.</pubdate>
+				<title Sync="TRUE">A.OTC_SV_SIGNAL</title>
+				<ftname Sync="TRUE">A.OTC_SV_SIGNAL</ftname>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<onlink Sync="TRUE">Server=CONSULTATION-SITG; Service=esri_sde; User=a; Version=SDE.DEFAULT</onlink>
+			</citeinfo>
+		</citation>
+		<timeperd>
+			<current>REQUIRED: The basis on which the time period of content information is determined.</current>
+			<timeinfo>
+				<sngdate>
+					<caldate>REQUIRED: The year (and optionally month, or month and day) for which the data set corresponds to the ground.</caldate>
+				</sngdate>
+			</timeinfo>
+		</timeperd>
+		<status>
+			<progress>REQUIRED: The state of the data set.</progress>
+			<update>REQUIRED: The frequency with which changes and additions are made to the data set after the initial data set is completed.</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">5.960233</westbc>
+				<eastbc Sync="TRUE">6.311643</eastbc>
+				<northbc Sync="TRUE">46.364399</northbc>
+				<southbc Sync="TRUE">46.135678</southbc>
+			</bounding>
+			<lboundng>
+				<leftbc Sync="TRUE">2486165.470600</leftbc>
+				<rightbc Sync="TRUE">2512850.996200</rightbc>
+				<bottombc Sync="TRUE">1110287.720800</bottombc>
+				<topbc Sync="TRUE">1135270.361500</topbc>
+			</lboundng>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>REQUIRED: Reference to a formally registered thesaurus or a similar authoritative source of theme keywords.</themekt>
+				<themekey>REQUIRED: Common-use word or phrase used to describe the subject of the data set.</themekey>
+			</theme>
+		</keywords>
+		<accconst>REQUIRED: Restrictions and legal prerequisites for accessing the data set.</accconst>
+		<useconst>REQUIRED: Restrictions and legal prerequisites for using the data set after access is granted.</useconst>
+		<natvform Sync="TRUE">Classe d'entités ArcSDE</natvform>
+	</idinfo>
+	<dataIdInfo>
+		<envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.6.1500</envirDesc>
+		<dataLang>
+			<languageCode Sync="FALSE" value="fr">
+			</languageCode>
+		</dataLang>
+		<idCitation>
+			<resTitle>SIGNALISATION VERTICALE - Signal</resTitle>
+			<presForm>
+				<PresFormCd Sync="TRUE" value="005">
+				</PresFormCd>
+			</presForm>
+			<resRefDate>
+				<refDate>20080722</refDate>
+				<refDateType>
+					<DateTypCd value="001" Sync="FALSE">
+					</DateTypCd>
+				</refDateType>
+			</resRefDate>
+			<citRespParty>
+				<rpXTBID>d2129311-1e85-43d3-8159-3dd5c61ce57c</rpXTBID>
+				<rpIndName>Patrick Verhoeven</rpIndName>
+				<rpXTIndLastName>Verhoeven</rpXTIndLastName>
+				<rpXTIndFirstName>Patrick</rpXTIndFirstName>
+				<rpOrgName>Direction générale de la mobilité</rpOrgName>
+				<rpXTOrgAcronym>DGM</rpXTOrgAcronym>
+				<rpXTPartName>DIME - Département de l'intérieur, de la mobilité et de l'environnement</rpXTPartName>
+				<rpCntInfo>
+					<cntPhone>
+						<voiceNum>+4122 546 78 33</voiceNum>
+						<faxNum>+4122 546 78 01</faxNum>
+					</cntPhone>
+					<cntAddress>
+						<eMailAdd>patrick.verhoeven@etat.ge.ch</eMailAdd>
+						<XTName>chemin des Olliquettes</XTName>
+						<XTNumber>4</XTNumber>
+						<delPoint>chemin des Olliquettes 4</delPoint>
+						<postCode>1211</postCode>
+						<city>Genève 8</city>
+						<country>ch</country>
+						<XTLine></XTLine>
+						<XTpostBox>271</XTpostBox>
+						<adminArea></adminArea>
+					</cntAddress>
+					<cntOnlineRes>
+						<linkage>http://etat.geneve.ch/dt/mobilite/accueil.html</linkage>
+					</cntOnlineRes>
+					<cntHours></cntHours>
+					<cntInstr></cntInstr>
+				</rpCntInfo>
+				<rpPosName>Responsable système information</rpPosName>
+			</citRespParty>
+			<resXTUpdateFicheDate><refDate>20110726</refDate><refDateType><DateTypCd value="001" Sync="FALSE"></DateTypCd></refDateType></resXTUpdateFicheDate></idCitation>
+		<spatRpType>
+			<SpatRepTypCd Sync="TRUE" value="001">
+			</SpatRepTypCd>
+		</spatRpType>
+		<dataExt>
+			<geoEle>
+				<GeoBndBox esriExtentType="native">
+					<westBL Sync="TRUE">2486165.4706</westBL>
+					<eastBL Sync="TRUE">2512850.9962</eastBL>
+					<northBL Sync="TRUE">1135270.3615</northBL>
+					<southBL Sync="TRUE">1110287.7208</southBL>
+					<exTypeCode Sync="TRUE">1</exTypeCode>
+					<XTdesc>Cadre de référence MN95</XTdesc>
+				</GeoBndBox>
+			</geoEle>
+		</dataExt>
+		<geoBox esriExtentType="decdegrees">
+			<westBL Sync="TRUE">5.960233</westBL>
+			<eastBL Sync="TRUE">6.311643</eastBL>
+			<northBL Sync="TRUE">46.364399</northBL>
+			<southBL Sync="TRUE">46.135678</southBL>
+			<exTypeCode Sync="TRUE">1</exTypeCode>
+		</geoBox>
+		<idAbs>Recensement de la signalisation verticale réglementant la circulation sur la voie publique.
+Cette classe d'entités représente les signaux de la circulation routière. Une relation sur les identifiants des supports permet de les relier au support correspondant.
+La position géographique exacte est celle du support du signal. Le signal est lui positionné autour du support dans un souhait cosmétique.</idAbs>
+		<idXTInfoLink>http://etat.geneve.ch/dt/site/mobilite/master-home.jsp</idXTInfoLink>
+		<dataChar>
+			<CharSetCd value="004" Sync="FALSE">
+			</CharSetCd>
+		</dataChar>
+		<resMaint>
+			<maintFreq>
+				<MaintFreqCd value="001" Sync="FALSE">
+				</MaintFreqCd>
+				<descXT>Continue</descXT></maintFreq>
+			<maintScp>
+				<ScopeCd value="005" Sync="FALSE">
+				</ScopeCd>
+			</maintScp>
+			<maintNote>Le recensement des signaux verticaux est effectué et tenu à jour dans le cadre des données MOBILITE. Cette donnée est en cours de saisie (voir la carte d'état d'avancement). La mise à jour se fait sur l'ensemble du canton.</maintNote>
+		</resMaint>
+		<idStatus>
+			<ProgCd value="004" Sync="FALSE">
+			</ProgCd>
+			<descXT>En cours</descXT></idStatus>
+		<descKeys KeyTypCd="005" Sync="FALSE">
+			<keyword>route</keyword>
+			<keyword>trafic</keyword>
+			<keyTyp>
+				<keyTypCd value="005" Sync="FALSE">
+				</keyTypCd>
+			</keyTyp>
+		</descKeys>
+		<lnkObjects>
+			<lnkObject>
+				<lnkBID>29648ed5-b58d-48ee-bfd5-f33bcc356427</lnkBID>
+				<lnkType>Image</lnkType>
+				<lnkLink>http://etat.geneve.ch/geoportail/metadataws/Publish/images/A.OTC_SV_SIGNAL.gif</lnkLink>
+			</lnkObject>
+			<lnkObject>
+				<lnkBID>61e33b4e-a28c-43ce-84c2-e2eff0e84dca</lnkBID>
+				<lnkType>Autre</lnkType>
+				<lnkNote>Carte de l'état d'avancement</lnkNote>
+				<lnkLink>http://etat.geneve.ch/geoportail/metadataws/Publish/images/ETAT_CHARGEMENT_SV.gif</lnkLink>
+			</lnkObject>
+			<lnkObject>
+				<lnkBID>8f110db2-3762-4d86-bef6-4f2be346e988</lnkBID>
+				<lnkType>Image</lnkType>
+				<lnkNote>Affichage avec la représentation officielle des signaux</lnkNote>
+				<lnkLink>http://etat.geneve.ch/geoportail/metadataws/Publish/images/A.OTC_SV_SIGNAL_SYMBOL.gif</lnkLink>
+			</lnkObject>
+			<lnkObject>
+				<lnkBID>66ba185b-bfb0-4ee6-a359-4a0cdc144bd2</lnkBID>
+				<lnkType>Autre</lnkType>
+				<lnkNote>Mode d'emploi pour la représentation des signaux (utlisateurs ARGIS)</lnkNote>
+				<lnkLink>http://etat.geneve.ch/geoportail/metadataws/Publish/documents/SV_GESTION_DES_SYMBOLES_ET_STYLES.pdf</lnkLink>
+			</lnkObject>
+			<lnkObject>
+				<lnkBID>0cecbf82-5602-4871-8a82-ba648f46dcbf</lnkBID>
+				<lnkType>Autre</lnkType>
+				<lnkNote>Fichiers de représentation des signaux (utlisateurs ARGIS)</lnkNote>
+				<lnkLink>http://etat.geneve.ch/geoportail/metadataws/Publish/documents/SV_PANNEAUX_ET_PLAQUETTES_STYLE.zip</lnkLink>
+			</lnkObject>
+		</lnkObjects>
+		<idPurp>Améliorer la gestion et l'entretien du parc de signaux verticaux et exploiter les données pour des besoins autres, tel que la connectique.</idPurp>
+		<idXTLegalLink>http://etat.geneve.ch/geoportail/metadataws/Publish/legal/otc_SV_toutes_couches.htm</idXTLegalLink>
+		<tpCat><TopicCatCd value="017" Sync="FALSE"></TopicCatCd><descXT>Equipements et infrastructures</descXT></tpCat><tpCat><TopicCatCd value="018" Sync="FALSE"></TopicCatCd><descXT>Réseaux de transport</descXT></tpCat></dataIdInfo>
+	<metainfo>
+		<langmeta Sync="TRUE">fr</langmeta>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntper>REQUIRED: The person responsible for the metadata information.</cntper>
+					<cntorg>REQUIRED: The organization responsible for the metadata information.</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>REQUIRED: The mailing and/or physical address for the organization or individual.</addrtype>
+					<city>REQUIRED: The city of the address.</city>
+					<state>REQUIRED: The state or province of the address.</state>
+					<postal>REQUIRED: The ZIP or other postal code of the address.</postal>
+				</cntaddr>
+				<cntvoice>REQUIRED: The telephone number by which individuals can speak to the organization or individual.</cntvoice>
+			</cntinfo>
+		</metc>
+		<metd Sync="TRUE">20121003</metd>
+		<metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<mdLang>
+		<languageCode Sync="FALSE" value="fr">
+		</languageCode>
+	</mdLang>
+	<mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+	<mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+	<mdChar>
+		<CharSetCd Sync="TRUE" value="004">
+		</CharSetCd>
+	</mdChar>
+	<mdHrLv>
+		<ScopeCd Sync="TRUE" value="005">
+		</ScopeCd>
+	</mdHrLv>
+	<mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+	<distinfo>
+		<resdesc Sync="TRUE">Downloadable Data</resdesc>
+	</distinfo>
+	<distInfo>
+		<distributor>
+			<distorTran>
+				<onLineSrc>
+					<linkage>http://www.sitg.ch</linkage>
+					<protocol></protocol>
+					<linkOrderForm>http://etat.geneve.ch/geoportail/formsitg/</linkOrderForm>
+					<orFunct>
+						<OnFunctCd value="004" Sync="FALSE">
+						</OnFunctCd>
+					</orFunct>
+					<orDesc></orDesc></onLineSrc>
+				<offLineMed>
+					<medName>
+						<MedNameCd value="001" Sync="FALSE">
+						</MedNameCd>
+					</medName>
+				</offLineMed>
+				<transThirds value="True" Sync="FALSE">
+				</transThirds>
+			</distorTran>
+			<distorCont>
+				<rpXTBID>61beb9aa-9f41-4c2f-8ab4-2765d23df7e1</rpXTBID>
+				<rpIndName>Pierre Lafontaine</rpIndName>
+				<rpXTIndLastName>Lafontaine</rpXTIndLastName>
+				<rpXTIndFirstName>Pierre</rpXTIndFirstName>
+				<rpOrgName>Service des systèmes d'information et de géomatique</rpOrgName>
+				<rpXTOrgAcronym>SSIG</rpXTOrgAcronym>
+				<rpXTPartName>DIME - Département de l'intérieur, de la mobilité et de l'environnement</rpXTPartName>
+				<rpCntInfo>
+					<cntPhone>
+						<voiceNum>+4122 546 72 81</voiceNum>
+						<faxNum>+4122 546 72 70</faxNum>
+					</cntPhone>
+					<cntAddress>
+						<eMailAdd>pierre.lafontaine@etat.ge.ch</eMailAdd>
+						<XTName>rue des Gazomètres</XTName>
+						<XTNumber>7</XTNumber>
+						<delPoint>rue des Gazomètres 7</delPoint>
+						<postCode>1211</postCode>
+						<XTpostBox>36</XTpostBox>
+						<city>Genève 8</city>
+						<country>ch</country>
+						<XTLine></XTLine>
+						<adminArea></adminArea>
+					</cntAddress>
+					<cntOnlineRes>
+						<linkage>http://etat.geneve.ch/dt/geomatique/accueil.html</linkage>
+					</cntOnlineRes>
+					<cntHours></cntHours>
+					<cntInstr></cntInstr>
+				</rpCntInfo>
+				<rpPosName>Technicien en géomatique, resp. Métadonnées</rpPosName>
+			</distorCont>
+			<distorFormat><formatName>Dwg/dxf, Géodatabase personnelle, Mif/mid, Shape file</formatName><formatVer>Sur demande</formatVer></distorFormat></distributor>
+	</distInfo>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<esriterm Name="A.OTC_SV_SIGNAL">
+				<efeatyp Sync="TRUE">Simple</efeatyp>
+				<efeageom Sync="TRUE">Point</efeageom>
+				<esritopo Sync="TRUE">FALSE</esritopo>
+				<efeacnt Sync="TRUE">36270</efeacnt>
+				<spindex Sync="TRUE">TRUE</spindex>
+				<linrefer Sync="TRUE">FALSE</linrefer>
+			</esriterm>
+			<sdtsterm Name="A.OTC_SV_SIGNAL">
+				<sdtstype Sync="TRUE">Entity point</sdtstype>
+				<ptvctcnt Sync="TRUE">36270</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<cordsysn>
+				<geogcsn Sync="TRUE">GCS_CH1903+</geogcsn>
+				<projcsn Sync="TRUE">CH1903+_LV95</projcsn>
+			</cordsysn>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<plandu Sync="TRUE">meters</plandu>
+					<coordrep>
+						<absres Sync="TRUE">0.000100</absres>
+						<ordres Sync="TRUE">0.000100</ordres>
+					</coordrep>
+				</planci>
+				<mapproj><mapprojn Sync="TRUE">Oblique Mercator</mapprojn><obqmerc><sfctrlin Sync="TRUE">1.000000</sfctrlin><obqlazim><azimangl Sync="TRUE">90.000000</azimangl><azimptl Sync="TRUE">7.439583</azimptl></obqlazim><latprjo Sync="TRUE">46.952406</latprjo><feast Sync="TRUE">2600000.000000</feast><fnorth Sync="TRUE">1200000.000000</fnorth></obqmerc></mapproj></planar>
+			<geodetic>
+				<horizdn Sync="TRUE">D_CH1903+</horizdn>
+				<ellips Sync="TRUE">Bessel_1841</ellips>
+				<semiaxis Sync="TRUE">6377397.155000</semiaxis>
+				<denflat Sync="TRUE">299.152813</denflat>
+			</geodetic>
+		</horizsys>
+		<vertdef>
+			<altsys>
+				<altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc>
+				<altres Sync="TRUE">1.000000</altres>
+			</altsys>
+		</vertdef>
+	</spref>
+	<refSysInfo>
+		<RefSystem>
+			<refSysID>
+				<identCode>CH1903+_LV95</identCode>
+			</refSysID>
+		</RefSystem>
+	</refSysInfo>
+	<spatRepInfo>
+		<VectSpatRep>
+			<topLvl>
+				<TopoLevCd Sync="TRUE" value="001">
+				</TopoLevCd>
+			</topLvl>
+			<geometObjs Name="A.OTC_SV_SIGNAL"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="004"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">29117</geoObjCnt></geometObjs></VectSpatRep>
+	</spatRepInfo>
+	<eainfo>
+		<detailed Name="A.OTC_SV_SIGNAL">
+			<enttyp>
+				<enttypl Sync="TRUE">A.OTC_SV_SIGNAL</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt>
+				<enttypc Sync="TRUE">36270</enttypc>
+			</enttyp>
+			<attr>
+				<attrlabl Sync="TRUE">REMARQUE</attrlabl>
+				<attalias Sync="TRUE">REMARQUE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">254</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Remarque sur une particularité éventuelle d'un signal</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SHAPE</attrlabl>
+				<attalias Sync="TRUE">SHAPE</attalias>
+				<attrtype Sync="TRUE">Geometry</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ID_SIGNAL</attrlabl>
+				<attalias Sync="TRUE">ID_SIGNAL</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Identifiant permanent du signal</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NO_OSR</attrlabl>
+				<attalias Sync="TRUE">NO_OSR</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">15</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Numéro du signal selon l'OSR</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NO_OSR_SYMBOL</attrlabl>
+				<attalias Sync="TRUE">NO_OSR_SYMBOL</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">15</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nom du symbole du signal (selon le fichier de style)</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ORIENTATION</attrlabl>
+				<attalias Sync="TRUE">ORIENTATION</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Orientation du signal (en degrés par rapport au nord)</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">CATEGORIE</attrlabl>
+				<attalias Sync="TRUE">CATEGORIE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">25</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Catégorie descriptive du signal :
+- Autres
+- Danger
+- Jalonnement
+- Localité
+- Mobilité douce
+- Priorité
+- Restriction circulation
+- Restriction gabarit
+- Stationnement
+- Tourisme
+- Vitesse</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NO_OTC</attrlabl>
+				<attalias Sync="TRUE">NO_OTC</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">15</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Numéro identifiant le signal pour la DGM (anciennement OTC).
+Est souvent inscrit sur le signal</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">OBJECTID</attrlabl>
+				<attalias Sync="TRUE">OBJECTID</attalias>
+				<attrtype Sync="TRUE">OID</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">CONTENU</attrlabl>
+				<attalias Sync="TRUE">CONTENU</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">254</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Contenu éventuel du signal</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">FORMAT</attrlabl>
+				<attalias Sync="TRUE">FORMAT</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">30</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Format du signal (diamètre ou largeur/hauteur en cm)</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">DOUBLE_FACE</attrlabl>
+				<attalias Sync="TRUE">DOUBLE_FACE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Indique si le signal est identique sur les deux faces</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ID_SUPPORT</attrlabl>
+				<attalias Sync="TRUE">ID_SUPPORT</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Identifiant permanent du support qui porte le signal</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">FIXATION</attrlabl>
+				<attalias Sync="TRUE">FIXATION</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Type de fixation du signal :
+- Manchon
+- Manchon coudé
+- Manchon décentré
+- Rail au dos
+- PTJ latéral
+- 60 latéral
+- Tube normal
+- Tube déporté
+- Tube bas
+- Potence murale
+- Potence sur feux
+- Accouplé</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">REVETEMENT</attrlabl>
+				<attalias Sync="TRUE">REVETEMENT</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">30</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Type de revêtement du signal :
+- Autre
+- EG
+- HIG
+- DG
+- Lumineux
+- ZUT
+- Normal
+- HIG</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">PHOTO</attrlabl>
+				<attalias Sync="TRUE">PHOTO</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">254</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Lien sur une éventuelle photo du signal</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NOM_VOIE</attrlabl>
+				<attalias Sync="TRUE">NOM_VOIE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nom de la voie sur laquelle le signal se trouve</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">CROQUIS</attrlabl>
+				<attalias Sync="TRUE">CROQUIS</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">254</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Lien sur un éventuel croquis associé au signal</atXTdesc>
+			</attr>
+		</detailed>
+	</eainfo>
+	<mdDateSt Sync="TRUE">20110726</mdDateSt>
+	<mdXTInfoLink>http://www.sitg.ch</mdXTInfoLink>
+	<mdContact>
+		<rpXTBID>61beb9aa-9f41-4c2f-8ab4-2765d23df7e1</rpXTBID>
+		<rpIndName>Pierre Lafontaine</rpIndName>
+		<rpXTIndLastName>Lafontaine</rpXTIndLastName>
+		<rpXTIndFirstName>Pierre</rpXTIndFirstName>
+		<rpOrgName>Service des systèmes d'information et de géomatique</rpOrgName>
+		<rpXTOrgAcronym>SSIG</rpXTOrgAcronym>
+		<rpXTPartName>DIME - Département de l'intérieur, de la mobilité et de l'environnement</rpXTPartName>
+		<rpCntInfo>
+			<cntPhone>
+				<voiceNum>+4122 546 72 81</voiceNum>
+				<faxNum>+4122 546 72 70</faxNum>
+			</cntPhone>
+			<cntAddress>
+				<eMailAdd>pierre.lafontaine@etat.ge.ch</eMailAdd>
+				<XTName>rue des Gazomètres</XTName>
+				<XTNumber>7</XTNumber>
+				<delPoint>rue des Gazomètres 7</delPoint>
+				<postCode>1211</postCode>
+				<XTpostBox>36</XTpostBox>
+				<city>Genève 8</city>
+				<country>ch</country>
+				<XTLine></XTLine>
+				<adminArea></adminArea>
+			</cntAddress>
+			<cntOnlineRes>
+				<linkage>http://etat.geneve.ch/dt/geomatique/accueil.html</linkage>
+			</cntOnlineRes>
+			<cntHours></cntHours>
+			<cntInstr></cntInstr>
+		</rpCntInfo>
+		<rpPosName>Technicien en géomatique, resp. Métadonnées</rpPosName>
+	</mdContact>
+	<dqInfo>
+		<dqXTEdit>
+			<edtMethod>Saisie terrain à l'aide d'un SIG nomade ou de photos</edtMethod>
+			<edtPrecision>Entre 1 et 5 mètres</edtPrecision>
+			<edtScale>500</edtScale>
+			<edtFiability value="True" Sync="FALSE">
+			</edtFiability>
+		</dqXTEdit>
+		<dqXTDisplay>
+			<dspScale>100 à 5000</dspScale>
+		</dqXTDisplay>
+		<dqScope>
+			<scpLvl>
+				<ScopeCd value="005" Sync="FALSE">
+				</ScopeCd>
+			</scpLvl>
+		</dqScope>
+		<dataLineage>
+			<statement>Les signaux verticaux sont saisis en base de données alphanumériques depuis 15 ans. L'ajout de la composante géographique et l'utilisation d'outils nomades pour la saisie ouvrent d'autres horizons.</statement>
+		</dataLineage>
+	</dqInfo>
+	<dataqual>
+		<lineage>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">V:\SITG\METADATA\XML_BACKUP\OTC\otc_parking.xml</srcused>
+				<date Sync="TRUE">20080721</date>
+				<time Sync="TRUE">14451800</time>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">V:\SITG\METADATA\XML_BACKUP\OTC\otc_sv_support.xml</srcused>
+				<date Sync="TRUE">20080722</date>
+				<time Sync="TRUE">08041600</time>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">X:\SITG\METADATA\XML_BACKUP\OTC\otc_sv_signal.xml</srcused>
+				<date Sync="TRUE">20080819</date>
+				<time Sync="TRUE">10530200</time>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">D:\OTC_MN95\otc_sv_signal.xml</srcused><date Sync="TRUE">20110726</date><time Sync="TRUE">10245700</time></procstep></lineage>
+	</dataqual>
+	<tpXTThemes><theme>Territoire</theme></tpXTThemes></metadata>

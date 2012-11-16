@@ -1,0 +1,970 @@
+<?xml version="1.0"?>
+<!--<!DOCTYPE metadata SYSTEM "http://www.esri.com/metadata/esriprof80.dtd">-->
+<metadata xml:lang="fr">
+	<Esri>
+		<CreaDate>20110722</CreaDate>
+		<CreaTime>10012000</CreaTime>
+		<SyncOnce>FALSE</SyncOnce>
+		<DataProperties>
+			<XTinfo>
+				<esrtype>Feature Class</esrtype>
+				<esrfctype>1</esrfctype>
+				<esralias>A.LCE_GRAPHE_EAU_ECOMORPHOLOGIE</esralias>
+				<esrname>A.LCE_GRAPHE_EAU_ECOMORPHOLOGIE</esrname>
+			</XTinfo>
+		</DataProperties>
+		<SyncDate>20120704</SyncDate>
+		<SyncTime>12535900</SyncTime>
+		<ModDate>20120704</ModDate>
+		<ModTime>12535900</ModTime>
+		<MetaID>{164F8C41-06F7-4A87-A27F-23B1D9B0EEE0}</MetaID></Esri>
+	<idinfo>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 1; ESRI ArcCatalog 9.2.6.1500</native>
+		<descript>
+			<langdata Sync="TRUE">fr</langdata>
+			<abstract>REQUIRED: A brief narrative summary of the data set.</abstract>
+			<purpose>REQUIRED: A summary of the intentions with which the data set was developed.</purpose>
+		</descript>
+		<citation>
+			<citeinfo>
+				<origin>REQUIRED: The name of an organization or individual that developed the data set.</origin>
+				<pubdate>REQUIRED: The date when the data set is published or otherwise made available for release.</pubdate>
+				<title Sync="TRUE">A.LCE_GRAPHE_EAU_ECOMORPHOLOGIE</title>
+				<ftname Sync="TRUE">A.LCE_GRAPHE_EAU_ECOMORPHOLOGIE</ftname>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<onlink Sync="TRUE">Server=CONSULTATION-SITG; Service=esri_sde; User=a; Version=SDE.DEFAULT</onlink>
+			</citeinfo>
+		</citation>
+		<timeperd>
+			<current>REQUIRED: The basis on which the time period of content information is determined.</current>
+			<timeinfo>
+				<sngdate>
+					<caldate>REQUIRED: The year (and optionally month, or month and day) for which the data set corresponds to the ground.</caldate>
+				</sngdate>
+			</timeinfo>
+		</timeperd>
+		<status>
+			<progress>REQUIRED: The state of the data set.</progress>
+			<update>REQUIRED: The frequency with which changes and additions are made to the data set after the initial data set is completed.</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">5.950484</westbc>
+				<eastbc Sync="TRUE">6.359241</eastbc>
+				<northbc Sync="TRUE">46.363246</northbc>
+				<southbc Sync="TRUE">46.130330</southbc>
+			</bounding>
+			<lboundng>
+				<leftbc Sync="TRUE">2485411.703000</leftbc>
+				<rightbc Sync="TRUE">2516521.030000</rightbc>
+				<bottombc Sync="TRUE">1109707.349000</bottombc>
+				<topbc Sync="TRUE">1135090.348000</topbc>
+			</lboundng>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>REQUIRED: Reference to a formally registered thesaurus or a similar authoritative source of theme keywords.</themekt>
+				<themekey>REQUIRED: Common-use word or phrase used to describe the subject of the data set.</themekey>
+			</theme>
+		</keywords>
+		<accconst>REQUIRED: Restrictions and legal prerequisites for accessing the data set.</accconst>
+		<useconst>REQUIRED: Restrictions and legal prerequisites for using the data set after access is granted.</useconst>
+		<natvform Sync="TRUE">Classe d'entités ArcSDE</natvform>
+	</idinfo>
+	<dataIdInfo>
+		<envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.6.1500</envirDesc>
+		<dataLang>
+			<languageCode Sync="FALSE" value="fr">
+			</languageCode>
+		</dataLang>
+		<idCitation>
+			<resTitle>ECOMORPHOLOGIE DES COURS D'EAU</resTitle>
+			<presForm>
+				<PresFormCd Sync="TRUE" value="005">
+				</PresFormCd>
+			</presForm>
+			<resRefDate>
+				<refDate>20070403</refDate>
+				<refDateType>
+					<DateTypCd value="001" Sync="FALSE">
+					</DateTypCd>
+				</refDateType>
+			</resRefDate>
+			<citRespParty>
+				<rpXTBID>4b78f43c-65fa-4d6f-aa37-fc0e99baec15</rpXTBID>
+				<rpIndName>Markus Kesseler</rpIndName>
+				<rpXTIndLastName>Kesseler</rpXTIndLastName>
+				<rpXTIndFirstName>Markus</rpXTIndFirstName>
+				<rpOrgName>Service des systèmes d'information et de géomatique</rpOrgName>
+				<rpXTOrgAcronym>SSIG</rpXTOrgAcronym>
+				<rpXTPartName>DIME - Département de l'intérieur, de la mobilité et de l'environnement</rpXTPartName>
+				<rpCntInfo>
+					<cntPhone>
+						<voiceNum>+4122 546 72 80</voiceNum>
+						<faxNum>+4122 546 72 70</faxNum>
+					</cntPhone>
+					<cntAddress>
+						<eMailAdd>markus.kesseler@etat.ge.ch</eMailAdd>
+						<XTName>rue des Gazomètres</XTName>
+						<XTNumber>7</XTNumber>
+						<delPoint>rue des Gazomètres 7</delPoint>
+						<postCode>1211</postCode>
+						<XTpostBox>36</XTpostBox>
+						<city>Genève 8</city>
+						<country>ch</country>
+						<XTLine></XTLine>
+						<adminArea></adminArea>
+					</cntAddress>
+					<cntOnlineRes>
+						<linkage>http://etat.geneve.ch/dt/site/presidence-secretariat/geomatique/</linkage>
+					</cntOnlineRes>
+					<cntHours></cntHours>
+					<cntInstr></cntInstr>
+				</rpCntInfo>
+				<rpPosName>Responsable DGEau</rpPosName>
+			</citRespParty>
+			<resXTUpdateFicheDate><refDate>20110722</refDate><refDateType><DateTypCd value="001" Sync="FALSE"></DateTypCd></refDateType></resXTUpdateFicheDate></idCitation>
+		<spatRpType>
+			<SpatRepTypCd Sync="TRUE" value="001">
+			</SpatRepTypCd>
+		</spatRpType>
+		<dataExt>
+			<geoEle>
+				<GeoBndBox esriExtentType="native">
+					<westBL Sync="TRUE">2485411.703</westBL>
+					<eastBL Sync="TRUE">2516521.03</eastBL>
+					<northBL Sync="TRUE">1135090.348</northBL>
+					<southBL Sync="TRUE">1109707.349</southBL>
+					<exTypeCode Sync="TRUE">1</exTypeCode>
+					<XTdesc>Cadre de référence MN95</XTdesc>
+				</GeoBndBox>
+			</geoEle>
+		</dataExt>
+		<geoBox esriExtentType="decdegrees">
+			<westBL Sync="TRUE">5.950484</westBL>
+			<eastBL Sync="TRUE">6.359241</eastBL>
+			<northBL Sync="TRUE">46.363246</northBL>
+			<southBL Sync="TRUE">46.13033</southBL>
+			<exTypeCode Sync="TRUE">1</exTypeCode>
+		</geoBox>
+		<idAbs>L'Office fédéral de l'environnement, des forêts et du paysage (OFEFP) et l'Institut fédéral pour l'aménagement, l'épuration et la protection des eaux (EAWAG) ont élaboré une méthode d'analyse pour l'appréciation écomorphologique des cours d'eau en Suisse.
+Cette méthodologie a été publiée dans les cahiers de 'L'environnement pratique - Informations concernant la protection des eaux', no 27 en 1998.
+
+L'écomorphologie est une méthode d'appréciation de l'état naturel des cours d'eau par tronçons homogènes. Le relevé est fait sur la base de 5 critères: la largeur du lit, la variabilité de la largeur du lit mouillé, l'aménagement du fond du lit, le renforcement du pied de la berge et la largeur et nature des rives. 
+
+L'appréciation classe le tronçon selon 4 catégories représentées par un code couleur:
+- bleu = naturel, semi-naturel
+- vert = peu atteint
+- jaune = très atteint
+- rouge = non naturel, artificiel</idAbs>
+		<idXTInfoLink>http://etat.geneve.ch/dt/site/eau/master-home.jsp</idXTInfoLink>
+		<idXTLegalLink>http://etat.geneve.ch/geoportail/metadataws/Publish/legal/lce_graphe_eau_ecomorphologie.htm</idXTLegalLink>
+		<dataChar>
+			<CharSetCd value="004" Sync="FALSE">
+			</CharSetCd>
+		</dataChar>
+		<resMaint>
+			<maintFreq>
+				<MaintFreqCd value="009" Sync="FALSE">
+				</MaintFreqCd>
+				<descXT>Quand nécessaire</descXT></maintFreq>
+			<maintScp>
+				<ScopeCd value="005" Sync="FALSE">
+				</ScopeCd>
+			</maintScp>
+		</resMaint>
+		<idStatus>
+			<ProgCd value="001" Sync="FALSE">
+			</ProgCd>
+			<descXT>Accompli</descXT></idStatus>
+		<lnkObjects>
+			<lnkObject>
+				<lnkBID>854b296d-3313-49e7-8462-84f5457a9593</lnkBID>
+				<lnkType>Image</lnkType>
+				<lnkLink>http://etat.geneve.ch/geoportail/metadataws/Publish/images/A.LCE_GRAPHE_EAU_ECOMORPHOLOGIE.gif</lnkLink>
+			</lnkObject>
+			<lnkObject>
+				<lnkBID>c1eec555-182c-4b6a-a8fb-93e7d3212d8e</lnkBID>
+				<lnkType>Autre</lnkType>
+				<lnkNote>Lien sur le site de l'OFEV</lnkNote>
+				<lnkLink>http://www.bafu.admin.ch/index.html?lang=fr</lnkLink>
+			</lnkObject>
+			<lnkObject>
+				<lnkBID>0276d4c1-1d7f-4f22-86f4-59db60e9cc6a</lnkBID>
+				<lnkType>Autre</lnkType>
+				<lnkNote>Lien sur le site de l'EAWAG</lnkNote>
+				<lnkLink>http://www.eawag.ch/</lnkLink>
+			</lnkObject>
+			<lnkObject>
+				<lnkBID>d4f1f15f-0872-43eb-b547-2110251055fb</lnkBID>
+				<lnkType>Autre</lnkType>
+				<lnkNote>Document PDF</lnkNote>
+				<lnkLink>http://guf.unibe.ch/dokugs1/mt_27f.pdf</lnkLink>
+			</lnkObject>
+		</lnkObjects>
+		<descKeys KeyTypCd="005" Sync="FALSE">
+			<keyword>administratif</keyword>
+			<keyword>eau</keyword>
+			<keyTyp>
+				<keyTypCd value="005" Sync="FALSE">
+				</keyTypCd>
+			</keyTyp>
+		</descKeys>
+		<tpCat><TopicCatCd value="002" Sync="FALSE"></TopicCatCd><descXT>Biologie et écologie</descXT></tpCat><tpCat><TopicCatCd value="007" Sync="FALSE"></TopicCatCd><descXT>Environnement et conservation</descXT></tpCat></dataIdInfo>
+	<metainfo>
+		<langmeta Sync="TRUE">fr</langmeta>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntper>REQUIRED: The person responsible for the metadata information.</cntper>
+					<cntorg>REQUIRED: The organization responsible for the metadata information.</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>REQUIRED: The mailing and/or physical address for the organization or individual.</addrtype>
+					<city>REQUIRED: The city of the address.</city>
+					<state>REQUIRED: The state or province of the address.</state>
+					<postal>REQUIRED: The ZIP or other postal code of the address.</postal>
+				</cntaddr>
+				<cntvoice>REQUIRED: The telephone number by which individuals can speak to the organization or individual.</cntvoice>
+			</cntinfo>
+		</metc>
+		<metd Sync="TRUE">20120704</metd>
+		<metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<mdLang>
+		<languageCode Sync="FALSE" value="fr">
+		</languageCode>
+	</mdLang>
+	<mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+	<mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+	<mdChar>
+		<CharSetCd Sync="TRUE" value="004">
+		</CharSetCd>
+	</mdChar>
+	<mdHrLv>
+		<ScopeCd Sync="TRUE" value="005">
+		</ScopeCd>
+	</mdHrLv>
+	<mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+	<distinfo>
+		<resdesc Sync="TRUE">Downloadable Data</resdesc>
+	</distinfo>
+	<distInfo>
+		<distributor>
+			<distorTran>
+				<onLineSrc>
+					<linkage>http://www.sitg.ch</linkage>
+					<protocol></protocol>
+					<linkOrderForm>http://etat.geneve.ch/geoportail/formsitg/</linkOrderForm>
+					<orFunct>
+						<OnFunctCd value="004" Sync="FALSE">
+						</OnFunctCd>
+					</orFunct>
+					<orDesc></orDesc></onLineSrc>
+				<offLineMed>
+					<medName>
+						<MedNameCd value="001" Sync="FALSE">
+						</MedNameCd>
+					</medName>
+				</offLineMed>
+				<transThirds value="True" Sync="FALSE">
+				</transThirds>
+			</distorTran>
+			<distorCont>
+				<rpXTBID>61beb9aa-9f41-4c2f-8ab4-2765d23df7e1</rpXTBID>
+				<rpIndName>Pierre Lafontaine</rpIndName>
+				<rpXTIndLastName>Lafontaine</rpXTIndLastName>
+				<rpXTIndFirstName>Pierre</rpXTIndFirstName>
+				<rpOrgName>Service des systèmes d'information et de géomatique</rpOrgName>
+				<rpXTOrgAcronym>SSIG</rpXTOrgAcronym>
+				<rpXTPartName>DIME - Département de l'intérieur, de la mobilité et de l'environnement</rpXTPartName>
+				<rpCntInfo>
+					<cntPhone>
+						<voiceNum>+4122 546 72 81</voiceNum>
+						<faxNum>+4122 546 72 70</faxNum>
+					</cntPhone>
+					<cntAddress>
+						<eMailAdd>pierre.lafontaine@etat.ge.ch</eMailAdd>
+						<XTName>rue des Gazomètres</XTName>
+						<XTNumber>7</XTNumber>
+						<delPoint>rue des Gazomètres 7</delPoint>
+						<postCode>1211</postCode>
+						<XTpostBox>36</XTpostBox>
+						<city>Genève 8</city>
+						<country>ch</country>
+						<XTLine></XTLine>
+						<adminArea></adminArea>
+					</cntAddress>
+					<cntOnlineRes>
+						<linkage>http://etat.geneve.ch/dt/geomatique/accueil.html</linkage>
+					</cntOnlineRes>
+					<cntHours></cntHours>
+					<cntInstr></cntInstr>
+				</rpCntInfo>
+				<rpPosName>Technicien en géomatique, resp. Métadonnées</rpPosName>
+			</distorCont>
+			<distorFormat><formatName>Dwg/dxf, Géodatabase personnelle, Mif/mid, Shape file</formatName><formatVer>Sur demande</formatVer></distorFormat></distributor>
+	</distInfo>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<esriterm Name="A.LCE_GRAPHE_EAU_ECOMORPHOLOGIE">
+				<efeatyp Sync="TRUE">Simple</efeatyp>
+				<efeageom Sync="TRUE">Polyline</efeageom>
+				<esritopo Sync="TRUE">FALSE</esritopo>
+				<efeacnt Sync="TRUE">1659</efeacnt>
+				<spindex Sync="TRUE">TRUE</spindex>
+				<linrefer Sync="TRUE">FALSE</linrefer>
+			</esriterm>
+			<sdtsterm Name="A.LCE_GRAPHE_EAU_ECOMORPHOLOGIE">
+				<sdtstype Sync="TRUE">String</sdtstype>
+				<ptvctcnt Sync="TRUE">1659</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<cordsysn>
+				<geogcsn Sync="TRUE">GCS_CH1903+</geogcsn>
+				<projcsn Sync="TRUE">CH1903+_LV95</projcsn>
+			</cordsysn>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<plandu Sync="TRUE">meters</plandu>
+					<coordrep>
+						<absres Sync="TRUE">0.001000</absres>
+						<ordres Sync="TRUE">0.001000</ordres>
+					</coordrep>
+				</planci>
+				<mapproj><mapprojn Sync="TRUE">Oblique Mercator</mapprojn><obqmerc><sfctrlin Sync="TRUE">1.000000</sfctrlin><obqlazim><azimangl Sync="TRUE">90.000000</azimangl><azimptl Sync="TRUE">7.439583</azimptl></obqlazim><latprjo Sync="TRUE">46.952406</latprjo><feast Sync="TRUE">2600000.000000</feast><fnorth Sync="TRUE">1200000.000000</fnorth></obqmerc></mapproj></planar>
+			<geodetic>
+				<horizdn Sync="TRUE">D_CH1903+</horizdn>
+				<ellips Sync="TRUE">Bessel_1841</ellips>
+				<semiaxis Sync="TRUE">6377397.155000</semiaxis>
+				<denflat Sync="TRUE">299.152813</denflat>
+			</geodetic>
+		</horizsys>
+		<vertdef>
+			<altsys>
+				<altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc>
+				<altres Sync="TRUE">1.000000</altres>
+			</altsys>
+		</vertdef>
+	</spref>
+	<refSysInfo>
+		<RefSystem>
+			<refSysID>
+				<identCode>CH1903+_LV95</identCode>
+			</refSysID>
+		</RefSystem>
+	</refSysInfo>
+	<spatRepInfo>
+		<VectSpatRep>
+			<topLvl>
+				<TopoLevCd Sync="TRUE" value="001">
+				</TopoLevCd>
+			</topLvl>
+			<geometObjs Name="A.LCE_GRAPHE_EAU_ECOMORPHOLOGIE"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">1657</geoObjCnt></geometObjs></VectSpatRep>
+	</spatRepInfo>
+	<eainfo>
+		<detailed Name="A.LCE_GRAPHE_EAU_ECOMORPHOLOGIE">
+			<attr>
+				<attrlabl Sync="TRUE">OBJECTID</attrlabl>
+				<attalias Sync="TRUE">OBJECTID</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<enttyp>
+				<enttypl Sync="TRUE">A.LCE_GRAPHE_EAU_ECOMORPHOLOGIE</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt>
+				<enttypc Sync="TRUE">1659</enttypc>
+			</enttyp>
+			<attr>
+				<attrlabl Sync="TRUE">SHAPE.LEN</attrlabl>
+				<attalias Sync="TRUE">SHAPE.LEN</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">0</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SHAPE</attrlabl>
+				<attalias Sync="TRUE">SHAPE</attalias>
+				<attrtype Sync="TRUE">Geometry</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">CODE_SEG</attrlabl>
+				<attalias Sync="TRUE">CODE_SEG</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Numérotation des segments de cours d'eau</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ID_TRONCON_ECO</attrlabl>
+				<attalias Sync="TRUE">ID_TRONCON_ECO</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Identificateur du tronçon écomorphologique</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NOM_OFFICIEL</attrlabl>
+				<attalias Sync="TRUE">NOM_OFFICIEL</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nom officiel des cours d'eau selon le code des voies de la DCMO (code RVC)</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">CLASSE_ECOMORPHOLOGIQUE</attrlabl>
+				<attalias Sync="TRUE">CLASSE_ECOMORPHOLOGIQUE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">30</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Classe écomorphologique:
+- naturel
+- peu atteint
+- très atteint
+- artificiel
+- mis sous terre</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">KM_A</attrlabl>
+				<attalias Sync="TRUE">KM_A</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Kilométrage curviligne amont des segments (en mètres)</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">DATE_LEVE</attrlabl>
+				<attalias Sync="TRUE">DATE_LEVE</attalias>
+				<attrtype Sync="TRUE">Date</attrtype>
+				<attwidth Sync="TRUE">36</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Date du relevé</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">OBSERVATEUR</attrlabl>
+				<attalias Sync="TRUE">OBSERVATEUR</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Observateur</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SOUS_TERRE_EAU</attrlabl>
+				<attalias Sync="TRUE">SOUS_TERRE_EAU</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">30</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Tronçon mis sous terre:
+- oui
+- non</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SEUILS_NATURELS</attrlabl>
+				<attalias Sync="TRUE">SEUILS_NATURELS</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nombreux seuils naturesl:
+- oui
+- non</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">LARGEUR_MOY_LIT</attrlabl>
+				<attalias Sync="TRUE">LARGEUR_MOY_LIT</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<atprecis Sync="TRUE">38</atprecis>
+				<attscale Sync="TRUE">8</attscale>
+				<atXTdesc>Largeur moyenne du lit [m]</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">VARIABILITE_LIT</attrlabl>
+				<attalias Sync="TRUE">VARIABILITE_LIT</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Variabilité de la largeur du lit:
+- prononcée
+- limitée
+- nulle</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">PROFONDEUR_MOY</attrlabl>
+				<attalias Sync="TRUE">PROFONDEUR_MOY</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">15</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Profondeur moyenne [m]</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">VARIABILITE_PROF</attrlabl>
+				<attalias Sync="TRUE">VARIABILITE_PROF</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Variabilité de la profondeur:
+- prononcée
+- limitée
+- nulle</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AMENAGEMENT_LIT</attrlabl>
+				<attalias Sync="TRUE">AMENAGEMENT_LIT</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">30</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Degré d'aménagement du lit:
+- localisé
+- moyen
+- fort
+- prépondérant
+- total</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">MATERIAU_LIT</attrlabl>
+				<attalias Sync="TRUE">MATERIAU_LIT</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">30</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Matériau du lit:
+- aucun
+- pierres naturelles
+- bois
+- briques perforées en béton
+- imperméable
+- autres</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">GRANULO_DOMINANTE</attrlabl>
+				<attalias Sync="TRUE">GRANULO_DOMINANTE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">15</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Granulométrie dominante:
+- vase-limons
+- sable
+- gravier
+- pierres-blocs
+- inconnu</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">RENFORCEMENT_BERGE_G</attrlabl>
+				<attalias Sync="TRUE">RENFORCEMENT_BERGE_G</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">30</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Degré de renforcement des berges (gauche):
+- localisé
+- moyen
+- fort
+- prépondérant
+- total</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">RENFORCEMENT_BERGE_D</attrlabl>
+				<attalias Sync="TRUE">RENFORCEMENT_BERGE_D</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">30</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Degré de renforcement des berges (droit):
+- localisé
+- moyen
+- fort
+- prépondérant
+- total</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">MATERIAU_BERGE_G</attrlabl>
+				<attalias Sync="TRUE">MATERIAU_BERGE_G</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">30</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Matériau de la berge (gauche):
+- sans renforcement
+- matériau végétal
+- pierres naturelles lâches
+- bois
+- briques perforées en béton
+- pierres naturelles étanches
+- mur
+- autre</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">MATERIAU_BERGE_D</attrlabl>
+				<attalias Sync="TRUE">MATERIAU_BERGE_D</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">30</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Matériau de la berge (droit):
+- sans renforcement
+- matériau végétal
+- pierres naturelles lâches
+- bois
+- briques perforées en béton
+- pierres naturelles étanches
+- mur
+- autre</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">LARGEUR_RIVE_G</attrlabl>
+				<attalias Sync="TRUE">LARGEUR_RIVE_G</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<atprecis Sync="TRUE">38</atprecis>
+				<attscale Sync="TRUE">8</attscale>
+				<atXTdesc>Largeur de la rive (gauche) [m]</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">LARGEUR_RIVE_D</attrlabl>
+				<attalias Sync="TRUE">LARGEUR_RIVE_D</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<atprecis Sync="TRUE">38</atprecis>
+				<attscale Sync="TRUE">8</attscale>
+				<atXTdesc>Largeur de la rive (droite) [m]</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NATURE_RIVE_G</attrlabl>
+				<attalias Sync="TRUE">NATURE_RIVE_G</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">30</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nature de la rive (gauche):
+- typique d'un cours d'eau
+- atypique
+- artificielle</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NATURE_RIVE_D</attrlabl>
+				<attalias Sync="TRUE">NATURE_RIVE_D</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">30</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nature de la rive (droite):
+- typique d'un cours d'eau
+- atypique
+- artificielle</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">TYPE_RIVE_G</attrlabl>
+				<attalias Sync="TRUE">TYPE_RIVE_G</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Type de la rive (gauche)</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">TYPE_RIVE_D</attrlabl>
+				<attalias Sync="TRUE">TYPE_RIVE_D</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Type de la rive (droite)</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">PERMEABILITE_RIVE_G</attrlabl>
+				<attalias Sync="TRUE">PERMEABILITE_RIVE_G</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Rive perméable (gauche):
+- oui
+- non</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">PERMEABILITE_RIVE_D</attrlabl>
+				<attalias Sync="TRUE">PERMEABILITE_RIVE_D</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Rive perméable (droite):
+- oui
+- non</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">HAUTEUR_RIVE_G</attrlabl>
+				<attalias Sync="TRUE">HAUTEUR_RIVE_G</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<atprecis Sync="TRUE">38</atprecis>
+				<attscale Sync="TRUE">8</attscale>
+				<atXTdesc>Hauteur de la rive (gauche) [m]</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">HAUTEUR_RIVE_D</attrlabl>
+				<attalias Sync="TRUE">HAUTEUR_RIVE_D</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<atprecis Sync="TRUE">38</atprecis>
+				<attscale Sync="TRUE">8</attscale>
+				<atXTdesc>Hauteur de la rive (droite) [m]</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">PENTE_RIVE_G</attrlabl>
+				<attalias Sync="TRUE">PENTE_RIVE_G</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<atprecis Sync="TRUE">38</atprecis>
+				<attscale Sync="TRUE">8</attscale>
+				<atXTdesc>Pente de la rive (gauche) [%]
+</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">PENTE_RIVE_D</attrlabl>
+				<attalias Sync="TRUE">PENTE_RIVE_D</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<atprecis Sync="TRUE">38</atprecis>
+				<attscale Sync="TRUE">8</attscale>
+				<atXTdesc>Pente de la rive (droite) [%]</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">HAUTEUR_TALUS_G</attrlabl>
+				<attalias Sync="TRUE">HAUTEUR_TALUS_G</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<atprecis Sync="TRUE">38</atprecis>
+				<attscale Sync="TRUE">8</attscale>
+				<atXTdesc>Hauteur du talus (gauche) [m]
+</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">HAUTEUR_TALUS_D</attrlabl>
+				<attalias Sync="TRUE">HAUTEUR_TALUS_D</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<atprecis Sync="TRUE">38</atprecis>
+				<attscale Sync="TRUE">8</attscale>
+				<atXTdesc>Hauteur du talus (droit) [m]</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">PENTE_TALUS_G</attrlabl>
+				<attalias Sync="TRUE">PENTE_TALUS_G</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<atprecis Sync="TRUE">38</atprecis>
+				<attscale Sync="TRUE">8</attscale>
+				<atXTdesc>Pente du talus (gauche) [%]</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">PENTE_TALUS_D</attrlabl>
+				<attalias Sync="TRUE">PENTE_TALUS_D</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<atprecis Sync="TRUE">38</atprecis>
+				<attscale Sync="TRUE">8</attscale>
+				<atXTdesc>Pente du talus (droit) [%]</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">LARGEUR_TALUS_G</attrlabl>
+				<attalias Sync="TRUE">LARGEUR_TALUS_G</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<atprecis Sync="TRUE">38</atprecis>
+				<attscale Sync="TRUE">8</attscale>
+				<atXTdesc>Largeur du talus (gauche) [m]</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">KM_DE</attrlabl>
+				<attalias Sync="TRUE">KM_DE</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Kilométrage curviligne aval des segments (en mètres)</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">LARGEUR_TALUS_D</attrlabl>
+				<attalias Sync="TRUE">LARGEUR_TALUS_D</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<atprecis Sync="TRUE">38</atprecis>
+				<attscale Sync="TRUE">8</attscale>
+				<atXTdesc>Largeur du talus (droit) [m]</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">CODE_SLCE</attrlabl>
+				<attalias Sync="TRUE">CODE_SLCE</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Numérotation officielle du bassin versant selon le Domaine de l'Eau (DomEau)</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ENTRETIEN_G</attrlabl>
+				<attalias Sync="TRUE">ENTRETIEN_G</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Rive (gauche) entretenue par l'état de Genève:
+- oui
+- non</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ENTRETIEN_D</attrlabl>
+				<attalias Sync="TRUE">ENTRETIEN_D</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Rive (droite) entretenue par l'état de Genève:
+- oui
+- non</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">OMBRAGE_DEMI_LIT_G</attrlabl>
+				<attalias Sync="TRUE">OMBRAGE_DEMI_LIT_G</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">20</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Taux d'ombrage sur le demi-lit (gauche):
+- nul
+- moyen 10-50%
+- abondant 50-100%</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">OMBRAGE_DEMI_LIT_D</attrlabl>
+				<attalias Sync="TRUE">OMBRAGE_DEMI_LIT_D</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">20</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Taux d'ombrage sur le demi-lit (droit):
+- nul
+- moyen 10-50%
+- abondant 50-100%</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">REMARQUES</attrlabl>
+				<attalias Sync="TRUE">REMARQUES</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">255</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Remarques sur le tronçon</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">OBJECTID_1</attrlabl>
+				<attalias Sync="TRUE">OBJECTID_1</attalias>
+				<attrtype Sync="TRUE">OID</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+		</detailed>
+	</eainfo>
+	<mdDateSt Sync="TRUE">20110722</mdDateSt>
+	<mdXTInfoLink>http://www.sitg.ch</mdXTInfoLink>
+	<mdContact>
+		<rpXTBID>61beb9aa-9f41-4c2f-8ab4-2765d23df7e1</rpXTBID>
+		<rpIndName>Pierre Lafontaine</rpIndName>
+		<rpXTIndLastName>Lafontaine</rpXTIndLastName>
+		<rpXTIndFirstName>Pierre</rpXTIndFirstName>
+		<rpOrgName>Service des systèmes d'information et de géomatique</rpOrgName>
+		<rpXTOrgAcronym>SSIG</rpXTOrgAcronym>
+		<rpXTPartName>DIME - Département de l'intérieur, de la mobilité et de l'environnement</rpXTPartName>
+		<rpCntInfo>
+			<cntPhone>
+				<voiceNum>+4122 546 72 81</voiceNum>
+				<faxNum>+4122 546 72 70</faxNum>
+			</cntPhone>
+			<cntAddress>
+				<eMailAdd>pierre.lafontaine@etat.ge.ch</eMailAdd>
+				<XTName>rue des Gazomètres</XTName>
+				<XTNumber>7</XTNumber>
+				<delPoint>rue des Gazomètres 7</delPoint>
+				<postCode>1211</postCode>
+				<XTpostBox>36</XTpostBox>
+				<city>Genève 8</city>
+				<country>ch</country>
+				<XTLine></XTLine>
+				<adminArea></adminArea>
+			</cntAddress>
+			<cntOnlineRes>
+				<linkage>http://etat.geneve.ch/dt/geomatique/accueil.html</linkage>
+			</cntOnlineRes>
+			<cntHours></cntHours>
+			<cntInstr></cntInstr>
+		</rpCntInfo>
+		<rpPosName>Technicien en géomatique, resp. Métadonnées</rpPosName>
+	</mdContact>
+	<dqInfo>
+		<dqXTEdit>
+			<edtMethod>Digitalisation</edtMethod>
+			<edtPrecision>10 mètres</edtPrecision>
+			<edtScale>1000</edtScale>
+			<edtFiability value="True" Sync="FALSE">
+			</edtFiability>
+		</dqXTEdit>
+		<dqXTDisplay>
+			<dspScale>2500 à 25000</dspScale>
+		</dqXTDisplay>
+	</dqInfo>
+	<dataqual>
+		<lineage>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">Z:\SITG\METADATA\XML_BACKUP\LCE\lce_graphe_eau_ecomorphologie.xml</srcused>
+				<date Sync="TRUE">20071025</date>
+				<time Sync="TRUE">10214400</time>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">X:\SITG\METADATA\XML_BACKUP\LCE\lce_graphe_eau_ecomorphologie.xml</srcused>
+				<date Sync="TRUE">20080819</date>
+				<time Sync="TRUE">13033400</time>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">D:\LCE_MN95\lce_graphe_eau_ecomorphologie.xml</srcused><date Sync="TRUE">20110722</date><time Sync="TRUE">10012000</time></procstep></lineage>
+	</dataqual>
+	<tpXTThemes><theme>Territoire</theme></tpXTThemes></metadata>

@@ -1,0 +1,503 @@
+<?xml version="1.0"?>
+<!--<!DOCTYPE metadata SYSTEM "http://www.esri.com/metadata/esriprof80.dtd">-->
+<metadata xml:lang="fr">
+	<Esri>
+		<CreaDate>20110722</CreaDate>
+		<CreaTime>09194600</CreaTime>
+		<SyncOnce>FALSE</SyncOnce>
+		<SyncDate>20110722</SyncDate>
+		<SyncTime>09222200</SyncTime>
+		<ModDate>20110722</ModDate>
+		<ModTime>09222200</ModTime>
+		<DataProperties>
+			<XTinfo>
+				<esrname>A.LCE_EVENEMENT_INONDATION</esrname>
+				<esrtype>Feature Class</esrtype>
+				<esrfctype>1</esrfctype>
+				<esralias>A.LCE_EVENEMENT_INONDATION</esralias>
+			</XTinfo>
+		</DataProperties>
+		<MetaID>{A7508E6A-42E7-457B-AD4E-DD9DADAAB88E}</MetaID></Esri>
+	<idinfo>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.6.1500</native>
+		<descript>
+			<langdata Sync="TRUE">fr</langdata>
+		</descript>
+		<citation>
+			<citeinfo>
+				<title Sync="TRUE">A.LCE_EVENEMENT_INONDATION</title>
+				<ftname Sync="TRUE">A.LCE_EVENEMENT_INONDATION</ftname>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<onlink Sync="TRUE">Server=CONSULTATION-SITG; Service=esri_sde; User=a; Version=SDE.DEFAULT</onlink>
+			</citeinfo>
+		</citation>
+		<natvform Sync="TRUE">SDE Feature Class</natvform>
+		<spdom>
+			<lboundng>
+				<leftbc Sync="TRUE">2489371.990000</leftbc>
+				<rightbc Sync="TRUE">2511613.760000</rightbc>
+				<bottombc Sync="TRUE">1110875.090000</bottombc>
+				<topbc Sync="TRUE">1134011.570000</topbc>
+			</lboundng>
+			<bounding>
+				<westbc Sync="TRUE">6.002194</westbc>
+				<eastbc Sync="TRUE">6.295521</eastbc>
+				<northbc Sync="TRUE">46.352913</northbc>
+				<southbc Sync="TRUE">46.141496</southbc>
+			</bounding>
+		</spdom>
+	</idinfo>
+	<metainfo>
+		<langmeta Sync="TRUE">fr</langmeta>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metd Sync="TRUE">20110722</metd>
+		<metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<distinfo>
+		<resdesc Sync="TRUE">Downloadable Data</resdesc>
+	</distinfo>
+	<distInfo>
+		<distributor>
+			<distorCont>
+				<rpXTBID>61beb9aa-9f41-4c2f-8ab4-2765d23df7e1</rpXTBID>
+				<rpIndName>Pierre Lafontaine</rpIndName>
+				<rpXTIndLastName>Lafontaine</rpXTIndLastName>
+				<rpXTIndFirstName>Pierre</rpXTIndFirstName>
+				<rpOrgName>Service de l'organisation et des systèmes d'information</rpOrgName>
+				<rpXTOrgAcronym>SOSI</rpXTOrgAcronym>
+				<rpXTPartName>DIM - Département de l'intérieur et de la mobilité</rpXTPartName>
+				<rpPosName>Technicien en géomatique, resp. Métadonnées</rpPosName>
+				<rpCntInfo>
+					<cntPhone>
+						<voiceNum>+4122 546 72 81</voiceNum>
+						<faxNum>+4122 546 72 70</faxNum>
+					</cntPhone>
+					<cntAddress>
+						<eMailAdd>pierre.lafontaine@etat.ge.ch</eMailAdd>
+						<XTName>rue des Gazomètres</XTName>
+						<XTNumber>7</XTNumber>
+						<XTLine>
+						</XTLine>
+						<delPoint>rue des Gazomètres 7</delPoint>
+						<XTpostBox>36</XTpostBox>
+						<postCode>1211</postCode>
+						<city>Genève 8</city>
+						<adminArea>
+						</adminArea>
+						<country>ch</country>
+					</cntAddress>
+					<cntOnlineRes>
+						<linkage>http://etat.geneve.ch/dt/geomatique/accueil.html</linkage>
+					</cntOnlineRes>
+					<cntHours>
+					</cntHours>
+					<cntInstr>
+					</cntInstr>
+				</rpCntInfo>
+			</distorCont>
+			<distorTran>
+				<onLineSrc>
+					<linkage>http://www.sitg.ch</linkage>
+					<protocol></protocol>
+					<orFunct>
+						<OnFunctCd value="004" Sync="FALSE">
+						</OnFunctCd>
+					</orFunct>
+					<orDesc></orDesc></onLineSrc>
+				<offLineMed>
+					<medName>
+						<MedNameCd value="001" Sync="FALSE">
+						</MedNameCd>
+					</medName>
+				</offLineMed>
+				<transThirds value="True" Sync="FALSE">
+				</transThirds>
+			</distorTran>
+			<distorFormat><formatName>Dwg/dxf, Géodatabase personnelle, Mif/mid, Shape file</formatName><formatVer>Sur demande</formatVer></distorFormat></distributor>
+	</distInfo>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<esriterm Name="A.LCE_EVENEMENT_INONDATION">
+				<efeatyp Sync="TRUE">Simple</efeatyp>
+				<efeageom Sync="TRUE">Point</efeageom>
+				<esritopo Sync="TRUE">FALSE</esritopo>
+				<efeacnt Sync="TRUE">84</efeacnt>
+				<spindex Sync="TRUE">TRUE</spindex>
+				<linrefer Sync="TRUE">FALSE</linrefer>
+			</esriterm>
+			<sdtsterm Name="A.LCE_EVENEMENT_INONDATION">
+				<sdtstype Sync="TRUE">Entity point</sdtstype>
+				<ptvctcnt Sync="TRUE">84</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<cordsysn>
+				<geogcsn Sync="TRUE">GCS_CH1903+</geogcsn>
+				<projcsn Sync="TRUE">CH1903+_LV95</projcsn>
+			</cordsysn>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<plandu Sync="TRUE">meters</plandu>
+					<coordrep>
+						<absres Sync="TRUE">0.010000</absres>
+						<ordres Sync="TRUE">0.010000</ordres>
+					</coordrep>
+				</planci>
+				<mapproj><mapprojn Sync="TRUE">Oblique Mercator</mapprojn><obqmerc><sfctrlin Sync="TRUE">1.000000</sfctrlin><obqlazim><azimangl Sync="TRUE">90.000000</azimangl><azimptl Sync="TRUE">7.439583</azimptl></obqlazim><latprjo Sync="TRUE">46.952406</latprjo><feast Sync="TRUE">2600000.000000</feast><fnorth Sync="TRUE">1200000.000000</fnorth></obqmerc></mapproj></planar>
+			<geodetic>
+				<horizdn Sync="TRUE">D_CH1903+</horizdn>
+				<ellips Sync="TRUE">Bessel_1841</ellips>
+				<semiaxis Sync="TRUE">6377397.155000</semiaxis>
+				<denflat Sync="TRUE">299.152813</denflat>
+			</geodetic>
+		</horizsys>
+		<vertdef>
+			<altsys>
+				<altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc>
+				<altres Sync="TRUE">1.000000</altres>
+			</altsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<detailed Name="A.LCE_EVENEMENT_INONDATION">
+			<attr>
+				<attrlabl Sync="TRUE">OBJECTID</attrlabl>
+				<attalias Sync="TRUE">OBJECTID</attalias>
+				<attrtype Sync="TRUE">OID</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SHAPE</attrlabl>
+				<attalias Sync="TRUE">SHAPE</attalias>
+				<attrtype Sync="TRUE">Geometry</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">COMMUNE</attrlabl>
+				<attalias Sync="TRUE">COMMUNE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nom de la commune touchée par l'événement</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">EVENEMENT</attrlabl>
+				<attalias Sync="TRUE">EVENEMENT</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">255</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Description du phénomène (débordement de cours d'eau, ruissellement, défaut de drainage, etc.)</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">DATE_EVENEMENT</attrlabl>
+				<attalias Sync="TRUE">DATE_EVENEMENT</attalias>
+				<attrtype Sync="TRUE">Date</attrtype>
+				<attwidth Sync="TRUE">36</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Date de l'inondation</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">CONSEQUENCE</attrlabl>
+				<attalias Sync="TRUE">CONSEQUENCE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">255</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Conséquence(s) engendrée(s) par l'indondation</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">COURS_EAU</attrlabl>
+				<attalias Sync="TRUE">COURS_EAU</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">254</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nom officiel du cours d'eau qui a débordé, le cas échéant</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SOURCE</attrlabl>
+				<attalias Sync="TRUE">SOURCE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">255</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Source de l'information</atXTdesc>
+			</attr>
+			<enttyp>
+				<enttypl Sync="TRUE">A.LCE_EVENEMENT_INONDATION</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt>
+				<enttypc Sync="TRUE">84</enttypc>
+			</enttyp>
+			<attr>
+				<attrlabl Sync="TRUE">GRAVITE</attrlabl>
+				<attalias Sync="TRUE">GRAVITE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">255</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Indice de gravité attaché à l'événement</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">LIEN_URL</attrlabl>
+				<attalias Sync="TRUE">LIEN_URL</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">255</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Lien URL de l'article via les archives du Temps relatant l'inondation (si existant)</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">FICHE</attrlabl>
+				<attalias Sync="TRUE">FICHE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">255</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Fiche de renseignement sur l'événement (non systématique) ou photo</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">REMARQUES</attrlabl>
+				<attalias Sync="TRUE">REMARQUES</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">255</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Autres informations disponibles sur l'événement</atXTdesc>
+			</attr>
+		</detailed>
+	</eainfo>
+	<mdContact>
+		<rpXTBID>61beb9aa-9f41-4c2f-8ab4-2765d23df7e1</rpXTBID>
+		<rpIndName>Pierre Lafontaine</rpIndName>
+		<rpXTIndLastName>Lafontaine</rpXTIndLastName>
+		<rpXTIndFirstName>Pierre</rpXTIndFirstName>
+		<rpOrgName>Service de l'organisation et des systèmes d'information</rpOrgName>
+		<rpXTOrgAcronym>SOSI</rpXTOrgAcronym>
+		<rpXTPartName>DIM - Département de l'intérieur et de la mobilité</rpXTPartName>
+		<rpPosName>Technicien en géomatique, resp. Métadonnées</rpPosName>
+		<rpCntInfo>
+			<cntPhone>
+				<voiceNum>+4122 546 72 81</voiceNum>
+				<faxNum>+4122 546 72 70</faxNum>
+			</cntPhone>
+			<cntAddress>
+				<eMailAdd>pierre.lafontaine@etat.ge.ch</eMailAdd>
+				<XTName>rue des Gazomètres</XTName>
+				<XTNumber>7</XTNumber>
+				<XTLine>
+				</XTLine>
+				<delPoint>rue des Gazomètres 7</delPoint>
+				<XTpostBox>36</XTpostBox>
+				<postCode>1211</postCode>
+				<city>Genève 8</city>
+				<adminArea>
+				</adminArea>
+				<country>ch</country>
+			</cntAddress>
+			<cntOnlineRes>
+				<linkage>http://etat.geneve.ch/dt/geomatique/accueil.html</linkage>
+			</cntOnlineRes>
+			<cntHours>
+			</cntHours>
+			<cntInstr>
+			</cntInstr>
+		</rpCntInfo>
+	</mdContact>
+	<dataIdInfo>
+		<idCitation>
+			<citRespParty>
+				<rpXTBID>08b121ac-eabf-41d5-830a-d85b74671785</rpXTBID>
+				<rpIndName>Fabrice Roth</rpIndName>
+				<rpXTIndLastName>Roth</rpXTIndLastName>
+				<rpXTIndFirstName>Fabrice</rpXTIndFirstName>
+				<rpOrgName>Direction générale de l'eau</rpOrgName>
+				<rpXTOrgAcronym>DGEau</rpXTOrgAcronym>
+				<rpXTPartName>DIM - Département de l'intérieur et de la mobilité</rpXTPartName>
+				<rpPosName>Responsable bureau technique</rpPosName>
+				<rpCntInfo>
+					<cntPhone>
+						<voiceNum>+4122 546 74 27</voiceNum>
+						<faxNum>+4122 546 74 01</faxNum>
+					</cntPhone>
+					<cntAddress>
+						<eMailAdd>fabrice.roth@etat.ge.ch</eMailAdd>
+						<XTName>chemin de la Verseuse</XTName>
+						<XTNumber>17</XTNumber>
+						<delPoint>chemin de la Verseuse 17</delPoint>
+						<XTpostBox>53</XTpostBox>
+						<postCode>1219</postCode>
+						<city>Aïre</city>
+						<country>ch</country>
+					</cntAddress>
+					<cntOnlineRes>
+						<linkage>http://etat.geneve.ch/dt/eau/accueil.html</linkage>
+					</cntOnlineRes>
+				</rpCntInfo>
+			</citRespParty>
+			<resTitle>CADASTRE DES EVENEMENTS D'INONDATION PONCTUELS</resTitle>
+			<presForm>
+				<PresFormCd Sync="TRUE" value="005">
+				</PresFormCd>
+			</presForm>
+			<resRefDate>
+				<refDate>20100827</refDate>
+				<refDateType>
+					<DateTypCd value="001" Sync="FALSE">
+					</DateTypCd>
+				</refDateType>
+			</resRefDate>
+			<resXTUpdateFicheDate><refDate>20110722</refDate><refDateType><DateTypCd value="001" Sync="FALSE"></DateTypCd></refDateType></resXTUpdateFicheDate></idCitation>
+		<envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.6.1500</envirDesc>
+		<dataLang>
+			<languageCode Sync="FALSE" value="fr">
+			</languageCode>
+		</dataLang>
+		<spatRpType>
+			<SpatRepTypCd Sync="TRUE" value="001">
+			</SpatRepTypCd>
+		</spatRpType>
+		<dataExt>
+			<geoEle>
+				<GeoBndBox esriExtentType="native">
+					<westBL Sync="TRUE">2489371.99</westBL>
+					<eastBL Sync="TRUE">2511613.76</eastBL>
+					<northBL Sync="TRUE">1134011.57</northBL>
+					<southBL Sync="TRUE">1110875.09</southBL>
+					<exTypeCode Sync="TRUE">1</exTypeCode>
+					<XTdesc>Cadre de référence MN95</XTdesc>
+				</GeoBndBox>
+			</geoEle>
+		</dataExt>
+		<geoBox esriExtentType="decdegrees">
+			<westBL Sync="TRUE">6.002194</westBL>
+			<eastBL Sync="TRUE">6.295521</eastBL>
+			<northBL Sync="TRUE">46.352913</northBL>
+			<southBL Sync="TRUE">46.141496</southBL>
+			<exTypeCode Sync="TRUE">1</exTypeCode>
+		</geoBox>
+		<idAbs>Le cadastre des événements d’inondation représente un historique non-exhaustif des événements d'inondation du canton de Genève, dans l'état des connaissances et de recherches actuelles.
+
+Il est constitué des deux couches suivantes :
+
+1. Les inondations ponctuelles, qui font chacune référence à un événement unique et localisable
+
+2. Les inondations généralisées, dont l’enveloppe est définie selon les diverses sources disponibles.
+
+Dans certains cas, la localisation de ces événements peut s’avérer approximative.
+
+Seuls sont recensés les événements d'une certaine importance, qui ont occasionné des morts ou des blessés, qui ont provoqué des perturbations de trafic, qui ont causé des dégâts à des bâtiments ou à des infrastructures qui présentent un caractère exceptionnel.
+
+Chaque événement est qualifié en fonction de l'impact de l'inondation selon un indice de gravité, 2 ou 3, les événements de faible importance (gravité 1) n'étant pas mis à disposition du public.
+
+Le cadastre des événements a été constitué en 2010.</idAbs>
+		<idPurp>Cette couche permet de mieux appréhender la problématique des inondations dans le territoire. Elle doit permettre une intégration dans la base de données fédérale STORME.</idPurp>
+		<dataChar>
+			<CharSetCd value="004" Sync="FALSE">
+			</CharSetCd>
+		</dataChar>
+		<resMaint>
+			<maintFreq>
+				<MaintFreqCd value="009" Sync="FALSE">
+				</MaintFreqCd>
+				<descXT>Quand nécessaire</descXT></maintFreq>
+			<maintScp>
+				<ScopeCd value="005" Sync="FALSE">
+				</ScopeCd>
+			</maintScp>
+		</resMaint>
+		<idStatus>
+			<ProgCd value="004" Sync="FALSE">
+			</ProgCd>
+			<descXT>En cours</descXT></idStatus>
+		<descKeys KeyTypCd="005" Sync="FALSE">
+			<keyword>eau</keyword>
+			<keyTyp>
+				<keyTypCd value="005" Sync="FALSE">
+				</keyTypCd>
+			</keyTyp>
+		</descKeys>
+		<lnkObjects>
+			<lnkObject>
+				<lnkBID>ddf2b99f-b749-4005-8f6a-66931b67ebb2</lnkBID>
+				<lnkType>Image</lnkType>
+				<lnkLink>http://etat.geneve.ch/geoportail/metadataws/Publish/images/A.LCE_EVENEMENT_INONDATION.gif</lnkLink>
+			</lnkObject>
+		</lnkObjects>
+		<tpCat><TopicCatCd value="015" Sync="FALSE"></TopicCatCd><descXT>Cadastre et aménagement du territoire</descXT></tpCat><tpCat><TopicCatCd value="012" Sync="FALSE"></TopicCatCd><descXT>Ressources en eaux continentales</descXT></tpCat></dataIdInfo>
+	<mdLang>
+		<languageCode Sync="FALSE" value="fr">
+		</languageCode>
+	</mdLang>
+	<mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+	<mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+	<mdChar>
+		<CharSetCd Sync="TRUE" value="004">
+		</CharSetCd>
+	</mdChar>
+	<mdHrLv>
+		<ScopeCd Sync="TRUE" value="005">
+		</ScopeCd>
+	</mdHrLv>
+	<mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+	<refSysInfo>
+		<RefSystem>
+			<refSysID>
+				<identCode>CH1903+_LV95</identCode>
+			</refSysID>
+		</RefSystem>
+	</refSysInfo>
+	<spatRepInfo>
+		<VectSpatRep>
+			<topLvl>
+				<TopoLevCd Sync="TRUE" value="001">
+				</TopoLevCd>
+			</topLvl>
+			<geometObjs Name="A.LCE_EVENEMENT_INONDATION"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="004"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">84</geoObjCnt></geometObjs></VectSpatRep>
+	</spatRepInfo>
+	<mdDateSt Sync="TRUE">20110722</mdDateSt>
+	<dataqual>
+		<lineage>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">N:\SITG\METADATA\XML_BACKUP\LCE\lce_prelevement_captage.xml</srcused>
+				<date Sync="TRUE">20100827</date>
+				<time Sync="TRUE">11000400</time>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">D:\LCE_MN95\lce_evenement_inodation.xml</srcused><date Sync="TRUE">20110722</date><time Sync="TRUE">09194600</time></procstep></lineage>
+	</dataqual>
+	<dqInfo>
+		<dqXTEdit>
+			<edtMethod>Digitalisation</edtMethod>
+			<edtPrecision>Moyenne</edtPrecision>
+			<edtScale>2'500</edtScale>
+			<edtFiability value="True" Sync="FALSE">
+			</edtFiability>
+		</dqXTEdit>
+		<dqXTDisplay>
+			<dspScale>2'500 - 25'000</dspScale>
+		</dqXTDisplay>
+	</dqInfo>
+	<mdXTInfoLink>http://www.sitg.ch</mdXTInfoLink>
+	<tpXTThemes><theme>Territoire</theme></tpXTThemes></metadata>

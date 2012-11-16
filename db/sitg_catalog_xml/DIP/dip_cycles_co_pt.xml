@@ -1,0 +1,480 @@
+<?xml version="1.0"?>
+<!--<!DOCTYPE metadata SYSTEM "http://www.esri.com/metadata/esriprof80.dtd">-->
+<metadata xml:lang="fr">
+	<Esri>
+		<CreaDate>20110708</CreaDate>
+		<CreaTime>13102800</CreaTime>
+		<SyncOnce>FALSE</SyncOnce>
+		<DataProperties>
+			<XTinfo>
+				<esrtype>Feature Class</esrtype>
+				<esrfctype>1</esrfctype>
+				<esralias>A.DIP_CYCLES_CO_PT</esralias>
+				<esrname>A.DIP_CYCLES_CO_PT</esrname>
+			</XTinfo>
+		</DataProperties>
+		<SyncDate>20110708</SyncDate>
+		<SyncTime>13121000</SyncTime>
+		<ModDate>20110708</ModDate>
+		<ModTime>13121000</ModTime>
+		<MetaID>{40E9AB68-9584-45D6-BC4B-51318A000576}</MetaID></Esri>
+	<idinfo>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.6.1500</native>
+		<descript>
+			<langdata Sync="TRUE">fr</langdata>
+			<abstract>REQUIRED: A brief narrative summary of the data set.</abstract>
+			<purpose>REQUIRED: A summary of the intentions with which the data set was developed.</purpose>
+		</descript>
+		<citation>
+			<citeinfo>
+				<origin>REQUIRED: The name of an organization or individual that developed the data set.</origin>
+				<pubdate>REQUIRED: The date when the data set is published or otherwise made available for release.</pubdate>
+				<title Sync="TRUE">A.DIP_CYCLES_CO_PT</title>
+				<ftname Sync="TRUE">A.DIP_CYCLES_CO_PT</ftname>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<onlink Sync="TRUE">Server=CONSULTATION-SITG; Service=esri_sde; User=a; Version=SDE.DEFAULT</onlink>
+			</citeinfo>
+		</citation>
+		<timeperd>
+			<current>REQUIRED: The basis on which the time period of content information is determined.</current>
+			<timeinfo>
+				<sngdate>
+					<caldate>REQUIRED: The year (and optionally month, or month and day) for which the data set corresponds to the ground.</caldate>
+				</sngdate>
+			</timeinfo>
+		</timeperd>
+		<status>
+			<progress>REQUIRED: The state of the data set.</progress>
+			<update>REQUIRED: The frequency with which changes and additions are made to the data set after the initial data set is completed.</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">6.075428</westbc>
+				<eastbc Sync="TRUE">6.212010</eastbc>
+				<northbc Sync="TRUE">46.280863</northbc>
+				<southbc Sync="TRUE">46.173420</southbc>
+			</bounding>
+			<lboundng>
+				<leftbc Sync="TRUE">2494871.876800</leftbc>
+				<rightbc Sync="TRUE">2505215.007800</rightbc>
+				<bottombc Sync="TRUE">1114326.042600</bottombc>
+				<topbc Sync="TRUE">1126099.282200</topbc>
+			</lboundng>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>REQUIRED: Reference to a formally registered thesaurus or a similar authoritative source of theme keywords.</themekt>
+				<themekey>REQUIRED: Common-use word or phrase used to describe the subject of the data set.</themekey>
+			</theme>
+		</keywords>
+		<accconst>REQUIRED: Restrictions and legal prerequisites for accessing the data set.</accconst>
+		<useconst>REQUIRED: Restrictions and legal prerequisites for using the data set after access is granted.</useconst>
+		<natvform Sync="TRUE">SDE Feature Class</natvform>
+	</idinfo>
+	<dataIdInfo>
+		<envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.6.1500</envirDesc>
+		<dataLang>
+			<languageCode Sync="FALSE" value="fr">
+			</languageCode>
+		</dataLang>
+		<idCitation>
+			<resTitle>CYCLES D'ORIENTATION (Point)</resTitle>
+			<presForm>
+				<PresFormCd Sync="TRUE" value="005">
+				</PresFormCd>
+			</presForm>
+			<resRefDate>
+				<refDate>20070426</refDate>
+				<refDateType>
+					<DateTypCd value="001" Sync="FALSE">
+					</DateTypCd>
+				</refDateType>
+			</resRefDate>
+			<citRespParty>
+				<rpXTBID>f8634711-6fd0-4326-b826-f523b00864f4</rpXTBID>
+				<rpIndName>Claude Etique Bernard</rpIndName>
+				<rpXTIndLastName>Etique Bernard</rpXTIndLastName>
+				<rpXTIndFirstName>Claude</rpXTIndFirstName>
+				<rpOrgName>Direction générale du cycle d'orientation</rpOrgName>
+				<rpXTOrgAcronym>DGCO</rpXTOrgAcronym>
+				<rpXTPartName>DIP - Département de l'instruction publique, de la culture et du sport</rpXTPartName>
+				<rpCntInfo>
+					<cntPhone>
+						<voiceNum>+4122 388 53 82</voiceNum>
+						<faxNum>+4122 388 53 98</faxNum>
+					</cntPhone>
+					<cntAddress>
+						<eMailAdd>claude.etiquebernard@etat.ge.ch</eMailAdd>
+						<XTName>avenue Joli-Mont</XTName>
+						<XTNumber>15A</XTNumber>
+						<XTLine>Collège des Coudriers</XTLine>
+						<delPoint>avenue Joli-Mont 15A</delPoint>
+						<postCode>1211</postCode>
+						<XTpostBox>218</XTpostBox>
+						<city>Genève 28</city>
+						<country>ch</country>
+						<adminArea>
+						</adminArea>
+					</cntAddress>
+					<cntOnlineRes>
+						<linkage>http://www.geneve.ch/co/memento/dgco.html</linkage>
+					</cntOnlineRes>
+					<cntHours>
+					</cntHours>
+					<cntInstr>
+					</cntInstr>
+				</rpCntInfo>
+				<rpPosName>Assistante</rpPosName>
+			</citRespParty>
+			<resXTUpdateFicheDate><refDate>20110708</refDate><refDateType><DateTypCd value="001" Sync="FALSE"></DateTypCd></refDateType></resXTUpdateFicheDate></idCitation>
+		<spatRpType>
+			<SpatRepTypCd Sync="TRUE" value="001">
+			</SpatRepTypCd>
+		</spatRpType>
+		<dataExt>
+			<geoEle>
+				<GeoBndBox esriExtentType="native">
+					<westBL Sync="TRUE">2494871.8768</westBL>
+					<eastBL Sync="TRUE">2505215.0078</eastBL>
+					<northBL Sync="TRUE">1126099.2822</northBL>
+					<southBL Sync="TRUE">1114326.0426</southBL>
+					<exTypeCode Sync="TRUE">1</exTypeCode>
+					<XTdesc>Cadre de référence MN95</XTdesc>
+				</GeoBndBox>
+			</geoEle>
+		</dataExt>
+		<geoBox esriExtentType="decdegrees">
+			<westBL Sync="TRUE">6.075428</westBL>
+			<eastBL Sync="TRUE">6.21201</eastBL>
+			<northBL Sync="TRUE">46.280863</northBL>
+			<southBL Sync="TRUE">46.17342</southBL>
+			<exTypeCode Sync="TRUE">1</exTypeCode>
+		</geoBox>
+		<idAbs>Le cycle d'orientation regroupe les degrés 7, 8 et 9 de la scolarité obligatoire. Il représente le secondaire I.
+
+Il dispense un enseignement de culture générale et vise à développer l'ouverture d'esprit, la faculté de discernement, l'autonomie, la solidarité, toutes compétences qui contribuent à l'éducation citoyenne.
+
+A l'articulation entre l'école primaire et le secondaire II, il assure un équilibre dans le développement des différentes aptitudes (intellectuelles, manuelles, physiques et artistiques) des adolescentes et des adolescents, qui leur permet de trouver du sens dans leurs apprentissages et leur donne progressivement les éléments de choix pour leur parcours de formation.
+
+Les périmètres administratifs de cette classe d'objet, servent d'aide à la décision lors de chaque nouvelle répartition scolaire.</idAbs>
+		<idXTInfoLink>http://www.geneve.ch/co/</idXTInfoLink>
+		<idXTLegalLink>http://etat.geneve.ch/geoportail/metadataws/Publish/legal/dip_co.htm</idXTLegalLink>
+		<dataChar>
+			<CharSetCd value="004" Sync="FALSE">
+			</CharSetCd>
+		</dataChar>
+		<resMaint>
+			<maintFreq>
+				<MaintFreqCd value="009" Sync="FALSE">
+				</MaintFreqCd>
+				<descXT>Quand nécessaire</descXT></maintFreq>
+			<maintScp>
+				<ScopeCd value="005" Sync="FALSE">
+				</ScopeCd>
+			</maintScp>
+		</resMaint>
+		<idStatus>
+			<ProgCd value="001" Sync="FALSE">
+			</ProgCd>
+			<descXT>Accompli</descXT></idStatus>
+		<descKeys KeyTypCd="005" Sync="FALSE">
+			<keyword>administratif</keyword>
+			<keyTyp>
+				<keyTypCd value="005" Sync="FALSE">
+				</keyTypCd>
+			</keyTyp>
+		</descKeys>
+		<lnkObjects>
+			<lnkObject>
+				<lnkBID>b25d1fd2-6040-4656-8786-de04e43ed76c</lnkBID>
+				<lnkType>Image</lnkType>
+				<lnkLink>http://etat.geneve.ch/geoportail/metadataws/Publish/images/A.DIP_CYCLES_CO_PT.gif</lnkLink>
+			</lnkObject>
+		</lnkObjects>
+		<tpCat><TopicCatCd value="016" Sync="FALSE"></TopicCatCd><descXT>Culture, société et démographie</descXT></tpCat></dataIdInfo>
+	<metainfo>
+		<langmeta Sync="TRUE">fr</langmeta>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntper>REQUIRED: The person responsible for the metadata information.</cntper>
+					<cntorg>REQUIRED: The organization responsible for the metadata information.</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>REQUIRED: The mailing and/or physical address for the organization or individual.</addrtype>
+					<city>REQUIRED: The city of the address.</city>
+					<state>REQUIRED: The state or province of the address.</state>
+					<postal>REQUIRED: The ZIP or other postal code of the address.</postal>
+				</cntaddr>
+				<cntvoice>REQUIRED: The telephone number by which individuals can speak to the organization or individual.</cntvoice>
+			</cntinfo>
+		</metc>
+		<metd Sync="TRUE">20110708</metd>
+		<metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<mdLang>
+		<languageCode Sync="FALSE" value="fr">
+		</languageCode>
+	</mdLang>
+	<mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+	<mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+	<mdChar>
+		<CharSetCd Sync="TRUE" value="004">
+		</CharSetCd>
+	</mdChar>
+	<mdHrLv>
+		<ScopeCd Sync="TRUE" value="005">
+		</ScopeCd>
+	</mdHrLv>
+	<mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+	<distinfo>
+		<resdesc Sync="TRUE">Downloadable Data</resdesc>
+	</distinfo>
+	<distInfo>
+		<distributor>
+			<distorTran>
+				<onLineSrc>
+					<linkage>http://www.sitg.ch</linkage>
+					<protocol></protocol>
+					<linkOrderForm>http://etat.geneve.ch/geoportail/formsitg/</linkOrderForm>
+					<orFunct>
+						<OnFunctCd value="004" Sync="FALSE">
+						</OnFunctCd>
+					</orFunct>
+					<orDesc></orDesc></onLineSrc>
+				<offLineMed>
+					<medName>
+						<MedNameCd value="001" Sync="FALSE">
+						</MedNameCd>
+					</medName>
+				</offLineMed>
+				<transThirds value="True" Sync="FALSE">
+				</transThirds>
+			</distorTran>
+			<distorCont>
+				<rpXTBID>61beb9aa-9f41-4c2f-8ab4-2765d23df7e1</rpXTBID>
+				<rpIndName>Pierre Lafontaine</rpIndName>
+				<rpXTIndLastName>Lafontaine</rpXTIndLastName>
+				<rpXTIndFirstName>Pierre</rpXTIndFirstName>
+				<rpOrgName>Service de l'organisation et des systèmes d'information</rpOrgName>
+				<rpXTOrgAcronym>SOSI</rpXTOrgAcronym>
+				<rpXTPartName>DIM - Département de l'intérieur et de la mobilité</rpXTPartName>
+				<rpCntInfo>
+					<cntPhone>
+						<voiceNum>+4122 546 72 81</voiceNum>
+						<faxNum>+4122 546 72 70</faxNum>
+					</cntPhone>
+					<cntAddress>
+						<eMailAdd>pierre.lafontaine@etat.ge.ch</eMailAdd>
+						<XTName>rue des Gazomètres</XTName>
+						<XTNumber>7</XTNumber>
+						<delPoint>rue des Gazomètres 7</delPoint>
+						<postCode>1211</postCode>
+						<XTpostBox>36</XTpostBox>
+						<city>Genève 8</city>
+						<country>ch</country>
+						<XTLine>
+						</XTLine>
+						<adminArea>
+						</adminArea>
+					</cntAddress>
+					<cntOnlineRes>
+						<linkage>http://etat.geneve.ch/dt/geomatique/accueil.html</linkage>
+					</cntOnlineRes>
+					<cntHours>
+					</cntHours>
+					<cntInstr>
+					</cntInstr>
+				</rpCntInfo>
+				<rpPosName>Technicien en géomatique, resp. Métadonnées</rpPosName>
+			</distorCont>
+			<distorFormat><formatName>Dwg/dxf, Géodatabase personnelle, Mif/mid, Shape file</formatName><formatVer>Sur demande</formatVer></distorFormat></distributor>
+	</distInfo>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<esriterm Name="A.DIP_CYCLES_CO_PT">
+				<efeatyp Sync="TRUE">Simple</efeatyp>
+				<efeageom Sync="TRUE">Point</efeageom>
+				<esritopo Sync="TRUE">FALSE</esritopo>
+				<efeacnt Sync="TRUE">20</efeacnt>
+				<spindex Sync="TRUE">TRUE</spindex>
+				<linrefer Sync="TRUE">FALSE</linrefer>
+			</esriterm>
+			<sdtsterm Name="A.DIP_CYCLES_CO_PT">
+				<sdtstype Sync="TRUE">Entity point</sdtstype>
+				<ptvctcnt Sync="TRUE">20</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<cordsysn>
+				<geogcsn Sync="TRUE">GCS_CH1903+</geogcsn>
+				<projcsn Sync="TRUE">CH1903+_LV95</projcsn>
+			</cordsysn>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<plandu Sync="TRUE">meters</plandu>
+					<coordrep>
+						<absres Sync="TRUE">0.000100</absres>
+						<ordres Sync="TRUE">0.000100</ordres>
+					</coordrep>
+				</planci>
+				<mapproj><mapprojn Sync="TRUE">Oblique Mercator</mapprojn><obqmerc><sfctrlin Sync="TRUE">1.000000</sfctrlin><obqlazim><azimangl Sync="TRUE">90.000000</azimangl><azimptl Sync="TRUE">7.439583</azimptl></obqlazim><latprjo Sync="TRUE">46.952406</latprjo><feast Sync="TRUE">2600000.000000</feast><fnorth Sync="TRUE">1200000.000000</fnorth></obqmerc></mapproj></planar>
+			<geodetic>
+				<horizdn Sync="TRUE">D_CH1903+</horizdn>
+				<ellips Sync="TRUE">Bessel_1841</ellips>
+				<semiaxis Sync="TRUE">6377397.155000</semiaxis>
+				<denflat Sync="TRUE">299.152813</denflat>
+			</geodetic>
+		</horizsys>
+		<vertdef>
+			<altsys>
+				<altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc>
+				<altres Sync="TRUE">1.000000</altres>
+			</altsys>
+		</vertdef>
+	</spref>
+	<refSysInfo>
+		<RefSystem>
+			<refSysID>
+				<identCode>CH1903+_LV95</identCode>
+			</refSysID>
+		</RefSystem>
+	</refSysInfo>
+	<spatRepInfo>
+		<VectSpatRep>
+			<topLvl>
+				<TopoLevCd Sync="TRUE" value="001">
+				</TopoLevCd>
+			</topLvl>
+			<geometObjs Name="A.DIP_CYCLES_CO_PT"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="004"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">20</geoObjCnt></geometObjs></VectSpatRep>
+	</spatRepInfo>
+	<eainfo>
+		<detailed Name="A.DIP_CYCLES_CO_PT">
+			<enttyp>
+				<enttypl Sync="TRUE">A.DIP_CYCLES_CO_PT</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt>
+				<enttypc Sync="TRUE">20</enttypc>
+			</enttyp>
+			<attr>
+				<attrlabl Sync="TRUE">OBJECTID</attrlabl>
+				<attalias Sync="TRUE">OBJECTID</attalias>
+				<attrtype Sync="TRUE">OID</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NOM_CYCLE</attrlabl>
+				<attalias Sync="TRUE">NOM_CYCLE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">35</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nom du cycle d'orientation</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">GENRE</attrlabl>
+				<attalias Sync="TRUE">GENRE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">15</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Genre</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">LIEN_WWW</attrlabl>
+				<attalias Sync="TRUE">LIEN_WWW</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">54</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Lien internet</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SHAPE</attrlabl>
+				<attalias Sync="TRUE">SHAPE</attalias>
+				<attrtype Sync="TRUE">Geometry</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+		</detailed>
+	</eainfo>
+	<mdDateSt Sync="TRUE">20110708</mdDateSt>
+	<mdXTInfoLink>http://www.sitg.ch</mdXTInfoLink>
+	<mdContact>
+		<rpXTBID>61beb9aa-9f41-4c2f-8ab4-2765d23df7e1</rpXTBID>
+		<rpIndName>Pierre Lafontaine</rpIndName>
+		<rpXTIndLastName>Lafontaine</rpXTIndLastName>
+		<rpXTIndFirstName>Pierre</rpXTIndFirstName>
+		<rpOrgName>Service de l'organisation et des systèmes d'information</rpOrgName>
+		<rpXTOrgAcronym>SOSI</rpXTOrgAcronym>
+		<rpXTPartName>DIM - Département de l'intérieur et de la mobilité</rpXTPartName>
+		<rpCntInfo>
+			<cntPhone>
+				<voiceNum>+4122 546 72 81</voiceNum>
+				<faxNum>+4122 546 72 70</faxNum>
+			</cntPhone>
+			<cntAddress>
+				<eMailAdd>pierre.lafontaine@etat.ge.ch</eMailAdd>
+				<XTName>rue des Gazomètres</XTName>
+				<XTNumber>7</XTNumber>
+				<delPoint>rue des Gazomètres 7</delPoint>
+				<postCode>1211</postCode>
+				<XTpostBox>36</XTpostBox>
+				<city>Genève 8</city>
+				<country>ch</country>
+				<XTLine>
+				</XTLine>
+				<adminArea>
+				</adminArea>
+			</cntAddress>
+			<cntOnlineRes>
+				<linkage>http://etat.geneve.ch/dt/geomatique/accueil.html</linkage>
+			</cntOnlineRes>
+			<cntHours>
+			</cntHours>
+			<cntInstr>
+			</cntInstr>
+		</rpCntInfo>
+		<rpPosName>Technicien en géomatique, resp. Métadonnées</rpPosName>
+	</mdContact>
+	<dqInfo>
+		<dqXTEdit>
+			<edtMethod>Automatique, sur le point adresse</edtMethod>
+			<edtPrecision>2 mètres</edtPrecision>
+			<edtScale>500</edtScale>
+			<edtFiability value="True" Sync="FALSE">
+			</edtFiability>
+		</dqXTEdit>
+		<dqXTDisplay>
+			<dspScale>250 à 25000</dspScale>
+		</dqXTDisplay>
+	</dqInfo>
+	<dataqual>
+		<lineage>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">X:\SITG\METADATA\XML_BACKUP\DIP\dip_cycles_co_pt.xml</srcused>
+				<date Sync="TRUE">20080820</date>
+				<time Sync="TRUE">08465900</time>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">D:\DIP_MN95\dip_cycles_co_pt.xml</srcused><date Sync="TRUE">20110708</date><time Sync="TRUE">13102800</time></procstep></lineage>
+	</dataqual>
+	<tpXTThemes><theme>Instruction publique</theme></tpXTThemes></metadata>

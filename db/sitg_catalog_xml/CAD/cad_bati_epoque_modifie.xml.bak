@@ -1,0 +1,328 @@
+<?xml version="1.0"?>
+<!--<!DOCTYPE metadata SYSTEM "http://www.esri.com/metadata/esriprof80.dtd">-->
+<metadata xml:lang="fr">
+<Esri>
+  <SyncOnce>FALSE</SyncOnce>
+  <ModDate>20091215</ModDate>
+  <ModTime>13155300</ModTime>
+
+  <DataProperties>
+    <XTinfo>
+      <esrtype>Table</esrtype>
+      <esrname>A.CAD_BATI_EPOQUE</esrname>
+    </XTinfo>
+  </DataProperties>
+
+  <SyncDate>20091215</SyncDate>
+  <SyncTime>13155300</SyncTime>
+  <CreaDate>20080820</CreaDate>
+  <CreaTime>09475500</CreaTime>
+  <MetaID>{D4843615-2780-4C65-A532-6C08C565975D}</MetaID>
+</Esri>
+
+<idinfo>
+  <native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.6.1500</native>
+  <descript>
+    <langdata Sync="TRUE">fr</langdata>
+    <abstract>REQUIS: DESCRIPTION DU DATASET</abstract>
+    <purpose>REQUIS: DESCRIPTION DU DATASET II</purpose>
+  </descript>
+  
+  <citation>
+    <citeinfo>
+      <origin>REQUIS: NOM DE L'ORGANISATION RESPONSABLE</origin>
+      <pubdate>REQUIS: DATE DE PUBLICATION</pubdate>
+      <title Sync="TRUE">A.CAD_BATI_EPOQUE</title>
+      <ftname Sync="TRUE">A.CAD_BATI_EPOQUE</ftname>
+      <geoform Sync="TRUE">tabular digital data</geoform>
+      <onlink Sync="TRUE">Server=consultation-sitg; Service=esri_sde; User=a; Version=SDE.DEFAULT</onlink>
+    </citeinfo>
+  </citation>
+  
+  <timeperd>
+    <current>REQUIS: DATE DE VALIDITE DE LA DONNEE</current>
+    <timeinfo>
+      <sngdate>
+        <caldate>REQUIS: ANNEE DE VALIDITE DE LA DONNEE</caldate>
+      </sngdate>
+    </timeinfo>
+  </timeperd>
+  
+  <status>
+    <progress>REQUIS: ETAT DE LA DONNEE</progress>
+    <update>REQUIS: FREQUENCE DE MAJ</update>
+  </status>
+  
+  <spdom>
+    <bounding>
+      <westbc Sync="TRUE">REQUIS: LIMITE DE COUVERTURE EN LATITUDE</westbc>
+      <eastbc Sync="TRUE">REQUIS: LIMITE DE COUVERTURE EN LATITUDE</eastbc>
+        <northbc Sync="TRUE">REQUIS: COORD LA PLUS AU NORD en laitude</northbc>
+        <southbc Sync="TRUE">REQUIS: COORD LA PLUS AU NORD en laitude</southbc>
+    </bounding>
+  </spdom>
+  
+  <keywords>
+    <theme>
+      <themekt>REQUIS: THEME</themekt>
+      <themekey>REQUIS: THEME CLE</themekey>
+    </theme>
+  </keywords>
+  
+  <accconst>REQUIS: RESTRICTIONS ET ASPECTS LEGAUX</accconst>
+  <useconst>REQUIS: RESTRICTIONS ET ASPECTS LEGAUX II</useconst>
+  <natvform Sync="TRUE">SDE Table</natvform>
+</idinfo>
+  
+<dataIdInfo>
+  <envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.6.1500</envirDesc>
+  <dataLang>
+    <languageCode Sync="FALSE" value="fr"></languageCode>
+  </dataLang>
+  <idCitation>
+    <resTitle>A.CAD_BATI_EPOQUE</resTitle>
+    <presForm>
+      <PresFormCd Sync="TRUE" value="011"></PresFormCd>
+    </presForm>
+    <resRefDate>
+      <refDate>20070402</refDate>
+      <refDateType>
+        <DateTypCd value="001" Sync="FALSE"></DateTypCd>
+      </refDateType>
+    </resRefDate>
+    
+    <citRespParty>
+      <rpXTBID>447c4793-c304-4c77-ab3f-f5a74a149323</rpXTBID>
+      <rpIndName>Guy Perruchoud</rpIndName>
+      <rpXTIndLastName>Perruchoud</rpXTIndLastName>
+      <rpXTIndFirstName>Guy</rpXTIndFirstName>
+      <rpOrgName>Service de la mensuration officielle</rpOrgName>
+      <rpXTOrgAcronym>SEMO</rpXTOrgAcronym>
+      <rpXTPartName>DIM - Département de l'intérieur et de la mobilité</rpXTPartName>
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>+4122 546 72 04</voiceNum>
+          <faxNum>+4122 546 72 24</faxNum>
+        </cntPhone>
+        <cntAddress>
+          <eMailAdd>guy.perruchoud@etat.ge.ch</eMailAdd>
+          <XTName>quai du Rhône</XTName>
+          <XTNumber>12</XTNumber>
+          <delPoint>quai du Rhône 12</delPoint>
+          <postCode>1211</postCode>
+          <XTpostBox>36</XTpostBox>
+          <city>Genève 8</city>
+          <country>ch</country>
+          <XTLine></XTLine>
+          <adminArea></adminArea>
+        </cntAddress>
+        <cntOnlineRes>
+          <linkage>http://www.ge.ch/semo</linkage>
+        </cntOnlineRes>
+        <cntHours></cntHours>
+        <cntInstr></cntInstr>
+      </rpCntInfo>
+      <rpPosName>Adjoint de direction</rpPosName>
+    </citRespParty>
+  </idCitation>
+    
+  <idAbs>Epoque de construction des bâtiments</idAbs>
+  <dataChar>
+    <CharSetCd value="004" Sync="FALSE"></CharSetCd>
+  </dataChar>
+  <idXTInfoLink>http://www.ge.ch/semo</idXTInfoLink>
+  <idXTLegalLink>http://www.sitg.ch/dico/legal/cadastre.htm</idXTLegalLink>
+  <resMaint>
+    <maintFreq>
+      <MaintFreqCd value="001" Sync="FALSE"></MaintFreqCd>
+    </maintFreq>
+    <maintScp>
+      <ScopeCd value="005" Sync="FALSE"></ScopeCd>
+    </maintScp>
+  </resMaint>
+    
+  <idStatus>
+    <ProgCd value="001" Sync="FALSE"></ProgCd>
+  </idStatus>
+  <resConst>
+    <Consts>
+      <useLimit>Extraction limitée à 400 hectares pour les tiers non partenaires du SITG</useLimit>
+    </Consts>
+  </resConst>
+  <tpCat>
+   <TopicCatCd value="015" Sync="FALSE"></TopicCatCd>
+  </tpCat>
+  <descKeys KeyTypCd="005" Sync="FALSE">
+    <keyword>administratif</keyword>
+    <keyTyp>
+      <keyTypCd value="005" Sync="FALSE"></keyTypCd>
+    </keyTyp>
+  </descKeys>
+</dataIdInfo>
+    
+<metainfo>
+  <langmeta Sync="TRUE">fr</langmeta>
+  <metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+  <metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+  <mettc Sync="TRUE">local time</mettc>
+  <metc>
+    <cntinfo>
+      <cntorgp>
+        <cntper>REQUIS: PERSONNE RESPONSABLE</cntper>
+        <cntorg>REQUIS: ORGANISATION RESPONSABLE</cntorg>
+      </cntorgp>
+      <cntaddr>
+        <addrtype>REQUIS: ADRESSE ORGANISATION</addrtype>
+        <city>REQUIS: VILLE</city>
+        <state>REQUIS: ETAT</state>
+        <postal>REQUIS: NPA</postal>
+      </cntaddr>
+      <cntvoice>REQUIS: TEL</cntvoice>
+    </cntinfo>
+  </metc>
+  <metd Sync="TRUE">20091215</metd>
+  <metextns>
+    <onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink>
+    <metprof Sync="TRUE">ESRI Metadata Profile</metprof>
+  </metextns>
+</metainfo>
+
+<mdLang>
+  <languageCode Sync="FALSE" value="fr"></languageCode>
+</mdLang>
+
+<mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+<mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+<mdChar>
+  <CharSetCd Sync="TRUE" value="004"></CharSetCd>
+</mdChar>
+
+<mdHrLv>
+  <ScopeCd Sync="TRUE" value="005"></ScopeCd>
+</mdHrLv>
+
+<mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+<distinfo>
+  <resdesc Sync="TRUE">Downloadable Data</resdesc>
+</distinfo>
+
+<distInfo>
+  <distributor>
+    <distorTran>
+      <onLineSrc>
+        <linkage>http://www.sitg.ch</linkage>
+        <protocol></protocol>
+        <linkOrderForm>http://etat.geneve.ch/geoportail/formsitg/</linkOrderForm>
+        <orFunct>
+          <OnFunctCd value="004" Sync="FALSE"></OnFunctCd>
+        </orFunct>
+        <orDesc></orDesc>
+      </onLineSrc>
+      <offLineMed>
+        <medName>
+          <MedNameCd value="001" Sync="FALSE"></MedNameCd>
+        </medName>
+      </offLineMed>
+      <transThirds value="True" Sync="FALSE"></transThirds>
+    </distorTran>
+    <distorCont>
+      <rpXTBID>61beb9aa-9f41-4c2f-8ab4-2765d23df7e1</rpXTBID>
+      <rpIndName>Pierre Lafontaine</rpIndName>
+      <rpXTIndLastName>Lafontaine</rpXTIndLastName>
+      <rpXTIndFirstName>Pierre</rpXTIndFirstName>
+      <rpOrgName>Service de l'organisation et des systèmes d'information</rpOrgName>
+      <rpXTOrgAcronym>SOSI</rpXTOrgAcronym>
+      <rpXTPartName>DIM - Département de l'intérieur et de la mobilité</rpXTPartName>
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>+4122 546 72 81</voiceNum>
+          <faxNum>+4122 546 72 70</faxNum>
+        </cntPhone>
+        <cntAddress>
+          <eMailAdd>pierre.lafontaine@etat.ge.ch</eMailAdd>
+          <XTName>rue des Gazomètres</XTName>
+          <XTNumber>7</XTNumber>
+          <delPoint>rue des Gazomètres 7</delPoint>
+          <postCode>1211</postCode>
+          <XTpostBox>36</XTpostBox>
+          <city>Genève 8</city>
+          <country>ch</country>
+          <XTLine></XTLine>
+          <adminArea></adminArea>
+        </cntAddress>
+        <cntOnlineRes>
+          <linkage>http://etat.geneve.ch/dt/geomatique/accueil.html</linkage>
+        </cntOnlineRes>
+        <cntHours></cntHours>
+        <cntInstr></cntInstr>
+      </rpCntInfo>
+      <rpPosName>Technicien en géomatique, resp. Métadonnées</rpPosName>
+    </distorCont>
+    
+    <distorFormat>
+      <formatName>Autre</formatName>
+      <formatVer>Sur demande</formatVer>
+    </distorFormat>
+  </distributor>
+</distInfo>
+
+<eainfo>
+  <detailed Name="A.CAD_BATI_EPOQUE">
+    <enttyp>
+      <enttypl Sync="TRUE">A.CAD_BATI_EPOQUE</enttypl>
+      <enttypt Sync="TRUE">Table</enttypt>
+      <enttypc Sync="TRUE">36284</enttypc>
+    </enttyp>
+    
+    <attr>
+      <attrlabl Sync="TRUE">OBJECTID</attrlabl>
+      <attalias Sync="TRUE">OBJECTID</attalias>
+      <attrtype Sync="TRUE">OID</attrtype>
+      <attwidth Sync="TRUE">4</attwidth>
+      <atprecis Sync="TRUE">10</atprecis>
+      <attscale Sync="TRUE">0</attscale>
+      <attrdef Sync="TRUE">Internal feature number.</attrdef>
+      <attrdefs Sync="TRUE">ESRI</attrdefs>
+      <attrdomv>
+        <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+      </attrdomv>
+    </attr>
+    <attr>
+      <attrlabl Sync="TRUE">NUMELE</attrlabl>
+      <attalias Sync="TRUE">NUMELE</attalias>
+      <attrtype Sync="TRUE">String</attrtype>
+      <attwidth Sync="TRUE">60</attwidth>
+      <atprecis Sync="TRUE">0</atprecis>
+      <attscale Sync="TRUE">0</attscale>
+      <atXTdesc>Concaténation [BATI] : [EPOQUE] Exemple: "1-101" : "2001-2005"</atXTdesc>
+    </attr>
+    <attr>
+      <attrlabl Sync="TRUE">BATI</attrlabl>
+      <attalias Sync="TRUE">BATI</attalias>
+      <attrtype Sync="TRUE">String</attrtype>
+      <attwidth Sync="TRUE">10</attwidth>
+      <atprecis Sync="TRUE">0</atprecis>
+      <attscale Sync="TRUE">0</attscale>
+      <atXTdesc>Concaténation [Commune]-[Bâtiment] Exemple: "1-101"</atXTdesc>
+    </attr>
+    <attr>
+      <attrlabl Sync="TRUE">EPOQUE</attrlabl>
+      <attalias Sync="TRUE">EPOQUE</attalias>
+      <attrtype Sync="TRUE">String</attrtype>
+      <attwidth Sync="TRUE">10</attwidth>
+      <atprecis Sync="TRUE">0</atprecis>
+      <attscale Sync="TRUE">0</attscale>
+      <atXTdesc>Epoque de construction Exemple: "2001-2005"</atXTdesc>
+    </attr>
+  </detailed>
+</eainfo>
+
+<mdDateSt Sync="TRUE">20091215</mdDateSt>
+<mdXTInfoLink>http://www.sitg.ch</mdXTInfoLink>
+<mdContact>
+  <rpXTBID>61beb9aa-9f41-4c2f-8ab4-2765d23df7e1</rpXTBID>
+  <rpIndName>Pierre Lafontaine</rpIndName>
+  <rpXTIndLastName>Lafontaine</rpXTIndLastName>
+  <rpXTIndFirstName>Pierre</rpXTIndFirstName>
+  <rpOrgName>Service de l'organisation et des systèmes d'information</rpOrgName>
+  <rpXTOrgAcronym>SOSI</rpXTOrgAcronym><rpXTPartName>DIM - Département de l'intérieur et de la mobilité</rpXTPartName><rpCntInfo><cntPhone><voiceNum>+4122 546 72 81</voiceNum><faxNum>+4122 546 72 70</faxNum></cntPhone><cntAddress><eMailAdd>pierre.lafontaine@etat.ge.ch</eMailAdd><XTName>rue des Gazomètres</XTName><XTNumber>7</XTNumber><delPoint>rue des Gazomètres 7</delPoint><postCode>1211</postCode><XTpostBox>36</XTpostBox><city>Genève 8</city><country>ch</country><XTLine></XTLine><adminArea></adminArea></cntAddress><cntOnlineRes><linkage>http://etat.geneve.ch/dt/geomatique/accueil.html</linkage></cntOnlineRes><cntHours></cntHours><cntInstr></cntInstr></rpCntInfo><rpPosName>Technicien en géomatique, resp. Métadonnées</rpPosName></mdContact><dataqual><lineage><procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">D:\Donnees\XML\Test_META_DONNEES\CAD_BATI_EPOQUE_OK.xml</srcused><date Sync="TRUE">20070402</date><time Sync="TRUE">11163600</time></procstep><procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">X:\SITG\METADATA\XML_BACKUP\CAD\cad_bati_epoque.xml</srcused><date Sync="TRUE">20080820</date><time Sync="TRUE">09475500</time></procstep></lineage></dataqual></metadata>

@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="fr">
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>REQUIRED: The name of an organization or individual that developed the data set.</origin>
+				<pubdate>REQUIRED: The date when the data set is published or otherwise made available for release.</pubdate>
+				<title Sync="TRUE">A.OCS_POP_ADRESSE</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<onlink Sync="TRUE">Server=CONSULTATION-SITG; Service=esri_sde; User=a; Version=SDE.DEFAULT</onlink>
+				<ftname Sync="TRUE">A.OCS_POP_ADRESSE</ftname>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>REQUIRED: A brief narrative summary of the data set.</abstract>
+			<purpose>REQUIRED: A summary of the intentions with which the data set was developed.</purpose>
+			<langdata Sync="TRUE">fr</langdata>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>REQUIRED: The year (and optionally month, or month and day) for which the data set corresponds to the ground.</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>REQUIRED: The basis on which the time period of content information is determined.</current>
+		</timeperd>
+		<status>
+			<progress>REQUIRED: The state of the data set.</progress>
+			<update>REQUIRED: The frequency with which changes and additions are made to the data set after the initial data set is completed.</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">5.960788</westbc>
+				<eastbc Sync="TRUE">6.312266</eastbc>
+				<northbc Sync="TRUE">46.365970</northbc>
+				<southbc Sync="TRUE">46.137114</southbc>
+			</bounding>
+			<lboundng>
+				<leftbc Sync="TRUE">2486211.470000</leftbc>
+				<rightbc Sync="TRUE">2512901.410000</rightbc>
+				<topbc Sync="TRUE">1135444.290000</topbc>
+				<bottombc Sync="TRUE">1110446.420000</bottombc>
+			</lboundng>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>REQUIRED: Reference to a formally registered thesaurus or a similar authoritative source of theme keywords.</themekt>
+				<themekey>REQUIRED: Common-use word or phrase used to describe the subject of the data set.</themekey>
+			</theme>
+		</keywords>
+		<accconst>REQUIRED: Restrictions and legal prerequisites for accessing the data set.</accconst>
+		<useconst>REQUIRED: Restrictions and legal prerequisites for using the data set after access is granted.</useconst>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 1; ESRI ArcCatalog 9.2.6.1500</native>
+		<natvform Sync="TRUE">Classe d'entités ArcSDE</natvform>
+	</idinfo>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="A.OCS_POP_ADRESSE">
+				<sdtstype Sync="TRUE">Entity point</sdtstype>
+				<ptvctcnt Sync="TRUE">39016</ptvctcnt>
+			</sdtsterm>
+			<esriterm Name="A.OCS_POP_ADRESSE">
+				<efeatyp Sync="TRUE">Simple</efeatyp>
+				<esritopo Sync="TRUE">FALSE</esritopo>
+				<linrefer Sync="TRUE">FALSE</linrefer>
+				<spindex Sync="TRUE">TRUE</spindex>
+				<efeageom Sync="TRUE">Point</efeageom>
+				<efeacnt Sync="TRUE">39016</efeacnt>
+			</esriterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<coordrep>
+						<absres Sync="TRUE">0.010000</absres>
+						<ordres Sync="TRUE">0.010000</ordres>
+					</coordrep>
+					<plandu Sync="TRUE">meters</plandu>
+				</planci>
+				<mapproj><mapprojn Sync="TRUE">Oblique Mercator</mapprojn><obqmerc><sfctrlin Sync="TRUE">1.000000</sfctrlin><obqlazim><azimangl Sync="TRUE">90.000000</azimangl><azimptl Sync="TRUE">7.439583</azimptl></obqlazim><latprjo Sync="TRUE">46.952406</latprjo><feast Sync="TRUE">2600000.000000</feast><fnorth Sync="TRUE">1200000.000000</fnorth></obqmerc></mapproj></planar>
+			<geodetic>
+				<horizdn Sync="TRUE">D_CH1903+</horizdn>
+				<ellips Sync="TRUE">Bessel_1841</ellips>
+				<semiaxis Sync="TRUE">6377397.155000</semiaxis>
+				<denflat Sync="TRUE">299.152813</denflat>
+			</geodetic>
+			<cordsysn>
+				<geogcsn Sync="TRUE">GCS_CH1903+</geogcsn>
+				<projcsn Sync="TRUE">CH1903+_LV95</projcsn>
+			</cordsysn>
+		</horizsys>
+		<vertdef>
+			<altsys>
+				<altres Sync="TRUE">1.000000</altres>
+				<altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc>
+			</altsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<detailed Name="A.OCS_POP_ADRESSE">
+			<enttyp>
+				<enttypl Sync="TRUE">A.OCS_POP_ADRESSE</enttypl>
+				<enttypc Sync="TRUE">39016</enttypc>
+				<enttypt Sync="TRUE">Feature Class</enttypt>
+			</enttyp>
+			<attr>
+				<attrlabl Sync="TRUE">NO_COM_FEDERAL</attrlabl>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attalias Sync="TRUE">NO_COM_FEDERAL</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atXTdesc>Numéro fédéral de commune</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">COMMUNE</attrlabl>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attalias Sync="TRUE">COMMUNE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">30</attwidth>
+				<atXTdesc>Nom de la commune</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ID_ADRESSE</attrlabl>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attalias Sync="TRUE">ID_ADRESSE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">12</attwidth>
+				<atXTdesc>Identifiant permanent de l'adresse</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">RUE</attrlabl>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attalias Sync="TRUE">RUE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">60</attwidth>
+				<atXTdesc>Nom de l'artère</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">DATE_REF</attrlabl>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attalias Sync="TRUE">DATE_REF</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">7</attwidth>
+				<atXTdesc>Date de référence de la statistique</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SHAPE</attrlabl>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attalias Sync="TRUE">SHAPE</attalias>
+				<attrtype Sync="TRUE">Geometry</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">4</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">CODE_VOIE</attrlabl>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attalias Sync="TRUE">CODE_VOIE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">5</attwidth>
+				<atXTdesc>Code de la voie</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NUMERO_ADRESSE</attrlabl>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attalias Sync="TRUE">NUMERO_ADRESSE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">6</attwidth>
+				<atXTdesc>Numéro municipal de l'adresse</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">OBJECTID</attrlabl>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attalias Sync="TRUE">OBJECTID</attalias>
+				<attrtype Sync="TRUE">OID</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">4</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POPULATION</attrlabl>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attalias Sync="TRUE">POPULATION</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atXTdesc>Total de la population résidente en fin d'année</atXTdesc>
+			</attr>
+		</detailed>
+	</eainfo>
+	<distinfo>
+		<resdesc Sync="TRUE">Downloadable Data</resdesc>
+	</distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20120404</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>REQUIRED: The organization responsible for the metadata information.</cntorg>
+					<cntper>REQUIRED: The person responsible for the metadata information.</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>REQUIRED: The mailing and/or physical address for the organization or individual.</addrtype>
+					<city>REQUIRED: The city of the address.</city>
+					<state>REQUIRED: The state or province of the address.</state>
+					<postal>REQUIRED: The ZIP or other postal code of the address.</postal>
+				</cntaddr>
+				<cntvoice>REQUIRED: The telephone number by which individuals can speak to the organization or individual.</cntvoice>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<langmeta Sync="TRUE">fr</langmeta>
+		<metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<dataIdInfo>
+		<envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.6.1500</envirDesc>
+		<dataLang>
+			<languageCode Sync="FALSE" value="fr">
+			</languageCode>
+		</dataLang>
+		<descKeys KeyTypCd="005" Sync="FALSE">
+			<keyword>administratif</keyword>
+			<keyTyp>
+				<keyTypCd value="005" Sync="FALSE">
+				</keyTypCd>
+			</keyTyp>
+		</descKeys>
+		<geoBox esriExtentType="decdegrees">
+			<westBL Sync="TRUE">5.960788</westBL>
+			<eastBL Sync="TRUE">6.312266</eastBL>
+			<northBL Sync="TRUE">46.36597</northBL>
+			<southBL Sync="TRUE">46.137114</southBL>
+			<exTypeCode Sync="TRUE">1</exTypeCode>
+		</geoBox>
+		<idAbs>La statistique cantonale de la population résidante reflète la situation par trimestre pour l'année en cours. Depuis le 1er janvier 1989, cette statistique est fondée sur la base de données des habitants, que gère l’Office cantonal de la population (OCP).
+
+Population résidante
+Parmi les personnes figurant dans la base de l’OCP, toutes ne sont prises en compte dans la statistique. Sont notamment exclues les personnes momentanément absentes du canton, ainsi que les personnes au bénéfice d’une autorisation de séjour ou d’établissement professionnel.
+
+Source : OCSTAT / OCP</idAbs>
+		<idCitation>
+			<resTitle>STATISTIQUE CANTONALE DE LA POPULATION (Information à l'adresse)</resTitle>
+			<presForm>
+				<PresFormCd Sync="TRUE" value="005">
+				</PresFormCd>
+			</presForm>
+			<resRefDate>
+				<refDate>20080630</refDate>
+				<refDateType>
+					<DateTypCd value="001" Sync="FALSE">
+					</DateTypCd>
+				</refDateType>
+			</resRefDate>
+			<citRespParty>
+				<rpXTBID>cbe9406d-5feb-4093-bec8-c9272a1611af</rpXTBID>
+				<rpCntInfo>
+					<cntPhone>
+						<voiceNum>+4122 388 75 22</voiceNum>
+						<faxNum>+4122 388 75 10</faxNum>
+					</cntPhone>
+					<cntAddress>
+						<eMailAdd>jose.juan@etat.ge.ch</eMailAdd>
+						<delPoint>route des Acacias 82</delPoint>
+						<postCode>1211</postCode>
+						<XTLine>
+						</XTLine>
+						<XTName>route des Acacias</XTName>
+						<XTNumber>82</XTNumber>
+						<XTpostBox>1735</XTpostBox>
+						<city>Genève 26</city>
+						<country>ch</country>
+						<adminArea>
+						</adminArea>
+					</cntAddress>
+					<cntOnlineRes>
+						<linkage>http://etat.geneve.ch/des/site/</linkage>
+					</cntOnlineRes>
+					<cntHours>
+					</cntHours>
+					<cntInstr>
+					</cntInstr>
+				</rpCntInfo>
+				<rpIndName>José Juan</rpIndName>
+				<rpOrgName>Office cantonal de la statistique</rpOrgName>
+				<rpPosName>-</rpPosName>
+				<rpXTIndFirstName>José</rpXTIndFirstName>
+				<rpXTIndLastName>Juan</rpXTIndLastName>
+				<rpXTOrgAcronym>OCSTAT</rpXTOrgAcronym>
+				<rpXTPartName>DF - Département des finances</rpXTPartName>
+			</citRespParty>
+			<resXTUpdateFicheDate><refDate>20120404</refDate><refDateType><DateTypCd value="001" Sync="FALSE"></DateTypCd></refDateType></resXTUpdateFicheDate></idCitation>
+		<idStatus>
+			<ProgCd value="001" Sync="FALSE">
+			</ProgCd>
+			<descXT>Accompli</descXT></idStatus>
+		<idXTInfoLink>http://www.geneve.ch/statistique/</idXTInfoLink>
+		<idXTLegalLink>http://etat.geneve.ch/geoportail/metadataws/Publish/legal/ocstat.htm</idXTLegalLink>
+		<lnkObjects>
+			<lnkObject>
+				<lnkBID>7ca936ad-696b-46e7-a16f-9c841be73d37</lnkBID>
+				<lnkType>Image</lnkType>
+				<lnkLink>http://etat.geneve.ch/geoportail/metadataws/Publish/images/A.OCS_STATISTIQUE_ADRESSE.gif</lnkLink>
+			</lnkObject>
+			<lnkObject><lnkBID>414a7e2a-da7b-4438-bdf2-a17137aa5fd1</lnkBID><lnkType>Autre</lnkType><lnkNote>Conditions de diffusion des données statistiques</lnkNote><lnkLink>http://www.ge.ch/statistique/tel/questionnaires/donnees_adresse.pdf</lnkLink></lnkObject></lnkObjects>
+		<resMaint>
+			<maintFreq>
+				<MaintFreqCd value="006" Sync="FALSE">
+				</MaintFreqCd>
+				<descXT>Trimestriel</descXT></maintFreq>
+			<maintScp>
+				<ScopeCd value="005" Sync="FALSE">
+				</ScopeCd>
+			</maintScp>
+		</resMaint>
+		<spatRpType>
+			<SpatRepTypCd Sync="TRUE" value="001">
+			</SpatRepTypCd>
+		</spatRpType>
+		<dataExt>
+			<geoEle>
+				<GeoBndBox esriExtentType="native">
+					<westBL Sync="TRUE">2486211.47</westBL>
+					<northBL Sync="TRUE">1135444.29</northBL>
+					<southBL Sync="TRUE">1110446.42</southBL>
+					<XTdesc>Cadre de référence MN95</XTdesc>
+					<eastBL Sync="TRUE">2512901.41</eastBL>
+					<exTypeCode Sync="TRUE">1</exTypeCode>
+				</GeoBndBox>
+			</geoEle>
+		</dataExt>
+		<dataChar>
+			<CharSetCd value="004" Sync="FALSE">
+			</CharSetCd>
+		</dataChar>
+		<tpCat><TopicCatCd value="016" Sync="FALSE"></TopicCatCd><descXT>Culture, société et démographie</descXT></tpCat></dataIdInfo>
+	<distInfo>
+		<distributor>
+			<distorTran>
+				<onLineSrc>
+					<orFunct>
+						<OnFunctCd value="004" Sync="FALSE">
+						</OnFunctCd>
+					</orFunct>
+					<protocol></protocol>
+					<linkage>http://www.sitg.ch</linkage>
+					<linkOrderForm>http://etat.geneve.ch/geoportail/formsitg/</linkOrderForm>
+					<orDesc></orDesc></onLineSrc>
+				<offLineMed>
+					<medName>
+						<MedNameCd value="001" Sync="FALSE">
+						</MedNameCd>
+					</medName>
+				</offLineMed>
+				<transThirds value="False" Sync="FALSE">
+				</transThirds>
+			</distorTran>
+			<distorCont>
+				<rpXTBID>61beb9aa-9f41-4c2f-8ab4-2765d23df7e1</rpXTBID>
+				<rpIndName>Pierre Lafontaine</rpIndName>
+				<rpXTIndLastName>Lafontaine</rpXTIndLastName>
+				<rpXTIndFirstName>Pierre</rpXTIndFirstName>
+				<rpOrgName>Service de l'organisation et des systèmes d'information</rpOrgName>
+				<rpXTOrgAcronym>SOSI</rpXTOrgAcronym>
+				<rpXTPartName>DIM - Département de l'intérieur et de la mobilité</rpXTPartName>
+				<rpCntInfo>
+					<cntPhone>
+						<voiceNum>+4122 546 72 81</voiceNum>
+						<faxNum>+4122 546 72 70</faxNum>
+					</cntPhone>
+					<cntAddress>
+						<eMailAdd>pierre.lafontaine@etat.ge.ch</eMailAdd>
+						<delPoint>rue des Gazomètres 7</delPoint>
+						<postCode>1211</postCode>
+						<XTLine>
+						</XTLine>
+						<XTName>rue des Gazomètres</XTName>
+						<XTNumber>7</XTNumber>
+						<XTpostBox>36</XTpostBox>
+						<city>Genève 8</city>
+						<country>ch</country>
+						<adminArea>
+						</adminArea>
+					</cntAddress>
+					<cntOnlineRes>
+						<linkage>http://etat.geneve.ch/dt/geomatique/accueil.html</linkage>
+					</cntOnlineRes>
+					<cntHours>
+					</cntHours>
+					<cntInstr>
+					</cntInstr>
+				</rpCntInfo>
+				<rpPosName>Technicien en géomatique, resp. Métadonnées</rpPosName>
+			</distorCont>
+			<distorFormat><formatName>Dwg/dxf, Géodatabase personnelle, Mif/mid, Shape file</formatName><formatVer>Sur demande</formatVer></distorFormat></distributor>
+	</distInfo>
+	<dqInfo>
+		<dqXTEdit>
+			<edtMethod>Intégration fichier ASCII</edtMethod>
+			<edtFiability value="True" Sync="FALSE">
+			</edtFiability>
+			<edtPrecision>Entre 1 et 2 mètres (précision de l'adresse)</edtPrecision>
+			<edtScale>250</edtScale>
+		</dqXTEdit>
+		<dqXTDisplay>
+			<dspScale>500 à 25000</dspScale>
+		</dqXTDisplay>
+	</dqInfo>
+	<Esri>
+		<ModDate>20120404</ModDate>
+		<ModTime>13421700</ModTime>
+		<SyncDate>20120404</SyncDate>
+		<SyncOnce>FALSE</SyncOnce>
+		<SyncTime>13421700</SyncTime>
+		<CreaDate>20110725</CreaDate>
+		<CreaTime>14000300</CreaTime>
+		<DataProperties>
+			<XTinfo>
+				<esrtype>Feature Class</esrtype>
+				<esrfctype>1</esrfctype>
+				<esralias>A.OCS_POP_ADRESSE</esralias>
+				<esrname>A.OCS_POP_ADRESSE</esrname>
+			</XTinfo>
+		</DataProperties>
+		<MetaID>{9BC5040B-AF27-419B-AD77-F1FC2787CA82}</MetaID></Esri>
+	<mdChar>
+		<CharSetCd Sync="TRUE" value="004">
+		</CharSetCd>
+	</mdChar>
+	<mdContact>
+		<rpXTBID>61beb9aa-9f41-4c2f-8ab4-2765d23df7e1</rpXTBID>
+		<rpIndName>Pierre Lafontaine</rpIndName>
+		<rpXTIndLastName>Lafontaine</rpXTIndLastName>
+		<rpXTIndFirstName>Pierre</rpXTIndFirstName>
+		<rpOrgName>Service de l'organisation et des systèmes d'information</rpOrgName>
+		<rpXTOrgAcronym>SOSI</rpXTOrgAcronym>
+		<rpXTPartName>DIM - Département de l'intérieur et de la mobilité</rpXTPartName>
+		<rpCntInfo>
+			<cntPhone>
+				<voiceNum>+4122 546 72 81</voiceNum>
+				<faxNum>+4122 546 72 70</faxNum>
+			</cntPhone>
+			<cntAddress>
+				<eMailAdd>pierre.lafontaine@etat.ge.ch</eMailAdd>
+				<delPoint>rue des Gazomètres 7</delPoint>
+				<postCode>1211</postCode>
+				<XTLine>
+				</XTLine>
+				<XTName>rue des Gazomètres</XTName>
+				<XTNumber>7</XTNumber>
+				<XTpostBox>36</XTpostBox>
+				<city>Genève 8</city>
+				<country>ch</country>
+				<adminArea>
+				</adminArea>
+			</cntAddress>
+			<cntOnlineRes>
+				<linkage>http://etat.geneve.ch/dt/geomatique/accueil.html</linkage>
+			</cntOnlineRes>
+			<cntHours>
+			</cntHours>
+			<cntInstr>
+			</cntInstr>
+		</rpCntInfo>
+		<rpPosName>Technicien en géomatique, resp. Métadonnées</rpPosName>
+	</mdContact>
+	<mdDateSt Sync="TRUE">20110725</mdDateSt>
+	<mdHrLv>
+		<ScopeCd Sync="TRUE" value="005">
+		</ScopeCd>
+	</mdHrLv>
+	<mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+	<mdLang>
+		<languageCode Sync="FALSE" value="fr">
+		</languageCode>
+	</mdLang>
+	<mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+	<mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+	<mdXTInfoLink>http://www.sitg.ch</mdXTInfoLink>
+	<refSysInfo>
+		<RefSystem>
+			<refSysID>
+				<identCode>CH1903+_LV95</identCode>
+			</refSysID>
+		</RefSystem>
+	</refSysInfo>
+	<spatRepInfo>
+		<VectSpatRep>
+			<topLvl>
+				<TopoLevCd Sync="TRUE" value="001">
+				</TopoLevCd>
+			</topLvl>
+			<geometObjs Name="A.OCS_POP_ADRESSE"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="004"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">38967</geoObjCnt></geometObjs></VectSpatRep>
+	</spatRepInfo>
+	<dataqual>
+		<lineage>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">C:\DOCUME~1\terrond\LOCALS~1\Temp\xml76.tmp</srcused>
+				<date Sync="TRUE">20070712</date>
+				<time Sync="TRUE">13504000</time>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">Y:\SITG\METADATA\XML_BACKUP\OCS\ocs_pop_adresse.xml</srcused>
+				<date Sync="TRUE">20071113</date>
+				<time Sync="TRUE">07563300</time>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">X:\SITG\METADATA\XML_BACKUP\OCS\ocs_pop_adresse.xml</srcused>
+				<date Sync="TRUE">20080819</date>
+				<time Sync="TRUE">12593700</time>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">D:\OCS_MN95\ocs_pop_adresse.xml</srcused><date Sync="TRUE">20110725</date><time Sync="TRUE">14000300</time></procstep></lineage>
+	</dataqual>
+	<tpXTThemes><theme>Finances</theme></tpXTThemes></metadata>

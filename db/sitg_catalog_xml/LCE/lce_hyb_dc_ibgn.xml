@@ -1,0 +1,550 @@
+<?xml version="1.0"?>
+<!--<!DOCTYPE metadata SYSTEM "http://www.esri.com/metadata/esriprof80.dtd">-->
+<metadata xml:lang="fr">
+	<Esri>
+		<CreaDate>20110722</CreaDate>
+		<CreaTime>10324700</CreaTime>
+		<SyncOnce>FALSE</SyncOnce>
+		<DataProperties>
+			<XTinfo>
+				<esrtype>Feature Class</esrtype>
+				<esrfctype>1</esrfctype>
+				<esralias>A.LCE_HYB_DC_IBGN</esralias>
+				<esrname>A.LCE_HYB_DC_IBGN</esrname>
+			</XTinfo>
+		</DataProperties>
+		<SyncDate>20120704</SyncDate>
+		<SyncTime>13083100</SyncTime>
+		<ModDate>20120704</ModDate>
+		<ModTime>13083100</ModTime>
+		<MetaID>{E922E74E-0F13-4591-AC64-D5A0361735E7}</MetaID></Esri>
+	<idinfo>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 1; ESRI ArcCatalog 9.2.6.1500</native>
+		<descript>
+			<langdata Sync="TRUE">fr</langdata>
+			<abstract>REQUIRED: A brief narrative summary of the data set.</abstract>
+			<purpose>REQUIRED: A summary of the intentions with which the data set was developed.</purpose>
+		</descript>
+		<citation>
+			<citeinfo>
+				<origin>REQUIRED: The name of an organization or individual that developed the data set.</origin>
+				<pubdate>REQUIRED: The date when the data set is published or otherwise made available for release.</pubdate>
+				<title Sync="TRUE">A.LCE_HYB_DC_IBGN</title>
+				<ftname Sync="TRUE">A.LCE_HYB_DC_IBGN</ftname>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<onlink Sync="TRUE">Server=CONSULTATION-SITG; Service=esri_sde; User=a; Version=SDE.DEFAULT</onlink>
+			</citeinfo>
+		</citation>
+		<timeperd>
+			<current>REQUIRED: The basis on which the time period of content information is determined.</current>
+			<timeinfo>
+				<sngdate>
+					<caldate>REQUIRED: The year (and optionally month, or month and day) for which the data set corresponds to the ground.</caldate>
+				</sngdate>
+			</timeinfo>
+		</timeperd>
+		<status>
+			<progress>REQUIRED: The state of the data set.</progress>
+			<update>REQUIRED: The frequency with which changes and additions are made to the data set after the initial data set is completed.</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">5.950614</westbc>
+				<eastbc Sync="TRUE">6.277729</eastbc>
+				<northbc Sync="TRUE">46.363597</northbc>
+				<southbc Sync="TRUE">46.095639</southbc>
+			</bounding>
+			<lboundng>
+				<leftbc Sync="TRUE">2485424.230000</leftbc>
+				<rightbc Sync="TRUE">2510164.530000</rightbc>
+				<bottombc Sync="TRUE">1105850.370000</bottombc>
+				<topbc Sync="TRUE">1135220.640000</topbc>
+			</lboundng>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>REQUIRED: Reference to a formally registered thesaurus or a similar authoritative source of theme keywords.</themekt>
+				<themekey>REQUIRED: Common-use word or phrase used to describe the subject of the data set.</themekey>
+			</theme>
+		</keywords>
+		<accconst>REQUIRED: Restrictions and legal prerequisites for accessing the data set.</accconst>
+		<useconst>REQUIRED: Restrictions and legal prerequisites for using the data set after access is granted.</useconst>
+		<natvform Sync="TRUE">Classe d'entités ArcSDE</natvform>
+	</idinfo>
+	<dataIdInfo>
+		<envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.6.1500</envirDesc>
+		<dataLang>
+			<languageCode Sync="FALSE" value="fr">
+			</languageCode>
+		</dataLang>
+		<idCitation>
+			<resTitle>QUALITE DES EAUX - MACROFAUNE BENTHIQUE - DERNIERE CAMPAGNE</resTitle>
+			<presForm>
+				<PresFormCd Sync="TRUE" value="005">
+				</PresFormCd>
+			</presForm>
+			<resRefDate>
+				<refDate>20070522</refDate>
+				<refDateType>
+					<DateTypCd value="001" Sync="FALSE">
+					</DateTypCd>
+				</refDateType>
+			</resRefDate>
+			<citRespParty>
+				<rpXTBID>77dc689a-fb33-4067-a8f4-55b135d3daad</rpXTBID>
+				<rpIndName>Arielle Cordonier</rpIndName>
+				<rpXTIndLastName>Cordonier</rpXTIndLastName>
+				<rpXTIndFirstName>Arielle</rpXTIndFirstName>
+				<rpOrgName>Direction générale de l'eau</rpOrgName>
+				<rpXTOrgAcronym>DGEau</rpXTOrgAcronym>
+				<rpXTPartName>DIME - Département de l'intérieur, de la mobilité et de l'environnement</rpXTPartName>
+				<rpCntInfo>
+					<cntPhone>
+						<voiceNum>+4122 388 80 65</voiceNum>
+						<faxNum>+4122 388 80 09</faxNum>
+					</cntPhone>
+					<cntAddress>
+						<eMailAdd>arielle.cordonier@etat.ge.ch</eMailAdd>
+						<XTName>avenue Sainte-Clotilde</XTName>
+						<XTNumber>23</XTNumber>
+						<XTLine></XTLine>
+						<delPoint>avenue Sainte-Clotilde 23</delPoint>
+						<XTpostBox>78</XTpostBox>
+						<postCode>1211</postCode>
+						<city>Genève 8</city>
+						<adminArea></adminArea>
+						<country>ch</country>
+					</cntAddress>
+					<cntOnlineRes>
+						<linkage>http://etat.geneve.ch/dt/eau/accueil.html</linkage>
+					</cntOnlineRes>
+					<cntHours></cntHours>
+					<cntInstr></cntInstr>
+				</rpCntInfo>
+				<rpPosName>Biologiste</rpPosName>
+			</citRespParty>
+			<resXTUpdateFicheDate><refDate>20110722</refDate><refDateType><DateTypCd value="001" Sync="FALSE"></DateTypCd></refDateType></resXTUpdateFicheDate></idCitation>
+		<spatRpType>
+			<SpatRepTypCd Sync="TRUE" value="001">
+			</SpatRepTypCd>
+		</spatRpType>
+		<dataExt>
+			<geoEle>
+				<GeoBndBox esriExtentType="native">
+					<westBL Sync="TRUE">2485424.23</westBL>
+					<eastBL Sync="TRUE">2510164.53</eastBL>
+					<northBL Sync="TRUE">1135220.64</northBL>
+					<southBL Sync="TRUE">1105850.37</southBL>
+					<exTypeCode Sync="TRUE">1</exTypeCode>
+					<XTdesc>Cadre de référence MN95</XTdesc>
+				</GeoBndBox>
+			</geoEle>
+		</dataExt>
+		<geoBox esriExtentType="decdegrees">
+			<westBL Sync="TRUE">5.950614</westBL>
+			<eastBL Sync="TRUE">6.277729</eastBL>
+			<northBL Sync="TRUE">46.363597</northBL>
+			<southBL Sync="TRUE">46.095639</southBL>
+			<exTypeCode Sync="TRUE">1</exTypeCode>
+		</geoBox>
+		<idAbs>L'ensemble des larves d'insectes, des vers, des mollusques et des petits crustacés peuplant le fond de nos rivières forme la macrofaune benthique. Elle est récoltée à l'aide d'un filet, dans chaque station, 4 fois par année. La méthode utilisée pour déterminer la qualité de l'eau est l'Indice Biologique Global Normalisé (IBGN). Suivant le degré de sensibilité à la pollution des petits animaux récoltés et la diversité du peuplement, une note de 1 à 20 est attribuée à chaque station. L'objectif de qualité biologique des rivières fixé par le canton de Genève est, au minimum, la note 12.
+
+Cette couche représente les mesures lors des dernières campagnes sur les différentes stations.</idAbs>
+		<idXTInfoLink>http://etat.geneve.ch/dt/site/eau/master-home.jsp</idXTInfoLink>
+		<dataChar>
+			<CharSetCd value="004" Sync="FALSE">
+			</CharSetCd>
+		</dataChar>
+		<resMaint>
+			<maintFreq>
+				<MaintFreqCd value="009" Sync="FALSE">
+				</MaintFreqCd>
+				<descXT>Quand nécessaire</descXT></maintFreq>
+			<maintScp>
+				<ScopeCd value="005" Sync="FALSE">
+				</ScopeCd>
+			</maintScp>
+		</resMaint>
+		<idStatus>
+			<ProgCd value="001" Sync="FALSE">
+			</ProgCd>
+			<descXT>Accompli</descXT></idStatus>
+		<descKeys KeyTypCd="005" Sync="FALSE">
+			<keyword>administratif</keyword>
+			<keyword>eau</keyword>
+			<keyTyp>
+				<keyTypCd value="005" Sync="FALSE">
+				</keyTypCd>
+			</keyTyp>
+		</descKeys>
+		<idPurp>La macrofaune intègre sur plusieurs mois la qualité physico-chimique globale de l'eau, la diversité des microhabitats et le régime hydrologique. 
+
+Les classe de qualité sont attribuées comme suit, selon les notes déterminées:
+
+-Très bonne: 15 - 20
+- Bonne: 12 - 14.9
+- Médicore: 8 - 11.9
+- Mauvaise: 4 - 7.9
+- Très mauvaise: 1 - 3.9</idPurp>
+		<lnkObjects>
+			<lnkObject>
+				<lnkBID>b61c03e8-c1a3-45f0-9d81-4306be95f077</lnkBID>
+				<lnkType>Image</lnkType>
+				<lnkLink>http://etat.geneve.ch/geoportail/metadataws/Publish/images/A.LCE_HYB_DC_IBGN.gif</lnkLink>
+			</lnkObject>
+		</lnkObjects>
+		<tpCat><TopicCatCd value="002" Sync="FALSE"></TopicCatCd><descXT>Biologie et écologie</descXT></tpCat><tpCat><TopicCatCd value="007" Sync="FALSE"></TopicCatCd><descXT>Environnement et conservation</descXT></tpCat><tpCat><TopicCatCd value="012" Sync="FALSE"></TopicCatCd><descXT>Ressources en eaux continentales</descXT></tpCat></dataIdInfo>
+	<metainfo>
+		<langmeta Sync="TRUE">fr</langmeta>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntper>REQUIRED: The person responsible for the metadata information.</cntper>
+					<cntorg>REQUIRED: The organization responsible for the metadata information.</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>REQUIRED: The mailing and/or physical address for the organization or individual.</addrtype>
+					<city>REQUIRED: The city of the address.</city>
+					<state>REQUIRED: The state or province of the address.</state>
+					<postal>REQUIRED: The ZIP or other postal code of the address.</postal>
+				</cntaddr>
+				<cntvoice>REQUIRED: The telephone number by which individuals can speak to the organization or individual.</cntvoice>
+			</cntinfo>
+		</metc>
+		<metd Sync="TRUE">20120704</metd>
+		<metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<mdLang>
+		<languageCode Sync="FALSE" value="fr">
+		</languageCode>
+	</mdLang>
+	<mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+	<mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+	<mdChar>
+		<CharSetCd Sync="TRUE" value="004">
+		</CharSetCd>
+	</mdChar>
+	<mdHrLv>
+		<ScopeCd Sync="TRUE" value="005">
+		</ScopeCd>
+	</mdHrLv>
+	<mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+	<distinfo>
+		<resdesc Sync="TRUE">Downloadable Data</resdesc>
+	</distinfo>
+	<distInfo>
+		<distributor>
+			<distorTran>
+				<onLineSrc>
+					<linkage>http://www.sitg.ch</linkage>
+					<protocol></protocol>
+					<linkOrderForm>http://etat.geneve.ch/geoportail/formsitg/</linkOrderForm>
+					<orFunct>
+						<OnFunctCd value="004" Sync="FALSE">
+						</OnFunctCd>
+					</orFunct>
+					<orDesc></orDesc></onLineSrc>
+				<offLineMed>
+					<medName>
+						<MedNameCd value="001" Sync="FALSE">
+						</MedNameCd>
+					</medName>
+				</offLineMed>
+				<transThirds value="True" Sync="FALSE">
+				</transThirds>
+			</distorTran>
+			<distorCont>
+				<rpXTBID>61beb9aa-9f41-4c2f-8ab4-2765d23df7e1</rpXTBID>
+				<rpIndName>Pierre Lafontaine</rpIndName>
+				<rpXTIndLastName>Lafontaine</rpXTIndLastName>
+				<rpXTIndFirstName>Pierre</rpXTIndFirstName>
+				<rpOrgName>Service des systèmes d'information et de géomatique</rpOrgName>
+				<rpXTOrgAcronym>SSIG</rpXTOrgAcronym>
+				<rpXTPartName>DIME - Département de l'intérieur, de la mobilité et de l'environnement</rpXTPartName>
+				<rpCntInfo>
+					<cntPhone>
+						<voiceNum>+4122 546 72 81</voiceNum>
+						<faxNum>+4122 546 72 70</faxNum>
+					</cntPhone>
+					<cntAddress>
+						<eMailAdd>pierre.lafontaine@etat.ge.ch</eMailAdd>
+						<XTName>rue des Gazomètres</XTName>
+						<XTNumber>7</XTNumber>
+						<delPoint>rue des Gazomètres 7</delPoint>
+						<postCode>1211</postCode>
+						<XTpostBox>36</XTpostBox>
+						<city>Genève 8</city>
+						<country>ch</country>
+						<XTLine></XTLine>
+						<adminArea></adminArea>
+					</cntAddress>
+					<cntOnlineRes>
+						<linkage>http://etat.geneve.ch/dt/geomatique/accueil.html</linkage>
+					</cntOnlineRes>
+					<cntHours></cntHours>
+					<cntInstr></cntInstr>
+				</rpCntInfo>
+				<rpPosName>Technicien en géomatique, resp. Métadonnées</rpPosName>
+			</distorCont>
+			<distorFormat><formatName>Dwg/dxf, Géodatabase personnelle, Mif/mid, Shape file</formatName><formatVer>Sur demande</formatVer></distorFormat></distributor>
+	</distInfo>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<esriterm Name="A.LCE_HYB_DC_IBGN">
+				<efeatyp Sync="TRUE">Simple</efeatyp>
+				<efeageom Sync="TRUE">Point</efeageom>
+				<esritopo Sync="TRUE">FALSE</esritopo>
+				<efeacnt Sync="TRUE">130</efeacnt>
+				<spindex Sync="TRUE">TRUE</spindex>
+				<linrefer Sync="TRUE">FALSE</linrefer>
+			</esriterm>
+			<sdtsterm Name="A.LCE_HYB_DC_IBGN">
+				<sdtstype Sync="TRUE">Entity point</sdtstype>
+				<ptvctcnt Sync="TRUE">130</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<cordsysn>
+				<geogcsn Sync="TRUE">GCS_CH1903+</geogcsn>
+				<projcsn Sync="TRUE">CH1903+_LV95</projcsn>
+			</cordsysn>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<plandu Sync="TRUE">meters</plandu>
+					<coordrep>
+						<absres Sync="TRUE">0.010000</absres>
+						<ordres Sync="TRUE">0.010000</ordres>
+					</coordrep>
+				</planci>
+				<mapproj><mapprojn Sync="TRUE">Oblique Mercator</mapprojn><obqmerc><sfctrlin Sync="TRUE">1.000000</sfctrlin><obqlazim><azimangl Sync="TRUE">90.000000</azimangl><azimptl Sync="TRUE">7.439583</azimptl></obqlazim><latprjo Sync="TRUE">46.952406</latprjo><feast Sync="TRUE">2600000.000000</feast><fnorth Sync="TRUE">1200000.000000</fnorth></obqmerc></mapproj></planar>
+			<geodetic>
+				<horizdn Sync="TRUE">D_CH1903+</horizdn>
+				<ellips Sync="TRUE">Bessel_1841</ellips>
+				<semiaxis Sync="TRUE">6377397.155000</semiaxis>
+				<denflat Sync="TRUE">299.152813</denflat>
+			</geodetic>
+		</horizsys>
+		<vertdef>
+			<altsys>
+				<altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc>
+				<altres Sync="TRUE">1.000000</altres>
+			</altsys>
+		</vertdef>
+	</spref>
+	<refSysInfo>
+		<RefSystem>
+			<refSysID>
+				<identCode>CH1903+_LV95</identCode>
+			</refSysID>
+		</RefSystem>
+	</refSysInfo>
+	<spatRepInfo>
+		<VectSpatRep>
+			<topLvl>
+				<TopoLevCd Sync="TRUE" value="001">
+				</TopoLevCd>
+			</topLvl>
+			<geometObjs Name="A.LCE_HYB_DC_IBGN"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="004"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">120</geoObjCnt></geometObjs></VectSpatRep>
+	</spatRepInfo>
+	<eainfo>
+		<detailed Name="A.LCE_HYB_DC_IBGN">
+			<attr>
+				<attrlabl Sync="TRUE">CODEMESURE</attrlabl>
+				<attalias Sync="TRUE">CODEMESURE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">15</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NOM_STATION</attrlabl>
+				<attalias Sync="TRUE">NOM_STATION</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SHAPE</attrlabl>
+				<attalias Sync="TRUE">SHAPE</attalias>
+				<attrtype Sync="TRUE">Geometry</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">COURS_EAU</attrlabl>
+				<attalias Sync="TRUE">COURS_EAU</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">100</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">OBJECTID</attrlabl>
+				<attalias Sync="TRUE">OBJECTID</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ANNEE_DC_IBGN</attrlabl>
+				<attalias Sync="TRUE">ANNEE_DC_IBGN</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<enttyp>
+				<enttypl Sync="TRUE">A.LCE_HYB_DC_IBGN</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt>
+				<enttypc Sync="TRUE">130</enttypc>
+			</enttyp>
+			<attr>
+				<attrlabl Sync="TRUE">NB_VALEUR</attrlabl>
+				<attalias Sync="TRUE">NB_VALEUR</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">TAXON_SOMME</attrlabl>
+				<attalias Sync="TRUE">TAXON_SOMME</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">IBGN_MOYENNE</attrlabl>
+				<attalias Sync="TRUE">IBGN_MOYENNE</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<atprecis Sync="TRUE">38</atprecis>
+				<attscale Sync="TRUE">8</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">CLASSE_IBGN</attrlabl>
+				<attalias Sync="TRUE">CLASSE_IBGN</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">DISPLY_FIELD</attrlabl>
+				<attalias Sync="TRUE">DISPLY_FIELD</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+		</detailed>
+	</eainfo>
+	<mdDateSt Sync="TRUE">20110722</mdDateSt>
+	<mdXTInfoLink>http://www.sitg.ch</mdXTInfoLink>
+	<mdContact>
+		<rpXTBID>61beb9aa-9f41-4c2f-8ab4-2765d23df7e1</rpXTBID>
+		<rpIndName>Pierre Lafontaine</rpIndName>
+		<rpXTIndLastName>Lafontaine</rpXTIndLastName>
+		<rpXTIndFirstName>Pierre</rpXTIndFirstName>
+		<rpOrgName>Service des systèmes d'information et de géomatique</rpOrgName>
+		<rpXTOrgAcronym>SSIG</rpXTOrgAcronym>
+		<rpXTPartName>DIME - Département de l'intérieur, de la mobilité et de l'environnement</rpXTPartName>
+		<rpCntInfo>
+			<cntPhone>
+				<voiceNum>+4122 546 72 81</voiceNum>
+				<faxNum>+4122 546 72 70</faxNum>
+			</cntPhone>
+			<cntAddress>
+				<eMailAdd>pierre.lafontaine@etat.ge.ch</eMailAdd>
+				<XTName>rue des Gazomètres</XTName>
+				<XTNumber>7</XTNumber>
+				<delPoint>rue des Gazomètres 7</delPoint>
+				<postCode>1211</postCode>
+				<XTpostBox>36</XTpostBox>
+				<city>Genève 8</city>
+				<country>ch</country>
+				<XTLine></XTLine>
+				<adminArea></adminArea>
+			</cntAddress>
+			<cntOnlineRes>
+				<linkage>http://etat.geneve.ch/dt/geomatique/accueil.html</linkage>
+			</cntOnlineRes>
+			<cntHours></cntHours>
+			<cntInstr></cntInstr>
+		</rpCntInfo>
+		<rpPosName>Technicien en géomatique, resp. Métadonnées</rpPosName>
+	</mdContact>
+	<dqInfo>
+		<dqXTEdit>
+			<edtMethod>Digitalisation</edtMethod>
+			<edtPrecision>Bonne</edtPrecision>
+			<edtScale>500</edtScale>
+			<edtFiability value="True" Sync="FALSE">
+			</edtFiability>
+		</dqXTEdit>
+		<dqXTDisplay>
+			<dspScale>500 à 100000</dspScale>
+		</dqXTDisplay>
+	</dqInfo>
+	<dataqual>
+		<lineage>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">Z:\SITG\METADATA\XML_BACKUP\LCE\lce_graphe_eau.xml</srcused>
+				<date Sync="TRUE">20070522</date>
+				<time Sync="TRUE">14164200</time>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">Z:\SITG\METADATA\XML_BACKUP\LCE\lce_km_administratif.xml</srcused>
+				<date Sync="TRUE">20071025</date>
+				<time Sync="TRUE">10241100</time>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">X:\SITG\METADATA\XML_BACKUP\LCE\lce_km_administratif.xml</srcused>
+				<date Sync="TRUE">20080819</date>
+				<time Sync="TRUE">13042100</time>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">N:\SITG\METADATA\XML_BACKUP\LCE\lce_km_administratif.xml</srcused>
+				<date Sync="TRUE">20100824</date>
+				<time Sync="TRUE">12470300</time>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">N:\SITG\METADATA\XML_BACKUP\LCE\lce_hyb_stations_mesures.xml</srcused>
+				<date Sync="TRUE">20100824</date>
+				<time Sync="TRUE">13101700</time>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">N:\SITG\METADATA\XML_BACKUP\LCE\lce_hyb_dc_bact.xml</srcused>
+				<date Sync="TRUE">20100824</date>
+				<time Sync="TRUE">13222700</time>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">N:\SITG\METADATA\XML_BACKUP\LCE\lce_hyb_dc_dich.xml</srcused>
+				<date Sync="TRUE">20100824</date>
+				<time Sync="TRUE">13254000</time>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">D:\LCE_MN95\lce_hyb_dc_ibgn.xml</srcused><date Sync="TRUE">20110722</date><time Sync="TRUE">10324700</time></procstep></lineage>
+	</dataqual>
+	<tpXTThemes><theme>Territoire</theme></tpXTThemes></metadata>

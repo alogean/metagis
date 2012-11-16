@@ -1,0 +1,722 @@
+<?xml version="1.0"?>
+<!--<!DOCTYPE metadata SYSTEM "http://www.esri.com/metadata/esriprof80.dtd">-->
+<metadata xml:lang="fr">
+	<Esri>
+		<CreaDate>20120914</CreaDate>
+		<CreaTime>07493400</CreaTime>
+		<SyncOnce>FALSE</SyncOnce>
+		<DataProperties>
+			<XTinfo>
+				<esrtype>Feature Class</esrtype>
+				<esrfctype>1</esrfctype>
+				<esralias>A.DIP_ECOLE_PRIMAIRE_BATIMENT</esralias>
+				<esrname>A.DIP_ECOLE_PRIMAIRE_BATIMENT</esrname>
+			</XTinfo>
+		</DataProperties>
+		<SyncDate>20120914</SyncDate>
+		<SyncTime>07540500</SyncTime>
+		<ModDate>20120914</ModDate>
+		<ModTime>07540500</ModTime>
+		<MetaID>{C5CD5C16-37BA-4947-BD4D-A66574D794C7}</MetaID></Esri>
+	<idinfo>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 1; ESRI ArcCatalog 9.2.6.1500</native>
+		<descript>
+			<langdata Sync="TRUE">fr</langdata>
+			<abstract>REQUIRED: A brief narrative summary of the data set.</abstract>
+			<purpose>REQUIRED: A summary of the intentions with which the data set was developed.</purpose>
+		</descript>
+		<citation>
+			<citeinfo>
+				<origin>REQUIRED: The name of an organization or individual that developed the data set.</origin>
+				<pubdate>REQUIRED: The date when the data set is published or otherwise made available for release.</pubdate>
+				<title Sync="TRUE">A.DIP_ECOLE_PRIMAIRE_BATIMENT</title>
+				<ftname Sync="TRUE">A.DIP_ECOLE_PRIMAIRE_BATIMENT</ftname>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<onlink Sync="TRUE">Server=CONSULTATION-SITG; Service=esri_sde; User=a; Version=SDE.DEFAULT</onlink>
+			</citeinfo>
+		</citation>
+		<timeperd>
+			<current>REQUIRED: The basis on which the time period of content information is determined.</current>
+			<timeinfo>
+				<sngdate>
+					<caldate>REQUIRED: The year (and optionally month, or month and day) for which the data set corresponds to the ground.</caldate>
+				</sngdate>
+			</timeinfo>
+		</timeperd>
+		<status>
+			<progress>REQUIRED: The state of the data set.</progress>
+			<update>REQUIRED: The frequency with which changes and additions are made to the data set after the initial data set is completed.</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">5.965432</westbc>
+				<eastbc Sync="TRUE">6.264484</eastbc>
+				<northbc Sync="TRUE">46.353059</northbc>
+				<southbc Sync="TRUE">46.141590</southbc>
+			</bounding>
+			<lboundng>
+				<leftbc Sync="TRUE">2486542.929015</leftbc>
+				<rightbc Sync="TRUE">2509216.528987</rightbc>
+				<bottombc Sync="TRUE">1110937.866991</bottombc>
+				<topbc Sync="TRUE">1134063.445981</topbc>
+			</lboundng>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>REQUIRED: Reference to a formally registered thesaurus or a similar authoritative source of theme keywords.</themekt>
+				<themekey>REQUIRED: Common-use word or phrase used to describe the subject of the data set.</themekey>
+			</theme>
+		</keywords>
+		<accconst>REQUIRED: Restrictions and legal prerequisites for accessing the data set.</accconst>
+		<useconst>REQUIRED: Restrictions and legal prerequisites for using the data set after access is granted.</useconst>
+		<natvform Sync="TRUE">Classe d'entités ArcSDE</natvform>
+	</idinfo>
+	<dataIdInfo>
+		<envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.6.1500</envirDesc>
+		<dataLang>
+			<languageCode Sync="FALSE" value="fr">
+			</languageCode>
+		</dataLang>
+		<idCitation>
+			<resTitle>ECOLES PRIMAIRES (Bâtiments)</resTitle>
+			<presForm>
+				<PresFormCd Sync="TRUE" value="005">
+				</PresFormCd>
+			</presForm>
+			<resRefDate>
+				<refDate>20110406</refDate>
+				<refDateType>
+					<DateTypCd value="001" Sync="FALSE">
+					</DateTypCd>
+				</refDateType>
+			</resRefDate>
+			<citRespParty>
+				<rpXTBID>7c994dc4-161b-4502-8528-60f8dbcec4e8</rpXTBID>
+				<rpIndName>Maurice Dandelot</rpIndName>
+				<rpXTIndLastName>Dandelot</rpXTIndLastName>
+				<rpXTIndFirstName>Maurice</rpXTIndFirstName>
+				<rpOrgName>Direction générale de l'enseignement primaire</rpOrgName>
+				<rpXTOrgAcronym>DGEP</rpXTOrgAcronym>
+				<rpXTPartName>DIP - Département de l'instruction publique, de la culture et du sport</rpXTPartName>
+				<rpCntInfo>
+					<cntPhone>
+						<voiceNum>+4122 327 24 14</voiceNum>
+						<faxNum>+4122 327 24 55</faxNum>
+					</cntPhone>
+					<cntAddress>
+						<eMailAdd>maurice.dandelot@etat.ge.ch</eMailAdd>
+						<XTName>rue CALVIN</XTName>
+						<XTNumber>11</XTNumber>
+						<delPoint>rue CALVIN 11</delPoint>
+						<postCode>1211</postCode>
+						<XTpostBox>3980</XTpostBox>
+						<city>Genève 3</city>
+						<country>ch</country>
+						<XTLine>
+						</XTLine>
+						<adminArea>
+						</adminArea>
+					</cntAddress>
+					<cntOnlineRes>
+						<linkage>http://www.geneve.ch/primaire/adresses.html</linkage>
+					</cntOnlineRes>
+					<cntHours>
+					</cntHours>
+					<cntInstr>
+					</cntInstr>
+				</rpCntInfo>
+				<rpPosName>Directeur</rpPosName>
+			</citRespParty>
+			<resXTUpdateFicheDate><refDate>20120914</refDate><refDateType><DateTypCd value="001" Sync="FALSE"></DateTypCd></refDateType></resXTUpdateFicheDate></idCitation>
+		<spatRpType>
+			<SpatRepTypCd Sync="TRUE" value="001">
+			</SpatRepTypCd>
+		</spatRpType>
+		<dataExt>
+			<geoEle>
+				<GeoBndBox esriExtentType="native">
+					<westBL Sync="TRUE">2486542.929</westBL>
+					<eastBL Sync="TRUE">2509216.529</eastBL>
+					<northBL Sync="TRUE">1134063.446</northBL>
+					<southBL Sync="TRUE">1110937.867</southBL>
+					<exTypeCode Sync="TRUE">1</exTypeCode>
+					<XTdesc>Cadre de référence MN95</XTdesc>
+				</GeoBndBox>
+			</geoEle>
+		</dataExt>
+		<geoBox esriExtentType="decdegrees">
+			<westBL Sync="TRUE">5.965432</westBL>
+			<eastBL Sync="TRUE">6.264484</eastBL>
+			<northBL Sync="TRUE">46.353059</northBL>
+			<southBL Sync="TRUE">46.14159</southBL>
+			<exTypeCode Sync="TRUE">1</exTypeCode>
+		</geoBox>
+		<idAbs>Les écoles enfantines et primaires du canton regroupent les enfants de 4 à 12 ans sur huit degrés, de la première enfantine à la sixième primaire. La couche des écoles du canton permet de visualiser graphiquement les bâtiments scolaires, y compris les salles de gymnastique, et d'obtenir des informations sur le nombre d'élèves et de classes de la dernière rentrée, ainsi que l'évolution des effectifs depuis 1993. Un lien sur une photo de chaque école est aussi disponible. 
+
+L'emplacement de la salle de gymnastique (quand il y en a une) n'est pas indiqué sur cette couche mais peut être obtenu auprès des deux services mentionnés ci-dessus.
+
+Seules les écoles primaires de l'enseignement public sont représentées sur cette couche. Les chiffres sur le nombre d'élèves proviennent du DIP. Pour la dernière année intégrée, le nombre de classe est connu et le nombre d'élèves se décompose également par degrés de scolarité.</idAbs>
+		<idXTInfoLink>http://www.geneve.ch/primaire/</idXTInfoLink>
+		<idXTLegalLink>http://etat.geneve.ch/geoportail/metadataws/Publish/legal/primaire.htm</idXTLegalLink>
+		<dataChar>
+			<CharSetCd value="004" Sync="FALSE">
+			</CharSetCd>
+		</dataChar>
+		<resMaint>
+			<maintFreq>
+				<MaintFreqCd value="008" Sync="FALSE">
+				</MaintFreqCd>
+				<descXT>Annuellement</descXT></maintFreq>
+			<maintScp>
+				<ScopeCd value="005" Sync="FALSE">
+				</ScopeCd>
+			</maintScp>
+			<maintNote>En avril, à  chaque répartition scolaire</maintNote>
+		</resMaint>
+		<idStatus>
+			<ProgCd value="001" Sync="FALSE">
+			</ProgCd>
+			<descXT>Accompli</descXT></idStatus>
+		<descKeys KeyTypCd="005" Sync="FALSE">
+			<keyword>administratif</keyword>
+			<keyTyp>
+				<keyTypCd value="005" Sync="FALSE">
+				</keyTypCd>
+			</keyTyp>
+		</descKeys>
+		<lnkObjects>
+			<lnkObject>
+				<lnkBID>b25d1fd2-6040-4656-8786-de04e43ed76c</lnkBID>
+				<lnkType>Image</lnkType>
+				<lnkLink>http://etat.geneve.ch/geoportail/metadataws/Publish/images/A.DIP_ECOLE_PRIMAIRE_BATIMENT.gif</lnkLink>
+			</lnkObject>
+		</lnkObjects>
+		<tpCat><TopicCatCd value="016" Sync="FALSE"></TopicCatCd><descXT>Culture, société et démographie</descXT></tpCat></dataIdInfo>
+	<metainfo>
+		<langmeta Sync="TRUE">fr</langmeta>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntper>REQUIRED: The person responsible for the metadata information.</cntper>
+					<cntorg>REQUIRED: The organization responsible for the metadata information.</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>REQUIRED: The mailing and/or physical address for the organization or individual.</addrtype>
+					<city>REQUIRED: The city of the address.</city>
+					<state>REQUIRED: The state or province of the address.</state>
+					<postal>REQUIRED: The ZIP or other postal code of the address.</postal>
+				</cntaddr>
+				<cntvoice>REQUIRED: The telephone number by which individuals can speak to the organization or individual.</cntvoice>
+			</cntinfo>
+		</metc>
+		<metd Sync="TRUE">20120914</metd>
+		<metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<mdLang>
+		<languageCode Sync="FALSE" value="fr">
+		</languageCode>
+	</mdLang>
+	<mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+	<mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+	<mdChar>
+		<CharSetCd Sync="TRUE" value="004">
+		</CharSetCd>
+	</mdChar>
+	<mdHrLv>
+		<ScopeCd Sync="TRUE" value="005">
+		</ScopeCd>
+	</mdHrLv>
+	<mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+	<distinfo>
+		<resdesc Sync="TRUE">Downloadable Data</resdesc>
+	</distinfo>
+	<distInfo>
+		<distributor>
+			<distorTran>
+				<onLineSrc>
+					<linkage>http://www.sitg.ch</linkage>
+					<protocol></protocol>
+					<linkOrderForm>http://etat.geneve.ch/geoportail/formsitg/</linkOrderForm>
+					<orFunct>
+						<OnFunctCd value="004" Sync="FALSE">
+						</OnFunctCd>
+					</orFunct>
+					<orDesc></orDesc></onLineSrc>
+				<offLineMed>
+					<medName>
+						<MedNameCd value="001" Sync="FALSE">
+						</MedNameCd>
+					</medName>
+				</offLineMed>
+				<transThirds value="False" Sync="FALSE">
+				</transThirds>
+			</distorTran>
+			<distorCont>
+				<rpXTBID>61beb9aa-9f41-4c2f-8ab4-2765d23df7e1</rpXTBID>
+				<rpIndName>Pierre Lafontaine</rpIndName>
+				<rpXTIndLastName>Lafontaine</rpXTIndLastName>
+				<rpXTIndFirstName>Pierre</rpXTIndFirstName>
+				<rpOrgName>Service de l'organisation et des systèmes d'information</rpOrgName>
+				<rpXTOrgAcronym>SOSI</rpXTOrgAcronym>
+				<rpXTPartName>DIM - Département de l'intérieur et de la mobilité</rpXTPartName>
+				<rpCntInfo>
+					<cntPhone>
+						<voiceNum>+4122 546 72 81</voiceNum>
+						<faxNum>+4122 546 72 70</faxNum>
+					</cntPhone>
+					<cntAddress>
+						<eMailAdd>pierre.lafontaine@etat.ge.ch</eMailAdd>
+						<XTName>rue des Gazomètres</XTName>
+						<XTNumber>7</XTNumber>
+						<delPoint>rue des Gazomètres 7</delPoint>
+						<postCode>1211</postCode>
+						<XTpostBox>36</XTpostBox>
+						<city>Genève 8</city>
+						<country>ch</country>
+						<XTLine>
+						</XTLine>
+						<adminArea>
+						</adminArea>
+					</cntAddress>
+					<cntOnlineRes>
+						<linkage>http://etat.geneve.ch/dt/geomatique/accueil.html</linkage>
+					</cntOnlineRes>
+					<cntHours>
+					</cntHours>
+					<cntInstr>
+					</cntInstr>
+				</rpCntInfo>
+				<rpPosName>Technicien en géomatique, resp. Métadonnées</rpPosName>
+			</distorCont>
+			<distorFormat><formatName>Dwg/dxf, Géodatabase personnelle, Mif/mid, Shape file</formatName><formatVer>Sur demande</formatVer></distorFormat></distributor>
+	</distInfo>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<esriterm Name="A.DIP_ECOLE_PRIMAIRE_BATIMENT">
+				<efeatyp Sync="TRUE">Simple</efeatyp>
+				<efeageom Sync="TRUE">Polygon</efeageom>
+				<esritopo Sync="TRUE">FALSE</esritopo>
+				<efeacnt Sync="TRUE">183</efeacnt>
+				<spindex Sync="TRUE">TRUE</spindex>
+				<linrefer Sync="TRUE">FALSE</linrefer>
+			</esriterm>
+			<sdtsterm Name="A.DIP_ECOLE_PRIMAIRE_BATIMENT">
+				<sdtstype Sync="TRUE">G-polygon</sdtstype>
+				<ptvctcnt Sync="TRUE">183</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<cordsysn>
+				<geogcsn Sync="TRUE">GCS_CH1903+</geogcsn>
+				<projcsn Sync="TRUE">CH1903+_LV95</projcsn>
+			</cordsysn>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<plandu Sync="TRUE">meters</plandu>
+					<coordrep>
+						<absres Sync="TRUE">0.000041</absres>
+						<ordres Sync="TRUE">0.000041</ordres>
+					</coordrep>
+				</planci>
+				<mapproj><mapprojn Sync="TRUE">Oblique Mercator</mapprojn><obqmerc><sfctrlin Sync="TRUE">1.000000</sfctrlin><obqlazim><azimangl Sync="TRUE">90.000000</azimangl><azimptl Sync="TRUE">7.439583</azimptl></obqlazim><latprjo Sync="TRUE">46.952406</latprjo><feast Sync="TRUE">2600000.000000</feast><fnorth Sync="TRUE">1200000.000000</fnorth></obqmerc></mapproj></planar>
+			<geodetic>
+				<horizdn Sync="TRUE">D_CH1903+</horizdn>
+				<ellips Sync="TRUE">Bessel_1841</ellips>
+				<semiaxis Sync="TRUE">6377397.155000</semiaxis>
+				<denflat Sync="TRUE">299.152813</denflat>
+			</geodetic>
+		</horizsys>
+		<vertdef>
+			<altsys>
+				<altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc>
+				<altres Sync="TRUE">1.000000</altres>
+			</altsys>
+		</vertdef>
+	</spref>
+	<refSysInfo>
+		<RefSystem>
+			<refSysID>
+				<identCode>CH1903+_LV95</identCode>
+			</refSysID>
+		</RefSystem>
+	</refSysInfo>
+	<spatRepInfo>
+		<VectSpatRep>
+			<topLvl>
+				<TopoLevCd Sync="TRUE" value="001">
+				</TopoLevCd>
+			</topLvl>
+			<geometObjs Name="A.DIP_ECOLE_PRIMAIRE_BATIMENT"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">183</geoObjCnt></geometObjs></VectSpatRep>
+	</spatRepInfo>
+	<eainfo>
+		<detailed Name="A.DIP_ECOLE_PRIMAIRE_BATIMENT">
+			<attr>
+				<attrlabl Sync="TRUE">COMMUNE</attrlabl>
+				<attalias Sync="TRUE">COMMUNE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">25</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nom de la commune</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">LIEN_WWW</attrlabl>
+				<attalias Sync="TRUE">LIEN_WWW</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">100</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Lien internet</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NOM_ECOLE</attrlabl>
+				<attalias Sync="TRUE">NOM_ECOLE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">55</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nom de l'école</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NB_EL_31_12_93</attrlabl>
+				<attalias Sync="TRUE">NB_EL_31_12_93</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<atprecis Sync="TRUE">38</atprecis>
+				<attscale Sync="TRUE">8</attscale>
+				<atXTdesc>Nombre d'élèves au 31 décembre 1993</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NB_EL_31_12_94</attrlabl>
+				<attalias Sync="TRUE">NB_EL_31_12_94</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<atprecis Sync="TRUE">38</atprecis>
+				<attscale Sync="TRUE">8</attscale>
+				<atXTdesc>Nombre d'élèves au 31 décembre 1994</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NB_EL_31_12_95</attrlabl>
+				<attalias Sync="TRUE">NB_EL_31_12_95</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<atprecis Sync="TRUE">38</atprecis>
+				<attscale Sync="TRUE">8</attscale>
+				<atXTdesc>Nombre d'élèves au 31 décembre 1995</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NB_EL_31_12_96</attrlabl>
+				<attalias Sync="TRUE">NB_EL_31_12_96</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<atprecis Sync="TRUE">38</atprecis>
+				<attscale Sync="TRUE">8</attscale>
+				<atXTdesc>Nombre d'élèves au 31 décembre 1996</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NB_EL_31_12_02</attrlabl>
+				<attalias Sync="TRUE">NB_EL_31_12_02</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<atprecis Sync="TRUE">38</atprecis>
+				<attscale Sync="TRUE">8</attscale>
+				<atXTdesc>Nombre d'élèves au 31 décembre 2002</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NB_EL_31_12_03</attrlabl>
+				<attalias Sync="TRUE">NB_EL_31_12_03</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<atprecis Sync="TRUE">38</atprecis>
+				<attscale Sync="TRUE">8</attscale>
+				<atXTdesc>Nombre d'élèves au 31 décembre 2003</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NB_EL_31_12_00</attrlabl>
+				<attalias Sync="TRUE">NB_EL_31_12_00</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<atprecis Sync="TRUE">38</atprecis>
+				<attscale Sync="TRUE">8</attscale>
+				<atXTdesc>Nombre d'élèves au 31 décembre 2000</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NB_EL_31_12_97</attrlabl>
+				<attalias Sync="TRUE">NB_EL_31_12_97</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<atprecis Sync="TRUE">38</atprecis>
+				<attscale Sync="TRUE">8</attscale>
+				<atXTdesc>Nombre d'élèves au 31 décembre 1997</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NB_EL_31_12_06</attrlabl>
+				<attalias Sync="TRUE">NB_EL_31_12_06</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<atprecis Sync="TRUE">38</atprecis>
+				<attscale Sync="TRUE">8</attscale>
+				<atXTdesc>Nombre d'élèves au 31 décembre 2006</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NB_EL_31_12_98</attrlabl>
+				<attalias Sync="TRUE">NB_EL_31_12_98</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<atprecis Sync="TRUE">38</atprecis>
+				<attscale Sync="TRUE">8</attscale>
+				<atXTdesc>Nombre d'élèves au 31 décembre 1998</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NB_EL_31_12_99</attrlabl>
+				<attalias Sync="TRUE">NB_EL_31_12_99</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<atprecis Sync="TRUE">38</atprecis>
+				<attscale Sync="TRUE">8</attscale>
+				<atXTdesc>Nombre d'élèves au 31 décembre 1999</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NB_EL_31_12_07</attrlabl>
+				<attalias Sync="TRUE">NB_EL_31_12_07</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<atprecis Sync="TRUE">38</atprecis>
+				<attscale Sync="TRUE">8</attscale>
+				<atXTdesc>Nombre d'élèves au 31 décembre 2007</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NB_EL_31_12_05</attrlabl>
+				<attalias Sync="TRUE">NB_EL_31_12_05</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<atprecis Sync="TRUE">38</atprecis>
+				<attscale Sync="TRUE">8</attscale>
+				<atXTdesc>Nombre d'élèves au 31 décembre 2005</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SHAPE</attrlabl>
+				<attalias Sync="TRUE">SHAPE</attalias>
+				<attrtype Sync="TRUE">Geometry</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NOMENCLATURE</attrlabl>
+				<attalias Sync="TRUE">NOMENCLATURE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nomenclature</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SHAPE.AREA</attrlabl>
+				<attalias Sync="TRUE">SHAPE.AREA</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">0</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">DESTINATION</attrlabl>
+				<attalias Sync="TRUE">DESTINATION</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">55</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Destination</atXTdesc>
+			</attr>
+			<enttyp>
+				<enttypl Sync="TRUE">A.DIP_ECOLE_PRIMAIRE_BATIMENT</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt>
+				<enttypc Sync="TRUE">183</enttypc>
+			</enttyp>
+			<attr>
+				<attrlabl Sync="TRUE">SURFACE</attrlabl>
+				<attalias Sync="TRUE">SURFACE</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<atprecis Sync="TRUE">38</atprecis>
+				<attscale Sync="TRUE">8</attscale>
+				<atXTdesc>Surface</atXTdesc>
+			</attr>
+			<attr><attrlabl Sync="TRUE">NB_EL_31_12_10</attrlabl><attalias Sync="TRUE">NB_EL_31_12_10</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">38</atprecis><attscale Sync="TRUE">8</attscale><atXTdesc>Nombre d'élèves au 31 décembre 2010</atXTdesc></attr><attr>
+				<attrlabl Sync="TRUE">SHAPE.LEN</attrlabl>
+				<attalias Sync="TRUE">SHAPE.LEN</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">0</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NOMEN_CLASSE</attrlabl>
+				<attalias Sync="TRUE">NOMEN_CLASSE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">55</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Classe de nomenclature</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NB_EL_31_12_08</attrlabl>
+				<attalias Sync="TRUE">NB_EL_31_12_08</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<atprecis Sync="TRUE">38</atprecis>
+				<attscale Sync="TRUE">8</attscale>
+				<atXTdesc>Nombre d'élèves au 31 décembre 2008</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">OBJECTID</attrlabl>
+				<attalias Sync="TRUE">OBJECTID</attalias>
+				<attrtype Sync="TRUE">OID</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr><attrlabl Sync="TRUE">STATUT</attrlabl><attalias Sync="TRUE">STATUT</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><atXTdesc>Statut</atXTdesc></attr><attr><attrlabl Sync="TRUE">NB_EL_31_12_11</attrlabl><attalias Sync="TRUE">NB_EL_31_12_11</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">38</atprecis><attscale Sync="TRUE">8</attscale><atXTdesc>Nombre d'élèves au 31 décembre 2011</atXTdesc></attr><attr>
+				<attrlabl Sync="TRUE">NO_COMM</attrlabl>
+				<attalias Sync="TRUE">NO_COMM</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<atprecis Sync="TRUE">38</atprecis>
+				<attscale Sync="TRUE">8</attscale>
+				<atXTdesc>Numéro de commune</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NB_EL_31_12_01</attrlabl>
+				<attalias Sync="TRUE">NB_EL_31_12_01</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<atprecis Sync="TRUE">38</atprecis>
+				<attscale Sync="TRUE">8</attscale>
+				<atXTdesc>Nombre d'élèves au 31 décembre 2001</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NB_EL_31_12_09</attrlabl>
+				<attalias Sync="TRUE">NB_EL_31_12_09</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<atprecis Sync="TRUE">38</atprecis>
+				<attscale Sync="TRUE">8</attscale>
+				<atXTdesc>Nombre d'élèves au 31 décembre 2009</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NO_BATIMENT</attrlabl>
+				<attalias Sync="TRUE">NO_BATIMENT</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Numéro de bâtiment</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NB_EL_31_12_04</attrlabl>
+				<attalias Sync="TRUE">NB_EL_31_12_04</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<atprecis Sync="TRUE">38</atprecis>
+				<attscale Sync="TRUE">8</attscale>
+				<atXTdesc>Nombre d'élèves au 31 décembre 2004</atXTdesc>
+			</attr>
+			<attr><attrlabl Sync="TRUE">NB_8P_31_12_11</attrlabl><attalias Sync="TRUE">NB_8P_31_12_11</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">38</atprecis><attscale Sync="TRUE">8</attscale><atXTdesc>Nombre d'élèves en 8P au 31 décembre 2011</atXTdesc></attr><attr><attrlabl Sync="TRUE">NB_7P_31_12_11</attrlabl><attalias Sync="TRUE">NB_7P_31_12_11</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">38</atprecis><attscale Sync="TRUE">8</attscale><atXTdesc>Nombre d'élèves en 7P au 31 décembre 2011</atXTdesc></attr><attr><attrlabl Sync="TRUE">NB_6P_31_12_11</attrlabl><attalias Sync="TRUE">NB_6P_31_12_11</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">38</atprecis><attscale Sync="TRUE">8</attscale><atXTdesc>Nombre d'élèves en 6P au 31 décembre 2011</atXTdesc></attr><attr><attrlabl Sync="TRUE">NB_5P_31_12_11</attrlabl><attalias Sync="TRUE">NB_5P_31_12_11</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">38</atprecis><attscale Sync="TRUE">8</attscale><atXTdesc>Nombre d'élèves en 5P au 31 décembre 2011</atXTdesc></attr><attr><attrlabl Sync="TRUE">NB_4P_31_12_11</attrlabl><attalias Sync="TRUE">NB_4P_31_12_11</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">38</atprecis><attscale Sync="TRUE">8</attscale><atXTdesc>Nombre d'élèves en 4P au 31 décembre 2011</atXTdesc></attr><attr><attrlabl Sync="TRUE">NB_3P_31_12_11</attrlabl><attalias Sync="TRUE">NB_3P_31_12_11</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">38</atprecis><attscale Sync="TRUE">8</attscale><atXTdesc>Nombre d'élèves en 3P au 31 décembre 2011</atXTdesc></attr><attr><attrlabl Sync="TRUE">NB_2P_31_12_11</attrlabl><attalias Sync="TRUE">NB_2P_31_12_11</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">38</atprecis><attscale Sync="TRUE">8</attscale><atXTdesc>Nombre d'élèves en 2P au 31 décembre 2011</atXTdesc></attr><attr><attrlabl Sync="TRUE">NB_1P_31_12_11</attrlabl><attalias Sync="TRUE">NB_1P_31_12_11</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">38</atprecis><attscale Sync="TRUE">8</attscale><atXTdesc>Nombre d'élèves en 1P au 31 décembre 2011</atXTdesc></attr><attr><attrlabl Sync="TRUE">NB_CL_31_12_11</attrlabl><attalias Sync="TRUE">NB_CL_31_12_11</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">38</atprecis><attscale Sync="TRUE">8</attscale><atXTdesc>Nombre de classes au 31 décembre 2011</atXTdesc></attr></detailed>
+	</eainfo>
+	<mdDateSt Sync="TRUE">20110708</mdDateSt>
+	<mdXTInfoLink>http://www.sitg.ch</mdXTInfoLink>
+	<mdContact>
+		<rpXTBID>61beb9aa-9f41-4c2f-8ab4-2765d23df7e1</rpXTBID>
+		<rpIndName>Pierre Lafontaine</rpIndName>
+		<rpXTIndLastName>Lafontaine</rpXTIndLastName>
+		<rpXTIndFirstName>Pierre</rpXTIndFirstName>
+		<rpOrgName>Service de l'organisation et des systèmes d'information</rpOrgName>
+		<rpXTOrgAcronym>SOSI</rpXTOrgAcronym>
+		<rpXTPartName>DIM - Département de l'intérieur et de la mobilité</rpXTPartName>
+		<rpCntInfo>
+			<cntPhone>
+				<voiceNum>+4122 546 72 81</voiceNum>
+				<faxNum>+4122 546 72 70</faxNum>
+			</cntPhone>
+			<cntAddress>
+				<eMailAdd>pierre.lafontaine@etat.ge.ch</eMailAdd>
+				<XTName>rue des Gazomètres</XTName>
+				<XTNumber>7</XTNumber>
+				<delPoint>rue des Gazomètres 7</delPoint>
+				<postCode>1211</postCode>
+				<XTpostBox>36</XTpostBox>
+				<city>Genève 8</city>
+				<country>ch</country>
+				<XTLine>
+				</XTLine>
+				<adminArea>
+				</adminArea>
+			</cntAddress>
+			<cntOnlineRes>
+				<linkage>http://etat.geneve.ch/dt/geomatique/accueil.html</linkage>
+			</cntOnlineRes>
+			<cntHours>
+			</cntHours>
+			<cntInstr>
+			</cntInstr>
+		</rpCntInfo>
+		<rpPosName>Technicien en géomatique, resp. Métadonnées</rpPosName>
+	</mdContact>
+	<dqInfo>
+		<dqXTEdit>
+			<edtMethod>Bâtiments : DCMO
+Données : Base de données DIP</edtMethod>
+			<edtPrecision>Entre 10 et 70 centimètres</edtPrecision>
+			<edtScale>250</edtScale>
+			<edtFiability value="True" Sync="FALSE">
+			</edtFiability>
+		</dqXTEdit>
+		<dqXTDisplay>
+			<dspScale>250 à 25000</dspScale>
+		</dqXTDisplay>
+	</dqInfo>
+	<dataqual>
+		<lineage>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">Z:\SITG\METADATA\XML_BACKUP\DIP\dip_ecole_primaire_batiment.xml</srcused>
+				<date Sync="TRUE">20071207</date>
+				<time Sync="TRUE">14244400</time>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">X:\SITG\METADATA\XML_BACKUP\DIP\dip_ecole_primaire_batiment.xml</srcused>
+				<date Sync="TRUE">20080414</date>
+				<time Sync="TRUE">14203000</time>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">X:\SITG\METADATA\XML_BACKUP\DIP\dip_ecole_primaire_batiment.xml</srcused>
+				<date Sync="TRUE">20080626</date>
+				<time Sync="TRUE">10441900</time>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">X:\SITG\METADATA\XML_BACKUP\DIP\dip_ecole_primaire_batiment.xml</srcused>
+				<date Sync="TRUE">20080820</date>
+				<time Sync="TRUE">08470700</time>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">D:\DIP_MN95\dip_ecole_primaire_batiment.xml</srcused><date Sync="TRUE">20110708</date><time Sync="TRUE">13144200</time></procstep><procstep><procdesc Sync="TRUE">Métadonnées importées.</procdesc><srcused Sync="TRUE">X:\SITG\METADATA\XML_BACKUP\DIP\dip_ecole_primaire_batiment.xml</srcused><date Sync="TRUE">20120914</date><time Sync="TRUE">07493400</time></procstep></lineage>
+	</dataqual>
+	<tpXTThemes><theme>Instruction publique</theme></tpXTThemes></metadata>

@@ -1,0 +1,623 @@
+<?xml version="1.0"?>
+<!--<!DOCTYPE metadata SYSTEM "http://www.esri.com/metadata/esriprof80.dtd">-->
+<metadata xml:lang="fr">
+	<Esri>
+		<CreaDate>20110627</CreaDate>
+		<CreaTime>10331900</CreaTime>
+		<SyncOnce>FALSE</SyncOnce>
+		<DataProperties>
+			<XTinfo>
+				<esrtype>Feature Class</esrtype>
+				<esrfctype>1</esrfctype>
+				<esralias>A.AGGLO_MESURES_P</esralias>
+				<esrname>A.AGGLO_MESURES_P</esrname>
+			</XTinfo>
+		</DataProperties>
+		<SyncDate>20120629</SyncDate>
+		<SyncTime>14172500</SyncTime>
+		<ModDate>20120629</ModDate>
+		<ModTime>14172500</ModTime>
+		<MetaID>{F0C73045-A87F-4993-BA48-F4C4B23B6F52}</MetaID></Esri>
+	<idinfo>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 1; ESRI ArcCatalog 9.2.6.1500</native>
+		<descript>
+			<langdata Sync="TRUE">fr</langdata>
+			<abstract>REQUIRED: A brief narrative summary of the data set.</abstract>
+			<purpose>REQUIRED: A summary of the intentions with which the data set was developed.</purpose>
+		</descript>
+		<citation>
+			<citeinfo>
+				<origin>REQUIRED: The name of an organization or individual that developed the data set.</origin>
+				<pubdate>REQUIRED: The date when the data set is published or otherwise made available for release.</pubdate>
+				<title Sync="TRUE">A.AGGLO_MESURES_P</title>
+				<ftname Sync="TRUE">A.AGGLO_MESURES_P</ftname>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<onlink Sync="TRUE">Server=CONSULTATION-SITG; Service=esri_sde; User=a; Version=SDE.DEFAULT</onlink>
+			</citeinfo>
+		</citation>
+		<timeperd>
+			<current>REQUIRED: The basis on which the time period of content information is determined.</current>
+			<timeinfo>
+				<sngdate>
+					<caldate>REQUIRED: The year (and optionally month, or month and day) for which the data set corresponds to the ground.</caldate>
+				</sngdate>
+			</timeinfo>
+		</timeperd>
+		<status>
+			<progress>REQUIRED: The state of the data set.</progress>
+			<update>REQUIRED: The frequency with which changes and additions are made to the data set after the initial data set is completed.</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">5.815398</westbc>
+				<eastbc Sync="TRUE">6.443353</eastbc>
+				<northbc Sync="TRUE">46.357935</northbc>
+				<southbc Sync="TRUE">46.108074</southbc>
+			</bounding>
+			<lboundng>
+				<leftbc Sync="TRUE">2474999.850400</leftbc>
+				<rightbc Sync="TRUE">2522992.343400</rightbc>
+				<bottombc Sync="TRUE">1107438.917200</bottombc>
+				<topbc Sync="TRUE">1134413.929700</topbc>
+			</lboundng>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>REQUIRED: Reference to a formally registered thesaurus or a similar authoritative source of theme keywords.</themekt>
+				<themekey>REQUIRED: Common-use word or phrase used to describe the subject of the data set.</themekey>
+			</theme>
+		</keywords>
+		<accconst>REQUIRED: Restrictions and legal prerequisites for accessing the data set.</accconst>
+		<useconst>REQUIRED: Restrictions and legal prerequisites for using the data set after access is granted.</useconst>
+		<natvform Sync="TRUE">Classe d'entités ArcSDE</natvform>
+	</idinfo>
+	<dataIdInfo>
+		<envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.6.1500</envirDesc>
+		<dataLang>
+			<languageCode Sync="FALSE" value="fr">
+			</languageCode>
+		</dataLang>
+		<idCitation>
+			<resTitle>MESURES DU PROJET D'AGGLOMERATION FRANCO-VALDO-GENEVOIS (POINTS)</resTitle>
+			<presForm>
+				<PresFormCd Sync="TRUE" value="005">
+				</PresFormCd>
+			</presForm>
+			<resRefDate>
+				<refDate>20100602</refDate>
+				<refDateType>
+					<DateTypCd value="001" Sync="FALSE">
+					</DateTypCd>
+				</refDateType>
+			</resRefDate>
+			<citRespParty>
+				<rpIndName>Bruno Beurret</rpIndName>
+				<rpXTIndLastName>Beurret</rpXTIndLastName>
+				<rpXTIndFirstName>Bruno</rpXTIndFirstName>
+				<rpOrgName>Aménagement - Service de la planification directrice cantonale et régionale</rpOrgName>
+				<rpXTOrgAcronym>PDCR</rpXTOrgAcronym>
+				<rpXTPartName>DU - Département de l'urbanisme</rpXTPartName>
+				<rpCntInfo>
+					<cntPhone>
+						<voiceNum>+4122 546 73 52</voiceNum>
+						<faxNum>+4122 546 73 05</faxNum>
+					</cntPhone>
+					<cntAddress>
+						<eMailAdd>bruno.beurret@etat.ge.ch</eMailAdd>
+						<XTName>rue David-DUFOUR</XTName>
+						<XTNumber>5</XTNumber>
+						<delPoint>rue David-DUFOUR 5</delPoint>
+						<postCode>1211</postCode>
+						<city>Genève 8</city>
+						<country>ch</country>
+						<XTLine></XTLine>
+						<XTpostBox></XTpostBox>
+						<adminArea></adminArea>
+					</cntAddress>
+					<cntOnlineRes>
+						<linkage>http://etat.geneve.ch/dt/amenagement/accueil.html</linkage>
+					</cntOnlineRes>
+					<cntHours></cntHours>
+					<cntInstr></cntInstr>
+				</rpCntInfo>
+				<rpPosName>Urbaniste</rpPosName>
+				<rpXTBID>7ba28513-c3cc-49a2-a3f5-31d24aa68b57</rpXTBID>
+			</citRespParty>
+			<resXTUpdateFicheDate><refDate>20110627</refDate><refDateType><DateTypCd value="001" Sync="FALSE"></DateTypCd></refDateType></resXTUpdateFicheDate></idCitation>
+		<spatRpType>
+			<SpatRepTypCd Sync="TRUE" value="001">
+			</SpatRepTypCd>
+		</spatRpType>
+		<dataExt>
+			<geoEle>
+				<GeoBndBox esriExtentType="native">
+					<westBL Sync="TRUE">2474999.8504</westBL>
+					<eastBL Sync="TRUE">2522992.3434</eastBL>
+					<northBL Sync="TRUE">1134413.9297</northBL>
+					<southBL Sync="TRUE">1107438.9172</southBL>
+					<exTypeCode Sync="TRUE">1</exTypeCode>
+					<XTdesc>Cadre de référence MN95</XTdesc>
+				</GeoBndBox>
+			</geoEle>
+		</dataExt>
+		<geoBox esriExtentType="decdegrees">
+			<westBL Sync="TRUE">5.815398</westBL>
+			<eastBL Sync="TRUE">6.443353</eastBL>
+			<northBL Sync="TRUE">46.357935</northBL>
+			<southBL Sync="TRUE">46.108074</southBL>
+			<exTypeCode Sync="TRUE">1</exTypeCode>
+		</geoBox>
+		<idAbs>Dans le projet d'agglomération franco-valdo-genevois, les investissements futurs dans les infrastructures de mobilité sont conçus en étroite coordination avec les mesures d'urbanisation et d'environnement. Tous ne sollicitent pas le Fonds d'infrastructure de la Confédération. Trois niveaux sont à distinguer :
+- Les infrastructures de niveau supérieur à l'agglomération, pour lesquelles le Fonds d'infrastructure n'est pas sollicité. 
+- Les infrastructures de niveau d'agglomération, pour lesquelles un soutien fédéral au titre du Fonds d'infrastructure est demandé. 
+- Des infrastructures complémentaires, assumées sans solliciter d'aide fédérale : ces infrastructures ne sont pas détaillées dans le Projet d'agglomération.</idAbs>
+		<idXTLegalLink>http://etat.geneve.ch/geoportail/metadataws/Publish/legal/aucun_texte_de_loi.htm</idXTLegalLink>
+		<dataChar>
+			<CharSetCd value="004" Sync="FALSE">
+			</CharSetCd>
+		</dataChar>
+		<idXTInfoLink>http://etat.geneve.ch/dt/site/amenagement/master-home.jsp</idXTInfoLink>
+		<resMaint>
+			<maintFreq>
+				<MaintFreqCd value="008" Sync="FALSE">
+				</MaintFreqCd>
+				<descXT>Annuellement</descXT></maintFreq>
+			<maintScp>
+				<ScopeCd value="005" Sync="FALSE">
+				</ScopeCd>
+			</maintScp>
+		</resMaint>
+		<idStatus>
+			<ProgCd value="004" Sync="FALSE">
+			</ProgCd>
+			<descXT>En cours</descXT></idStatus>
+		<lnkObjects>
+			<lnkObject>
+				<lnkBID/>
+			</lnkObject>
+			<lnkObject>
+				<lnkBID>2b24a35a-97db-4e0a-bfe9-752d326d655a</lnkBID>
+				<lnkType>Image</lnkType>
+				<lnkLink>http://etat.geneve.ch/geoportail/metadataws/Publish/images/Agglo/A.AGGLO_MESURES_P.gif</lnkLink>
+			</lnkObject>
+		</lnkObjects>
+		<idPurp>Les mesures visant au renforcement des infrastructures de mobilité au niveau de l'agglomération et pour lesquelles un cofinancement est sollicité dans le cadre du Fonds d'infrastructure sont hiérarchisées selon leur degré de priorité et leur délai de réalisation :
+- Mesures A dites 'assurées' : réalisables pendant la période 2011-2014. 
+- Mesures B dites 'planifiées' : réalisables pendant la période 2015-2018. 
+- Mesures C dites 'en attente' : tenues en réserve (après 2019).
+Leur état d'avancement est le suivant:
+- 1 : Idée conceptionnelle
+- 2 : Étude de planification
+- 3 : Avant-projet sommaire
+- 4 : Avant-projet
+- 5 : Projet définitif
+- 6 : Projet décidé et financement assuré
+- 7 : En réalisation</idPurp>
+		<descKeys KeyTypCd="005" Sync="FALSE">
+			<keyword>administratif</keyword>
+			<keyTyp>
+				<keyTypCd value="005" Sync="FALSE">
+				</keyTypCd>
+			</keyTyp>
+		</descKeys>
+		<tpCat><TopicCatCd value="019" Sync="FALSE"></TopicCatCd><descXT>Réseaux de distribution et de communication</descXT></tpCat></dataIdInfo>
+	<metainfo>
+		<langmeta Sync="TRUE">fr</langmeta>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntper>REQUIRED: The person responsible for the metadata information.</cntper>
+					<cntorg>REQUIRED: The organization responsible for the metadata information.</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>REQUIRED: The mailing and/or physical address for the organization or individual.</addrtype>
+					<city>REQUIRED: The city of the address.</city>
+					<state>REQUIRED: The state or province of the address.</state>
+					<postal>REQUIRED: The ZIP or other postal code of the address.</postal>
+				</cntaddr>
+				<cntvoice>REQUIRED: The telephone number by which individuals can speak to the organization or individual.</cntvoice>
+			</cntinfo>
+		</metc>
+		<metd Sync="TRUE">20120629</metd>
+		<metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<mdLang>
+		<languageCode Sync="FALSE" value="fr">
+		</languageCode>
+	</mdLang>
+	<mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+	<mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+	<mdChar>
+		<CharSetCd Sync="TRUE" value="004">
+		</CharSetCd>
+	</mdChar>
+	<mdHrLv>
+		<ScopeCd Sync="TRUE" value="005">
+		</ScopeCd>
+	</mdHrLv>
+	<mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+	<distinfo>
+		<resdesc Sync="TRUE">Downloadable Data</resdesc>
+	</distinfo>
+	<distInfo>
+		<distributor>
+			<distorTran>
+				<onLineSrc>
+					<linkage>http://www.sitg.ch</linkage>
+					<protocol></protocol>
+					<linkOrderForm>http://etat.geneve.ch/geoportail/formsitg/</linkOrderForm>
+					<orFunct>
+						<OnFunctCd value="004" Sync="FALSE">
+						</OnFunctCd>
+					</orFunct>
+					<orDesc></orDesc></onLineSrc>
+				<offLineMed>
+					<medName>
+						<MedNameCd value="001" Sync="FALSE">
+						</MedNameCd>
+					</medName>
+				</offLineMed>
+				<transThirds value="True" Sync="FALSE">
+				</transThirds>
+			</distorTran>
+			<distorCont>
+				<rpIndName>Pierre Lafontaine</rpIndName>
+				<rpXTIndLastName>Lafontaine</rpXTIndLastName>
+				<rpXTIndFirstName>Pierre</rpXTIndFirstName>
+				<rpOrgName>Service de l'organisation et des systèmes d'information</rpOrgName>
+				<rpXTOrgAcronym>SOSI</rpXTOrgAcronym>
+				<rpXTPartName>DIME - Département de l'intérieur, de la mobilité et de l'environnement</rpXTPartName>
+				<rpCntInfo>
+					<cntPhone>
+						<voiceNum>+4122 546 72 81</voiceNum>
+						<faxNum>+4122 546 72 70</faxNum>
+					</cntPhone>
+					<cntAddress>
+						<eMailAdd>pierre.lafontaine@etat.ge.ch</eMailAdd>
+						<XTName>rue des Gazomètres</XTName>
+						<XTNumber>7</XTNumber>
+						<delPoint>rue des Gazomètres 7</delPoint>
+						<postCode>1211</postCode>
+						<XTpostBox>36</XTpostBox>
+						<city>Genève 8</city>
+						<country>ch</country>
+						<XTLine></XTLine>
+						<adminArea></adminArea>
+					</cntAddress>
+					<cntOnlineRes>
+						<linkage>http://etat.geneve.ch/dt/geomatique/accueil.html</linkage>
+					</cntOnlineRes>
+					<cntHours></cntHours>
+					<cntInstr></cntInstr>
+				</rpCntInfo>
+				<rpPosName>Technicien en géomatique, resp. Métadonnées</rpPosName>
+				<rpXTBID>61beb9aa-9f41-4c2f-8ab4-2765d23df7e1</rpXTBID>
+			</distorCont>
+			<distorFormat><formatName>Dwg/dxf, Géodatabase personnelle, Mif/mid, Shape file</formatName><formatVer>Sur demande</formatVer></distorFormat></distributor>
+	</distInfo>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<esriterm Name="A.AGGLO_MESURES_P">
+				<efeatyp Sync="TRUE">Simple</efeatyp>
+				<efeageom Sync="TRUE">Point</efeageom>
+				<esritopo Sync="TRUE">FALSE</esritopo>
+				<efeacnt Sync="TRUE">57</efeacnt>
+				<spindex Sync="TRUE">TRUE</spindex>
+				<linrefer Sync="TRUE">FALSE</linrefer>
+			</esriterm>
+			<sdtsterm Name="A.AGGLO_MESURES_P">
+				<sdtstype Sync="TRUE">Entity point</sdtstype>
+				<ptvctcnt Sync="TRUE">57</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<cordsysn>
+				<geogcsn Sync="TRUE">GCS_CH1903+</geogcsn>
+				<projcsn Sync="TRUE">CH1903+_LV95</projcsn>
+			</cordsysn>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<plandu Sync="TRUE">meters</plandu>
+					<coordrep>
+						<absres Sync="TRUE">0.000100</absres>
+						<ordres Sync="TRUE">0.000100</ordres>
+					</coordrep>
+				</planci>
+				<mapproj><mapprojn Sync="TRUE">Oblique Mercator</mapprojn><obqmerc><sfctrlin Sync="TRUE">1.000000</sfctrlin><obqlazim><azimangl Sync="TRUE">90.000000</azimangl><azimptl Sync="TRUE">7.439583</azimptl></obqlazim><latprjo Sync="TRUE">46.952406</latprjo><feast Sync="TRUE">2600000.000000</feast><fnorth Sync="TRUE">1200000.000000</fnorth></obqmerc></mapproj></planar>
+			<geodetic>
+				<horizdn Sync="TRUE">D_CH1903+</horizdn>
+				<ellips Sync="TRUE">Bessel_1841</ellips>
+				<semiaxis Sync="TRUE">6377397.155000</semiaxis>
+				<denflat Sync="TRUE">299.152813</denflat>
+			</geodetic>
+		</horizsys>
+		<vertdef>
+			<altsys>
+				<altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc>
+				<altres Sync="TRUE">1.000000</altres>
+			</altsys>
+		</vertdef>
+	</spref>
+	<refSysInfo>
+		<RefSystem>
+			<refSysID>
+				<identCode>CH1903+_LV95</identCode>
+			</refSysID>
+		</RefSystem>
+	</refSysInfo>
+	<spatRepInfo>
+		<VectSpatRep>
+			<topLvl>
+				<TopoLevCd Sync="TRUE" value="001">
+				</TopoLevCd>
+			</topLvl>
+			<geometObjs Name="A.AGGLO_MESURES_P"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="004"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">57</geoObjCnt></geometObjs></VectSpatRep>
+	</spatRepInfo>
+	<eainfo Sync="TRUE">
+		<detailed Name="A.AGGLO_MESURES_P" Sync="TRUE">
+			<enttyp>
+				<enttypl Sync="TRUE">A.AGGLO_MESURES_P</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt>
+				<enttypc Sync="TRUE">57</enttypc>
+			</enttyp>
+			<attr Sync="TRUE">
+				<attrlabl Sync="TRUE">TYPE</attrlabl>
+				<attalias Sync="TRUE">TYPE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">25</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Type de l'adresse:
+- principale, projet principale
+- isolée, projet isolée
+- secondaire, projet secondaire
+- professionnelle, projet professionnelle
+- arcade, projet arcade
+- diplomatique, projet diplomatique
+- virtuelle</atXTdesc>
+			</attr>
+			<attr Sync="TRUE">
+				<attrlabl Sync="TRUE">SHAPE</attrlabl>
+				<attalias Sync="TRUE">SHAPE</attalias>
+				<attrtype Sync="TRUE">Geometry</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">OBJECTID</attrlabl>
+				<attalias Sync="TRUE">OBJECTID</attalias>
+				<attrtype Sync="TRUE">OID</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NO_PAQUET</attrlabl>
+				<attalias Sync="TRUE">NO_PAQUET</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Numéro du paquet de mesures</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NO_MESURE</attrlabl>
+				<attalias Sync="TRUE">NO_MESURE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Numéro de la mesure</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">PAQUET</attrlabl>
+				<attalias Sync="TRUE">MESURES</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">100</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Intitulé paquet de mesure</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">MESURE</attrlabl>
+				<attalias Sync="TRUE">MESURE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">100</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Intitulé mesures</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">THEME_1</attrlabl>
+				<attalias Sync="TRUE">THEME_1</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Thème principal mesure</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">THEME_2</attrlabl>
+				<attalias Sync="TRUE">THEME_2</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Thème secondaire mesure</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">COUT_CH</attrlabl>
+				<attalias Sync="TRUE">COUT_CH</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">20</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Coût total (CHF)</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ETAT_PROJ</attrlabl>
+				<attalias Sync="TRUE">ETAT_PROJ</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Etat d'avancement mesure</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">HORIZON</attrlabl>
+				<attalias Sync="TRUE">HORIZON</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">20</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Périmètre d'influence du site</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">FINANC_CH</attrlabl>
+				<attalias Sync="TRUE">FINANC_CH</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>FInancement Confédération</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">PRIORITE</attrlabl>
+				<attalias Sync="TRUE">PRIORITE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Priorité mesure</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NOTES</attrlabl>
+				<attalias Sync="TRUE">NOTES</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">60</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Remarques</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">LIEN_WWW</attrlabl>
+				<attalias Sync="TRUE">LIEN_WWW</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">150</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Lien WEB sur la fiche</atXTdesc>
+			</attr>
+		</detailed>
+	</eainfo>
+	<mdDateSt Sync="TRUE">20110627</mdDateSt>
+	<mdContact>
+		<rpIndName>Pierre Lafontaine</rpIndName>
+		<rpXTIndLastName>Lafontaine</rpXTIndLastName>
+		<rpXTIndFirstName>Pierre</rpXTIndFirstName>
+		<rpOrgName>Service de l'organisation et des systèmes d'information</rpOrgName>
+		<rpXTOrgAcronym>SOSI</rpXTOrgAcronym>
+		<rpXTPartName>DIME - Département de l'intérieur, de la mobilité et de l'environnement</rpXTPartName>
+		<rpCntInfo>
+			<cntPhone>
+				<voiceNum>+4122 546 72 81</voiceNum>
+				<faxNum>+4122 546 72 70</faxNum>
+			</cntPhone>
+			<cntAddress>
+				<eMailAdd>pierre.lafontaine@etat.ge.ch</eMailAdd>
+				<XTName>rue des Gazomètres</XTName>
+				<XTNumber>7</XTNumber>
+				<delPoint>rue des Gazomètres 7</delPoint>
+				<postCode>1211</postCode>
+				<XTpostBox>36</XTpostBox>
+				<city>Genève 8</city>
+				<country>ch</country>
+				<XTLine></XTLine>
+				<adminArea></adminArea>
+			</cntAddress>
+			<cntOnlineRes>
+				<linkage>http://etat.geneve.ch/dt/geomatique/accueil.html</linkage>
+			</cntOnlineRes>
+			<cntHours></cntHours>
+			<cntInstr></cntInstr>
+		</rpCntInfo>
+		<rpPosName>Technicien en géomatique, resp. Métadonnées</rpPosName>
+		<rpXTBID>61beb9aa-9f41-4c2f-8ab4-2765d23df7e1</rpXTBID>
+	</mdContact>
+	<dqInfo>
+		<dqXTEdit>
+			<edtMethod>Digitalisation</edtMethod>
+			<edtPrecision>10 mètres</edtPrecision>
+			<edtScale>Variable</edtScale>
+			<edtFiability value="True" Sync="FALSE">
+			</edtFiability>
+		</dqXTEdit>
+		<dqXTDisplay>
+			<dspScale>10000 à 100000</dspScale>
+		</dqXTDisplay>
+	</dqInfo>
+	<mdXTInfoLink>http://www.sitg.ch</mdXTInfoLink>
+	<dataqual>
+		<lineage>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">Z:\SITG\METADATA\XML_BACKUP\CAD\cad_adresse.xml</srcused>
+				<date Sync="TRUE">20070604</date>
+				<time Sync="TRUE">08444900</time>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">Z:\SITG\METADATA\XML_BACKUP\CAD\cad_adresse.xml</srcused>
+				<date Sync="TRUE">20070605</date>
+				<time Sync="TRUE">11495900</time>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">Z:\SITG\METADATA\XML_BACKUP\CAD\cad_adresse.xml</srcused>
+				<date Sync="TRUE">20070605</date>
+				<time Sync="TRUE">13082300</time>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">Z:\SITG\METADATA\XML_BACKUP\CAD\cad_adresse.xml</srcused>
+				<date Sync="TRUE">20070608</date>
+				<time Sync="TRUE">14045100</time>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">Z:\SITG\METADATA\XML_BACKUP\CAD\cad_adresse.xml</srcused>
+				<date Sync="TRUE">20071214</date>
+				<time Sync="TRUE">14083300</time>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">Z:\SITG\METADATA\XML_BACKUP\CAD\cad_adresse.xml</srcused>
+				<date Sync="TRUE">20081028</date>
+				<time Sync="TRUE">09295500</time>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">Z:\SITG\METADATA\XML_BACKUP\CAD\cad_adresse.xml</srcused>
+				<date Sync="TRUE">20100602</date>
+				<time Sync="TRUE">09450100</time>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">D:\AGGLO_MN95\agglo_mesures_p.xml</srcused><date Sync="TRUE">20110627</date><time Sync="TRUE">10331900</time></procstep></lineage>
+	</dataqual>
+	<tpXTThemes><theme>Territoire</theme></tpXTThemes></metadata>

@@ -1,0 +1,909 @@
+<?xml version="1.0"?>
+<!--<!DOCTYPE metadata SYSTEM "http://www.esri.com/metadata/esriprof80.dtd">-->
+<metadata xml:lang="fr">
+	<Esri>
+		<CreaDate>20110712</CreaDate>
+		<CreaTime>14544300</CreaTime>
+		<SyncOnce>FALSE</SyncOnce>
+		<DataProperties>
+			<XTinfo>
+				<esrtype>Feature Class</esrtype>
+				<esrfctype>1</esrfctype>
+				<esralias>A.FFP_CORPS_MORT</esralias>
+				<esrname>A.FFP_CORPS_MORT</esrname>
+			</XTinfo>
+			<lineage>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080228" Time="175717">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080228" Time="175937">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080229" Time="063057">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080229" Time="063413">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080303" Time="074939">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080303" Time="075344">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080303" Time="094535">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080303" Time="095022">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080304" Time="063110">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080304" Time="063439">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080304" Time="103751">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080305" Time="063107">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080305" Time="063409">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080306" Time="063109">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080306" Time="063416">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080307" Time="063103">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080307" Time="063402">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080310" Time="063107">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080310" Time="063411">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080311" Time="063107">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080311" Time="063409">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080312" Time="063104">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080312" Time="063407">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080313" Time="063108">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080313" Time="063409">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080317" Time="074509">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080317" Time="074642">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080319" Time="063101">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080319" Time="063348">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080320" Time="063109">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080320" Time="063416">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080321" Time="063108">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080321" Time="063411">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080324" Time="063110">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080324" Time="063417">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080325" Time="063104">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080325" Time="063402">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080326" Time="063113">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080326" Time="063404">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080327" Time="063111">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080327" Time="063400">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080328" Time="063109">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080328" Time="063355">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080331" Time="063110">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080331" Time="063401">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080401" Time="063106">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080401" Time="063357">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080402" Time="063102">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080402" Time="063352">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080403" Time="063105">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080403" Time="063400">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080404" Time="063103">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080404" Time="063359">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080407" Time="063102">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080407" Time="063351">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080408" Time="063109">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080408" Time="063359">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080409" Time="063109">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080409" Time="063357">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080410" Time="075724">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080410" Time="080020">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080411" Time="063108">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080411" Time="063400">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080414" Time="063106">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080414" Time="063358">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080415" Time="063103">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080415" Time="063354">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080416" Time="063101">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080416" Time="063354">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080417" Time="063104">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080417" Time="063357">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080418" Time="063102">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080418" Time="063354">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080421" Time="063106">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080421" Time="063358">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080422" Time="063105">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080422" Time="063359">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080423" Time="063100">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080423" Time="063354">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080424" Time="063105">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080424" Time="063357">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080425" Time="063101">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080425" Time="063353">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080428" Time="063107">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080428" Time="063400">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080505" Time="063108">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080505" Time="063400">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080506" Time="063105">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080506" Time="063355">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080507" Time="063105">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080507" Time="063354">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080508" Time="063105">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080508" Time="063355">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080509" Time="063100">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080509" Time="063350">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080512" Time="063107">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080512" Time="063359">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080513" Time="063101">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080513" Time="063353">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080514" Time="063100">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080514" Time="063350">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080515" Time="063052">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080515" Time="063322">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080516" Time="063059">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080516" Time="063348">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080519" Time="063106">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080519" Time="063355">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080520" Time="063105">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080520" Time="063356">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080521" Time="063103">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080521" Time="063353">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080522" Time="063059">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080522" Time="063348">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080523" Time="063058">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080523" Time="063349">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080526" Time="063107">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080526" Time="063402">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080527" Time="063059">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080527" Time="063352">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080528" Time="063102">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080528" Time="063354">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080529" Time="063104">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080529" Time="063354">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080530" Time="063104">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080530" Time="063354">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080602" Time="063107">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080602" Time="063359">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080603" Time="063136">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080603" Time="063429">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080604" Time="063135">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080604" Time="063425">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080605" Time="063134">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080605" Time="063426">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080606" Time="063127">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080606" Time="063308">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080609" Time="063109">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080609" Time="063306">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080610" Time="063050">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080610" Time="063301">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080611" Time="063101">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080611" Time="063351">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080612" Time="063102">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080612" Time="063403">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080613" Time="063114">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080613" Time="063358">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080616" Time="063106">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080616" Time="063357">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080617" Time="063105">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080617" Time="063356">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080618" Time="063101">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080618" Time="063348">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080619" Time="063104">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080619" Time="063354">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080620" Time="063100">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080620" Time="063347">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080623" Time="063105">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080623" Time="063357">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080624" Time="063103">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080624" Time="063352">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.FFP_CORPS_MORT"</Process>
+			</lineage>
+		</DataProperties>
+		<SyncDate>20120703</SyncDate>
+		<SyncTime>13285100</SyncTime>
+		<ModDate>20120703</ModDate>
+		<ModTime>13285100</ModTime>
+		<MetaID>{21320E44-4653-48B4-A3F9-5F6D96B622F6}</MetaID></Esri>
+	<idinfo>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 1; ESRI ArcCatalog 9.2.6.1500</native>
+		<descript>
+			<langdata Sync="TRUE">fr</langdata>
+			<abstract>REQUIRED: A brief narrative summary of the data set.</abstract>
+			<purpose>REQUIRED: A summary of the intentions with which the data set was developed.</purpose>
+		</descript>
+		<citation>
+			<citeinfo>
+				<origin>REQUIRED: The name of an organization or individual that developed the data set.</origin>
+				<pubdate>REQUIRED: The date when the data set is published or otherwise made available for release.</pubdate>
+				<title Sync="TRUE">A.FFP_CORPS_MORT</title>
+				<ftname Sync="TRUE">A.FFP_CORPS_MORT</ftname>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<onlink Sync="TRUE">Server=CONSULTATION-SITG; Service=esri_sde; User=a; Version=SDE.DEFAULT</onlink>
+			</citeinfo>
+		</citation>
+		<timeperd>
+			<current>REQUIRED: The basis on which the time period of content information is determined.</current>
+			<timeinfo>
+				<sngdate>
+					<caldate>REQUIRED: The year (and optionally month, or month and day) for which the data set corresponds to the ground.</caldate>
+				</sngdate>
+			</timeinfo>
+		</timeperd>
+		<status>
+			<progress>REQUIRED: The state of the data set.</progress>
+			<update>REQUIRED: The frequency with which changes and additions are made to the data set after the initial data set is completed.</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">6.146946</westbc>
+				<eastbc Sync="TRUE">6.245049</eastbc>
+				<northbc Sync="TRUE">46.354364</northbc>
+				<southbc Sync="TRUE">46.206771</southbc>
+			</bounding>
+			<lboundng>
+				<leftbc Sync="TRUE">2500518.480000</leftbc>
+				<rightbc Sync="TRUE">2507821.450000</rightbc>
+				<bottombc Sync="TRUE">1117938.170000</bottombc>
+				<topbc Sync="TRUE">1134229.640000</topbc>
+			</lboundng>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>REQUIRED: Reference to a formally registered thesaurus or a similar authoritative source of theme keywords.</themekt>
+				<themekey>REQUIRED: Common-use word or phrase used to describe the subject of the data set.</themekey>
+			</theme>
+		</keywords>
+		<accconst>REQUIRED: Restrictions and legal prerequisites for accessing the data set.</accconst>
+		<useconst>REQUIRED: Restrictions and legal prerequisites for using the data set after access is granted.</useconst>
+		<natvform Sync="TRUE">Classe d'entités ArcSDE</natvform>
+	</idinfo>
+	<dataIdInfo>
+		<envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.6.1500</envirDesc>
+		<dataLang>
+			<languageCode Sync="FALSE" value="fr">
+			</languageCode>
+		</dataLang>
+		<idCitation>
+			<resTitle>NAVIGATION DE PLAISANCE - CORPS MORTS</resTitle>
+			<presForm>
+				<PresFormCd Sync="TRUE" value="005">
+				</PresFormCd>
+			</presForm>
+			<resRefDate>
+				<refDate>20080227</refDate>
+				<refDateType>
+					<DateTypCd value="001" Sync="FALSE">
+					</DateTypCd>
+				</refDateType>
+			</resRefDate>
+			<citRespParty>
+				<rpXTBID>e654d936-3ea6-4621-b5e3-3f983e95b588</rpXTBID>
+				<rpIndName>Yves Duffey</rpIndName>
+				<rpXTIndLastName>Duffey</rpXTIndLastName>
+				<rpXTIndFirstName>Yves</rpXTIndFirstName>
+				<rpOrgName>Direction générale de la nature et du paysage</rpOrgName>
+				<rpXTOrgAcronym>DGNP</rpXTOrgAcronym>
+				<rpXTPartName>DIME - Département de l'intérieur, de la mobilité et de l'environnement</rpXTPartName>
+				<rpCntInfo>
+					<cntPhone>
+						<voiceNum>+4122 388 55 12</voiceNum>
+						<faxNum>+4122 388 55 20</faxNum>
+					</cntPhone>
+					<cntAddress>
+						<eMailAdd>yves.duffey@etat.ge.ch</eMailAdd>
+						<XTName>rue des Battoirs</XTName>
+						<XTNumber>7</XTNumber>
+						<delPoint>rue des Battoirs 7</delPoint>
+						<postCode>1205</postCode>
+						<city>Genève</city>
+						<country>ch</country>
+						<XTLine>Case postale</XTLine>
+						<XTpostBox></XTpostBox>
+						<adminArea></adminArea>
+					</cntAddress>
+					<cntOnlineRes>
+						<linkage>http://etat.geneve.ch/dt/nature/accueil.html</linkage>
+					</cntOnlineRes>
+					<cntHours></cntHours>
+					<cntInstr></cntInstr>
+				</rpCntInfo>
+				<rpPosName>Chef corps des gardes environnement</rpPosName>
+			</citRespParty>
+			<resXTUpdateFicheDate><refDate>20110712</refDate><refDateType><DateTypCd value="001" Sync="FALSE"></DateTypCd></refDateType></resXTUpdateFicheDate></idCitation>
+		<spatRpType>
+			<SpatRepTypCd Sync="TRUE" value="001">
+			</SpatRepTypCd>
+		</spatRpType>
+		<dataExt>
+			<geoEle>
+				<GeoBndBox esriExtentType="native">
+					<westBL Sync="TRUE">2500518.48</westBL>
+					<eastBL Sync="TRUE">2507821.45</eastBL>
+					<northBL Sync="TRUE">1134229.64</northBL>
+					<southBL Sync="TRUE">1117938.17</southBL>
+					<exTypeCode Sync="TRUE">1</exTypeCode>
+					<XTdesc>Cadre de référence MN95</XTdesc>
+				</GeoBndBox>
+			</geoEle>
+		</dataExt>
+		<geoBox esriExtentType="decdegrees">
+			<westBL Sync="TRUE">6.146946</westBL>
+			<eastBL Sync="TRUE">6.245049</eastBL>
+			<northBL Sync="TRUE">46.354364</northBL>
+			<southBL Sync="TRUE">46.206771</southBL>
+			<exTypeCode Sync="TRUE">1</exTypeCode>
+		</geoBox>
+		<idAbs>Les places d'amarrages, corps morts et dépôts à terre géoréférencés permettent de situer exactement l'emplacement d'un bateau au bénéfice d'une autorisation et d'identifier son détenteur.
+Ces informations sont indispensables lors de contrôle de conformité de l'utilisation du domaine public et lorsqu'il faut faut atteindre en urgence un détenteur.
+En outre, elles permettent un premier contrôle technique lors de rocade ou d'attribution de places.</idAbs>
+		<idXTInfoLink>http://etat.geneve.ch/dt/nature_paysage-758-3890.html</idXTInfoLink>
+		<idXTLegalLink>http://etat.geneve.ch/geoportail/metadataws/Publish/legal/ffp_corps_mort.htm</idXTLegalLink>
+		<dataChar>
+			<CharSetCd value="004" Sync="FALSE">
+			</CharSetCd>
+		</dataChar>
+		<resMaint>
+			<maintFreq>
+				<MaintFreqCd value="002" Sync="FALSE">
+				</MaintFreqCd>
+				<descXT>Journalier</descXT></maintFreq>
+			<maintScp>
+				<ScopeCd value="005" Sync="FALSE">
+				</ScopeCd>
+			</maintScp>
+		</resMaint>
+		<idStatus>
+			<ProgCd value="001" Sync="FALSE">
+			</ProgCd>
+			<descXT>Accompli</descXT></idStatus>
+		<lnkObjects>
+			<lnkObject>
+				<lnkBID>4d70b7ab-f1f2-4925-aca0-bf02d210e57b</lnkBID>
+				<lnkType>Image</lnkType>
+				<lnkLink>http://etat.geneve.ch/geoportail/metadataws/Publish/images/A.FFP_CORPS_MORT.gif</lnkLink>
+			</lnkObject>
+		</lnkObjects>
+		<descKeys KeyTypCd="005" Sync="FALSE">
+			<keyword>administratif</keyword>
+			<keyword>eau</keyword>
+			<keyTyp>
+				<keyTypCd value="005" Sync="FALSE">
+				</keyTypCd>
+			</keyTyp>
+		</descKeys>
+		<tpCat><TopicCatCd value="017" Sync="FALSE"></TopicCatCd><descXT>Equipements et infrastructures</descXT></tpCat></dataIdInfo>
+	<metainfo>
+		<langmeta Sync="TRUE">fr</langmeta>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntper>REQUIRED: The person responsible for the metadata information.</cntper>
+					<cntorg>REQUIRED: The organization responsible for the metadata information.</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>REQUIRED: The mailing and/or physical address for the organization or individual.</addrtype>
+					<city>REQUIRED: The city of the address.</city>
+					<state>REQUIRED: The state or province of the address.</state>
+					<postal>REQUIRED: The ZIP or other postal code of the address.</postal>
+				</cntaddr>
+				<cntvoice>REQUIRED: The telephone number by which individuals can speak to the organization or individual.</cntvoice>
+			</cntinfo>
+		</metc>
+		<metd Sync="TRUE">20120703</metd>
+		<metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<mdLang>
+		<languageCode Sync="FALSE" value="fr">
+		</languageCode>
+	</mdLang>
+	<mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+	<mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+	<mdChar>
+		<CharSetCd Sync="TRUE" value="004">
+		</CharSetCd>
+	</mdChar>
+	<mdHrLv>
+		<ScopeCd Sync="TRUE" value="005">
+		</ScopeCd>
+	</mdHrLv>
+	<mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+	<distinfo>
+		<resdesc Sync="TRUE">Downloadable Data</resdesc>
+	</distinfo>
+	<distInfo>
+		<distributor>
+			<distorTran>
+				<onLineSrc>
+					<linkage>http://www.sitg.ch</linkage>
+					<protocol></protocol>
+					<linkOrderForm>http://etat.geneve.ch/geoportail/formsitg/</linkOrderForm>
+					<orFunct>
+						<OnFunctCd value="004" Sync="FALSE">
+						</OnFunctCd>
+					</orFunct>
+					<orDesc></orDesc></onLineSrc>
+				<offLineMed>
+					<medName>
+						<MedNameCd value="001" Sync="FALSE">
+						</MedNameCd>
+					</medName>
+				</offLineMed>
+				<transThirds value="True" Sync="FALSE">
+				</transThirds>
+			</distorTran>
+			<distorCont>
+				<rpXTBID>61beb9aa-9f41-4c2f-8ab4-2765d23df7e1</rpXTBID>
+				<rpIndName>Pierre Lafontaine</rpIndName>
+				<rpXTIndLastName>Lafontaine</rpXTIndLastName>
+				<rpXTIndFirstName>Pierre</rpXTIndFirstName>
+				<rpOrgName>Service de l'organisation et des systèmes d'information</rpOrgName>
+				<rpXTOrgAcronym>SOSI</rpXTOrgAcronym>
+				<rpXTPartName>DIME - Département de l'intérieur, de la mobilité et de l'environnement</rpXTPartName>
+				<rpCntInfo>
+					<cntPhone>
+						<voiceNum>+4122 546 72 81</voiceNum>
+						<faxNum>+4122 546 72 70</faxNum>
+					</cntPhone>
+					<cntAddress>
+						<eMailAdd>pierre.lafontaine@etat.ge.ch</eMailAdd>
+						<XTName>rue des Gazomètres</XTName>
+						<XTNumber>7</XTNumber>
+						<delPoint>rue des Gazomètres 7</delPoint>
+						<postCode>1211</postCode>
+						<XTpostBox>36</XTpostBox>
+						<city>Genève 8</city>
+						<country>ch</country>
+						<XTLine></XTLine>
+						<adminArea></adminArea>
+					</cntAddress>
+					<cntOnlineRes>
+						<linkage>http://etat.geneve.ch/dt/geomatique/accueil.html</linkage>
+					</cntOnlineRes>
+					<cntHours></cntHours>
+					<cntInstr></cntInstr>
+				</rpCntInfo>
+				<rpPosName>Technicien en géomatique, resp. Métadonnées</rpPosName>
+			</distorCont>
+			<distorFormat><formatName>Dwg/dxf, Géodatabase personnelle, Mif/mid, Shape file</formatName><formatVer>Sur demande</formatVer></distorFormat></distributor>
+	</distInfo>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<esriterm Name="A.FFP_CORPS_MORT">
+				<efeatyp Sync="TRUE">Simple</efeatyp>
+				<efeageom Sync="TRUE">Point</efeageom>
+				<esritopo Sync="TRUE">FALSE</esritopo>
+				<efeacnt Sync="TRUE">1874</efeacnt>
+				<spindex Sync="TRUE">TRUE</spindex>
+				<linrefer Sync="TRUE">FALSE</linrefer>
+			</esriterm>
+			<sdtsterm Name="A.FFP_CORPS_MORT">
+				<sdtstype Sync="TRUE">Entity point</sdtstype>
+				<ptvctcnt Sync="TRUE">1874</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<cordsysn>
+				<geogcsn Sync="TRUE">GCS_CH1903+</geogcsn>
+				<projcsn Sync="TRUE">CH1903+_LV95</projcsn>
+			</cordsysn>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<plandu Sync="TRUE">meters</plandu>
+					<coordrep>
+						<absres Sync="TRUE">0.010000</absres>
+						<ordres Sync="TRUE">0.010000</ordres>
+					</coordrep>
+				</planci>
+				<mapproj><mapprojn Sync="TRUE">Oblique Mercator</mapprojn><obqmerc><sfctrlin Sync="TRUE">1.000000</sfctrlin><obqlazim><azimangl Sync="TRUE">90.000000</azimangl><azimptl Sync="TRUE">7.439583</azimptl></obqlazim><latprjo Sync="TRUE">46.952406</latprjo><feast Sync="TRUE">2600000.000000</feast><fnorth Sync="TRUE">1200000.000000</fnorth></obqmerc></mapproj></planar>
+			<geodetic>
+				<horizdn Sync="TRUE">D_CH1903+</horizdn>
+				<ellips Sync="TRUE">Bessel_1841</ellips>
+				<semiaxis Sync="TRUE">6377397.155000</semiaxis>
+				<denflat Sync="TRUE">299.152813</denflat>
+			</geodetic>
+		</horizsys>
+		<vertdef>
+			<altsys>
+				<altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc>
+				<altres Sync="TRUE">1.000000</altres>
+			</altsys>
+		</vertdef>
+	</spref>
+	<refSysInfo>
+		<RefSystem>
+			<refSysID>
+				<identCode>CH1903+_LV95</identCode>
+			</refSysID>
+		</RefSystem>
+	</refSysInfo>
+	<spatRepInfo>
+		<VectSpatRep>
+			<topLvl>
+				<TopoLevCd Sync="TRUE" value="001">
+				</TopoLevCd>
+			</topLvl>
+			<geometObjs Name="A.FFP_CORPS_MORT"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="004"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">1866</geoObjCnt></geometObjs></VectSpatRep>
+	</spatRepInfo>
+	<eainfo>
+		<detailed Name="A.FFP_CORPS_MORT">
+			<attr>
+				<attrlabl Sync="TRUE">SHAPE</attrlabl>
+				<attalias Sync="TRUE">SHAPE</attalias>
+				<attrtype Sync="TRUE">Geometry</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">OBJECTID</attrlabl>
+				<attalias Sync="TRUE">OBJECTID</attalias>
+				<attrtype Sync="TRUE">OID</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NUMERO_ACTUEL</attrlabl>
+				<attalias Sync="TRUE">NUMERO_ACTUEL</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">20</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Numéro du corps mort</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ANCIEN_NUMERO</attrlabl>
+				<attalias Sync="TRUE">ANCIEN_NUMERO</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">20</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Ancien numéro du corps mort</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SECTEUR</attrlabl>
+				<attalias Sync="TRUE">SECTEUR</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">20</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Secteur dans lequel se trouve le corps mort</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POINT_GPS</attrlabl>
+				<attalias Sync="TRUE">POINT_GPS</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Numéro du point GPS du relevé</atXTdesc>
+			</attr>
+			<enttyp>
+				<enttypl Sync="TRUE">A.FFP_CORPS_MORT</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt>
+				<enttypc Sync="TRUE">1874</enttypc>
+			</enttyp>
+			<attr>
+				<attrlabl Sync="TRUE">AFFICHAGE</attrlabl>
+				<attalias Sync="TRUE">AFFICHAGE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">3</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Affichage ou non de l'objet</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">TYPE_OBJET</attrlabl>
+				<attalias Sync="TRUE">TYPE_OBJET</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Type d'objet</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NOM_ESTACADE</attrlabl>
+				<attalias Sync="TRUE">NOM_ESTACADE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">20</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nom de l'estacade pour l'accès</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">FONCTION</attrlabl>
+				<attalias Sync="TRUE">FONCTION</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Fonction de l'affectation</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">DATE_AFFECTATION</attrlabl>
+				<attalias Sync="TRUE">DATE_AFFECTATION</attalias>
+				<attrtype Sync="TRUE">Date</attrtype>
+				<attwidth Sync="TRUE">36</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Date d'affectation</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">CODE_TARIF</attrlabl>
+				<attalias Sync="TRUE">CODE_TARIF</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Code tarifaire</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">PLACE_ETAT</attrlabl>
+				<attalias Sync="TRUE">PLACE_ETAT</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">20</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Etat d'affectation du corps mort</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">PLACE_TIRANT_EAU</attrlabl>
+				<attalias Sync="TRUE">PLACE_TIRANT_EAU</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Tirant d'eau du corps mort</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NUMERO_DETENTEUR_SAN</attrlabl>
+				<attalias Sync="TRUE">NUMERO_DETENTEUR_SAN</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Numéro du détenteur selon SAN</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">BATEAU_NO_PLAQUE</attrlabl>
+				<attalias Sync="TRUE">BATEAU_NO_PLAQUE</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Numéro de plaque du bateau</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">CODE_NAVIGATION</attrlabl>
+				<attalias Sync="TRUE">CODE_NAVIGATION</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">1</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Code de navigation</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">CATEGORIE_SAN</attrlabl>
+				<attalias Sync="TRUE">CATEGORIE_SAN</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">20</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Catégorie de bateau selon SAN</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">BATEAU_LONGUEUR</attrlabl>
+				<attalias Sync="TRUE">BATEAU_LONGUEUR</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Longueur du bateau</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">BATEAU_LARGEUR</attrlabl>
+				<attalias Sync="TRUE">BATEAU_LARGEUR</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Largeur du bateau</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">BATEAU_TIRANT_EAU</attrlabl>
+				<attalias Sync="TRUE">BATEAU_TIRANT_EAU</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Tirant d'eau du bateau</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">USAGER_TITRE</attrlabl>
+				<attalias Sync="TRUE">USAGER_TITRE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">3</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Titre de l'usager</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">USAGER_NOM</attrlabl>
+				<attalias Sync="TRUE">USAGER_NOM</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nom de l'usager</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">USAGER_PRENOM</attrlabl>
+				<attalias Sync="TRUE">USAGER_PRENOM</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Prénom de l'usager</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">USAGER_RUE</attrlabl>
+				<attalias Sync="TRUE">USAGER_RUE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Rue (adresse) de l'usager</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">USAGER_COMPL_ADRESSE</attrlabl>
+				<attalias Sync="TRUE">USAGER_COMPL_ADRESSE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Complément courrier (adresse) de l'usager</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">USAGER_CCP</attrlabl>
+				<attalias Sync="TRUE">USAGER_CCP</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>CCP de l'usager</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">USAGER_COMMUNE</attrlabl>
+				<attalias Sync="TRUE">USAGER_COMMUNE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Commune (adresse) de l'usager</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">USAGER_RUE_COURRIER</attrlabl>
+				<attalias Sync="TRUE">USAGER_RUE_COURRIER</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Rue courrier (adresse) de l'usager</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">USAGER_COMPLEMENT_COURRIER</attrlabl>
+				<attalias Sync="TRUE">USAGER_COMPLEMENT_COURRIER</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Complément courrier (adresse) de l'usager</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">USAGER_CCP_COURRIER</attrlabl>
+				<attalias Sync="TRUE">USAGER_CCP_COURRIER</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>CCP courrier de l'usager</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">USAGER_COMMUNE_COURRIER</attrlabl>
+				<attalias Sync="TRUE">USAGER_COMMUNE_COURRIER</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Commune courrier (adresse) de l'usager</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">USAGER_NATEL</attrlabl>
+				<attalias Sync="TRUE">USAGER_NATEL</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">20</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Numéro de téléphone mobile de l'usager</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">USAGER_FAX</attrlabl>
+				<attalias Sync="TRUE">USAGER_FAX</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">20</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Numéro de fax de l'usager</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">USAGER_CODE_COURRIER</attrlabl>
+				<attalias Sync="TRUE">USAGER_CODE_COURRIER</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">4</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Code courrier (adresse) de l'usager</atXTdesc>
+			</attr>
+		</detailed>
+	</eainfo>
+	<mdDateSt Sync="TRUE">20110712</mdDateSt>
+	<mdXTInfoLink>http://www.sitg.ch</mdXTInfoLink>
+	<mdContact>
+		<rpXTBID>61beb9aa-9f41-4c2f-8ab4-2765d23df7e1</rpXTBID>
+		<rpIndName>Pierre Lafontaine</rpIndName>
+		<rpXTIndLastName>Lafontaine</rpXTIndLastName>
+		<rpXTIndFirstName>Pierre</rpXTIndFirstName>
+		<rpOrgName>Service de l'organisation et des systèmes d'information</rpOrgName>
+		<rpXTOrgAcronym>SOSI</rpXTOrgAcronym>
+		<rpXTPartName>DIME - Département de l'intérieur, de la mobilité et de l'environnement</rpXTPartName>
+		<rpCntInfo>
+			<cntPhone>
+				<voiceNum>+4122 546 72 81</voiceNum>
+				<faxNum>+4122 546 72 70</faxNum>
+			</cntPhone>
+			<cntAddress>
+				<eMailAdd>pierre.lafontaine@etat.ge.ch</eMailAdd>
+				<XTName>rue des Gazomètres</XTName>
+				<XTNumber>7</XTNumber>
+				<delPoint>rue des Gazomètres 7</delPoint>
+				<postCode>1211</postCode>
+				<XTpostBox>36</XTpostBox>
+				<city>Genève 8</city>
+				<country>ch</country>
+				<XTLine></XTLine>
+				<adminArea></adminArea>
+			</cntAddress>
+			<cntOnlineRes>
+				<linkage>http://etat.geneve.ch/dt/geomatique/accueil.html</linkage>
+			</cntOnlineRes>
+			<cntHours></cntHours>
+			<cntInstr></cntInstr>
+		</rpCntInfo>
+		<rpPosName>Technicien en géomatique, resp. Métadonnées</rpPosName>
+	</mdContact>
+	<dqInfo>
+		<dqXTEdit>
+			<edtMethod>Digitalisation</edtMethod>
+			<edtPrecision>Entre 1 et 5 mètres</edtPrecision>
+			<edtScale>1000</edtScale>
+			<edtFiability value="True" Sync="FALSE">
+			</edtFiability>
+		</dqXTEdit>
+		<dqXTDisplay>
+			<dspScale>1000 à 25000</dspScale>
+		</dqXTDisplay>
+	</dqInfo>
+	<dataqual>
+		<lineage>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">Z:\SITG\METADATA\XML_BACKUP\FFP\ffp_postes_garde.xml</srcused>
+				<date Sync="TRUE">20071025</date>
+				<time Sync="TRUE">09523000</time>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">W:\SITG\METADATA\XML_BACKUP\FFP\ffp_corps_mort.xml</srcused>
+				<date Sync="TRUE">20091106</date>
+				<time Sync="TRUE">08562500</time>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">W:\SITG\METADATA\XML_BACKUP\FFP\ffp_corps_mort.xml</srcused>
+				<date Sync="TRUE">20091106</date>
+				<time Sync="TRUE">13114200</time>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">D:\FFP_MN95\ffp_corps_mort.xml</srcused><date Sync="TRUE">20110712</date><time Sync="TRUE">14544300</time></procstep></lineage>
+	</dataqual>
+	<tpXTThemes><theme>Territoire</theme></tpXTThemes></metadata>

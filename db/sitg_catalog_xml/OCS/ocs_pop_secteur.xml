@@ -1,0 +1,1372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="fr">
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>REQUIRED: The name of an organization or individual that developed the data set.</origin>
+				<pubdate>REQUIRED: The date when the data set is published or otherwise made available for release.</pubdate>
+				<title Sync="TRUE">A.OCS_POP_SECTEUR</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<onlink Sync="TRUE">Server=CONSULTATION-SITG; Service=esri_sde; User=a; Version=SDE.DEFAULT</onlink>
+				<ftname Sync="TRUE">A.OCS_POP_SECTEUR</ftname>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>REQUIRED: A brief narrative summary of the data set.</abstract>
+			<purpose>REQUIRED: A summary of the intentions with which the data set was developed.</purpose>
+			<langdata Sync="TRUE">fr</langdata>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>REQUIRED: The year (and optionally month, or month and day) for which the data set corresponds to the ground.</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>REQUIRED: The basis on which the time period of content information is determined.</current>
+		</timeperd>
+		<status>
+			<progress>REQUIRED: The state of the data set.</progress>
+			<update>REQUIRED: The frequency with which changes and additions are made to the data set after the initial data set is completed.</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">5.950344</westbc>
+				<eastbc Sync="TRUE">6.313355</eastbc>
+				<northbc Sync="TRUE">46.367186</northbc>
+				<southbc Sync="TRUE">46.129767</southbc>
+			</bounding>
+			<lboundng>
+				<leftbc Sync="TRUE">2485410.240000</leftbc>
+				<rightbc Sync="TRUE">2512974.020000</rightbc>
+				<topbc Sync="TRUE">1135578.440000</topbc>
+				<bottombc Sync="TRUE">1109644.830000</bottombc>
+			</lboundng>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>REQUIRED: Reference to a formally registered thesaurus or a similar authoritative source of theme keywords.</themekt>
+				<themekey>REQUIRED: Common-use word or phrase used to describe the subject of the data set.</themekey>
+			</theme>
+		</keywords>
+		<accconst>REQUIRED: Restrictions and legal prerequisites for accessing the data set.</accconst>
+		<useconst>REQUIRED: Restrictions and legal prerequisites for using the data set after access is granted.</useconst>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 1; ESRI ArcCatalog 9.2.6.1500</native>
+		<natvform Sync="TRUE">Classe d'entités ArcSDE</natvform>
+	</idinfo>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="A.OCS_POP_SECTEUR">
+				<sdtstype Sync="TRUE">G-polygon</sdtstype>
+				<ptvctcnt Sync="TRUE">475</ptvctcnt>
+			</sdtsterm>
+			<esriterm Name="A.OCS_POP_SECTEUR">
+				<efeatyp Sync="TRUE">Simple</efeatyp>
+				<esritopo Sync="TRUE">FALSE</esritopo>
+				<linrefer Sync="TRUE">FALSE</linrefer>
+				<spindex Sync="TRUE">TRUE</spindex>
+				<efeageom Sync="TRUE">Polygon</efeageom>
+				<efeacnt Sync="TRUE">475</efeacnt>
+			</esriterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<coordrep>
+						<absres Sync="TRUE">0.010000</absres>
+						<ordres Sync="TRUE">0.010000</ordres>
+					</coordrep>
+					<plandu Sync="TRUE">meters</plandu>
+				</planci>
+				<mapproj><mapprojn Sync="TRUE">Oblique Mercator</mapprojn><obqmerc><sfctrlin Sync="TRUE">1.000000</sfctrlin><obqlazim><azimangl Sync="TRUE">90.000000</azimangl><azimptl Sync="TRUE">7.439583</azimptl></obqlazim><latprjo Sync="TRUE">46.952406</latprjo><feast Sync="TRUE">2600000.000000</feast><fnorth Sync="TRUE">1200000.000000</fnorth></obqmerc></mapproj></planar>
+			<geodetic>
+				<horizdn Sync="TRUE">D_CH1903+</horizdn>
+				<ellips Sync="TRUE">Bessel_1841</ellips>
+				<semiaxis Sync="TRUE">6377397.155000</semiaxis>
+				<denflat Sync="TRUE">299.152813</denflat>
+			</geodetic>
+			<cordsysn>
+				<geogcsn Sync="TRUE">GCS_CH1903+</geogcsn>
+				<projcsn Sync="TRUE">CH1903+_LV95</projcsn>
+			</cordsysn>
+		</horizsys>
+		<vertdef>
+			<altsys>
+				<altres Sync="TRUE">1.000000</altres>
+				<altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc>
+			</altsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<detailed Name="A.OCS_POP_SECTEUR">
+			<attr>
+				<attrlabl Sync="TRUE">NO_COM_FEDERAL</attrlabl>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attalias Sync="TRUE">NO_COM_FEDERAL</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atXTdesc>Numéro fédéral de commune</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NOM</attrlabl>
+				<attalias Sync="TRUE">NOM</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">40</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nom de la commune</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NO_COMM</attrlabl>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attalias Sync="TRUE">NO_COMM</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atXTdesc>Numéro de commune</atXTdesc>
+			</attr>
+			<enttyp>
+				<enttypl Sync="TRUE">A.OCS_POP_SECTEUR</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt>
+				<enttypc Sync="TRUE">475</enttypc>
+			</enttyp>
+			<attr>
+				<attrlabl Sync="TRUE">SECTEUR</attrlabl>
+				<attalias Sync="TRUE">SECTEUR</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">3</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Identifiant secteur</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SOUS_SECTEUR</attrlabl>
+				<attalias Sync="TRUE">SOUS_SECTEUR</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">3</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Identifiant sous-secteur</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NUMERO</attrlabl>
+				<attalias Sync="TRUE">NUMERO</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">7</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Numéro</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SECTEUR_VILLE</attrlabl>
+				<attalias Sync="TRUE">SECTEUR_VILLE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">40</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nom du secteur (seulement en ville de Genève)</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">DATE_REF</attrlabl>
+				<attalias Sync="TRUE">DATE_REF</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">7</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Date de référence</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP</attrlabl>
+				<attalias Sync="TRUE">POP</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Total de la population résidente en fin d'année</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_00_AN</attrlabl>
+				<attalias Sync="TRUE">POP_AGE_00_AN</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Moins de un an</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_01_AN</attrlabl>
+				<attalias Sync="TRUE">POP_AGE_01_AN</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>1 an</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_02_ANS</attrlabl>
+				<attalias Sync="TRUE">POP_AGE_02_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>2 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_03_ANS</attrlabl>
+				<attalias Sync="TRUE">POP_AGE_03_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>3 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_04_ANS</attrlabl>
+				<attalias Sync="TRUE">POP_AGE_04_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>4 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_05_ANS</attrlabl>
+				<attalias Sync="TRUE">POP_AGE_05_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>5 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_06_ANS</attrlabl>
+				<attalias Sync="TRUE">POP_AGE_06_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>6 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_07_ANS</attrlabl>
+				<attalias Sync="TRUE">POP_AGE_07_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>7 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_08_ANS</attrlabl>
+				<attalias Sync="TRUE">POP_AGE_08_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>8 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_09_ANS</attrlabl>
+				<attalias Sync="TRUE">POP_AGE_09_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>9 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_10_ANS</attrlabl>
+				<attalias Sync="TRUE">POP_AGE_10_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>10 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_11_ANS</attrlabl>
+				<attalias Sync="TRUE">POP_AGE_11_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>11 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_12_ANS</attrlabl>
+				<attalias Sync="TRUE">POP_AGE_12_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>12 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_13_ANS</attrlabl>
+				<attalias Sync="TRUE">POP_AGE_13_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>13 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_14_ANS</attrlabl>
+				<attalias Sync="TRUE">POP_AGE_14_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>14 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_15_ANS</attrlabl>
+				<attalias Sync="TRUE">POP_AGE_15_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>15 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_16_ANS</attrlabl>
+				<attalias Sync="TRUE">POP_AGE_16_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>16 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_17_ANS</attrlabl>
+				<attalias Sync="TRUE">POP_AGE_17_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>17 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_18_ANS</attrlabl>
+				<attalias Sync="TRUE">POP_AGE_18_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>18 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_19_ANS</attrlabl>
+				<attalias Sync="TRUE">POP_AGE_19_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>19 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_20_24_ANS</attrlabl>
+				<attalias Sync="TRUE">POP_AGE_20_24_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>20 à 24 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_25_29_ANS</attrlabl>
+				<attalias Sync="TRUE">POP_AGE_25_29_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>25 à 29 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_30_34_ANS</attrlabl>
+				<attalias Sync="TRUE">POP_AGE_30_34_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>30 à 34 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_35_39_ANS</attrlabl>
+				<attalias Sync="TRUE">POP_AGE_35_39_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>35 à 39 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_40_44_ANS</attrlabl>
+				<attalias Sync="TRUE">POP_AGE_40_44_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>40 à 44 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_45_49_ANS</attrlabl>
+				<attalias Sync="TRUE">POP_AGE_45_49_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>45 à 49 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_50_54_ANS</attrlabl>
+				<attalias Sync="TRUE">POP_AGE_50_54_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>50 à 54 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_55_59_ANS</attrlabl>
+				<attalias Sync="TRUE">POP_AGE_55_59_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>55 à 59 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_60_64_ANS</attrlabl>
+				<attalias Sync="TRUE">POP_AGE_60_64_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>60 à 64 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_65_69_ANS</attrlabl>
+				<attalias Sync="TRUE">POP_AGE_65_69_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>65 à 69 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_70_74_ANS</attrlabl>
+				<attalias Sync="TRUE">POP_AGE_70_74_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>70 à 74 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_75_79_ANS</attrlabl>
+				<attalias Sync="TRUE">POP_AGE_75_79_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>75 à 79 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_80_84_ANS</attrlabl>
+				<attalias Sync="TRUE">POP_AGE_80_84_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>80 à 84 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_85_ANS_PLUS</attrlabl>
+				<attalias Sync="TRUE">POP_AGE_85_ANS_PLUS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>85 ans et plus</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_ORIGINE_ETRANGERS</attrlabl>
+				<attalias Sync="TRUE">POP_ORIGINE_ETRANGERS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Population résidente d'origine étrangère</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_ORIGINE_SUISSES</attrlabl>
+				<attalias Sync="TRUE">POP_ORIGINE_SUISSES</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Population résidente d'origine suisse</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_SEXE_FEMMES</attrlabl>
+				<attalias Sync="TRUE">POP_SEXE_FEMMES</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Femmes</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_SEXE_HOMMES</attrlabl>
+				<attalias Sync="TRUE">POP_SEXE_HOMMES</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Hommes</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">OBJECTID</attrlabl>
+				<attalias Sync="TRUE">OBJECTID</attalias>
+				<attrtype Sync="TRUE">OID</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SHAPE</attrlabl>
+				<attalias Sync="TRUE">SHAPE</attalias>
+				<attrtype Sync="TRUE">Geometry</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SHAPE.AREA</attrlabl>
+				<attalias Sync="TRUE">SHAPE.AREA</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">0</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SHAPE.LEN</attrlabl>
+				<attalias Sync="TRUE">SHAPE.LEN</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">0</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+		</detailed>
+		<detailed>
+			<enttyp>
+				<enttypl Sync="TRUE">A.OCS_POP_SECTEUR</enttypl>
+				<enttypc Sync="TRUE">475</enttypc>
+				<enttypt Sync="TRUE">Feature Class</enttypt>
+			</enttyp>
+			<attr>
+				<attrlabl Sync="TRUE">SHAPE</attrlabl>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attalias Sync="TRUE">SHAPE</attalias>
+				<attrtype Sync="TRUE">Geometry</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">4</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SECTEUR</attrlabl>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attalias Sync="TRUE">SECTEUR</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">3</attwidth>
+				<atXTdesc>Code du secteur</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_SEXE_FEMMES</attrlabl>
+				<atprecis Sync="TRUE">4</atprecis>
+				<attalias Sync="TRUE">POP_SEXE_FEMMES</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atXTdesc>Femmes</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SOUS_SECTEUR</attrlabl>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attalias Sync="TRUE">SOUS_SECTEUR</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">3</attwidth>
+				<atXTdesc>Code du sous-secteur</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NUMERO</attrlabl>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attalias Sync="TRUE">NUMERO</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atXTdesc>
+Numéro du sous-secteur
+(concaténation NO_COMM_FEDERAL,SECTEUR,SOUS_SECTEUR)
+</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SECTEUR_VILLE</attrlabl>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attalias Sync="TRUE">SECTEUR_VILLE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">40</attwidth>
+				<atXTdesc>Nom du secteur (seulement en ville de Genève)</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP</attrlabl>
+				<atprecis Sync="TRUE">4</atprecis>
+				<attalias Sync="TRUE">POP</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atXTdesc>Total de la population résidente en fin d'année</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_00_AN</attrlabl>
+				<atprecis Sync="TRUE">4</atprecis>
+				<attalias Sync="TRUE">POP_AGE_00_AN</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atXTdesc>Moins de 1 an</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_01_AN</attrlabl>
+				<atprecis Sync="TRUE">4</atprecis>
+				<attalias Sync="TRUE">POP_AGE_01_AN</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atXTdesc>1 an</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_02_ANS</attrlabl>
+				<atprecis Sync="TRUE">4</atprecis>
+				<attalias Sync="TRUE">POP_AGE_02_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atXTdesc>2 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_03_ANS</attrlabl>
+				<atprecis Sync="TRUE">4</atprecis>
+				<attalias Sync="TRUE">POP_AGE_03_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atXTdesc>3 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_04_ANS</attrlabl>
+				<atprecis Sync="TRUE">4</atprecis>
+				<attalias Sync="TRUE">POP_AGE_04_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atXTdesc>4 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_05_ANS</attrlabl>
+				<atprecis Sync="TRUE">4</atprecis>
+				<attalias Sync="TRUE">POP_AGE_05_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atXTdesc>5 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_06_ANS</attrlabl>
+				<atprecis Sync="TRUE">4</atprecis>
+				<attalias Sync="TRUE">POP_AGE_06_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atXTdesc>6 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_07_ANS</attrlabl>
+				<atprecis Sync="TRUE">4</atprecis>
+				<attalias Sync="TRUE">POP_AGE_07_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atXTdesc>7 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_08_ANS</attrlabl>
+				<atprecis Sync="TRUE">4</atprecis>
+				<attalias Sync="TRUE">POP_AGE_08_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atXTdesc>8 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_09_ANS</attrlabl>
+				<atprecis Sync="TRUE">4</atprecis>
+				<attalias Sync="TRUE">POP_AGE_09_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atXTdesc>9 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_10_ANS</attrlabl>
+				<atprecis Sync="TRUE">4</atprecis>
+				<attalias Sync="TRUE">POP_AGE_10_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atXTdesc>10 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_11_ANS</attrlabl>
+				<atprecis Sync="TRUE">4</atprecis>
+				<attalias Sync="TRUE">POP_AGE_11_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atXTdesc>11 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_12_ANS</attrlabl>
+				<atprecis Sync="TRUE">4</atprecis>
+				<attalias Sync="TRUE">POP_AGE_12_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atXTdesc>12 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_13_ANS</attrlabl>
+				<atprecis Sync="TRUE">4</atprecis>
+				<attalias Sync="TRUE">POP_AGE_13_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atXTdesc>13 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_14_ANS</attrlabl>
+				<atprecis Sync="TRUE">4</atprecis>
+				<attalias Sync="TRUE">POP_AGE_14_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atXTdesc>14 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_15_ANS</attrlabl>
+				<atprecis Sync="TRUE">4</atprecis>
+				<attalias Sync="TRUE">POP_AGE_15_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atXTdesc>15 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_16_ANS</attrlabl>
+				<atprecis Sync="TRUE">4</atprecis>
+				<attalias Sync="TRUE">POP_AGE_16_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atXTdesc>16 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_17_ANS</attrlabl>
+				<atprecis Sync="TRUE">4</atprecis>
+				<attalias Sync="TRUE">POP_AGE_17_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atXTdesc>17 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_18_ANS</attrlabl>
+				<atprecis Sync="TRUE">4</atprecis>
+				<attalias Sync="TRUE">POP_AGE_18_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atXTdesc>18 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_19_ANS</attrlabl>
+				<atprecis Sync="TRUE">4</atprecis>
+				<attalias Sync="TRUE">POP_AGE_19_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atXTdesc>19 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_20_24_ANS</attrlabl>
+				<atprecis Sync="TRUE">4</atprecis>
+				<attalias Sync="TRUE">POP_AGE_20_24_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atXTdesc>De 20  à 24 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_25_29_ANS</attrlabl>
+				<atprecis Sync="TRUE">4</atprecis>
+				<attalias Sync="TRUE">POP_AGE_25_29_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atXTdesc>De 25 à 29 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_30_34_ANS</attrlabl>
+				<atprecis Sync="TRUE">4</atprecis>
+				<attalias Sync="TRUE">POP_AGE_30_34_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atXTdesc>De 30 à 34 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_35_39_ANS</attrlabl>
+				<atprecis Sync="TRUE">4</atprecis>
+				<attalias Sync="TRUE">POP_AGE_35_39_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atXTdesc>De 35 à 39 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_40_44_ANS</attrlabl>
+				<atprecis Sync="TRUE">4</atprecis>
+				<attalias Sync="TRUE">POP_AGE_40_44_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atXTdesc>De 40 à 44 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_45_49_ANS</attrlabl>
+				<atprecis Sync="TRUE">4</atprecis>
+				<attalias Sync="TRUE">POP_AGE_45_49_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atXTdesc>De 45 à 49 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_50_54_ANS</attrlabl>
+				<atprecis Sync="TRUE">4</atprecis>
+				<attalias Sync="TRUE">POP_AGE_50_54_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atXTdesc>De 50 à 54 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_55_59_ANS</attrlabl>
+				<atprecis Sync="TRUE">4</atprecis>
+				<attalias Sync="TRUE">POP_AGE_55_59_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atXTdesc>De 55 à 59 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_60_64_ANS</attrlabl>
+				<atprecis Sync="TRUE">4</atprecis>
+				<attalias Sync="TRUE">POP_AGE_60_64_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atXTdesc>De 60 à 64 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_65_69_ANS</attrlabl>
+				<atprecis Sync="TRUE">4</atprecis>
+				<attalias Sync="TRUE">POP_AGE_65_69_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atXTdesc>De 65 à 69 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">DATE_REF</attrlabl>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attalias Sync="TRUE">DATE_REF</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">7</attwidth>
+				<atXTdesc>Date de référence de la statistique</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">OBJECTID</attrlabl>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attalias Sync="TRUE">OBJECTID</attalias>
+				<attrtype Sync="TRUE">OID</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">4</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_SEXE_HOMMES</attrlabl>
+				<atprecis Sync="TRUE">4</atprecis>
+				<attalias Sync="TRUE">POP_SEXE_HOMMES</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atXTdesc>Hommes</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NOM</attrlabl>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attalias Sync="TRUE">NOM</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">40</attwidth>
+				<atXTdesc>Nom du sous-secteur</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_70_74_ANS</attrlabl>
+				<atprecis Sync="TRUE">4</atprecis>
+				<attalias Sync="TRUE">POP_AGE_70_74_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atXTdesc>De 70 à 74 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_75_79_ANS</attrlabl>
+				<atprecis Sync="TRUE">4</atprecis>
+				<attalias Sync="TRUE">POP_AGE_75_79_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atXTdesc>De 75 à 79 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_80_84_ANS</attrlabl>
+				<atprecis Sync="TRUE">4</atprecis>
+				<attalias Sync="TRUE">POP_AGE_80_84_ANS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atXTdesc>De 80 à 84 ans</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_AGE_85_ANS_PLUS</attrlabl>
+				<atprecis Sync="TRUE">4</atprecis>
+				<attalias Sync="TRUE">POP_AGE_85_ANS_PLUS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atXTdesc>85 ans et plus</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_ORIGINE_ETRANGERS</attrlabl>
+				<atprecis Sync="TRUE">4</atprecis>
+				<attalias Sync="TRUE">POP_ORIGINE_ETRANGERS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atXTdesc>Population résidante d’origine étrangère.</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_ORIGINE_SUISSES</attrlabl>
+				<atprecis Sync="TRUE">4</atprecis>
+				<attalias Sync="TRUE">POP_ORIGINE_SUISSES</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atXTdesc>Population résidante de nationalité suisse.</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SHAPE.AREA</attrlabl>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attalias Sync="TRUE">SHAPE.AREA</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">0</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SHAPE.LEN</attrlabl>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attalias Sync="TRUE">SHAPE.LEN</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">0</attwidth>
+			</attr>
+		</detailed>
+	</eainfo>
+	<distinfo>
+		<resdesc Sync="TRUE">Downloadable Data</resdesc>
+	</distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20120404</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>REQUIRED: The organization responsible for the metadata information.</cntorg>
+					<cntper>REQUIRED: The person responsible for the metadata information.</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>REQUIRED: The mailing and/or physical address for the organization or individual.</addrtype>
+					<city>REQUIRED: The city of the address.</city>
+					<state>REQUIRED: The state or province of the address.</state>
+					<postal>REQUIRED: The ZIP or other postal code of the address.</postal>
+				</cntaddr>
+				<cntvoice>REQUIRED: The telephone number by which individuals can speak to the organization or individual.</cntvoice>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<langmeta Sync="TRUE">fr</langmeta>
+		<metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<dataIdInfo>
+		<envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.6.1500</envirDesc>
+		<dataLang>
+			<languageCode Sync="FALSE" value="fr">
+			</languageCode>
+		</dataLang>
+		<descKeys KeyTypCd="005" Sync="FALSE">
+			<keyword>administratif</keyword>
+			<keyTyp>
+				<keyTypCd value="005" Sync="FALSE">
+				</keyTypCd>
+			</keyTyp>
+		</descKeys>
+		<geoBox esriExtentType="decdegrees">
+			<westBL Sync="TRUE">5.950344</westBL>
+			<eastBL Sync="TRUE">6.313355</eastBL>
+			<northBL Sync="TRUE">46.367186</northBL>
+			<southBL Sync="TRUE">46.129767</southBL>
+			<exTypeCode Sync="TRUE">1</exTypeCode>
+		</geoBox>
+		<idAbs>La statistique cantonale de la population résidante reflète la situation par trimestre pour l'année en cours. Depuis le 1er janvier 1989, cette statistique est fondée sur la base de données des habitants, que gère l’Office cantonal de la population (OCP).
+
+Population résidante
+Parmi les personnes figurant dans la base de l’OCP, toutes ne sont prises en compte dans la statistique. Sont notamment exclues les personnes momentanément absentes du canton, ainsi que les personnes au bénéfice d’une autorisation de séjour ou d’établissement professionnel.
+
+Source : OCSTAT / OCP</idAbs>
+		<idCitation>
+			<resTitle>STATISTIQUE CANTONALE DE LA POPULATION (Information au sous-secteur)</resTitle>
+			<presForm>
+				<PresFormCd Sync="TRUE" value="005">
+				</PresFormCd>
+			</presForm>
+			<resRefDate>
+				<refDate>20080630</refDate>
+				<refDateType>
+					<DateTypCd value="001" Sync="FALSE">
+					</DateTypCd>
+				</refDateType>
+			</resRefDate>
+			<citRespParty>
+				<rpXTBID>cbe9406d-5feb-4093-bec8-c9272a1611af</rpXTBID>
+				<rpCntInfo>
+					<cntPhone>
+						<voiceNum>+4122 388 75 22</voiceNum>
+						<faxNum>+4122 388 75 10</faxNum>
+					</cntPhone>
+					<cntAddress>
+						<eMailAdd>jose.juan@etat.ge.ch</eMailAdd>
+						<delPoint>route des Acacias 82</delPoint>
+						<postCode>1211</postCode>
+						<XTLine>
+						</XTLine>
+						<XTName>route des Acacias</XTName>
+						<XTNumber>82</XTNumber>
+						<XTpostBox>1735</XTpostBox>
+						<city>Genève 26</city>
+						<country>ch</country>
+						<adminArea>
+						</adminArea>
+					</cntAddress>
+					<cntOnlineRes>
+						<linkage>http://etat.geneve.ch/des/site/</linkage>
+					</cntOnlineRes>
+					<cntHours>
+					</cntHours>
+					<cntInstr>
+					</cntInstr>
+				</rpCntInfo>
+				<rpIndName>José Juan</rpIndName>
+				<rpOrgName>Office cantonal de la statistique</rpOrgName>
+				<rpPosName>-</rpPosName>
+				<rpXTIndFirstName>José</rpXTIndFirstName>
+				<rpXTIndLastName>Juan</rpXTIndLastName>
+				<rpXTOrgAcronym>OCSTAT</rpXTOrgAcronym>
+				<rpXTPartName>DF - Département des finances</rpXTPartName>
+			</citRespParty>
+			<resXTUpdateFicheDate><refDate>20120404</refDate><refDateType><DateTypCd value="001" Sync="FALSE"></DateTypCd></refDateType></resXTUpdateFicheDate></idCitation>
+		<idStatus>
+			<ProgCd value="001" Sync="FALSE">
+			</ProgCd>
+			<descXT>Accompli</descXT></idStatus>
+		<idXTInfoLink>http://www.geneve.ch/statistique/</idXTInfoLink>
+		<idXTLegalLink>http://etat.geneve.ch/geoportail/metadataws/Publish/legal/ocstat.htm</idXTLegalLink>
+		<lnkObjects>
+			<lnkObject>
+				<lnkBID>7ca936ad-696b-46e7-a16f-9c841be73d37</lnkBID>
+				<lnkType>Image</lnkType>
+				<lnkLink>http://etat.geneve.ch/geoportail/metadataws/Publish/images/A.OCS_STATISTIQUE_SECTEUR.gif</lnkLink>
+			</lnkObject>
+			<lnkObject><lnkBID>bd1b267e-4aa6-473f-ba29-482a95f5042c</lnkBID><lnkType>Autre</lnkType><lnkNote>Conditions de diffusion des données statistiques</lnkNote><lnkLink>http://www.ge.ch/statistique/tel/questionnaires/donnees_adresse.pdf</lnkLink></lnkObject></lnkObjects>
+		<resMaint>
+			<maintFreq>
+				<MaintFreqCd value="006" Sync="FALSE">
+				</MaintFreqCd>
+				<descXT>Trimestriel</descXT></maintFreq>
+			<maintScp>
+				<ScopeCd value="005" Sync="FALSE">
+				</ScopeCd>
+			</maintScp>
+		</resMaint>
+		<spatRpType>
+			<SpatRepTypCd Sync="TRUE" value="001">
+			</SpatRepTypCd>
+		</spatRpType>
+		<dataExt>
+			<geoEle>
+				<GeoBndBox esriExtentType="native">
+					<westBL Sync="TRUE">2485410.24</westBL>
+					<northBL Sync="TRUE">1135578.44</northBL>
+					<southBL Sync="TRUE">1109644.83</southBL>
+					<XTdesc>Cadre de référence MN95</XTdesc>
+					<eastBL Sync="TRUE">2512974.02</eastBL>
+					<exTypeCode Sync="TRUE">1</exTypeCode>
+				</GeoBndBox>
+			</geoEle>
+		</dataExt>
+		<dataChar>
+			<CharSetCd value="004" Sync="FALSE">
+			</CharSetCd>
+		</dataChar>
+		<tpCat><TopicCatCd value="016" Sync="FALSE"></TopicCatCd><descXT>Culture, société et démographie</descXT></tpCat></dataIdInfo>
+	<distInfo>
+		<distributor>
+			<distorTran>
+				<onLineSrc>
+					<orFunct>
+						<OnFunctCd value="004" Sync="FALSE">
+						</OnFunctCd>
+					</orFunct>
+					<protocol></protocol>
+					<linkage>http://www.sitg.ch</linkage>
+					<linkOrderForm>http://etat.geneve.ch/geoportail/formsitg/</linkOrderForm>
+					<orDesc></orDesc></onLineSrc>
+				<offLineMed>
+					<medName>
+						<MedNameCd value="001" Sync="FALSE">
+						</MedNameCd>
+					</medName>
+				</offLineMed>
+				<transThirds value="False" Sync="FALSE">
+				</transThirds>
+			</distorTran>
+			<distorCont>
+				<rpXTBID>61beb9aa-9f41-4c2f-8ab4-2765d23df7e1</rpXTBID>
+				<rpIndName>Pierre Lafontaine</rpIndName>
+				<rpXTIndLastName>Lafontaine</rpXTIndLastName>
+				<rpXTIndFirstName>Pierre</rpXTIndFirstName>
+				<rpOrgName>Service de l'organisation et des systèmes d'information</rpOrgName>
+				<rpXTOrgAcronym>SOSI</rpXTOrgAcronym>
+				<rpXTPartName>DIM - Département de l'intérieur et de la mobilité</rpXTPartName>
+				<rpCntInfo>
+					<cntPhone>
+						<voiceNum>+4122 546 72 81</voiceNum>
+						<faxNum>+4122 546 72 70</faxNum>
+					</cntPhone>
+					<cntAddress>
+						<eMailAdd>pierre.lafontaine@etat.ge.ch</eMailAdd>
+						<delPoint>rue des Gazomètres 7</delPoint>
+						<postCode>1211</postCode>
+						<XTLine>
+						</XTLine>
+						<XTName>rue des Gazomètres</XTName>
+						<XTNumber>7</XTNumber>
+						<XTpostBox>36</XTpostBox>
+						<city>Genève 8</city>
+						<country>ch</country>
+						<adminArea>
+						</adminArea>
+					</cntAddress>
+					<cntOnlineRes>
+						<linkage>http://etat.geneve.ch/dt/geomatique/accueil.html</linkage>
+					</cntOnlineRes>
+					<cntHours>
+					</cntHours>
+					<cntInstr>
+					</cntInstr>
+				</rpCntInfo>
+				<rpPosName>Technicien en géomatique, resp. Métadonnées</rpPosName>
+			</distorCont>
+			<distorFormat><formatName>Dwg/dxf, Géodatabase personnelle, Mif/mid, Shape file</formatName><formatVer>Sur demande</formatVer></distorFormat></distributor>
+	</distInfo>
+	<dqInfo>
+		<dqXTEdit>
+			<edtMethod>Intégration fichier ASCII</edtMethod>
+			<edtFiability value="True" Sync="FALSE">
+			</edtFiability>
+			<edtPrecision>Entre 1 et 2 mètres (précision de l'adresse)</edtPrecision>
+			<edtScale>250</edtScale>
+		</dqXTEdit>
+		<dqXTDisplay>
+			<dspScale>500 à 25000</dspScale>
+		</dqXTDisplay>
+	</dqInfo>
+	<Esri>
+		<ModDate>20120404</ModDate>
+		<ModTime>13422800</ModTime>
+		<SyncDate>20120404</SyncDate>
+		<SyncOnce>FALSE</SyncOnce>
+		<SyncTime>13422800</SyncTime>
+		<CreaDate>20110725</CreaDate>
+		<CreaTime>14071500</CreaTime>
+		<DataProperties>
+			<XTinfo>
+				<esrtype>Feature Class</esrtype>
+				<esrfctype>1</esrfctype>
+				<esralias>A.OCS_POP_SECTEUR</esralias>
+				<esrname>A.OCS_POP_SECTEUR</esrname>
+			</XTinfo>
+		</DataProperties>
+		<MetaID>{B5EF5E66-A028-4A7E-B0A1-9AAE21D8C356}</MetaID></Esri>
+	<mdChar>
+		<CharSetCd Sync="TRUE" value="004">
+		</CharSetCd>
+	</mdChar>
+	<mdContact>
+		<rpXTBID>61beb9aa-9f41-4c2f-8ab4-2765d23df7e1</rpXTBID>
+		<rpIndName>Pierre Lafontaine</rpIndName>
+		<rpXTIndLastName>Lafontaine</rpXTIndLastName>
+		<rpXTIndFirstName>Pierre</rpXTIndFirstName>
+		<rpOrgName>Service de l'organisation et des systèmes d'information</rpOrgName>
+		<rpXTOrgAcronym>SOSI</rpXTOrgAcronym>
+		<rpXTPartName>DIM - Département de l'intérieur et de la mobilité</rpXTPartName>
+		<rpCntInfo>
+			<cntPhone>
+				<voiceNum>+4122 546 72 81</voiceNum>
+				<faxNum>+4122 546 72 70</faxNum>
+			</cntPhone>
+			<cntAddress>
+				<eMailAdd>pierre.lafontaine@etat.ge.ch</eMailAdd>
+				<delPoint>rue des Gazomètres 7</delPoint>
+				<postCode>1211</postCode>
+				<XTLine>
+				</XTLine>
+				<XTName>rue des Gazomètres</XTName>
+				<XTNumber>7</XTNumber>
+				<XTpostBox>36</XTpostBox>
+				<city>Genève 8</city>
+				<country>ch</country>
+				<adminArea>
+				</adminArea>
+			</cntAddress>
+			<cntOnlineRes>
+				<linkage>http://etat.geneve.ch/dt/geomatique/accueil.html</linkage>
+			</cntOnlineRes>
+			<cntHours>
+			</cntHours>
+			<cntInstr>
+			</cntInstr>
+		</rpCntInfo>
+		<rpPosName>Technicien en géomatique, resp. Métadonnées</rpPosName>
+	</mdContact>
+	<mdDateSt Sync="TRUE">20110725</mdDateSt>
+	<mdHrLv>
+		<ScopeCd Sync="TRUE" value="005">
+		</ScopeCd>
+	</mdHrLv>
+	<mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+	<mdLang>
+		<languageCode Sync="FALSE" value="fr">
+		</languageCode>
+	</mdLang>
+	<mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+	<mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+	<mdXTInfoLink>http://www.sitg.ch</mdXTInfoLink>
+	<refSysInfo>
+		<RefSystem>
+			<refSysID>
+				<identCode>CH1903+_LV95</identCode>
+			</refSysID>
+		</RefSystem>
+	</refSysInfo>
+	<spatRepInfo>
+		<VectSpatRep>
+			<topLvl>
+				<TopoLevCd Sync="TRUE" value="001">
+				</TopoLevCd>
+			</topLvl>
+			<geometObjs Name="A.OCS_POP_SECTEUR"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">475</geoObjCnt></geometObjs></VectSpatRep>
+	</spatRepInfo>
+	<dataqual>
+		<lineage>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">C:\DOCUME~1\terrond\LOCALS~1\Temp\xml77.tmp</srcused>
+				<date Sync="TRUE">20070712</date>
+				<time Sync="TRUE">13515800</time>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">J:\SITG\METADATA\XML_BACKUP\OCS\ocs_pop_secteur.xml</srcused>
+				<date Sync="TRUE">20080111</date>
+				<time Sync="TRUE">14341600</time>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">J:\SITG\METADATA\XML_BACKUP\OCS\metadata.xml</srcused>
+				<date Sync="TRUE">20080111</date>
+				<time Sync="TRUE">14422500</time>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">J:\SITG\METADATA\XML_BACKUP\OCS\ocs_pop_secteur.xml</srcused>
+				<date Sync="TRUE">20080111</date>
+				<time Sync="TRUE">14560300</time>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">X:\SITG\METADATA\XML_BACKUP\OCS\ocs_pop_secteur.xml</srcused>
+				<date Sync="TRUE">20080819</date>
+				<time Sync="TRUE">12594700</time>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">D:\OCS_MN95\ocs_pop_secteur.xml</srcused><date Sync="TRUE">20110725</date><time Sync="TRUE">14071500</time></procstep></lineage>
+	</dataqual>
+	<tpXTThemes><theme>Finances</theme></tpXTThemes></metadata>

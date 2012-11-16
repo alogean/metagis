@@ -1,0 +1,762 @@
+<?xml version="1.0"?>
+<!--<!DOCTYPE metadata SYSTEM "http://www.esri.com/metadata/esriprof80.dtd">-->
+<metadata xml:lang="fr">
+	<Esri>
+		<CreaDate>20110721</CreaDate>
+		<CreaTime>07572800</CreaTime>
+		<SyncOnce>FALSE</SyncOnce>
+		<DataProperties>
+			<XTinfo>
+				<esrtype>Feature Class</esrtype>
+				<esrfctype>1</esrfctype>
+				<esralias>A.GOL_SITES_POLLUES</esralias>
+				<esrname>A.GOL_SITES_POLLUES</esrname>
+			</XTinfo>
+		</DataProperties>
+		<SyncDate>20120904</SyncDate>
+		<SyncTime>11075500</SyncTime>
+		<ModDate>20120904</ModDate>
+		<ModTime>11075500</ModTime>
+		<MetaID>{CD5D322F-EF3D-4271-9EA0-4DA88FDD55BC}</MetaID></Esri>
+	<idinfo>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 1; ESRI ArcCatalog 9.2.6.1500</native>
+		<descript>
+			<langdata Sync="TRUE">fr</langdata>
+			<abstract>REQUIRED: A brief narrative summary of the data set.</abstract>
+			<purpose>REQUIRED: A summary of the intentions with which the data set was developed.</purpose>
+		</descript>
+		<citation>
+			<citeinfo>
+				<origin>REQUIRED: The name of an organization or individual that developed the data set.</origin>
+				<pubdate>REQUIRED: The date when the data set is published or otherwise made available for release.</pubdate>
+				<title Sync="TRUE">A.GOL_SITES_POLLUES</title>
+				<ftname Sync="TRUE">A.GOL_SITES_POLLUES</ftname>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<onlink Sync="TRUE">Server=CONSULTATION-SITG; Service=esri_sde; User=a; Version=SDE.DEFAULT</onlink>
+			</citeinfo>
+		</citation>
+		<timeperd>
+			<current>REQUIRED: The basis on which the time period of content information is determined.</current>
+			<timeinfo>
+				<sngdate>
+					<caldate>REQUIRED: The year (and optionally month, or month and day) for which the data set corresponds to the ground.</caldate>
+				</sngdate>
+			</timeinfo>
+		</timeperd>
+		<status>
+			<progress>REQUIRED: The state of the data set.</progress>
+			<update>REQUIRED: The frequency with which changes and additions are made to the data set after the initial data set is completed.</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">5.960080</westbc>
+				<eastbc Sync="TRUE">6.300918</eastbc>
+				<northbc Sync="TRUE">46.359240</northbc>
+				<southbc Sync="TRUE">46.142804</southbc>
+			</bounding>
+			<lboundng>
+				<leftbc Sync="TRUE">2486143.144000</leftbc>
+				<rightbc Sync="TRUE">2512033.708000</rightbc>
+				<bottombc Sync="TRUE">1111080.354000</bottombc>
+				<topbc Sync="TRUE">1134708.834000</topbc>
+			</lboundng>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>REQUIRED: Reference to a formally registered thesaurus or a similar authoritative source of theme keywords.</themekt>
+				<themekey>REQUIRED: Common-use word or phrase used to describe the subject of the data set.</themekey>
+			</theme>
+		</keywords>
+		<accconst>REQUIRED: Restrictions and legal prerequisites for accessing the data set.</accconst>
+		<useconst>REQUIRED: Restrictions and legal prerequisites for using the data set after access is granted.</useconst>
+		<natvform Sync="TRUE">Classe d'entités ArcSDE</natvform>
+	</idinfo>
+	<dataIdInfo>
+		<envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.6.1500</envirDesc>
+		<dataLang>
+			<languageCode Sync="FALSE" value="fr">
+			</languageCode>
+		</dataLang>
+		<idCitation>
+			<resTitle>CADASTRE DES SITES POLLUES</resTitle>
+			<presForm>
+				<PresFormCd Sync="TRUE" value="005">
+				</PresFormCd>
+			</presForm>
+			<resRefDate>
+				<refDate>20070516</refDate>
+				<refDateType>
+					<DateTypCd value="001" Sync="FALSE">
+					</DateTypCd>
+				</refDateType>
+			</resRefDate>
+			<citRespParty>
+				<rpIndName>Silvio Cuccodoro</rpIndName>
+				<rpXTIndLastName>Cuccodoro</rpXTIndLastName>
+				<rpXTIndFirstName>Silvio</rpXTIndFirstName>
+				<rpOrgName>Service de géologie, sols et déchets</rpOrgName>
+				<rpXTOrgAcronym>GESDEC</rpXTOrgAcronym>
+				<rpXTPartName>DIME - Département de l'intérieur, de la mobilité et de l'environnement</rpXTPartName>
+				<rpCntInfo>
+					<cntPhone>
+						<voiceNum>+4122 547 70 74</voiceNum>
+						<faxNum>+4122 546 70 90</faxNum>
+					</cntPhone>
+					<cntAddress>
+						<eMailAdd>silvio.cuccodoro@etat.ge.ch</eMailAdd>
+						<XTName>quai du Rhône</XTName>
+						<XTNumber>12</XTNumber>
+						<delPoint>quai du Rhône 12</delPoint>
+						<postCode>1205</postCode>
+						<city>Genève</city>
+						<country>ch</country>
+					</cntAddress>
+					<cntOnlineRes>
+						<linkage>http://etat.geneve.ch/dt/geologie/accueil.html</linkage>
+					</cntOnlineRes>
+				</rpCntInfo>
+				<rpPosName>Ingénieur</rpPosName>
+				<rpXTBID>7a11f421-01be-4cd8-ac7f-b0275520585e</rpXTBID>
+			</citRespParty>
+			<resXTUpdateFicheDate><refDate>20120904</refDate><refDateType><DateTypCd value="001" Sync="FALSE"></DateTypCd></refDateType></resXTUpdateFicheDate></idCitation>
+		<spatRpType>
+			<SpatRepTypCd Sync="TRUE" value="001">
+			</SpatRepTypCd>
+		</spatRpType>
+		<dataExt>
+			<geoEle>
+				<GeoBndBox esriExtentType="native">
+					<westBL Sync="TRUE">2486143.144</westBL>
+					<eastBL Sync="TRUE">2512033.708</eastBL>
+					<northBL Sync="TRUE">1134708.834</northBL>
+					<southBL Sync="TRUE">1111080.354</southBL>
+					<exTypeCode Sync="TRUE">1</exTypeCode>
+					<XTdesc>Cadre de référence MN95</XTdesc>
+				</GeoBndBox>
+			</geoEle>
+		</dataExt>
+		<geoBox esriExtentType="decdegrees">
+			<westBL Sync="TRUE">5.96008</westBL>
+			<eastBL Sync="TRUE">6.300918</eastBL>
+			<northBL Sync="TRUE">46.35924</northBL>
+			<southBL Sync="TRUE">46.142804</southBL>
+			<exTypeCode Sync="TRUE">1</exTypeCode>
+		</geoBox>
+		<idAbs>L'ordonnance fédérale du 26 août 1998 sur l'assainissement des sites pollués (OSites) impose au canton d'établir un cadastre des sites pollués. En conséquence, les cantons ont inventorié les sites, d'une étendue limitée, dont la pollution est établie ou très probable. 
+
+Le cadastre doit permettre d'identifier et de caractériser: 
+les aires d'exploitations : 
+sites pollués par des installations ou des exploitations désaffectées ou encore en activité dans lesquelles ont été utilisées des substances dangereuses pour l'environnement 
+
+les sites de stockage définitifs : 
+remblais, décharges 
+
+les lieux d'accident : 
+sites pollués à la suite d'événements extraordinaires, pannes d'exploitation comprises.</idAbs>
+		<idXTLegalLink>http://etat.geneve.ch/geoportail/metadataws/Publish/legal/gol_sites_pollues.htm</idXTLegalLink>
+		<dataChar>
+			<CharSetCd value="004" Sync="FALSE">
+			</CharSetCd>
+		</dataChar>
+		<idXTInfoLink>http://etat.geneve.ch/dt/site/protection-environnement/geologie/master-home.jsp</idXTInfoLink>
+		<resMaint>
+			<maintFreq>
+				<MaintFreqCd value="003" Sync="FALSE">
+				</MaintFreqCd>
+				<descXT>Hebdomadaire</descXT></maintFreq>
+			<maintScp>
+				<ScopeCd value="005" Sync="FALSE">
+				</ScopeCd>
+			</maintScp>
+		</resMaint>
+		<idStatus>
+			<ProgCd value="001" Sync="FALSE">
+			</ProgCd>
+			<descXT>Accompli</descXT></idStatus>
+		<lnkObjects>
+			<lnkObject>
+				<lnkBID>cbabd48d-8e48-46c6-b7e9-8f951f9d0ce5</lnkBID>
+				<lnkType>Image</lnkType>
+				<lnkLink>http://etat.geneve.ch/geoportail/metadataws/Publish/images/A.GOL_SITES_POLLUES.gif</lnkLink>
+			</lnkObject>
+			<lnkObject>
+				<lnkBID>a7f04ba4-5277-4bb5-8ba0-310894fbe763</lnkBID>
+				<lnkType>Autre</lnkType>
+				<lnkNote>Site du SIEnG</lnkNote>
+				<lnkLink>http://www.sieng.ch/page.php?c=2&amp;selection=288&amp;lang=1</lnkLink>
+			</lnkObject>
+			<lnkObject>
+				<lnkBID>33f71ab2-01b5-4f16-ac8b-56d430c4bee0</lnkBID>
+				<lnkType>Autre</lnkType>
+				<lnkNote>Site du Département fédéral de la Défense, de la protection de la population et des Sports (DDPS)</lnkNote>
+				<lnkLink>http://www.vbs-ddps.ch/internet/vbs/fr/home.html</lnkLink>
+			</lnkObject>
+			<lnkObject>
+				<lnkBID>f26d973f-0ee3-4a8c-8762-b963e4e857cd</lnkBID>
+				<lnkType>Autre</lnkType>
+				<lnkNote>Site des Chemins de Fer Fédéraux (CFF)</lnkNote>
+				<lnkLink>http://www.cff-sites-contamines.ch/</lnkLink>
+			</lnkObject>
+			<lnkObject>
+				<lnkBID>fd845bd9-8832-4c41-bad2-ea4e059b359b</lnkBID>
+				<lnkType>Autre</lnkType>
+				<lnkNote>Site de l'Office fédéral de l'Aviation Civile (OFAC)</lnkNote>
+				<lnkLink>http://www.aviation.admin.ch/themen/ebene3/00409/index.html?lang=fr%20</lnkLink>
+			</lnkObject>
+		</lnkObjects>
+		<tpCat><TopicCatCd value="008" Sync="FALSE"></TopicCatCd><descXT>Géologie et géophysique</descXT></tpCat></dataIdInfo>
+	<metainfo>
+		<langmeta Sync="TRUE">fr</langmeta>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntper>REQUIRED: The person responsible for the metadata information.</cntper>
+					<cntorg>REQUIRED: The organization responsible for the metadata information.</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>REQUIRED: The mailing and/or physical address for the organization or individual.</addrtype>
+					<city>REQUIRED: The city of the address.</city>
+					<state>REQUIRED: The state or province of the address.</state>
+					<postal>REQUIRED: The ZIP or other postal code of the address.</postal>
+				</cntaddr>
+				<cntvoice>REQUIRED: The telephone number by which individuals can speak to the organization or individual.</cntvoice>
+			</cntinfo>
+		</metc>
+		<metd Sync="TRUE">20120904</metd>
+		<metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<mdLang>
+		<languageCode Sync="FALSE" value="fr">
+		</languageCode>
+	</mdLang>
+	<mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+	<mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+	<mdChar>
+		<CharSetCd Sync="TRUE" value="004">
+		</CharSetCd>
+	</mdChar>
+	<mdHrLv>
+		<ScopeCd Sync="TRUE" value="005">
+		</ScopeCd>
+	</mdHrLv>
+	<mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+	<distinfo>
+		<resdesc Sync="TRUE">Downloadable Data</resdesc>
+	</distinfo>
+	<distInfo>
+		<distributor>
+			<distorTran>
+				<onLineSrc>
+					<linkage>http://www.sitg.ch</linkage>
+					<protocol></protocol>
+					<linkOrderForm>http://etat.geneve.ch/geoportail/formsitg/</linkOrderForm>
+					<orFunct>
+						<OnFunctCd value="004" Sync="FALSE">
+						</OnFunctCd>
+					</orFunct>
+					<orDesc></orDesc></onLineSrc>
+				<offLineMed>
+					<medName>
+						<MedNameCd value="001" Sync="FALSE">
+						</MedNameCd>
+					</medName>
+				</offLineMed>
+				<transThirds value="True" Sync="FALSE">
+				</transThirds>
+			</distorTran>
+			<distorCont>
+				<rpIndName>Pierre Lafontaine</rpIndName>
+				<rpXTIndLastName>Lafontaine</rpXTIndLastName>
+				<rpXTIndFirstName>Pierre</rpXTIndFirstName>
+				<rpOrgName>Service de l'organisation et des systèmes d'information</rpOrgName>
+				<rpXTOrgAcronym>SOSI</rpXTOrgAcronym>
+				<rpXTPartName>DIME - Département de l'intérieur, de la mobilité et de l'environnement</rpXTPartName>
+				<rpCntInfo>
+					<cntPhone>
+						<voiceNum>+4122 546 72 81</voiceNum>
+						<faxNum>+4122 546 72 70</faxNum>
+					</cntPhone>
+					<cntAddress>
+						<eMailAdd>pierre.lafontaine@etat.ge.ch</eMailAdd>
+						<XTName>rue des Gazomètres</XTName>
+						<XTNumber>7</XTNumber>
+						<delPoint>rue des Gazomètres 7</delPoint>
+						<postCode>1211</postCode>
+						<XTpostBox>36</XTpostBox>
+						<city>Genève 8</city>
+						<country>ch</country>
+						<XTLine></XTLine>
+						<adminArea></adminArea>
+					</cntAddress>
+					<cntOnlineRes>
+						<linkage>http://etat.geneve.ch/dt/geomatique/accueil.html</linkage>
+					</cntOnlineRes>
+					<cntHours></cntHours>
+					<cntInstr></cntInstr>
+				</rpCntInfo>
+				<rpPosName>Technicien en géomatique, resp. Métadonnées</rpPosName>
+				<rpXTBID>61beb9aa-9f41-4c2f-8ab4-2765d23df7e1</rpXTBID>
+			</distorCont>
+			<distorFormat><formatName>Dwg/dxf, Géodatabase personnelle, Mif/mid, Shape file</formatName><formatVer>Sur demande</formatVer></distorFormat></distributor>
+	</distInfo>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<esriterm Name="A.GOL_SITES_POLLUES">
+				<efeatyp Sync="TRUE">Simple</efeatyp>
+				<efeageom Sync="TRUE">Polygon</efeageom>
+				<esritopo Sync="TRUE">FALSE</esritopo>
+				<efeacnt Sync="TRUE">925</efeacnt>
+				<spindex Sync="TRUE">TRUE</spindex>
+				<linrefer Sync="TRUE">FALSE</linrefer>
+			</esriterm>
+			<sdtsterm Name="A.GOL_SITES_POLLUES">
+				<sdtstype Sync="TRUE">G-polygon</sdtstype>
+				<ptvctcnt Sync="TRUE">925</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<cordsysn>
+				<geogcsn Sync="TRUE">GCS_CH1903+</geogcsn>
+				<projcsn Sync="TRUE">CH1903+_LV95</projcsn>
+			</cordsysn>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<plandu Sync="TRUE">meters</plandu>
+					<coordrep>
+						<absres Sync="TRUE">0.001000</absres>
+						<ordres Sync="TRUE">0.001000</ordres>
+					</coordrep>
+				</planci>
+				<mapproj><mapprojn Sync="TRUE">Oblique Mercator</mapprojn><obqmerc><sfctrlin Sync="TRUE">1.000000</sfctrlin><obqlazim><azimangl Sync="TRUE">90.000000</azimangl><azimptl Sync="TRUE">7.439583</azimptl></obqlazim><latprjo Sync="TRUE">46.952406</latprjo><feast Sync="TRUE">2600000.000000</feast><fnorth Sync="TRUE">1200000.000000</fnorth></obqmerc></mapproj></planar>
+			<geodetic>
+				<horizdn Sync="TRUE">D_CH1903+</horizdn>
+				<ellips Sync="TRUE">Bessel_1841</ellips>
+				<semiaxis Sync="TRUE">6377397.155000</semiaxis>
+				<denflat Sync="TRUE">299.152813</denflat>
+			</geodetic>
+		</horizsys>
+		<vertdef>
+			<altsys>
+				<altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc>
+				<altres Sync="TRUE">1.000000</altres>
+			</altsys>
+		</vertdef>
+	</spref>
+	<refSysInfo>
+		<RefSystem>
+			<refSysID>
+				<identCode>CH1903+_LV95</identCode>
+			</refSysID>
+		</RefSystem>
+	</refSysInfo>
+	<spatRepInfo>
+		<VectSpatRep>
+			<topLvl>
+				<TopoLevCd Sync="TRUE" value="001">
+				</TopoLevCd>
+			</topLvl>
+			<geometObjs Name="A.GOL_SITES_POLLUES"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">926</geoObjCnt></geometObjs></VectSpatRep>
+	</spatRepInfo>
+	<eainfo>
+		<detailed Name="A.GOL_SITES_POLLUES">
+			<attr>
+				<attrlabl Sync="TRUE">SHAPE</attrlabl>
+				<attalias Sync="TRUE">SHAPE</attalias>
+				<attrtype Sync="TRUE">Geometry</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">META_INFORMATION</attrlabl>
+				<attalias Sync="TRUE">META_INFORMATION</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">100</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Lien sur www.sitg.ch (Dictionnaire de données)</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NO_GSIPOL</attrlabl>
+				<attalias Sync="TRUE">NO_GSIPOL</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Identifiant du site</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NO_OFFICIEL</attrlabl>
+				<attalias Sync="TRUE">NO_OFFICIEL</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Numéro officiel du site</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NOM</attrlabl>
+				<attalias Sync="TRUE">NOM</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">250</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nom(s) du(des) dernier(s) exploitant(s) pour les aires d'exploitations
+Nom du site pour les sites de stockage et les lieux d'accidents</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">RAISON_SOCIALE</attrlabl>
+				<attalias Sync="TRUE">RAISON_SOCIALE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">250</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Type et activité du site pour les aires d'exploitations
+Type et quantité de déchets présents sur le site pour les sites de stockage</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">TYPE_SITE</attrlabl>
+				<attalias Sync="TRUE">TYPE_SITE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Type de site (Aire d'exploitation, site de stockage, lieu d'accident)</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">TYPE_POLLUTION</attrlabl>
+				<attalias Sync="TRUE">TYPE_POLLUTION</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">250</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Type de pollution constatée sur le site pour les lieux d'accidents</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">DATE_PREMIERE_MENTION</attrlabl>
+				<attalias Sync="TRUE">DATE_PREMIERE_MENTION</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">15</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Période (approximative) de début d'exploitation pour les aires d'entreprise
+Période (approximative) de début de stockage des déchets pour les sites de stockage</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">DATE_DERNIERE_MENTION</attrlabl>
+				<attalias Sync="TRUE">DATE_DERNIERE_MENTION</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">15</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Période (approximative) de fin d'exploitation pour les aires d'entreprise
+Période (approximative) de fin de stockage des déchets pour les sites de stockage</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">CODE_NOGA</attrlabl>
+				<attalias Sync="TRUE">CODE_NOGA</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">20</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Code des branches économique NOGA</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">LIBELLE_NOGA</attrlabl>
+				<attalias Sync="TRUE">LIBELLE_NOGA</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">250</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Libellé des codes NOGA</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">TYPE_ACTIVITE_OU_TYPE_REMBLAI</attrlabl>
+				<attalias Sync="TRUE">TYPE_ACTIVITE_OU_TYPE_REMBLAI</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">250</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Domaine d'activité plus détaillée pour les aires d'exploitation
+Type de déchets présents sur le site pour les sites de stockage</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ATTEINTE_CONSTATEE</attrlabl>
+				<attalias Sync="TRUE">ATTEINTE_CONSTATEE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">250</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Atteintes déjà constatées</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">EVENEMENT_PARTICULIER</attrlabl>
+				<attalias Sync="TRUE">EVENEMENT_PARTICULIER</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">250</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Evénements particuliers</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">EAU_SOUTERRAINE_MENACEE</attrlabl>
+				<attalias Sync="TRUE">EAU_SOUTERRAINE_MENACEE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">3</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Domaines de l'environnement menacés (Eau souterraine)</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">EAU_SURFACE_MENACEE</attrlabl>
+				<attalias Sync="TRUE">EAU_SURFACE_MENACEE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">3</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Domaines de l'environnement menacés (Eau de surface)</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SOL_MENACE</attrlabl>
+				<attalias Sync="TRUE">SOL_MENACE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">3</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Domaines de l'environnement menacés (Sol)</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AIR_MENACE</attrlabl>
+				<attalias Sync="TRUE">AIR_MENACE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">3</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Domaines de l'environnement menacés (Air)</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ATTEINTE_ENV_POSSIBLE</attrlabl>
+				<attalias Sync="TRUE">ATTEINTE_ENV_POSSIBLE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">3</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Site pour lequel on ne s'attend à aucune atteinte nuisible ou incommodante sur l'environnement</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">INVESTIGATION</attrlabl>
+				<attalias Sync="TRUE">INVESTIGATION</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">3</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Site pour lequel il faut procéder à une investigation afin de déterminer s'il nécessite une surveillance ou un assainissement</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AUTRE_STATUT</attrlabl>
+				<attalias Sync="TRUE">AUTRE_STATUT</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">100</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Autre statut après investigation ou mesures réalisées (pollué, à surveiller ou contaminé)</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">INVESTIGATION_HISTO_REALISEE</attrlabl>
+				<attalias Sync="TRUE">INVESTIGATION_HISTO_REALISEE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">3</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Investigation historique déjà réalisée</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">INVESTIGATION_TECHN_REALISEE</attrlabl>
+				<attalias Sync="TRUE">INVESTIGATION_TECHN_REALISEE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">3</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Investigation technique déjà réalisée</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">INVESTIGATION_DETAIL_REALISEE</attrlabl>
+				<attalias Sync="TRUE">INVESTIGATION_DETAIL_REALISEE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">3</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Investigation de détail déjà réalisée</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">PROJET_ASSAINISSEMENT_REALISE</attrlabl>
+				<attalias Sync="TRUE">PROJET_ASSAINISSEMENT_REALISE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">3</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Projet d'assainissement déjà réalisé</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ASSAINISSEMENT_REALISE</attrlabl>
+				<attalias Sync="TRUE">ASSAINISSEMENT_REALISE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">3</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Assainissement déjà réalisé</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">DOCUMENTATION_EXISTANTE</attrlabl>
+				<attalias Sync="TRUE">DOCUMENTATION_EXISTANTE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">3</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Documentation existante</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">TYPE_POLLUANT</attrlabl>
+				<attalias Sync="TRUE">TYPE_POLLUANT</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">250</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Type de polluants déversés sur le site pour les lieux d'accidents</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">QUANTITE_POLLUANT_ECOULEE</attrlabl>
+				<attalias Sync="TRUE">QUANTITE_POLLUANT_ECOULEE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">100</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Quantité de polluant(s) écoulée lors de l'accident</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">QUANTITE_POLLUANT_RECUPEREE</attrlabl>
+				<attalias Sync="TRUE">QUANTITE_POLLUANT_RECUPEREE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">100</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Quantité de polluant(s) récupérée suite à l'accident</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">OBJECTID</attrlabl>
+				<attalias Sync="TRUE">OBJECTID</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SHAPE.LEN</attrlabl>
+				<attalias Sync="TRUE">SHAPE.LEN</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">0</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SHAPE.AREA</attrlabl>
+				<attalias Sync="TRUE">SHAPE.AREA</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">0</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<enttyp>
+				<enttypl Sync="TRUE">A.GOL_SITES_POLLUES</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt>
+				<enttypc Sync="TRUE">925</enttypc>
+			</enttyp>
+			<attr>
+				<attrlabl Sync="TRUE">DATE_ACCIDENT</attrlabl>
+				<attalias Sync="TRUE">DATE_ACCIDENT</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<atprecis Sync="TRUE">38</atprecis>
+				<attscale Sync="TRUE">8</attscale>
+				<atXTdesc>Date de l'accident</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">VOLUME_DECHET</attrlabl>
+				<attalias Sync="TRUE">VOLUME_DECHET</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<atprecis Sync="TRUE">38</atprecis>
+				<attscale Sync="TRUE">8</attscale>
+				<atXTdesc>Volume de déchets présents sur le site pour les sites de stockage (m3)</atXTdesc>
+			</attr>
+		</detailed>
+	</eainfo>
+	<mdDateSt Sync="TRUE">20110721</mdDateSt>
+	<mdContact>
+		<rpIndName>Pierre Lafontaine</rpIndName>
+		<rpXTIndLastName>Lafontaine</rpXTIndLastName>
+		<rpXTIndFirstName>Pierre</rpXTIndFirstName>
+		<rpOrgName>Service de l'organisation et des systèmes d'information</rpOrgName>
+		<rpXTOrgAcronym>SOSI</rpXTOrgAcronym>
+		<rpXTPartName>DIME - Département de l'intérieur, de la mobilité et de l'environnement</rpXTPartName>
+		<rpCntInfo>
+			<cntPhone>
+				<voiceNum>+4122 546 72 81</voiceNum>
+				<faxNum>+4122 546 72 70</faxNum>
+			</cntPhone>
+			<cntAddress>
+				<eMailAdd>pierre.lafontaine@etat.ge.ch</eMailAdd>
+				<XTName>rue des Gazomètres</XTName>
+				<XTNumber>7</XTNumber>
+				<delPoint>rue des Gazomètres 7</delPoint>
+				<postCode>1211</postCode>
+				<XTpostBox>36</XTpostBox>
+				<city>Genève 8</city>
+				<country>ch</country>
+				<XTLine></XTLine>
+				<adminArea></adminArea>
+			</cntAddress>
+			<cntOnlineRes>
+				<linkage>http://etat.geneve.ch/dt/geomatique/accueil.html</linkage>
+			</cntOnlineRes>
+			<cntHours></cntHours>
+			<cntInstr></cntInstr>
+		</rpCntInfo>
+		<rpPosName>Technicien en géomatique, resp. Métadonnées</rpPosName>
+		<rpXTBID>61beb9aa-9f41-4c2f-8ab4-2765d23df7e1</rpXTBID>
+	</mdContact>
+	<dqInfo>
+		<dqXTEdit>
+			<edtMethod>Digitalisation</edtMethod>
+			<edtPrecision>Correspondant au PE 1:2500</edtPrecision>
+			<edtScale>2500</edtScale>
+			<edtFiability value="True" Sync="FALSE">
+			</edtFiability>
+		</dqXTEdit>
+		<dqXTDisplay>
+			<dspScale>2500</dspScale>
+		</dqXTDisplay>
+	</dqInfo>
+	<mdXTInfoLink>http://www.sitg.ch</mdXTInfoLink>
+	<dataqual>
+		<lineage>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">X:\SITG\METADATA\XML_BACKUP\GOL\gol_sites_pollues.xml</srcused>
+				<date Sync="TRUE">20080819</date>
+				<time Sync="TRUE">13135900</time>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">D:\GOL_MN95\gol_sites_pollues.xml</srcused><date Sync="TRUE">20110721</date><time Sync="TRUE">07572800</time></procstep></lineage>
+	</dataqual>
+	<tpXTThemes><theme>Territoire</theme></tpXTThemes></metadata>

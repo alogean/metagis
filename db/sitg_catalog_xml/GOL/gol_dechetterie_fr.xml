@@ -1,0 +1,591 @@
+<?xml version="1.0"?>
+<!--<!DOCTYPE metadata SYSTEM "http://www.esri.com/metadata/esriprof80.dtd">-->
+<metadata xml:lang="fr">
+	<Esri>
+		<CreaDate>20111018</CreaDate>
+		<CreaTime>10480400</CreaTime>
+		<SyncOnce>FALSE</SyncOnce>
+		<DataProperties>
+			<XTinfo>
+				<esrtype>Feature Class</esrtype>
+				<esrfctype>1</esrfctype>
+				<esralias>A.GOL_DECHETTERIE_FR</esralias>
+				<esrname>A.GOL_DECHETTERIE_FR</esrname>
+			</XTinfo>
+		</DataProperties>
+		<SyncDate>20120704</SyncDate>
+		<SyncTime>12503100</SyncTime>
+		<ModDate>20120704</ModDate>
+		<ModTime>12503100</ModTime>
+		<MetaID>{0489D435-E4F4-4DE4-B18E-39B84590B44A}</MetaID></Esri>
+	<idinfo>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 1; ESRI ArcCatalog 9.2.6.1500</native>
+		<descript>
+			<langdata Sync="TRUE">fr</langdata>
+			<abstract>REQUIRED: A brief narrative summary of the data set.</abstract>
+			<purpose>REQUIRED: A summary of the intentions with which the data set was developed.</purpose>
+		</descript>
+		<citation>
+			<citeinfo>
+				<origin>REQUIRED: The name of an organization or individual that developed the data set.</origin>
+				<pubdate>REQUIRED: The date when the data set is published or otherwise made available for release.</pubdate>
+				<title Sync="TRUE">A.GOL_DECHETTERIE_FR</title>
+				<ftname Sync="TRUE">A.GOL_DECHETTERIE_FR</ftname>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<onlink Sync="TRUE">Server=CONSULTATION-SITG; Service=esri_sde; User=a; Version=SDE.DEFAULT</onlink>
+			</citeinfo>
+		</citation>
+		<timeperd>
+			<current>REQUIRED: The basis on which the time period of content information is determined.</current>
+			<timeinfo>
+				<sngdate>
+					<caldate>REQUIRED: The year (and optionally month, or month and day) for which the data set corresponds to the ground.</caldate>
+				</sngdate>
+			</timeinfo>
+		</timeperd>
+		<status>
+			<progress>REQUIRED: The state of the data set.</progress>
+			<update>REQUIRED: The frequency with which changes and additions are made to the data set after the initial data set is completed.</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">5.723341</westbc>
+				<eastbc Sync="TRUE">6.518890</eastbc>
+				<northbc Sync="TRUE">46.397379</northbc>
+				<southbc Sync="TRUE">45.992261</southbc>
+			</bounding>
+			<lboundng>
+				<leftbc Sync="TRUE">2468007.200000</leftbc>
+				<rightbc Sync="TRUE">2528682.380000</rightbc>
+				<bottombc Sync="TRUE">1094711.160000</bottombc>
+				<topbc Sync="TRUE">1138728.490000</topbc>
+			</lboundng>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>REQUIRED: Reference to a formally registered thesaurus or a similar authoritative source of theme keywords.</themekt>
+				<themekey>REQUIRED: Common-use word or phrase used to describe the subject of the data set.</themekey>
+			</theme>
+		</keywords>
+		<accconst>REQUIRED: Restrictions and legal prerequisites for accessing the data set.</accconst>
+		<useconst>REQUIRED: Restrictions and legal prerequisites for using the data set after access is granted.</useconst>
+		<natvform Sync="TRUE">Classe d'entités ArcSDE</natvform>
+	</idinfo>
+	<dataIdInfo>
+		<envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.6.1500</envirDesc>
+		<dataLang>
+			<languageCode Sync="FALSE" value="fr">
+			</languageCode>
+		</dataLang>
+		<idCitation>
+			<resTitle>POINTS DE COLLECTE DES DECHETS (FRANCE)</resTitle>
+			<presForm>
+				<PresFormCd Sync="TRUE" value="005">
+				</PresFormCd>
+			</presForm>
+			<resRefDate>
+				<refDate>20110810</refDate>
+				<refDateType>
+					<DateTypCd value="001" Sync="FALSE">
+					</DateTypCd>
+				</refDateType>
+			</resRefDate>
+			<citRespParty>
+				<rpIndName>Sylvain Ferretti</rpIndName>
+				<rpXTIndLastName>Ferretti</rpXTIndLastName>
+				<rpXTIndFirstName>Sylvain</rpXTIndFirstName>
+				<rpOrgName>Office de l'urbanisme - Service du projet d'agglomération</rpOrgName>
+				<rpXTPartName>DU - Département de l'urbanisme</rpXTPartName>
+				<rpCntInfo>
+					<cntPhone>
+						<voiceNum>+4122 546 73 44</voiceNum>
+						<faxNum>+4122 546 73 03</faxNum>
+					</cntPhone>
+					<cntAddress>
+						<eMailAdd>sylvain.ferretti@etat.ge.ch</eMailAdd>
+						<XTName>rue David-DUFOUR</XTName>
+						<XTNumber>5</XTNumber>
+						<delPoint>rue David-DUFOUR 5</delPoint>
+						<postCode>1211</postCode>
+						<city>Genève 8</city>
+						<country>ch</country>
+						<XTpostBox>224</XTpostBox><XTLine></XTLine><adminArea></adminArea></cntAddress>
+					<cntOnlineRes>
+						<linkage>http://etat.geneve.ch/dt/amenagement/projet_agglomeration-877.html</linkage>
+					</cntOnlineRes>
+					<cntHours></cntHours><cntInstr></cntInstr></rpCntInfo>
+				<rpPosName>Chef de projet</rpPosName>
+				<rpXTBID>115f4fae-2000-4010-9058-af0d206b5bfa</rpXTBID>
+				<rpXTOrgAcronym></rpXTOrgAcronym></citRespParty>
+			<resXTUpdateFicheDate><refDate>20111018</refDate><refDateType><DateTypCd value="001" Sync="FALSE"></DateTypCd></refDateType></resXTUpdateFicheDate><resXTCreateFicheDate><refDate>20111018</refDate><refDateType><DateTypCd value="001" Sync="FALSE"></DateTypCd></refDateType></resXTCreateFicheDate></idCitation>
+		<spatRpType>
+			<SpatRepTypCd Sync="TRUE" value="001">
+			</SpatRepTypCd>
+		</spatRpType>
+		<dataExt>
+			<geoEle>
+				<GeoBndBox esriExtentType="native">
+					<westBL Sync="TRUE">2486457.56</westBL>
+					<eastBL Sync="TRUE">2512654.84</eastBL>
+					<northBL Sync="TRUE">1134167.8</northBL>
+					<southBL Sync="TRUE">1110963.99</southBL>
+					<exTypeCode Sync="TRUE">1</exTypeCode>
+					<XTdesc>Cadre de référence MN95</XTdesc>
+				</GeoBndBox>
+			</geoEle>
+		</dataExt>
+		<geoBox esriExtentType="decdegrees">
+			<westBL Sync="TRUE">5.964297</westBL>
+			<eastBL Sync="TRUE">6.308979</eastBL>
+			<northBL Sync="TRUE">46.354455</northBL>
+			<southBL Sync="TRUE">46.141811</southBL>
+			<exTypeCode Sync="TRUE">1</exTypeCode>
+		</geoBox>
+		<idAbs>Recensement des infrastructures mises à disposition par les collectivités publiques, dans chaque quartier, chaque commune, permettant la récupération des déchets ménagers sur le territoire de l'agglomération Franco-Valdo-Genevoise.
+Chaque commune ne récupère pas forcément les mêmes types de déchets. Les déchetteries et ESREC sont soumis à des horaires d'ouverture.
+Les points d'apport volontaire, les points de collecte ou encore les écopoints sont des espaces non surveillés.</idAbs>
+		<idXTLegalLink>http://www.sindra.org</idXTLegalLink>
+		<dataChar>
+			<CharSetCd value="004" Sync="FALSE">
+			</CharSetCd>
+		</dataChar>
+		<idXTInfoLink>http://www.sidefage.fr/plan</idXTInfoLink>
+		<resMaint>
+			<maintFreq>
+				<MaintFreqCd value="009" Sync="FALSE">
+				</MaintFreqCd>
+				<descXT>Quand nécessaire</descXT></maintFreq>
+			<maintScp>
+				<ScopeCd value="005" Sync="FALSE">
+				</ScopeCd>
+			</maintScp>
+			<maintNote>Auteur de l'acquisition
+SIDEFAGE (Points d'apport volontaire)
+Julia Fevre, GIRUS SA, Espace Carco 24, rue Desnos – 1, rue Francis-Carco 69120 Vaulx-en-Velin FRANCE (déchetterie)</maintNote></resMaint>
+		<idStatus>
+			<ProgCd value="001" Sync="FALSE">
+			</ProgCd>
+			<descXT>Accompli</descXT></idStatus>
+		<lnkObjects>
+			<lnkObject>
+				<lnkBID>b0acc240-041c-450a-bcb0-0129f2ab7c88</lnkBID>
+				<lnkType>Image</lnkType>
+				<lnkLink>http://etat.geneve.ch/geoportail/metadataws/Publish/images/A.GOL_DECHETTERIE_FR.gif</lnkLink>
+			</lnkObject>
+		</lnkObjects>
+		<tpCat><TopicCatCd value="017" Sync="FALSE"></TopicCatCd><descXT>Equipements et infrastructures</descXT></tpCat><idPurp>Déchetterie : Système d'information des déchets en Rhône-Alpes (SINDRA)
+ PAV : SIDEFAGE (Bellegarde)</idPurp></dataIdInfo>
+	<metainfo>
+		<langmeta Sync="TRUE">fr</langmeta>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntper>REQUIRED: The person responsible for the metadata information.</cntper>
+					<cntorg>REQUIRED: The organization responsible for the metadata information.</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>REQUIRED: The mailing and/or physical address for the organization or individual.</addrtype>
+					<city>REQUIRED: The city of the address.</city>
+					<state>REQUIRED: The state or province of the address.</state>
+					<postal>REQUIRED: The ZIP or other postal code of the address.</postal>
+				</cntaddr>
+				<cntvoice>REQUIRED: The telephone number by which individuals can speak to the organization or individual.</cntvoice>
+			</cntinfo>
+		</metc>
+		<metd Sync="TRUE">20120704</metd>
+		<metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<mdLang>
+		<languageCode Sync="FALSE" value="fr">
+		</languageCode>
+	</mdLang>
+	<mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+	<mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+	<mdChar>
+		<CharSetCd Sync="TRUE" value="004">
+		</CharSetCd>
+	</mdChar>
+	<mdHrLv>
+		<ScopeCd Sync="TRUE" value="005">
+		</ScopeCd>
+	</mdHrLv>
+	<mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+	<distinfo>
+		<resdesc Sync="TRUE">Downloadable Data</resdesc>
+	</distinfo>
+	<distInfo>
+		<distributor>
+			<distorTran>
+				<onLineSrc>
+					<linkage>http://www.sitg.ch</linkage>
+					<protocol></protocol>
+					<linkOrderForm>http://etat.geneve.ch/geoportail/formsitg/</linkOrderForm>
+					<orFunct>
+						<OnFunctCd value="004" Sync="FALSE">
+						</OnFunctCd>
+					</orFunct>
+					<orDesc></orDesc></onLineSrc>
+				<offLineMed>
+					<medName>
+						<MedNameCd value="001" Sync="FALSE">
+						</MedNameCd>
+					</medName>
+				</offLineMed>
+				<transThirds value="True" Sync="FALSE">
+				</transThirds>
+			</distorTran>
+			<distorCont>
+				<rpIndName>Pierre Lafontaine</rpIndName>
+				<rpXTIndLastName>Lafontaine</rpXTIndLastName>
+				<rpXTIndFirstName>Pierre</rpXTIndFirstName>
+				<rpOrgName>Service de l'organisation et des systèmes d'information</rpOrgName>
+				<rpXTOrgAcronym>SOSI</rpXTOrgAcronym>
+				<rpXTPartName>DIME - Département de l'intérieur, de la mobilité et de l'environnement</rpXTPartName>
+				<rpCntInfo>
+					<cntPhone>
+						<voiceNum>+4122 546 72 81</voiceNum>
+						<faxNum>+4122 546 72 70</faxNum>
+					</cntPhone>
+					<cntAddress>
+						<eMailAdd>pierre.lafontaine@etat.ge.ch</eMailAdd>
+						<XTName>rue des Gazomètres</XTName>
+						<XTNumber>7</XTNumber>
+						<delPoint>rue des Gazomètres 7</delPoint>
+						<postCode>1211</postCode>
+						<XTpostBox>36</XTpostBox>
+						<city>Genève 8</city>
+						<country>ch</country>
+						<XTLine></XTLine>
+						<adminArea></adminArea>
+					</cntAddress>
+					<cntOnlineRes>
+						<linkage>http://etat.geneve.ch/dt/geomatique/accueil.html</linkage>
+					</cntOnlineRes>
+					<cntHours></cntHours>
+					<cntInstr></cntInstr>
+				</rpCntInfo>
+				<rpPosName>Technicien en géomatique, resp. Métadonnées</rpPosName>
+				<rpXTBID>61beb9aa-9f41-4c2f-8ab4-2765d23df7e1</rpXTBID>
+			</distorCont>
+			<distorFormat><formatName>Dwg/dxf, Géodatabase personnelle, Mif/mid, Shape file</formatName><formatVer>Sur demande</formatVer></distorFormat></distributor>
+	</distInfo>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<esriterm Name="A.GOL_DECHETTERIE_FR">
+				<efeatyp Sync="TRUE">Simple</efeatyp>
+				<efeageom Sync="TRUE">Point</efeageom>
+				<esritopo Sync="TRUE">FALSE</esritopo>
+				<efeacnt Sync="TRUE">535</efeacnt>
+				<spindex Sync="TRUE">TRUE</spindex>
+				<linrefer Sync="TRUE">FALSE</linrefer>
+			</esriterm>
+			<sdtsterm Name="A.GOL_DECHETTERIE_FR">
+				<sdtstype Sync="TRUE">Entity point</sdtstype>
+				<ptvctcnt Sync="TRUE">535</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<cordsysn>
+				<geogcsn Sync="TRUE">GCS_CH1903+</geogcsn>
+				<projcsn Sync="TRUE">CH1903+_LV95</projcsn>
+			</cordsysn>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<plandu Sync="TRUE">meters</plandu>
+					<coordrep>
+						<absres Sync="TRUE">0.010000</absres>
+						<ordres Sync="TRUE">0.010000</ordres>
+					</coordrep>
+				</planci>
+				<mapproj><mapprojn Sync="TRUE">Oblique Mercator</mapprojn><obqmerc><sfctrlin Sync="TRUE">1.000000</sfctrlin><obqlazim><azimangl Sync="TRUE">90.000000</azimangl><azimptl Sync="TRUE">7.439583</azimptl></obqlazim><latprjo Sync="TRUE">46.952406</latprjo><feast Sync="TRUE">2600000.000000</feast><fnorth Sync="TRUE">1200000.000000</fnorth></obqmerc></mapproj></planar>
+			<geodetic>
+				<horizdn Sync="TRUE">D_CH1903+</horizdn>
+				<ellips Sync="TRUE">Bessel_1841</ellips>
+				<semiaxis Sync="TRUE">6377397.155000</semiaxis>
+				<denflat Sync="TRUE">299.152813</denflat>
+			</geodetic>
+		</horizsys>
+		<vertdef>
+			<altsys>
+				<altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc>
+				<altres Sync="TRUE">1.000000</altres>
+			</altsys>
+		</vertdef>
+	</spref>
+	<refSysInfo>
+		<RefSystem>
+			<refSysID>
+				<identCode>CH1903+_LV95</identCode>
+			</refSysID>
+		</RefSystem>
+	</refSysInfo>
+	<spatRepInfo>
+		<VectSpatRep>
+			<topLvl>
+				<TopoLevCd Sync="TRUE" value="001">
+				</TopoLevCd>
+			</topLvl>
+			<geometObjs Name="A.GOL_DECHETTERIE"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="004"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">567</geoObjCnt></geometObjs></VectSpatRep>
+	</spatRepInfo>
+	<eainfo>
+		<detailed Name="A.GOL_DECHETTERIE_FR">
+			<attr>
+				<attrlabl Sync="TRUE">ADRESSE</attrlabl>
+				<attalias Sync="TRUE">ADRESSE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Adresse</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SHAPE</attrlabl>
+				<attalias Sync="TRUE">SHAPE</attalias>
+				<attrtype Sync="TRUE">Geometry</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">PAPIER</attrlabl>
+				<attalias Sync="TRUE">PAPIER</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">3</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Possibilité de déposer du papier</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">VERRE</attrlabl>
+				<attalias Sync="TRUE">VERRE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">3</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Possibilité de déposer du verre</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">PET</attrlabl>
+				<attalias Sync="TRUE">PET</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">3</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Possibilité de déposer du PET</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ALU</attrlabl>
+				<attalias Sync="TRUE">ALU</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">3</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Possibilité de déposer de l'aluminium</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">FER</attrlabl>
+				<attalias Sync="TRUE">FER</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">3</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Possibilité de déposer du fer</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">PILE</attrlabl>
+				<attalias Sync="TRUE">PILE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">3</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Possibilité de déposer des piles</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">TEXTILE</attrlabl>
+				<attalias Sync="TRUE">TEXTILE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">3</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Possibilité de déposer du textile</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">HUILE_VEGETALE</attrlabl>
+				<attalias Sync="TRUE">HUILE_VEGETALE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">3</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Possibilité de déposer des huiles végétales</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">TYPE_CENTRE</attrlabl>
+				<attalias Sync="TRUE">TYPE_CENTRE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">12</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Type d'infrastructure de collecte
+- déchetterie
+- espace de récupération - ESREC (Genève)</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">FERRAILLE</attrlabl>
+				<attalias Sync="TRUE">FERRAILLE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">3</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Possibilité de déposer de la ferraille</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SPECIAUX_MENAGER</attrlabl>
+				<attalias Sync="TRUE">SPECIAUX_MENAGER</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">3</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Possibilité de déposer des déchets spéciaux ménagers</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">COMMUNE</attrlabl>
+				<attalias Sync="TRUE">COMMUNE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">35</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Commune sur laquelle se situe le point de collecte</atXTdesc>
+			</attr>
+			<enttyp>
+				<enttypl Sync="TRUE">A.GOL_DECHETTERIE_FR</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt>
+				<enttypc Sync="TRUE">535</enttypc>
+			</enttyp>
+			<attr>
+				<attrlabl Sync="TRUE">CAPSULE_CAFE</attrlabl>
+				<attalias Sync="TRUE">CAPSULE_CAFE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">3</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Possibilité de déposer des capsules de café</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">OBJECTID</attrlabl>
+				<attalias Sync="TRUE">OBJECTID</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr><attrlabl Sync="TRUE">NOM_SITE</attrlabl><attalias Sync="TRUE">NOM_SITE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><atXTdesc>Nom de l'infrastructure</atXTdesc></attr><attr>
+				<attrlabl Sync="TRUE">HUILE_MINERALE</attrlabl>
+				<attalias Sync="TRUE">HUILE_MINERALE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">3</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Possibilité de déposer des huiles minérales</atXTdesc>
+			</attr>
+			<attr><attrlabl Sync="TRUE">GESTIONNAIRE</attrlabl><attalias Sync="TRUE">GESTIONNAIRE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><atXTdesc>Type de gestionnaire :
+- privé
+- contrat de service
+- public</atXTdesc></attr><attr><attrlabl Sync="TRUE">ACCUEIL_PROFESSIONNELS</attrlabl><attalias Sync="TRUE">ACCUEIL_PROFESSIONNELS</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">3</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><atXTdesc>Possibilité pour les professionnels de déposer des déchets</atXTdesc></attr><attr><attrlabl Sync="TRUE">CODE_POSTAL</attrlabl><attalias Sync="TRUE">CODE_POSTAL</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">5</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><atXTdesc>Code postal de l'installation</atXTdesc></attr><attr><attrlabl Sync="TRUE">PAYS</attrlabl><attalias Sync="TRUE">PAYS</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><atXTdesc>Pays sur lequel se situe le centre de collecte</atXTdesc></attr><attr>
+				<attrlabl Sync="TRUE">FRIGO</attrlabl>
+				<attalias Sync="TRUE">FRIGO</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">3</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Possibilité de déposer des réfrigérateurs</atXTdesc>
+			</attr>
+			<attr><attrlabl Sync="TRUE">BOIS</attrlabl><attalias Sync="TRUE">BOIS</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">3</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><atXTdesc>Possibilité de déposer du bois</atXTdesc></attr><attr><attrlabl Sync="TRUE">ORDURES_MENAGERES</attrlabl><attalias Sync="TRUE">ORDURES_MENAGERES</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">3</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><atXTdesc>Possibilité de déposer des ordures ménagères</atXTdesc></attr><attr>
+				<attrlabl Sync="TRUE">GRAVAT</attrlabl>
+				<attalias Sync="TRUE">GRAVAT</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">3</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Possibilité de déposer des gravats</atXTdesc>
+			</attr>
+			<attr><attrlabl Sync="TRUE">MATIERES_INERTES</attrlabl><attalias Sync="TRUE">MATIERES_INERTES</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">3</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><atXTdesc>Possibilité de déposer des matières inertes</atXTdesc></attr><attr><attrlabl Sync="TRUE">MATIERES_INCINERABLES</attrlabl><attalias Sync="TRUE">MATIERES_INCINERABLES</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">3</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><atXTdesc>Possibilité de déposer des matières incinérables</atXTdesc></attr><attr><attrlabl Sync="TRUE">DECHETS_COMPOSTABLES</attrlabl><attalias Sync="TRUE">DECHETS_COMPOSTABLES</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">3</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><atXTdesc>Possibilité de déposer des déchets compostables</atXTdesc></attr><attr><attrlabl Sync="TRUE">DECHETS_ENCOMBRANTS</attrlabl><attalias Sync="TRUE">DECHETS_ENCOMBRANTS</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">3</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><atXTdesc>Possibilité de déposer des déchets encombrants</atXTdesc></attr><attr><attrlabl Sync="TRUE">AUTRES_DECHETS</attrlabl><attalias Sync="TRUE">AUTRES_DECHETS</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">30</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><atXTdesc>Possibilité de déposer d'autres déchets</atXTdesc></attr></detailed>
+	</eainfo>
+	<mdDateSt Sync="TRUE">20110720</mdDateSt>
+	<mdContact>
+		<rpIndName>Pierre Lafontaine</rpIndName>
+		<rpXTIndLastName>Lafontaine</rpXTIndLastName>
+		<rpXTIndFirstName>Pierre</rpXTIndFirstName>
+		<rpOrgName>Service de l'organisation et des systèmes d'information</rpOrgName>
+		<rpXTOrgAcronym>SOSI</rpXTOrgAcronym>
+		<rpXTPartName>DIME - Département de l'intérieur, de la mobilité et de l'environnement</rpXTPartName>
+		<rpCntInfo>
+			<cntPhone>
+				<voiceNum>+4122 546 72 81</voiceNum>
+				<faxNum>+4122 546 72 70</faxNum>
+			</cntPhone>
+			<cntAddress>
+				<eMailAdd>pierre.lafontaine@etat.ge.ch</eMailAdd>
+				<XTName>rue des Gazomètres</XTName>
+				<XTNumber>7</XTNumber>
+				<delPoint>rue des Gazomètres 7</delPoint>
+				<postCode>1211</postCode>
+				<XTpostBox>36</XTpostBox>
+				<city>Genève 8</city>
+				<country>ch</country>
+				<XTLine></XTLine>
+				<adminArea></adminArea>
+			</cntAddress>
+			<cntOnlineRes>
+				<linkage>http://etat.geneve.ch/dt/geomatique/accueil.html</linkage>
+			</cntOnlineRes>
+			<cntHours></cntHours>
+			<cntInstr></cntInstr>
+		</rpCntInfo>
+		<rpPosName>Technicien en géomatique, resp. Métadonnées</rpPosName>
+		<rpXTBID>61beb9aa-9f41-4c2f-8ab4-2765d23df7e1</rpXTBID>
+	</mdContact>
+	<dqInfo>
+		<dqXTEdit>
+			<edtMethod>Digitalisation via l'adresse</edtMethod>
+			<edtPrecision>variable</edtPrecision>
+			<edtScale>500</edtScale>
+		</dqXTEdit>
+		<dqXTDisplay>
+			<dspScale>500 à 25'000</dspScale>
+		</dqXTDisplay>
+	</dqInfo>
+	<mdXTInfoLink>http://www.sitg.ch</mdXTInfoLink>
+	<dataqual>
+		<lineage>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">Y:\SITG\METADATA\XML_BACKUP\IED\ied_dechetterie.xml</srcused>
+				<date Sync="TRUE">20070828</date>
+				<time Sync="TRUE">09380700</time>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">X:\SITG\METADATA\XML_BACKUP\IED\ied_dechetterie.xml</srcused>
+				<date Sync="TRUE">20080819</date>
+				<time Sync="TRUE">13104100</time>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">Z:\SITG\METADATA\XML_BACKUP\GOL\gol_dechetterie.xml</srcused>
+				<date Sync="TRUE">20110224</date>
+				<time Sync="TRUE">13125300</time>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">D:\GOL_MN95\gol_dechetterie.xml</srcused><date Sync="TRUE">20110720</date><time Sync="TRUE">10520700</time></procstep><procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">Z:\SITG\METADATA\XML_BACKUP\GOL\gol_dechetterie.xml</srcused><date Sync="TRUE">20111018</date><time Sync="TRUE">10480400</time></procstep></lineage>
+	</dataqual>
+	<tpXTThemes><theme>Territoire</theme></tpXTThemes></metadata>

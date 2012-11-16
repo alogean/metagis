@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="fr">
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>REQUIRED: The name of an organization or individual that developed the data set.</origin>
+				<pubdate>REQUIRED: The date when the data set is published or otherwise made available for release.</pubdate>
+				<title Sync="TRUE">A.ECO_PLAGES</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<onlink Sync="TRUE">Server=CONSULTATION-SITG; Service=esri_sde; User=a; Version=SDE.DEFAULT</onlink>
+				<ftname Sync="TRUE">A.ECO_PLAGES</ftname>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>REQUIRED: A brief narrative summary of the data set.</abstract>
+			<purpose>REQUIRED: A summary of the intentions with which the data set was developed.</purpose>
+			<langdata Sync="TRUE">fr</langdata>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>REQUIRED: The year (and optionally month, or month and day) for which the data set corresponds to the ground.</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>REQUIRED: The basis on which the time period of content information is determined.</current>
+		</timeperd>
+		<status>
+			<progress>REQUIRED: The state of the data set.</progress>
+			<update>REQUIRED: The frequency with which changes and additions are made to the data set after the initial data set is completed.</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">6.146996</westbc>
+				<eastbc Sync="TRUE">6.244699</eastbc>
+				<northbc Sync="TRUE">46.350052</northbc>
+				<southbc Sync="TRUE">46.209712</southbc>
+			</bounding>
+			<lboundng>
+				<leftbc Sync="TRUE">2500514.480000</leftbc>
+				<rightbc Sync="TRUE">2507799.440000</rightbc>
+				<topbc Sync="TRUE">1133750.650000</topbc>
+				<bottombc Sync="TRUE">1118265.170000</bottombc>
+			</lboundng>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>REQUIRED: Reference to a formally registered thesaurus or a similar authoritative source of theme keywords.</themekt>
+				<themekey>REQUIRED: Common-use word or phrase used to describe the subject of the data set.</themekey>
+			</theme>
+		</keywords>
+		<accconst>REQUIRED: Restrictions and legal prerequisites for accessing the data set.</accconst>
+		<useconst>REQUIRED: Restrictions and legal prerequisites for using the data set after access is granted.</useconst>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 1; ESRI ArcCatalog 9.2.6.1500</native>
+		<natvform Sync="TRUE">Classe d'entités ArcSDE</natvform>
+	</idinfo>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="A.ECO_PLAGES">
+				<sdtstype Sync="TRUE">Entity point</sdtstype>
+				<ptvctcnt Sync="TRUE">30</ptvctcnt>
+			</sdtsterm>
+			<esriterm Name="A.ECO_PLAGES">
+				<efeatyp Sync="TRUE">Simple</efeatyp>
+				<esritopo Sync="TRUE">FALSE</esritopo>
+				<linrefer Sync="TRUE">FALSE</linrefer>
+				<spindex Sync="TRUE">TRUE</spindex>
+				<efeageom Sync="TRUE">Point</efeageom>
+				<efeacnt Sync="TRUE">30</efeacnt>
+			</esriterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<coordrep>
+						<absres Sync="TRUE">0.010000</absres>
+						<ordres Sync="TRUE">0.010000</ordres>
+					</coordrep>
+					<plandu Sync="TRUE">meters</plandu>
+				</planci>
+				<mapproj><mapprojn Sync="TRUE">Oblique Mercator</mapprojn><obqmerc><sfctrlin Sync="TRUE">1.000000</sfctrlin><obqlazim><azimangl Sync="TRUE">90.000000</azimangl><azimptl Sync="TRUE">7.439583</azimptl></obqlazim><latprjo Sync="TRUE">46.952406</latprjo><feast Sync="TRUE">2600000.000000</feast><fnorth Sync="TRUE">1200000.000000</fnorth></obqmerc></mapproj></planar>
+			<geodetic>
+				<horizdn Sync="TRUE">D_CH1903+</horizdn>
+				<ellips Sync="TRUE">Bessel_1841</ellips>
+				<semiaxis Sync="TRUE">6377397.155000</semiaxis>
+				<denflat Sync="TRUE">299.152813</denflat>
+			</geodetic>
+			<cordsysn>
+				<geogcsn Sync="TRUE">GCS_CH1903+</geogcsn>
+				<projcsn Sync="TRUE">CH1903+_LV95</projcsn>
+			</cordsysn>
+		</horizsys>
+		<vertdef>
+			<altsys>
+				<altres Sync="TRUE">1.000000</altres>
+				<altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc>
+			</altsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<detailed Name="A.ECO_PLAGES">
+			<attr>
+				<attrlabl Sync="TRUE">PHOTOS</attrlabl>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attalias Sync="TRUE">PHOTOS</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">100</attwidth>
+				<atXTdesc>Photo de la plage</atXTdesc>
+			</attr>
+			<enttyp>
+				<enttypl Sync="TRUE">A.ECO_PLAGES</enttypl>
+				<enttypc Sync="TRUE">30</enttypc>
+				<enttypt Sync="TRUE">Feature Class</enttypt>
+			</enttyp>
+			<attr>
+				<attrlabl Sync="TRUE">SHAPE</attrlabl>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attalias Sync="TRUE">SHAPE</attalias>
+				<attrtype Sync="TRUE">Geometry</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">4</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NOM_PLAGE</attrlabl>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attalias Sync="TRUE">NOM_PLAGE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">50</attwidth>
+				<atXTdesc>Nom usuel de la plage ou de l'accès au lac</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NOM_COMMUNE</attrlabl>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attalias Sync="TRUE">NOM_COMMUNE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">40</attwidth>
+				<atXTdesc>Commune sur laquelle est située la plage</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">QUALITE</attrlabl>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attalias Sync="TRUE">QUALITE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">80</attwidth>
+				<atXTdesc>
+A (pastille bleue) Eau de bonne qualité
+B (pastille verte) Eau de qualité moyenne
+C (pastille jaune) Eau pouvant être momentanément polluée
+- Eviter de plonger, se doucher après le bain
+D (pastille rouge) Eau de mauvaise qualité
+- Ne pas se baigner
+</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">MISE_A_JOUR</attrlabl>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attalias Sync="TRUE">MISE_A_JOUR</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">20</attwidth>
+				<atXTdesc>Date de la dernière campagne d'analyse ayant entraîné une modification</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">LIEN_WWW</attrlabl>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attalias Sync="TRUE">LIEN_WWW</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">100</attwidth>
+				<atXTdesc>Lien sur le site Internet</atXTdesc>
+			</attr>
+			<attr><attrlabl Sync="TRUE">OBJECTID</attrlabl><attalias Sync="TRUE">OBJECTID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr></detailed>
+	</eainfo>
+	<distinfo>
+		<resdesc Sync="TRUE">Downloadable Data</resdesc>
+	</distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20120903</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>REQUIRED: The organization responsible for the metadata information.</cntorg>
+					<cntper>REQUIRED: The person responsible for the metadata information.</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>REQUIRED: The mailing and/or physical address for the organization or individual.</addrtype>
+					<city>REQUIRED: The city of the address.</city>
+					<state>REQUIRED: The state or province of the address.</state>
+					<postal>REQUIRED: The ZIP or other postal code of the address.</postal>
+				</cntaddr>
+				<cntvoice>REQUIRED: The telephone number by which individuals can speak to the organization or individual.</cntvoice>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<langmeta Sync="TRUE">fr</langmeta>
+		<metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<dataIdInfo>
+		<envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.6.1500</envirDesc>
+		<dataLang>
+			<languageCode Sync="FALSE" value="fr">
+			</languageCode>
+		</dataLang>
+		<descKeys KeyTypCd="005" Sync="FALSE">
+			<keyword>administratif</keyword>
+			<keyword>eau</keyword>
+			<keyTyp>
+				<keyTypCd value="005" Sync="FALSE">
+				</keyTypCd>
+			</keyTyp>
+		</descKeys>
+		<geoBox esriExtentType="decdegrees">
+			<westBL Sync="TRUE">6.146996</westBL>
+			<eastBL Sync="TRUE">6.244699</eastBL>
+			<northBL Sync="TRUE">46.350052</northBL>
+			<southBL Sync="TRUE">46.209712</southBL>
+			<exTypeCode Sync="TRUE">1</exTypeCode>
+		</geoBox>
+		<idAbs>Le Service de l'écologie de l'eau (SECOE) contrôle l'état sanitaire des 29 accès publics au lac toutes les 2 semaines, entre les mois d'avril et d'octobre, pour s'assurer que la baignade ne soit pas dangereuse pour la santé.</idAbs>
+		<idCitation>
+			<resTitle>QUALITE DE L'EAU DES PLAGES GENEVOISES DU LAC</resTitle>
+			<presForm>
+				<PresFormCd Sync="TRUE" value="005">
+				</PresFormCd>
+			</presForm>
+			<resRefDate>
+				<refDate>20070403</refDate>
+				<refDateType>
+					<DateTypCd value="001" Sync="FALSE">
+					</DateTypCd>
+				</refDateType>
+			</resRefDate>
+			<citRespParty>
+				<rpXTBID>a16fd4cd-8143-4c2f-bf68-ca70a024f748</rpXTBID>
+				<rpCntInfo>
+					<cntPhone>
+						<voiceNum>+4122 388 80 66</voiceNum>
+						<faxNum>+4122 388 80 09</faxNum>
+					</cntPhone>
+					<cntAddress>
+						<eMailAdd>sophie.lavigne@etat.ge.ch</eMailAdd>
+						<delPoint>avenue Sainte-Clotilde 23</delPoint>
+						<postCode>1211</postCode>
+						<XTName>avenue Sainte-Clotilde</XTName>
+						<XTNumber>23</XTNumber>
+						<XTpostBox>78</XTpostBox>
+						<city>Genève 8</city>
+						<country>ch</country>
+					</cntAddress>
+					<cntOnlineRes>
+						<linkage>http://etat.geneve.ch/dt/eau/accueil.html</linkage>
+					</cntOnlineRes>
+				</rpCntInfo>
+				<rpIndName>Sophie Lavigne</rpIndName>
+				<rpOrgName>Direction générale de l'eau</rpOrgName>
+				<rpPosName>Biologiste</rpPosName>
+				<rpXTIndFirstName>Sophie</rpXTIndFirstName>
+				<rpXTIndLastName>Lavigne</rpXTIndLastName>
+				<rpXTOrgAcronym>DGEau</rpXTOrgAcronym>
+				<rpXTPartName>DIME - Département de l'intérieur, de la mobilité et de l'environnement</rpXTPartName>
+			</citRespParty>
+			<resXTUpdateFicheDate><refDate>20120903</refDate><refDateType><DateTypCd value="001" Sync="FALSE"></DateTypCd></refDateType></resXTUpdateFicheDate></idCitation>
+		<idStatus>
+			<ProgCd value="001" Sync="FALSE">
+			</ProgCd>
+			<descXT>Accompli</descXT></idStatus>
+		<idXTInfoLink>http://etat.geneve.ch/dt/site/eau/master-home.jsp</idXTInfoLink>
+		<idXTLegalLink>http://etat.geneve.ch/geoportail/metadataws/Publish/legal/qualite_plages.htm</idXTLegalLink>
+		<resMaint>
+			<maintFreq>
+				<MaintFreqCd value="004" Sync="FALSE">
+				</MaintFreqCd>
+				<descXT>Tous les quinze jours</descXT></maintFreq>
+			<maintScp>
+				<ScopeCd value="005" Sync="FALSE">
+				</ScopeCd>
+			</maintScp>
+			<maintNote>Toutes les 2 semaines, entre avril et octobre</maintNote>
+		</resMaint>
+		<spatRpType>
+			<SpatRepTypCd Sync="TRUE" value="001">
+			</SpatRepTypCd>
+		</spatRpType>
+		<dataExt>
+			<geoEle>
+				<GeoBndBox esriExtentType="native">
+					<westBL Sync="TRUE">2500514.4813</westBL>
+					<northBL Sync="TRUE">1133750.6467</northBL>
+					<southBL Sync="TRUE">1118265.167225</southBL>
+					<XTdesc>Cadre de référence MN95</XTdesc>
+					<eastBL Sync="TRUE">2507799.437725</eastBL>
+					<exTypeCode Sync="TRUE">1</exTypeCode>
+				</GeoBndBox>
+			</geoEle>
+		</dataExt>
+		<dataChar>
+			<CharSetCd value="004" Sync="FALSE">
+			</CharSetCd>
+		</dataChar>
+		<lnkObjects>
+			<lnkObject>
+				<lnkBID>7ad7af96-d914-4aa8-8932-90a4b73e0de7</lnkBID>
+				<lnkType>Image</lnkType>
+				<lnkLink>http://etat.geneve.ch/geoportail/metadataws/Publish/images/A.ECO_PLAGES.gif</lnkLink>
+			</lnkObject>
+		</lnkObjects>
+		<tpCat><TopicCatCd value="015" Sync="FALSE"></TopicCatCd><descXT>Cadastre et aménagement du territoire</descXT></tpCat><tpCat><TopicCatCd value="017" Sync="FALSE"></TopicCatCd><descXT>Equipements et infrastructures</descXT></tpCat><tpCat><TopicCatCd value="009" Sync="FALSE"></TopicCatCd><descXT>Santé</descXT></tpCat></dataIdInfo>
+	<distInfo>
+		<distributor>
+			<distorTran>
+				<onLineSrc>
+					<orFunct>
+						<OnFunctCd value="004" Sync="FALSE">
+						</OnFunctCd>
+					</orFunct>
+					<protocol></protocol>
+					<linkage>http://www.sitg.ch</linkage>
+					<linkOrderForm>http://etat.geneve.ch/geoportail/formsitg/</linkOrderForm>
+					<orDesc></orDesc></onLineSrc>
+				<offLineMed>
+					<medName>
+						<MedNameCd value="001" Sync="FALSE">
+						</MedNameCd>
+					</medName>
+				</offLineMed>
+				<transThirds value="False" Sync="FALSE">
+				</transThirds>
+			</distorTran>
+			<distorCont>
+				<rpXTBID>61beb9aa-9f41-4c2f-8ab4-2765d23df7e1</rpXTBID>
+				<rpIndName>Pierre Lafontaine</rpIndName>
+				<rpXTIndLastName>Lafontaine</rpXTIndLastName>
+				<rpXTIndFirstName>Pierre</rpXTIndFirstName>
+				<rpOrgName>Service des systèmes d'information et de géomatique</rpOrgName>
+				<rpXTOrgAcronym>SSIG</rpXTOrgAcronym>
+				<rpXTPartName>DIME - Département de l'intérieur, de la mobilité et de l'environnement</rpXTPartName>
+				<rpCntInfo>
+					<cntPhone>
+						<voiceNum>+4122 546 72 81</voiceNum>
+						<faxNum>+4122 546 72 70</faxNum>
+					</cntPhone>
+					<cntAddress>
+						<eMailAdd>pierre.lafontaine@etat.ge.ch</eMailAdd>
+						<delPoint>rue des Gazomètres 7</delPoint>
+						<postCode>1211</postCode>
+						<XTName>rue des Gazomètres</XTName>
+						<XTNumber>7</XTNumber>
+						<XTpostBox>36</XTpostBox>
+						<city>Genève 8</city>
+						<country>ch</country>
+						<XTLine></XTLine>
+						<adminArea></adminArea>
+					</cntAddress>
+					<cntOnlineRes>
+						<linkage>http://etat.geneve.ch/dt/geomatique/accueil.html</linkage>
+					</cntOnlineRes>
+					<cntHours></cntHours>
+					<cntInstr></cntInstr>
+				</rpCntInfo>
+				<rpPosName>Technicien en géomatique, resp. Métadonnées</rpPosName>
+			</distorCont>
+			<distorFormat><formatName>Dwg/dxf, Géodatabase personnelle, Mif/mid, Shape file</formatName><formatVer>Sur demande</formatVer></distorFormat></distributor>
+	</distInfo>
+	<dqInfo>
+		<dqXTEdit>
+			<edtMethod>Digitalisation</edtMethod>
+			<edtScale>2500</edtScale>
+			<edtPrecision>10 mètres</edtPrecision><edtFiability>Oui</edtFiability></dqXTEdit>
+		<dqXTDisplay>
+			<dspScale>2500 à 100000</dspScale>
+		</dqXTDisplay>
+	</dqInfo>
+	<Esri>
+		<ModDate>20120903</ModDate>
+		<ModTime>08175800</ModTime>
+		<SyncDate>20120903</SyncDate>
+		<SyncOnce>FALSE</SyncOnce>
+		<SyncTime>08175800</SyncTime>
+		<CreaDate>20110711</CreaDate>
+		<CreaTime>13042600</CreaTime>
+		<DataProperties>
+			<XTinfo>
+				<esrtype>Feature Class</esrtype>
+				<esrfctype>1</esrfctype>
+				<esralias>A.ECO_PLAGES</esralias>
+				<esrname>A.ECO_PLAGES</esrname>
+			</XTinfo>
+			<lineage>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteFeatures" Date="20080513" Time="145831">DeleteFeatures "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.ECO_PLAGES" "Database Connections\A on esri_sde CONSULTATION-SITG A GARDER.sde\A.ECO_PLAGES"</Process>
+			</lineage>
+		</DataProperties>
+		<MetaID>{4F7996F1-F4ED-4839-A65D-B52E80B75639}</MetaID></Esri>
+	<mdChar>
+		<CharSetCd Sync="TRUE" value="004">
+		</CharSetCd>
+	</mdChar>
+	<mdContact>
+		<rpXTBID>61beb9aa-9f41-4c2f-8ab4-2765d23df7e1</rpXTBID>
+		<rpIndName>Pierre Lafontaine</rpIndName>
+		<rpXTIndLastName>Lafontaine</rpXTIndLastName>
+		<rpXTIndFirstName>Pierre</rpXTIndFirstName>
+		<rpOrgName>Service des systèmes d'information et de géomatique</rpOrgName>
+		<rpXTOrgAcronym>SSIG</rpXTOrgAcronym>
+		<rpXTPartName>DIME - Département de l'intérieur, de la mobilité et de l'environnement</rpXTPartName>
+		<rpCntInfo>
+			<cntPhone>
+				<voiceNum>+4122 546 72 81</voiceNum>
+				<faxNum>+4122 546 72 70</faxNum>
+			</cntPhone>
+			<cntAddress>
+				<eMailAdd>pierre.lafontaine@etat.ge.ch</eMailAdd>
+				<delPoint>rue des Gazomètres 7</delPoint>
+				<postCode>1211</postCode>
+				<XTName>rue des Gazomètres</XTName>
+				<XTNumber>7</XTNumber>
+				<XTpostBox>36</XTpostBox>
+				<city>Genève 8</city>
+				<country>ch</country>
+				<XTLine></XTLine>
+				<adminArea></adminArea>
+			</cntAddress>
+			<cntOnlineRes>
+				<linkage>http://etat.geneve.ch/dt/geomatique/accueil.html</linkage>
+			</cntOnlineRes>
+			<cntHours></cntHours>
+			<cntInstr></cntInstr>
+		</rpCntInfo>
+		<rpPosName>Technicien en géomatique, resp. Métadonnées</rpPosName>
+	</mdContact>
+	<mdDateSt Sync="TRUE">20110711</mdDateSt>
+	<mdHrLv>
+		<ScopeCd Sync="TRUE" value="005">
+		</ScopeCd>
+	</mdHrLv>
+	<mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+	<mdLang>
+		<languageCode Sync="FALSE" value="fr">
+		</languageCode>
+	</mdLang>
+	<mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+	<mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+	<mdXTInfoLink>http://www.sitg.ch</mdXTInfoLink>
+	<refSysInfo>
+		<RefSystem>
+			<refSysID>
+				<identCode>CH1903+_LV95</identCode>
+			</refSysID>
+		</RefSystem>
+	</refSysInfo>
+	<spatRepInfo>
+		<VectSpatRep>
+			<topLvl>
+				<TopoLevCd Sync="TRUE" value="001">
+				</TopoLevCd>
+			</topLvl>
+			<geometObjs Name="A.ECO_PLAGES"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="004"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">30</geoObjCnt></geometObjs></VectSpatRep>
+	</spatRepInfo>
+	<dataqual>
+		<lineage>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">C:\DOCUME~1\terrond\LOCALS~1\Temp\xml3E.tmp</srcused>
+				<date Sync="TRUE">20070821</date>
+				<time Sync="TRUE">09522500</time>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">Z:\SITG\METADATA\XML_BACKUP\ECO\eco_plages.xml</srcused>
+				<date Sync="TRUE">20071025</date>
+				<time Sync="TRUE">08405700</time>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">X:\SITG\METADATA\XML_BACKUP\ECO\eco_plages.xml</srcused>
+				<date Sync="TRUE">20080819</date>
+				<time Sync="TRUE">14135700</time>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">D:\ECO_MN95\eco_plages.xml</srcused><date Sync="TRUE">20110711</date><time Sync="TRUE">13042600</time></procstep></lineage>
+	</dataqual>
+	<tpXTThemes><theme>Territoire</theme></tpXTThemes></metadata>

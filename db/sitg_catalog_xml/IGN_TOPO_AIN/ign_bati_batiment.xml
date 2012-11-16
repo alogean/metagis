@@ -1,0 +1,570 @@
+<?xml version="1.0"?>
+<!--<!DOCTYPE metadata SYSTEM "http://www.esri.com/metadata/esriprof80.dtd">-->
+<metadata xml:lang="fr">
+	<Esri>
+		<CreaDate>20110804</CreaDate>
+		<CreaTime>07565700</CreaTime>
+		<SyncOnce>FALSE</SyncOnce>
+		<DataProperties>
+			<lineage>
+				<Process Name="Create Feature Class" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CreateFeatureclass" Date="20070110" Time="091109">CreateFeatureclass "Database Connections\Connection to albani (admin).sde\A.IGN_BDTOPOPAYS" ADMIN_COMMUNE_01 # COMMUNE_Layer SAME_AS_TEMPLATE SAME_AS_TEMPLATE "PROJCS['CH_1903_LV03',GEOGCS['GCS_CH1903',DATUM['D_CH1903',SPHEROID['Bessel_1841',6377397.155,299.1528128]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]],PROJECTION['Hotine_Oblique_Mercator_Azimuth_Center'],PARAMETER['False_Easting',600000.0],PARAMETER['False_Northing',200000.0],PARAMETER['Scale_Factor',1.0],PARAMETER['Azimuth',90.0],PARAMETER['Longitude_Of_Center',7.4395833333],PARAMETER['Latitude_Of_Center',46.9524055556],UNIT['Meter',1.0]];171235.710142612 -170981.112213315 3906.24999636202;0 100000;0 100000" # 0 0 0 "Database Connections\Connection to albani (admin).sde\A.IGN_BDTOPOPAYS\A.ADMIN_COMMUNE_01"</Process>
+				<Process Name="Append" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20070110" Time="091119">Append COMMUNE_Layer "Database Connections\Connection to albani (admin).sde\A.IGN_BDTOPOPAYS\A.ADMIN_COMMUNE_01" TEST "Database Connections\Connection to albani (admin).sde\A.IGN_BDTOPOPAYS\A.ADMIN_COMMUNE_01"</Process>
+				<Process Name="FeatureClassToFeatureClass_22" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20070110" Time="091120">FeatureClassToFeatureClass Z:\SSIG\IGN\BD_vecteur_CH03\BDTopoPays_01\DONNEES\D00103E\D00103_AV_3D_L2E\H_ADMINISTRATIF\COMMUNE.shp "Database Connections\Connection to albani (admin).sde\A.IGN_BDTOPOPAYS" ADMIN_COMMUNE_01 # "SOURCE SOURCE VISIBLE;NOM NOM VISIBLE;CODE_INSEE CODE_INSEE VISIBLE;STATUT STATUT VISIBLE;CANTON CANTON VISIBLE;ARROND ARROND VISIBLE;DEPART DEPART VISIBLE;REGION REGION VISIBLE;POPULATION POPULATION VISIBLE;MULTI_CANT MULTI_CANT VISIBLE" SAME_AS_TEMPLATE SAME_AS_TEMPLATE # 0 "Database Connections\Connection to albani (admin).sde\A.IGN_BDTOPOPAYS\A.ADMIN_COMMUNE_01"</Process>
+			</lineage>
+			<XTinfo>
+				<esrtype>Feature Class</esrtype>
+				<esrfctype>1</esrfctype>
+				<esralias>A.IGN_BATI_BATIMENT</esralias>
+				<esrname>A.IGN_BATI_BATIMENT</esrname>
+			</XTinfo>
+		</DataProperties>
+		<SyncDate>20120314</SyncDate>
+		<SyncTime>13165200</SyncTime>
+		<ModDate>20120314</ModDate>
+		<ModTime>13165200</ModTime>
+		<MetaID>{A185B90A-605B-4C8F-9DDE-C59D02115AB3}</MetaID></Esri>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<onlink Sync="TRUE">Server=CONSULTATION-SITG; Service=esri_sde; User=a; Version=SDE.DEFAULT</onlink>
+				<origin>REQUIRED: The name of an organization or individual that developed the data set.</origin>
+				<pubdate>REQUIRED: The date when the data set is published or otherwise made available for release.</pubdate>
+				<title Sync="TRUE">A.IGN_BATI_BATIMENT</title>
+				<ftname Sync="TRUE">A.IGN_BATI_BATIMENT</ftname>
+				<geoform Sync="TRUE">vector digital data</geoform>
+			</citeinfo>
+		</citation>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 1; ESRI ArcCatalog 9.2.6.1500</native>
+		<descript>
+			<langdata Sync="TRUE">fr</langdata>
+			<abstract>REQUIRED: A brief narrative summary of the data set.</abstract>
+			<purpose>REQUIRED: A summary of the intentions with which the data set was developed.</purpose>
+		</descript>
+		<timeperd>
+			<current>REQUIRED: The basis on which the time period of content information is determined.</current>
+			<timeinfo>
+				<sngdate>
+					<caldate>REQUIRED: The year (and optionally month, or month and day) for which the data set corresponds to the ground.</caldate>
+				</sngdate>
+			</timeinfo>
+		</timeperd>
+		<status>
+			<progress>REQUIRED: The state of the data set.</progress>
+			<update>REQUIRED: The frequency with which changes and additions are made to the data set after the initial data set is completed.</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">4.702950</westbc>
+				<eastbc Sync="TRUE">6.189281</eastbc>
+				<northbc Sync="TRUE">46.535620</northbc>
+				<southbc Sync="TRUE">45.600194</southbc>
+			</bounding>
+			<lboundng>
+				<leftbc Sync="TRUE">2390028.729666</leftbc>
+				<rightbc Sync="TRUE">2502486.348714</rightbc>
+				<bottombc Sync="TRUE">1053300.436515</bottombc>
+				<topbc Sync="TRUE">1154463.129445</topbc>
+			</lboundng>
+			<minalti Sync="TRUE">166.800000</minalti>
+			<maxalti Sync="TRUE">1681.000000</maxalti>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>REQUIRED: Reference to a formally registered thesaurus or a similar authoritative source of theme keywords.</themekt>
+				<themekey>REQUIRED: Common-use word or phrase used to describe the subject of the data set.</themekey>
+			</theme>
+		</keywords>
+		<accconst>REQUIRED: Restrictions and legal prerequisites for accessing the data set.</accconst>
+		<useconst>REQUIRED: Restrictions and legal prerequisites for using the data set after access is granted.</useconst>
+		<natvform Sync="TRUE">Classe d'entités ArcSDE</natvform>
+	</idinfo>
+	<distInfo>
+		<distributor>
+			<distorTran>
+				<onLineSrc>
+					<linkage>http://www.sitg.ch</linkage>
+					<protocol></protocol>
+					<linkOrderForm>http://etat.geneve.ch/geoportail/formsitg/</linkOrderForm>
+					<orFunct>
+						<OnFunctCd value="004" Sync="FALSE">
+						</OnFunctCd>
+					</orFunct>
+					<orDesc></orDesc></onLineSrc>
+				<offLineMed>
+					<medName>
+						<MedNameCd value="001" Sync="FALSE">
+						</MedNameCd>
+					</medName>
+				</offLineMed>
+				<transThirds value="False" Sync="FALSE">
+				</transThirds>
+			</distorTran>
+			<distorCont>
+				<rpXTBID>61beb9aa-9f41-4c2f-8ab4-2765d23df7e1</rpXTBID>
+				<rpIndName>Pierre Lafontaine</rpIndName>
+				<rpXTIndLastName>Lafontaine</rpXTIndLastName>
+				<rpXTIndFirstName>Pierre</rpXTIndFirstName>
+				<rpOrgName>Service de l'organisation et des systèmes d'information</rpOrgName>
+				<rpXTOrgAcronym>SOSI</rpXTOrgAcronym>
+				<rpXTPartName>DIM - Département de l'intérieur et de la mobilité</rpXTPartName>
+				<rpCntInfo>
+					<cntPhone>
+						<voiceNum>+4122 546 72 81</voiceNum>
+						<faxNum>+4122 546 72 70</faxNum>
+					</cntPhone>
+					<cntAddress>
+						<eMailAdd>pierre.lafontaine@etat.ge.ch</eMailAdd>
+						<XTName>rue des Gazomètres</XTName>
+						<XTNumber>7</XTNumber>
+						<delPoint>rue des Gazomètres 7</delPoint>
+						<postCode>1211</postCode>
+						<XTpostBox>36</XTpostBox>
+						<city>Genève 8</city>
+						<country>ch</country>
+						<XTLine></XTLine>
+						<adminArea></adminArea>
+					</cntAddress>
+					<cntOnlineRes>
+						<linkage>http://etat.geneve.ch/dt/geomatique/accueil.html</linkage>
+					</cntOnlineRes>
+					<cntHours></cntHours>
+					<cntInstr></cntInstr>
+				</rpCntInfo>
+				<rpPosName>Technicien en géomatique, resp. Métadonnées</rpPosName>
+			</distorCont>
+			<distorFormat><formatName>Shape file</formatName><formatVer>Sur demande</formatVer></distorFormat></distributor>
+	</distInfo>
+	<dataqual>
+		<lineage>
+			<procstep>
+				<procdesc Sync="TRUE">Dataset copied.</procdesc>
+				<srcused Sync="TRUE">Server=consultation-sitg; Service=esri_sde; User=ign_TOPO; Version=SDE.DEFAULT</srcused>
+				<date Sync="TRUE">20070110</date>
+				<time Sync="TRUE">16122300</time>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">X:\SITG\METADATA\XML_BACKUP\IGN_TOPO_AIN\ign_topo_bati_batiment.xml</srcused>
+				<date Sync="TRUE">20080828</date>
+				<time Sync="TRUE">14265600</time>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">D:\IGN_TOPO_MN95\ign_topo_bati_batiment.xml</srcused><date Sync="TRUE">20110804</date><time Sync="TRUE">07565700</time></procstep></lineage>
+	</dataqual>
+	<dataIdInfo>
+		<envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.6.1500</envirDesc>
+		<dataLang>
+			<languageCode Sync="FALSE" value="fr">
+			</languageCode>
+		</dataLang>
+		<idCitation>
+			<resTitle>IGN BD Topo® - E - Surfaces d'activités et bâti - Bâtiment</resTitle>
+			<presForm>
+				<PresFormCd Sync="TRUE" value="005">
+				</PresFormCd>
+			</presForm>
+			<resRefDate>
+				<refDate>20070521</refDate>
+				<refDateType>
+					<DateTypCd value="001" Sync="FALSE">
+					</DateTypCd>
+				</refDateType>
+			</resRefDate>
+			<citRespParty>
+				<rpXTBID>98b6acfe-1506-4954-9611-252977878804</rpXTBID>
+				<rpIndName>François Perrussel-Morin</rpIndName>
+				<rpXTIndLastName>Perrussel-Morin</rpXTIndLastName>
+				<rpXTIndFirstName>François</rpXTIndFirstName>
+				<rpOrgName>Institut national de l'information géographique et forestière</rpOrgName>
+				<rpXTOrgAcronym>IGN</rpXTOrgAcronym>
+				<rpCntInfo>
+					<cntPhone>
+						<voiceNum>+33 4 37 64 24 70</voiceNum>
+						<faxNum>+33 4 37 64 24 80</faxNum>
+					</cntPhone>
+					<cntAddress>
+						<eMailAdd>francois.perrussel-morin@ign.fr</eMailAdd>
+						<XTName>rue Claude CHAPPE</XTName>
+						<XTNumber>5b</XTNumber>
+						<XTLine>Direction interrégionale - Centre Est</XTLine>
+						<delPoint>rue Claude CHAPPE 5b</delPoint>
+						<postCode>69771</postCode>
+						<city>Saint-Didier-au-Mont-d'Or Cédex</city>
+						<adminArea>Parc d'affaire de Crécy</adminArea>
+						<country>fr</country>
+						<XTpostBox></XTpostBox>
+					</cntAddress>
+					<cntOnlineRes>
+						<linkage>http://www.ign.fr/rubrique.asp?rbr_id=1&amp;lng_id=FR</linkage>
+					</cntOnlineRes>
+					<cntHours></cntHours>
+					<cntInstr></cntInstr>
+				</rpCntInfo>
+				<rpPosName>Directeur interrégional</rpPosName>
+				<rpXTPartName>Institut national de l'information géographique et forestière</rpXTPartName>
+			</citRespParty>
+			<resXTUpdateFicheDate><refDate>20120314</refDate><refDateType><DateTypCd value="001" Sync="FALSE"></DateTypCd></refDateType></resXTUpdateFicheDate></idCitation>
+		<spatRpType>
+			<SpatRepTypCd Sync="TRUE" value="001">
+			</SpatRepTypCd>
+		</spatRpType>
+		<dataExt>
+			<geoEle>
+				<GeoBndBox esriExtentType="native">
+					<westBL Sync="TRUE">2390028.729666</westBL>
+					<eastBL Sync="TRUE">2502486.348714</eastBL>
+					<northBL Sync="TRUE">1154463.129444</northBL>
+					<southBL Sync="TRUE">1053300.436515</southBL>
+					<exTypeCode Sync="TRUE">1</exTypeCode>
+					<XTdesc>Cadre de référence MN95</XTdesc>
+				</GeoBndBox>
+			</geoEle>
+			<vertEle><vertMinVal Sync="TRUE">166.8</vertMinVal><vertMaxVal Sync="TRUE">1681</vertMaxVal></vertEle></dataExt>
+		<geoBox esriExtentType="decdegrees">
+			<westBL Sync="TRUE">4.70295</westBL>
+			<eastBL Sync="TRUE">6.189281</eastBL>
+			<northBL Sync="TRUE">46.53562</northBL>
+			<southBL Sync="TRUE">45.600194</southBL>
+			<exTypeCode Sync="TRUE">1</exTypeCode>
+		</geoBox>
+		<idAbs>BD TOPO®
+Description métrique 3D du territoire et de ses infrastructures. C'est l'information de référence pour analyser, situer et représenter tous types de données dans leur contexte géographique.
+
+Diffusion
+Les données IGN sont utilisables uniquement par les partenaires du SITG.
+
+La diffusion à des tiers est strictement interdite.
+
+Remarques sur la précision des données
+Les données de l'IGN mises à disposition du SITG ont été transformées dans le système de coordonnées et le système de projection suisses.</idAbs>
+		<idXTInfoLink>http://www.ign.fr/</idXTInfoLink>
+		<idXTLegalLink>http://www.ign.fr/telechargement/MPro/juridique/CGUFN.pdf</idXTLegalLink>
+		<dataChar>
+			<CharSetCd value="004" Sync="FALSE">
+			</CharSetCd>
+		</dataChar>
+		<resMaint>
+			<maintFreq>
+				<MaintFreqCd value="011" Sync="FALSE">
+				</MaintFreqCd>
+				<descXT>Non planifié</descXT></maintFreq>
+			<maintScp>
+				<ScopeCd value="005" Sync="FALSE">
+				</ScopeCd>
+			</maintScp>
+		</resMaint>
+		<idStatus>
+			<ProgCd value="001" Sync="FALSE">
+			</ProgCd>
+			<descXT>Accompli</descXT></idStatus>
+		<resConst>
+			<LegConsts><accessConsts><RestrictCd value="001" Sync="FALSE"></RestrictCd><descXT>Copyright</descXT></accessConsts><useConsts><RestrictCd value="001" Sync="FALSE"></RestrictCd><descXT>Copyright</descXT></useConsts></LegConsts></resConst>
+		<descKeys KeyTypCd="005" Sync="FALSE">
+			<keyword>administratif</keyword>
+			<keyword>eau</keyword>
+			<keyword>route</keyword>
+			<keyTyp>
+				<keyTypCd value="005" Sync="FALSE">
+				</keyTypCd>
+			</keyTyp>
+		</descKeys>
+		<lnkObjects>
+			<lnkObject>
+				<lnkBID>312d24e2-df1f-4482-940a-237a0e9109b1</lnkBID>
+				<lnkType>Autre</lnkType>
+				<lnkNote>Couverture des données IGN</lnkNote>
+				<lnkLink>http://etat.geneve.ch/geoportail/metadataws/Publish/images/COUVERTURE_DES_DONNEES_IGN.gif</lnkLink>
+			</lnkObject>
+			<lnkObject>
+				<lnkBID>e5ebd49e-41fc-4438-ad9a-540f88c5b897</lnkBID>
+				<lnkType>Autre</lnkType>
+				<lnkNote>Présentation de produit IGN</lnkNote>
+				<lnkLink>http://www.ign.fr/telechargement/MPro/plaquettes/bdtopo.pdf</lnkLink>
+			</lnkObject>
+			<lnkObject>
+				<lnkBID>799f7b7a-b76e-4836-a285-c5a26a76e259</lnkBID>
+				<lnkType>Autre</lnkType>
+				<lnkNote>Page officielle IGN pour ce produit</lnkNote>
+				<lnkLink>http://www.ign.fr/rubrique.asp?lng_id=FR&amp;rbr_id=1621</lnkLink>
+			</lnkObject>
+		</lnkObjects>
+		<tpCat><TopicCatCd value="015" Sync="FALSE"></TopicCatCd><descXT>Cadastre et aménagement du territoire</descXT></tpCat><tpCat><TopicCatCd value="017" Sync="FALSE"></TopicCatCd><descXT>Equipements et infrastructures</descXT></tpCat><tpCat><TopicCatCd value="003" Sync="FALSE"></TopicCatCd><descXT>Limites administratives et politiques</descXT></tpCat></dataIdInfo>
+	<metainfo>
+		<langmeta Sync="TRUE">fr</langmeta>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntper>REQUIRED: The person responsible for the metadata information.</cntper>
+					<cntorg>REQUIRED: The organization responsible for the metadata information.</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>REQUIRED: The mailing and/or physical address for the organization or individual.</addrtype>
+					<city>REQUIRED: The city of the address.</city>
+					<state>REQUIRED: The state or province of the address.</state>
+					<postal>REQUIRED: The ZIP or other postal code of the address.</postal>
+				</cntaddr>
+				<cntvoice>REQUIRED: The telephone number by which individuals can speak to the organization or individual.</cntvoice>
+			</cntinfo>
+		</metc>
+		<metd Sync="TRUE">20120314</metd>
+		<metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<mdLang>
+		<languageCode Sync="FALSE" value="fr">
+		</languageCode>
+	</mdLang>
+	<mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+	<mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+	<mdChar>
+		<CharSetCd Sync="TRUE" value="004">
+		</CharSetCd>
+	</mdChar>
+	<mdHrLv>
+		<ScopeCd Sync="TRUE" value="005">
+		</ScopeCd>
+	</mdHrLv>
+	<mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+	<distinfo>
+		<resdesc Sync="TRUE">Downloadable Data</resdesc>
+	</distinfo>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<esriterm Name="A.IGN_BATI_BATIMENT">
+				<efeatyp Sync="TRUE">Simple</efeatyp>
+				<efeageom Sync="TRUE">Polygon</efeageom>
+				<esritopo Sync="TRUE">FALSE</esritopo>
+				<efeacnt Sync="TRUE">207672</efeacnt>
+				<spindex Sync="TRUE">TRUE</spindex>
+				<linrefer Sync="TRUE">TRUE</linrefer>
+			</esriterm>
+			<sdtsterm Name="A.IGN_BATI_BATIMENT">
+				<sdtstype Sync="TRUE">G-polygon</sdtstype>
+				<ptvctcnt Sync="TRUE">207672</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<cordsysn>
+				<geogcsn Sync="TRUE">GCS_CH1903+</geogcsn>
+				<projcsn Sync="TRUE">CH1903+_LV95</projcsn>
+			</cordsysn>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<plandu Sync="TRUE">meters</plandu>
+					<coordrep>
+						<absres Sync="TRUE">0.000041</absres>
+						<ordres Sync="TRUE">0.000041</ordres>
+					</coordrep>
+				</planci>
+				<mapproj><mapprojn Sync="TRUE">Oblique Mercator</mapprojn><obqmerc><sfctrlin Sync="TRUE">1.000000</sfctrlin><obqlazim><azimangl Sync="TRUE">90.000000</azimangl><azimptl Sync="TRUE">7.439583</azimptl></obqlazim><latprjo Sync="TRUE">46.952406</latprjo><feast Sync="TRUE">2600000.000000</feast><fnorth Sync="TRUE">1200000.000000</fnorth></obqmerc></mapproj></planar>
+			<geodetic>
+				<horizdn Sync="TRUE">D_CH1903+</horizdn>
+				<ellips Sync="TRUE">Bessel_1841</ellips>
+				<semiaxis Sync="TRUE">6377397.155000</semiaxis>
+				<denflat Sync="TRUE">299.152813</denflat>
+			</geodetic>
+		</horizsys>
+		<vertdef>
+			<altsys>
+				<altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc>
+				<altres Sync="TRUE">0.000003</altres>
+			</altsys>
+		</vertdef>
+	</spref>
+	<refSysInfo>
+		<RefSystem>
+			<refSysID>
+				<identCode>CH1903+_LV95</identCode>
+			</refSysID>
+		</RefSystem>
+	</refSysInfo>
+	<spatRepInfo>
+		<VectSpatRep>
+			<topLvl>
+				<TopoLevCd Sync="TRUE" value="001">
+				</TopoLevCd>
+			</topLvl>
+			<geometObjs Name="A.IGN_BATI_BATIMENT"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">207672</geoObjCnt></geometObjs></VectSpatRep>
+	</spatRepInfo>
+	<eainfo>
+		<detailed Name="A.IGN_BATI_BATIMENT">
+			<enttyp>
+				<enttypl Sync="TRUE">A.IGN_BATI_BATIMENT</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt>
+				<enttypc Sync="TRUE">207672</enttypc>
+			</enttyp>
+			<attr>
+				<attrlabl Sync="TRUE">OBJECTID</attrlabl>
+				<attalias Sync="TRUE">OBJECTID</attalias>
+				<attrtype Sync="TRUE">OID</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SOURCE</attrlabl>
+				<attalias Sync="TRUE">SOURCE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">27</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Source géométrique des données:
+- Photogrammétrie
+- Orthophotographie
+- Carte au 1:25000
+- BD Topo
+- BD Carto
+- Géoroute
+- BDNyme
+- Terrain
+- Plan ou documentation
+- Calculé</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SHAPE</attrlabl>
+				<attalias Sync="TRUE">Shape</attalias>
+				<attrtype Sync="TRUE">Geometry</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SHAPE.AREA</attrlabl>
+				<attalias Sync="TRUE">SHAPE.AREA</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">0</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SHAPE.LEN</attrlabl>
+				<attalias Sync="TRUE">SHAPE.LEN</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">0</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">CATEGORIE</attrlabl>
+				<attalias Sync="TRUE">CATEGORIE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">34</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Catégorie:
+- Administratif
+- Industriel, agricole, commercial
+- Religieux
+- Sportif
+- Transport
+- Autre</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NATURE</attrlabl>
+				<attalias Sync="TRUE">NATURE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">25</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nature:
+- Aérogare
+- Arc de triomphe
+- Arène, théatre antique
+- Bâtiment agricole
+- Bâtiment commercial
+- Bâtiment industriel
+- Bâtiment religieux divers
+- Bâtiment sportif
+- Chapelle
+- Château
+- Eglise
+- Fort, blockhaus, casemate
+- Gare
+- Mairie
+- Monument
+- Péage
+- Préfecture
+- Serre
+- Silo
+- Sous-préfecture
+- Tour, donjon, moulin
+- Tribune
+- Autre</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">HAUTEUR</attrlabl>
+				<attalias Sync="TRUE">HAUTEUR</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Hauteur arrondie au mètre</atXTdesc>
+			</attr>
+		</detailed>
+	</eainfo>
+	<mdDateSt Sync="TRUE">20110804</mdDateSt>
+	<mdXTInfoLink>http://www.sitg.ch</mdXTInfoLink>
+	<mdContact>
+		<rpXTBID>61beb9aa-9f41-4c2f-8ab4-2765d23df7e1</rpXTBID>
+		<rpIndName>Pierre Lafontaine</rpIndName>
+		<rpXTIndLastName>Lafontaine</rpXTIndLastName>
+		<rpXTIndFirstName>Pierre</rpXTIndFirstName>
+		<rpOrgName>Service de l'organisation et des systèmes d'information</rpOrgName>
+		<rpXTOrgAcronym>SOSI</rpXTOrgAcronym>
+		<rpXTPartName>DIM - Département de l'intérieur et de la mobilité</rpXTPartName>
+		<rpCntInfo>
+			<cntPhone>
+				<voiceNum>+4122 546 72 81</voiceNum>
+				<faxNum>+4122 546 72 70</faxNum>
+			</cntPhone>
+			<cntAddress>
+				<eMailAdd>pierre.lafontaine@etat.ge.ch</eMailAdd>
+				<XTName>rue des Gazomètres</XTName>
+				<XTNumber>7</XTNumber>
+				<delPoint>rue des Gazomètres 7</delPoint>
+				<postCode>1211</postCode>
+				<XTpostBox>36</XTpostBox>
+				<city>Genève 8</city>
+				<country>ch</country>
+				<XTLine></XTLine>
+				<adminArea></adminArea>
+			</cntAddress>
+			<cntOnlineRes>
+				<linkage>http://etat.geneve.ch/dt/geomatique/accueil.html</linkage>
+			</cntOnlineRes>
+			<cntHours></cntHours>
+			<cntInstr></cntInstr>
+		</rpCntInfo>
+		<rpPosName>Technicien en géomatique, resp. Métadonnées</rpPosName>
+	</mdContact>
+	<dqInfo>
+		<dqXTEdit>
+			<edtMethod>Composantes IGN:
+- BD ORTHO
+- BD TOPO
+- BD PARCELLAIRE
+- BD ADRESSE</edtMethod>
+			<edtPrecision>Selon les composantes</edtPrecision>
+			<edtScale>Selon les composantes</edtScale>
+			<edtFiability value="True" Sync="FALSE">
+			</edtFiability>
+		</dqXTEdit>
+		<dqXTDisplay>
+			<dspScale>12500 à 200000</dspScale>
+		</dqXTDisplay>
+	</dqInfo>
+	<tpXTThemes><theme>Institut Géographique National (IGN)</theme></tpXTThemes></metadata>

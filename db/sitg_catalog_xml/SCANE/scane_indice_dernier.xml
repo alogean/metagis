@@ -1,0 +1,785 @@
+<?xml version="1.0"?>
+<!--<!DOCTYPE metadata SYSTEM "http://www.esri.com/metadata/esriprof80.dtd">-->
+<metadata xml:lang="fr">
+	<Esri>
+		<CreaDate>20110727</CreaDate>
+		<CreaTime>13305100</CreaTime>
+		<SyncOnce>FALSE</SyncOnce>
+		<DataProperties>
+			<XTinfo>
+				<esrtype>Feature Class</esrtype>
+				<esrfctype>1</esrfctype>
+				<esralias>A.SCANE_INDICE_DERNIER</esralias>
+				<esrname>A.SCANE_INDICE_DERNIER</esrname>
+			</XTinfo>
+		</DataProperties>
+		<SyncDate>20120704</SyncDate>
+		<SyncTime>15232700</SyncTime>
+		<ModDate>20120704</ModDate>
+		<ModTime>15232700</ModTime>
+		<MetaID>{70622C8B-8216-4918-A8A1-306AA371F820}</MetaID></Esri>
+	<idinfo>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 1; ESRI ArcCatalog 9.2.6.1500</native>
+		<descript>
+			<langdata Sync="TRUE">fr</langdata>
+			<abstract>REQUIRED: A brief narrative summary of the data set.</abstract>
+			<purpose>REQUIRED: A summary of the intentions with which the data set was developed.</purpose>
+		</descript>
+		<citation>
+			<citeinfo>
+				<origin>REQUIRED: The name of an organization or individual that developed the data set.</origin>
+				<pubdate>REQUIRED: The date when the data set is published or otherwise made available for release.</pubdate>
+				<title Sync="TRUE">A.SCANE_INDICE_DERNIER</title>
+				<ftname Sync="TRUE">A.SCANE_INDICE_DERNIER</ftname>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<onlink Sync="TRUE">Server=CONSULTATION-SITG; Service=esri_sde; User=a; Version=SDE.DEFAULT</onlink>
+			</citeinfo>
+		</citation>
+		<timeperd>
+			<current>REQUIRED: The basis on which the time period of content information is determined.</current>
+			<timeinfo>
+				<sngdate>
+					<caldate>REQUIRED: The year (and optionally month, or month and day) for which the data set corresponds to the ground.</caldate>
+				</sngdate>
+			</timeinfo>
+		</timeperd>
+		<status>
+			<progress>REQUIRED: The state of the data set.</progress>
+			<update>REQUIRED: The frequency with which changes and additions are made to the data set after the initial data set is completed.</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">5.963804</westbc>
+				<eastbc Sync="TRUE">6.272269</eastbc>
+				<northbc Sync="TRUE">46.354591</northbc>
+				<southbc Sync="TRUE">46.140707</southbc>
+			</bounding>
+			<lboundng>
+				<leftbc Sync="TRUE">2486420.690000</leftbc>
+				<rightbc Sync="TRUE">2509816.630000</rightbc>
+				<bottombc Sync="TRUE">1110841.990000</bottombc>
+				<topbc Sync="TRUE">1134224.700000</topbc>
+			</lboundng>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>REQUIRED: Reference to a formally registered thesaurus or a similar authoritative source of theme keywords.</themekt>
+				<themekey>REQUIRED: Common-use word or phrase used to describe the subject of the data set.</themekey>
+			</theme>
+		</keywords>
+		<accconst>REQUIRED: Restrictions and legal prerequisites for accessing the data set.</accconst>
+		<useconst>REQUIRED: Restrictions and legal prerequisites for using the data set after access is granted.</useconst>
+		<natvform Sync="TRUE">Classe d'entités ArcSDE</natvform>
+	</idinfo>
+	<dataIdInfo>
+		<envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.6.1500</envirDesc>
+		<dataLang>
+			<languageCode Sync="FALSE" value="fr">
+			</languageCode>
+		</dataLang>
+		<idCitation>
+			<resTitle>INDICE DE DEPENSE DE CHALEUR (IDC) DES BATIMENTS - DERNIERE VALEUR</resTitle>
+			<presForm>
+				<PresFormCd Sync="TRUE" value="005">
+				</PresFormCd>
+			</presForm>
+			<resRefDate>
+				<refDate>20100827</refDate>
+				<refDateType>
+					<DateTypCd value="001" Sync="FALSE">
+					</DateTypCd>
+				</refDateType>
+			</resRefDate>
+			<citRespParty>
+				<rpIndName>Christian Freudiger</rpIndName>
+				<rpXTIndLastName>Freudiger</rpXTIndLastName>
+				<rpXTIndFirstName>Christian</rpXTIndFirstName>
+				<rpOrgName>Service cantonal de l'énergie</rpOrgName>
+				<rpXTOrgAcronym>ScanE</rpXTOrgAcronym>
+				<rpXTPartName>DS - Département de la sécurité</rpXTPartName>
+				<rpCntInfo>
+					<cntPhone>
+						<voiceNum>+4122 327 23 11</voiceNum>
+						<faxNum>+4122 327 20 94</faxNum>
+					</cntPhone>
+					<cntAddress>
+						<eMailAdd>christian.freudiger@etat.ge.ch</eMailAdd>
+						<XTName>rue du Puit-Saint-Pierre</XTName>
+						<XTNumber>4</XTNumber>
+						<delPoint>rue du Puit-Saint-Pierre 4</delPoint>
+						<postCode>1204</postCode>
+						<XTpostBox>3920</XTpostBox>
+						<city>Genève 3</city>
+						<country>ch</country>
+						<XTLine></XTLine><adminArea></adminArea></cntAddress>
+					<cntOnlineRes>
+						<linkage></linkage>
+					</cntOnlineRes>
+					<cntHours></cntHours><cntInstr></cntInstr></rpCntInfo>
+				<rpPosName>ajdoint scientifique</rpPosName>
+				<rpXTBID>7353e714-6375-492e-8b18-c9a404468c40</rpXTBID>
+			</citRespParty>
+			<resXTUpdateFicheDate><refDate>20110727</refDate><refDateType><DateTypCd value="001" Sync="FALSE"></DateTypCd></refDateType></resXTUpdateFicheDate></idCitation>
+		<spatRpType>
+			<SpatRepTypCd Sync="TRUE" value="001">
+			</SpatRepTypCd>
+		</spatRpType>
+		<dataExt>
+			<geoEle>
+				<GeoBndBox esriExtentType="native">
+					<westBL Sync="TRUE">2486420.69</westBL>
+					<eastBL Sync="TRUE">2509816.63</eastBL>
+					<northBL Sync="TRUE">1134224.7</northBL>
+					<southBL Sync="TRUE">1110841.99</southBL>
+					<exTypeCode Sync="TRUE">1</exTypeCode>
+					<XTdesc>Cadre de référence MN95</XTdesc>
+				</GeoBndBox>
+			</geoEle>
+		</dataExt>
+		<geoBox esriExtentType="decdegrees">
+			<westBL Sync="TRUE">5.963804</westBL>
+			<eastBL Sync="TRUE">6.272269</eastBL>
+			<northBL Sync="TRUE">46.354591</northBL>
+			<southBL Sync="TRUE">46.140707</southBL>
+			<exTypeCode Sync="TRUE">1</exTypeCode>
+		</geoBox>
+		<idAbs>L'indice de dépense de chaleur (IDC) exprimé en mégajoules par mètre carré et par an (MJ/m²·a) représente la quantité annuelle d'énergie consommée pour la production de chaleur (chauffage et eau chaude sanitaire 'ECS'), ramenée à un mètre carré de plancher chauffé (SRE), et corrigée en fonction des données climatiques (degrés-jours) de l'année considérée.
+
+Le document joint SCANE_INDICE_DERNIER.PDF contient toutes les informations complémentaires.</idAbs>
+		<idXTLegalLink>http://etat.geneve.ch/geoportail/metadataws/Publish/legal/scane_indice_dernier.htm</idXTLegalLink>
+		<dataChar>
+			<CharSetCd value="004" Sync="FALSE">
+			</CharSetCd>
+		</dataChar>
+		<idXTInfoLink>http://etat.geneve.ch/dt/energie/chauffage_eau_chaude-69-487.html</idXTInfoLink>
+		<resMaint>
+			<maintFreq>
+				<MaintFreqCd value="001" Sync="FALSE">
+				</MaintFreqCd>
+				<descXT>Continue</descXT></maintFreq>
+			<maintScp>
+				<ScopeCd value="005" Sync="FALSE">
+				</ScopeCd>
+			</maintScp>
+			<maintNote>Les indices de dépense de chaleur (IDC) sont complétés au fur et à mesure de leur réception au SCANE de la part des concessionnaires. Les IDC doivent être calculés chaque année.</maintNote>
+		</resMaint>
+		<idStatus>
+			<ProgCd value="004" Sync="FALSE">
+			</ProgCd>
+			<descXT>En cours</descXT></idStatus>
+		<resConst>
+			<Consts>
+				<useLimit>LIPAD - Diffusable à condition d'être sous un contrat de confidentialité dans le cadre d'un mandat d'un partenaire du SITG (p.ex ScanE)</useLimit>
+			</Consts>
+			<LegConsts><accessConsts><RestrictCd value="007" Sync="FALSE"></RestrictCd><descXT>Diffusion restreinte</descXT></accessConsts><useConsts><RestrictCd value="007" Sync="FALSE"></RestrictCd><descXT>Diffusion restreinte</descXT></useConsts></LegConsts></resConst>
+		<lnkObjects>
+			<lnkObject>
+				<lnkBID>ac33a99d-2b71-48d0-8575-215d92b28640</lnkBID>
+				<lnkType>Image</lnkType>
+				<lnkLink>http://etat.geneve.ch/geoportail/metadataws/Publish/images/A.SCANE_INDICE_DERNIER.jpg</lnkLink>
+			</lnkObject>
+			<lnkObject>
+				<lnkBID>f2e45bd4-dd5b-4505-81fd-8e932054f510</lnkBID>
+				<lnkType>Autre</lnkType>
+				<lnkNote>Fichier PDF avec description détaillée de la donnée.</lnkNote>
+				<lnkLink>http://etat.geneve.ch/geoportail/metadataws/Publish/documents/SCANE_INDICE_DERNIER.pdf</lnkLink>
+			</lnkObject>
+			<lnkObject>
+				<lnkBID>af0ca642-ea8c-454c-8b49-f01b60785a4e</lnkBID>
+				<lnkType>Autre</lnkType>
+				<lnkNote>Directive pour le calcul de l'indice (PDF)</lnkNote>
+				<lnkLink>http://etat.geneve.ch/geoportail/metadataws/Publish/documents/DIRECTIVE_CALCUL_INDICE.pdf</lnkLink>
+			</lnkObject>
+		</lnkObjects>
+		<descKeys KeyTypCd="005" Sync="FALSE">
+			<keyword>administratif</keyword>
+			<keyTyp>
+				<keyTypCd value="005" Sync="FALSE">
+				</keyTypCd>
+			</keyTyp>
+		</descKeys>
+		<idPurp>La cartographie des indices de dépense de chaleur (IDC) et de leurs données associées (consommation et SRE) permet une réflexion dépassant les limites d'un bâtiment, en s'intéressant à la qualité des bâtiments d'un quartier, d'une commune, etc. dans le cadre d'une approche territoriale. La cartographie des IDC est utile à la planification énergétique territoriale et notamment à l'élaboration de concept énergétique territorial 'CET'.</idPurp>
+		<tpCat><TopicCatCd value="015" Sync="FALSE"></TopicCatCd><descXT>Cadastre et aménagement du territoire</descXT></tpCat><tpCat><TopicCatCd value="007" Sync="FALSE"></TopicCatCd><descXT>Environnement et conservation</descXT></tpCat><tpCat><TopicCatCd value="019" Sync="FALSE"></TopicCatCd><descXT>Réseaux de distribution et de communication</descXT></tpCat></dataIdInfo>
+	<metainfo>
+		<langmeta Sync="TRUE">fr</langmeta>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntper>REQUIRED: The person responsible for the metadata information.</cntper>
+					<cntorg>REQUIRED: The organization responsible for the metadata information.</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>REQUIRED: The mailing and/or physical address for the organization or individual.</addrtype>
+					<city>REQUIRED: The city of the address.</city>
+					<state>REQUIRED: The state or province of the address.</state>
+					<postal>REQUIRED: The ZIP or other postal code of the address.</postal>
+				</cntaddr>
+				<cntvoice>REQUIRED: The telephone number by which individuals can speak to the organization or individual.</cntvoice>
+			</cntinfo>
+		</metc>
+		<metd Sync="TRUE">20120704</metd>
+		<metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<mdLang>
+		<languageCode Sync="FALSE" value="fr">
+		</languageCode>
+	</mdLang>
+	<mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+	<mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+	<mdChar>
+		<CharSetCd Sync="TRUE" value="004">
+		</CharSetCd>
+	</mdChar>
+	<mdHrLv>
+		<ScopeCd Sync="TRUE" value="005">
+		</ScopeCd>
+	</mdHrLv>
+	<mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+	<distinfo>
+		<resdesc Sync="TRUE">Downloadable Data</resdesc>
+	</distinfo>
+	<distInfo>
+		<distributor>
+			<distorTran>
+				<onLineSrc>
+					<linkage>http://www.sitg.ch</linkage>
+					<protocol></protocol>
+					<linkOrderForm>http://etat.geneve.ch/geoportail/formsitg/</linkOrderForm>
+					<orFunct>
+						<OnFunctCd value="004" Sync="FALSE">
+						</OnFunctCd>
+					</orFunct>
+					<orDesc>Diffusible à condition d'être sous un contrat de confidentialité dans le cadre d'un mandat d'un partenaire du SITG</orDesc>
+				</onLineSrc>
+				<offLineMed>
+					<medName>
+						<MedNameCd value="001" Sync="FALSE">
+						</MedNameCd>
+					</medName>
+				</offLineMed>
+				<transThirds value="False" Sync="FALSE">
+				</transThirds>
+			</distorTran>
+			<distorCont>
+				<rpIndName>Pierre Lafontaine</rpIndName>
+				<rpXTIndLastName>Lafontaine</rpXTIndLastName>
+				<rpXTIndFirstName>Pierre</rpXTIndFirstName>
+				<rpOrgName>Service de l'organisation et des systèmes d'information</rpOrgName>
+				<rpXTOrgAcronym>SOSI</rpXTOrgAcronym>
+				<rpXTPartName>DIME - Département de l'intérieur, de la mobilité et de l'environnement</rpXTPartName>
+				<rpCntInfo>
+					<cntPhone>
+						<voiceNum>+4122 546 72 81</voiceNum>
+						<faxNum>+4122 546 72 70</faxNum>
+					</cntPhone>
+					<cntAddress>
+						<eMailAdd>pierre.lafontaine@etat.ge.ch</eMailAdd>
+						<XTName>rue des Gazomètres</XTName>
+						<XTNumber>7</XTNumber>
+						<delPoint>rue des Gazomètres 7</delPoint>
+						<postCode>1211</postCode>
+						<XTpostBox>36</XTpostBox>
+						<city>Genève 8</city>
+						<country>ch</country>
+						<XTLine></XTLine>
+						<adminArea></adminArea>
+					</cntAddress>
+					<cntOnlineRes>
+						<linkage>http://etat.geneve.ch/dt/geomatique/accueil.html</linkage>
+					</cntOnlineRes>
+					<cntHours></cntHours>
+					<cntInstr></cntInstr>
+				</rpCntInfo>
+				<rpPosName>Technicien en géomatique, resp. Métadonnées</rpPosName>
+				<rpXTBID>61beb9aa-9f41-4c2f-8ab4-2765d23df7e1</rpXTBID>
+			</distorCont>
+			<distorFormat><formatName>Dwg/dxf, Géodatabase personnelle, Mif/mid, Shape file</formatName><formatVer>Sur demande</formatVer></distorFormat></distributor>
+	</distInfo>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<esriterm Name="A.SCANE_INDICE_DERNIER">
+				<efeatyp Sync="TRUE">Simple</efeatyp>
+				<efeageom Sync="TRUE">Polygon</efeageom>
+				<esritopo Sync="TRUE">FALSE</esritopo>
+				<efeacnt Sync="TRUE">11874</efeacnt>
+				<spindex Sync="TRUE">TRUE</spindex>
+				<linrefer Sync="TRUE">FALSE</linrefer>
+			</esriterm>
+			<sdtsterm Name="A.SCANE_INDICE_DERNIER">
+				<sdtstype Sync="TRUE">G-polygon</sdtstype>
+				<ptvctcnt Sync="TRUE">11874</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<cordsysn>
+				<geogcsn Sync="TRUE">GCS_CH1903+</geogcsn>
+				<projcsn Sync="TRUE">CH1903+_LV95</projcsn>
+			</cordsysn>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<plandu Sync="TRUE">meters</plandu>
+					<coordrep>
+						<absres Sync="TRUE">0.010000</absres>
+						<ordres Sync="TRUE">0.010000</ordres>
+					</coordrep>
+				</planci>
+				<mapproj><mapprojn Sync="TRUE">Oblique Mercator</mapprojn><obqmerc><sfctrlin Sync="TRUE">1.000000</sfctrlin><obqlazim><azimangl Sync="TRUE">90.000000</azimangl><azimptl Sync="TRUE">7.439583</azimptl></obqlazim><latprjo Sync="TRUE">46.952406</latprjo><feast Sync="TRUE">2600000.000000</feast><fnorth Sync="TRUE">1200000.000000</fnorth></obqmerc></mapproj></planar>
+			<geodetic>
+				<horizdn Sync="TRUE">D_CH1903+</horizdn>
+				<ellips Sync="TRUE">Bessel_1841</ellips>
+				<semiaxis Sync="TRUE">6377397.155000</semiaxis>
+				<denflat Sync="TRUE">299.152813</denflat>
+			</geodetic>
+		</horizsys>
+		<vertdef>
+			<altsys>
+				<altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc>
+				<altres Sync="TRUE">1.000000</altres>
+			</altsys>
+		</vertdef>
+	</spref>
+	<refSysInfo>
+		<RefSystem>
+			<refSysID>
+				<identCode>CH1903+_LV95</identCode>
+			</refSysID>
+		</RefSystem>
+	</refSysInfo>
+	<spatRepInfo>
+		<VectSpatRep>
+			<topLvl>
+				<TopoLevCd Sync="TRUE" value="001">
+				</TopoLevCd>
+			</topLvl>
+			<geometObjs Name="A.SCANE_INDICE_DERNIER"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">11760</geoObjCnt></geometObjs></VectSpatRep>
+	</spatRepInfo>
+	<eainfo Sync="TRUE">
+		<detailed Name="A.SCANE_INDICE_DERNIER" Sync="TRUE">
+			<enttyp>
+				<enttypl Sync="TRUE">A.SCANE_INDICE_DERNIER</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt>
+				<enttypc Sync="TRUE">11874</enttypc>
+			</enttyp>
+			<attr Sync="TRUE">
+				<attrlabl Sync="TRUE">IDPADR</attrlabl>
+				<attalias Sync="TRUE">IDPADR</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<atprecis Sync="TRUE">38</atprecis>
+				<attscale Sync="TRUE">8</attscale>
+				<atXTdesc>Identifiant permanent de l'adresse</atXTdesc>
+			</attr>
+			<attr Sync="TRUE">
+				<attrlabl Sync="TRUE">ADRESSE</attrlabl>
+				<attalias Sync="TRUE">ADRESSE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">70</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Concaténation:
+[NO_ADRESSE]
+[TYVOIE]
+[LIANT]
+[NOMVOI]</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">EMISSION_CO2</attrlabl>
+				<attalias Sync="TRUE">EMISSION_CO2</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Emissions annuelles de CO2
+Unité [kgCO2/an]</atXTdesc>
+			</attr>
+			<attr Sync="TRUE">
+				<attrlabl Sync="TRUE">COMMUNE</attrlabl>
+				<attalias Sync="TRUE">COMMUNE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">25</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nom de la commune</atXTdesc>
+			</attr>
+			<attr Sync="TRUE">
+				<attrlabl Sync="TRUE">SHAPE</attrlabl>
+				<attalias Sync="TRUE">SHAPE</attalias>
+				<attrtype Sync="TRUE">Geometry</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">CONTACT_CONCESSION</attrlabl>
+				<attalias Sync="TRUE">CONTACT_CONCESSION</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">100</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Contact concessionnaire</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">OBJECTID</attrlabl>
+				<attalias Sync="TRUE">OBJECTID</attalias>
+				<attrtype Sync="TRUE">OID</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr Sync="TRUE">
+				<attrlabl Sync="TRUE">EGID</attrlabl>
+				<attalias Sync="TRUE">EGID</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<atprecis Sync="TRUE">38</atprecis>
+				<attscale Sync="TRUE">8</attscale>
+				<atXTdesc>Code EGID (Identificateur fédéral des bâtiments)</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NBRE_PRENEUR</attrlabl>
+				<attalias Sync="TRUE">NBRE_PRENEUR</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nombre d'utilisateurs de l'installation de chauffage</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SOUMIS_AU_CALCUL</attrlabl>
+				<attalias Sync="TRUE">SOUMIS_AU_CALCUL</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">3</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Soumis au calcul de l'indice
+. oui
+- non</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SOURCE_CHALEUR</attrlabl>
+				<attalias Sync="TRUE">SOURCE_CHALEUR</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">75</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Adresse de localisation de l'installation du chauffage qui alimente le bâtiment</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AVANT_93</attrlabl>
+				<attalias Sync="TRUE">AVANT_93</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">3</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Construit avant 1993
+- oui
+- non</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">PARTICIP_EAU_CHAUDE</attrlabl>
+				<attalias Sync="TRUE">PARTICIP_EAU_CHAUDE</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<atprecis Sync="TRUE">38</atprecis>
+				<attscale Sync="TRUE">8</attscale>
+				<atXTdesc>Part d'eau chaude dans la consommation</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">CALCUL_SAISON</attrlabl>
+				<attalias Sync="TRUE">CALCUL_SAISON</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">3</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Consommation mesurée sur une saison de chauffage
+- oui
+- non</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">DATE_SAISIE</attrlabl>
+				<attalias Sync="TRUE">DATE_SAISIE</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Date de saisie</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ANNEE</attrlabl>
+				<attalias Sync="TRUE">ANNEE</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">4</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Année de mesure</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">DESTINATION</attrlabl>
+				<attalias Sync="TRUE">DESTINATION</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">55</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Adresse de localisation de l'installation de chauffage qui alimente le bâtiment</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">DIFC</attrlabl>
+				<attalias Sync="TRUE">DIFC</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">3</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Décompte Individuel des Frais de Chauffage
+- oui
+- non</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">CONSO_CORRIGEE</attrlabl>
+				<attalias Sync="TRUE">CONSO_CORRIGEE</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<atprecis Sync="TRUE">38</atprecis>
+				<attscale Sync="TRUE">8</attscale>
+				<atXTdesc>Consommation énergétique annuelle corrigée climatiquement (selon degrés-jours)
+Unité [MJ/an]</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AGENT_1</attrlabl>
+				<attalias Sync="TRUE">AGENT_1</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">100</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Agent énergétique principal
+      - Mazout. en [litres]. à 36 [MJ / litre]
+- Gaz. en [kWh]. à 3.3 [MJpci / kWhpcs]
+- CAD (de mazout). en [kWh]. à 3.6 [MJ / kWh]
+- CAD (de gaz). en [kWh]. à 3.6 [MJ / kWh]
+- CADIOM. en [kWh]. à 3.6 [MJ / kWh]
+- CAD (de renouvelable). en [kWh]. à 3.6 [MJ / kWh
+- Électricité. en [kWh]. à 3.6 [MJ/kWh]
+- Bois plaquettes. en [m3]. à 4000 [MJ / m3]
+- Bois granulés. en [t]. à 18000 [MJ / t]
+- Vente de chaleur à un tiers en [kWh] à 3.6 [MJ / kWh]
+</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">QUANTITE_AGENT_1</attrlabl>
+				<attalias Sync="TRUE">QUANTITE_AGENT_1</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Quantité d'agent (exprimée dans l'unité adéquate)</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AGENT_2</attrlabl>
+				<attalias Sync="TRUE">AGENT_2</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">70</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Agent énergétique 2 (si existant)</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SRE</attrlabl>
+				<attalias Sync="TRUE">SRE</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<atprecis Sync="TRUE">38</atprecis>
+				<attscale Sync="TRUE">8</attscale>
+				<atXTdesc>Surface de référence énergétique (SRV) utilisée pour le calcul de l'IDC
+Unité [m²]</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">QUANTITE_AGENT_2</attrlabl>
+				<attalias Sync="TRUE">QUANTITE_AGENT_2</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Quantité d'agent (exprimée dans l'unité adéquate)
+</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">CONSOM_TOTALE</attrlabl>
+				<attalias Sync="TRUE">CONSOM_TOTALE</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Consommation énergétique annuelle brute
+Unité [MJ/an]</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">INDICE</attrlabl>
+				<attalias Sync="TRUE">INDICE</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Indice de dépense de chaleur (IDC)
+Unité [MJ/m²·an]</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AGENT_3</attrlabl>
+				<attalias Sync="TRUE">AGENT_3</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">70</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Agent énergétique 3 (si existant)</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">QUANTITE_AGENT_3</attrlabl>
+				<attalias Sync="TRUE">QUANTITE_AGENT_3</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Quantité d'agent (exprimée dans l'unité adéquate)</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">REPONDANT</attrlabl>
+				<attalias Sync="TRUE">REPONDANT</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">100</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nom du répondant</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SHAPE.AREA</attrlabl>
+				<attalias Sync="TRUE">SHAPE.AREA</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">0</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SHAPE.LEN</attrlabl>
+				<attalias Sync="TRUE">SHAPE.LEN</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">0</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+		</detailed>
+	</eainfo>
+	<mdDateSt Sync="TRUE">20110727</mdDateSt>
+	<mdContact>
+		<rpIndName>Pierre Lafontaine</rpIndName>
+		<rpXTIndLastName>Lafontaine</rpXTIndLastName>
+		<rpXTIndFirstName>Pierre</rpXTIndFirstName>
+		<rpOrgName>Service de l'organisation et des systèmes d'information</rpOrgName>
+		<rpXTOrgAcronym>SOSI</rpXTOrgAcronym>
+		<rpXTPartName>DIME - Département de l'intérieur, de la mobilité et de l'environnement</rpXTPartName>
+		<rpCntInfo>
+			<cntPhone>
+				<voiceNum>+4122 546 72 81</voiceNum>
+				<faxNum>+4122 546 72 70</faxNum>
+			</cntPhone>
+			<cntAddress>
+				<eMailAdd>pierre.lafontaine@etat.ge.ch</eMailAdd>
+				<XTName>rue des Gazomètres</XTName>
+				<XTNumber>7</XTNumber>
+				<delPoint>rue des Gazomètres 7</delPoint>
+				<postCode>1211</postCode>
+				<XTpostBox>36</XTpostBox>
+				<city>Genève 8</city>
+				<country>ch</country>
+				<XTLine></XTLine>
+				<adminArea></adminArea>
+			</cntAddress>
+			<cntOnlineRes>
+				<linkage>http://etat.geneve.ch/dt/geomatique/accueil.html</linkage>
+			</cntOnlineRes>
+			<cntHours></cntHours>
+			<cntInstr></cntInstr>
+		</rpCntInfo>
+		<rpPosName>Technicien en géomatique, resp. Métadonnées</rpPosName>
+		<rpXTBID>61beb9aa-9f41-4c2f-8ab4-2765d23df7e1</rpXTBID>
+	</mdContact>
+	<dqInfo>
+		<dqXTEdit>
+			<edtMethod>Des concessionnaires agréés choisis par les propriétaires ou la régie, relèvent la consommation énergétique brute ainsi que la surface de référence énergétique (SRE), puis les saisissent par adresse (IDPADR) via l'application Indice (guichet web sécurisé). Les données sont stockées dans une base de données, puis l'IDC est calculé à l'aide d'une formule tenant compte du facteur de correction climatique (degrés-jour) et de la part relative d'ECS, puis attribué aux adresses via la couche A.CAD_ADRESSE.
+La formule est disponible sur le site web du ScanE et dans la 'directive pour le calcul de l'indice de dépense de chaleur'</edtMethod>
+			<edtPrecision>Entre 10 et 70 centimètres</edtPrecision>
+			<edtScale>250</edtScale>
+			<edtFiability value="True" Sync="FALSE">
+			</edtFiability>
+		</dqXTEdit>
+		<dqXTDisplay>
+			<dspScale>250 à 10000</dspScale>
+		</dqXTDisplay>
+	</dqInfo>
+	<mdXTInfoLink>http://www.sitg.ch</mdXTInfoLink>
+	<dataqual>
+		<lineage>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">Z:\SITG\METADATA\XML_BACKUP\CAD\cad_adresse.xml</srcused>
+				<date Sync="TRUE">20070604</date>
+				<time Sync="TRUE">08444900</time>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">Z:\SITG\METADATA\XML_BACKUP\CAD\cad_adresse.xml</srcused>
+				<date Sync="TRUE">20070605</date>
+				<time Sync="TRUE">11495900</time>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">Z:\SITG\METADATA\XML_BACKUP\CAD\cad_adresse.xml</srcused>
+				<date Sync="TRUE">20070605</date>
+				<time Sync="TRUE">13082300</time>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">Z:\SITG\METADATA\XML_BACKUP\CAD\cad_adresse.xml</srcused>
+				<date Sync="TRUE">20070608</date>
+				<time Sync="TRUE">14045100</time>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">Z:\SITG\METADATA\XML_BACKUP\CAD\cad_adresse.xml</srcused>
+				<date Sync="TRUE">20071214</date>
+				<time Sync="TRUE">14083300</time>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">Z:\SITG\METADATA\XML_BACKUP\CAD\cad_adresse.xml</srcused>
+				<date Sync="TRUE">20081028</date>
+				<time Sync="TRUE">09295500</time>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">Z:\SITG\METADATA\XML_BACKUP\CAD\cad_adresse.xml</srcused>
+				<date Sync="TRUE">20100827</date>
+				<time Sync="TRUE">09563700</time>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">Z:\SITG\METADATA\XML_BACKUP\SCANE\scane_indice_historique.xml</srcused>
+				<date Sync="TRUE">20100827</date>
+				<time Sync="TRUE">11594700</time>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">D:\SCANE_MN95\scane_indice_dernier.xml</srcused><date Sync="TRUE">20110727</date><time Sync="TRUE">13305100</time></procstep></lineage>
+	</dataqual>
+	<tpXTThemes><theme>Territoire</theme></tpXTThemes></metadata>

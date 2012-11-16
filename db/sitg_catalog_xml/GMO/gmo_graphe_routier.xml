@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="fr">
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>REQUIRED: The name of an organization or individual that developed the data set.</origin>
+				<pubdate>REQUIRED: The date when the data set is published or otherwise made available for release.</pubdate>
+				<title Sync="TRUE">A.GMO_GRAPHE_ROUTIER</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<onlink Sync="TRUE">Server=CONSULTATION-SITG; Service=esri_sde; User=a; Version=SDE.DEFAULT</onlink>
+				<ftname Sync="TRUE">A.GMO_GRAPHE_ROUTIER</ftname>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>REQUIRED: A brief narrative summary of the data set.</abstract>
+			<purpose>REQUIRED: A summary of the intentions with which the data set was developed.</purpose>
+			<langdata Sync="TRUE">fr</langdata>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>REQUIRED: The year (and optionally month, or month and day) for which the data set corresponds to the ground.</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>REQUIRED: The basis on which the time period of content information is determined.</current>
+		</timeperd>
+		<status>
+			<progress>REQUIRED: The state of the data set.</progress>
+			<update>REQUIRED: The frequency with which changes and additions are made to the data set after the initial data set is completed.</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">5.954894</westbc>
+				<eastbc Sync="TRUE">6.311853</eastbc>
+				<northbc Sync="TRUE">46.367143</northbc>
+				<southbc Sync="TRUE">46.132577</southbc>
+			</bounding>
+			<lboundng>
+				<leftbc Sync="TRUE">2485760.357000</leftbc>
+				<rightbc Sync="TRUE">2512862.380000</rightbc>
+				<topbc Sync="TRUE">1135575.329000</topbc>
+				<bottombc Sync="TRUE">1109950.579000</bottombc>
+			</lboundng>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>REQUIRED: Reference to a formally registered thesaurus or a similar authoritative source of theme keywords.</themekt>
+				<themekey>REQUIRED: Common-use word or phrase used to describe the subject of the data set.</themekey>
+			</theme>
+		</keywords>
+		<accconst>REQUIRED: Restrictions and legal prerequisites for accessing the data set.</accconst>
+		<useconst>REQUIRED: Restrictions and legal prerequisites for using the data set after access is granted.</useconst>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 1; ESRI ArcCatalog 9.2.6.1500</native>
+		<natvform Sync="TRUE">Classe d'entités ArcSDE</natvform>
+	</idinfo>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="A.GMO_GRAPHE_ROUTIER">
+				<sdtstype Sync="TRUE">String</sdtstype>
+				<ptvctcnt Sync="TRUE">10935</ptvctcnt>
+			</sdtsterm>
+			<esriterm Name="A.GMO_GRAPHE_ROUTIER">
+				<efeatyp Sync="TRUE">Simple</efeatyp>
+				<esritopo Sync="TRUE">FALSE</esritopo>
+				<linrefer Sync="TRUE">FALSE</linrefer>
+				<spindex Sync="TRUE">TRUE</spindex>
+				<efeageom Sync="TRUE">Polyline</efeageom>
+				<efeacnt Sync="TRUE">10935</efeacnt>
+			</esriterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<coordrep>
+						<absres Sync="TRUE">0.001000</absres>
+						<ordres Sync="TRUE">0.001000</ordres>
+					</coordrep>
+					<plandu Sync="TRUE">meters</plandu>
+				</planci>
+				<mapproj><mapprojn Sync="TRUE">Oblique Mercator</mapprojn><obqmerc><sfctrlin Sync="TRUE">1.000000</sfctrlin><obqlazim><azimangl Sync="TRUE">90.000000</azimangl><azimptl Sync="TRUE">7.439583</azimptl></obqlazim><latprjo Sync="TRUE">46.952406</latprjo><feast Sync="TRUE">2600000.000000</feast><fnorth Sync="TRUE">1200000.000000</fnorth></obqmerc></mapproj></planar>
+			<geodetic>
+				<horizdn Sync="TRUE">D_CH1903+</horizdn>
+				<ellips Sync="TRUE">Bessel_1841</ellips>
+				<semiaxis Sync="TRUE">6377397.155000</semiaxis>
+				<denflat Sync="TRUE">299.152813</denflat>
+			</geodetic>
+			<cordsysn>
+				<geogcsn Sync="TRUE">GCS_CH1903+</geogcsn>
+				<projcsn Sync="TRUE">CH1903+_LV95</projcsn>
+			</cordsysn>
+		</horizsys>
+		<vertdef>
+			<altsys>
+				<altres Sync="TRUE">1.000000</altres>
+				<altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc>
+			</altsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<detailed Name="A.GMO_GRAPHE_ROUTIER">
+			<attr>
+				<attrlabl Sync="TRUE">DATE_MAJ</attrlabl>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attalias Sync="TRUE">DATE_MAJ</attalias>
+				<attrtype Sync="TRUE">Date</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">36</attwidth>
+				<atXTdesc>Date de mise à jour</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">OBJECTID</attrlabl>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attalias Sync="TRUE">OBJECTID</attalias>
+				<attrtype Sync="TRUE">OID</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">4</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">CODE_VOIE</attrlabl>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attalias Sync="TRUE">CODE_VOIE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">5</attwidth>
+				<atXTdesc>Code unique de la voie à laquelle appartient le tronçon</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">VOIE</attrlabl>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attalias Sync="TRUE">VOIE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">75</attwidth>
+				<atXTdesc>Nom complet de la voie à laquelle appartient le tronçon
+Concaténation: [ TYVOIE / LIANT / NOMVOI ]</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">HIERARCHIE</attrlabl>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attalias Sync="TRUE">HIERARCHIE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">20</attwidth>
+				<atXTdesc>Hiérarchie du réseau routier selon l'annexe au rapport sur la carte de la hiérarchie du réseau routier adopté par le Conseil d'Etat, le 21 décembre 2011.
+Les hiérarchies possibles sont les suivantes:
+- Réseau primaire
+- Réseau secondaire
+- Réseau de quartier
+Attribut mis à disposition par l'Office Cantonale de la Mobilité (OCM)</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">CLASSIFICATION</attrlabl>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attalias Sync="TRUE">CLASSIFICATION</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">30</attwidth>
+				<atXTdesc>Classification de la voie selon l'annexe à la Loi sur les routes.
+Les classifications possibles sont les suivantes:
+- Route nationale
+- Route cantonale
+- Route communale principale
+- Route communale secondaire
+Attribut mis à disposition par la Direction de la Voirie Cantonale (DVC)</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NO_ORDRE</attrlabl>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attalias Sync="TRUE">NO_ORDRE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">15</attwidth>
+				<atXTdesc>Numéro d'ordre selon le réglement de classification des voies publiques
+Attribut mis à disposition par la Direction de la Voirie Cantonale (DVC)</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">TYVOIE</attrlabl>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attalias Sync="TRUE">TYVOIE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atXTdesc>Type de la voie (constituant du Répertoire des Voies du Canton RVC)</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">LIANT</attrlabl>
+				<attalias Sync="TRUE">LIANT</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">16</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Liant</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NOMVOIE</attrlabl>
+				<attalias Sync="TRUE">NOMVOIE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nom de la voie</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NB_VOIE_FT</attrlabl>
+				<attalias Sync="TRUE">NB_VOIE_FT</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nombre de voies, dans le sens de la digitalisation.</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NB_VOIE_TF</attrlabl>
+				<attalias Sync="TRUE">NB_VOIE_TF</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nombre de voies, dans le sens contraire de la digitalisation.</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">COMMENTAIRE</attrlabl>
+				<attalias Sync="TRUE">COMMENTAIRE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">80</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Commentaire</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SENS_UNIQUE</attrlabl>
+				<attalias Sync="TRUE">SENS_UNIQUE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">15</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Indication sur le sens de circulation
+- libre (dans les 2 sens)
+- dans_le_sens (de la digitalisation)
+- contresens (sens inverse de la digitalisation)
+- interdit (dans les 2 sens)</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">LARGEUR_MAX</attrlabl>
+				<attalias Sync="TRUE">LARGEUR_MAX</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">20</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Largeur maximale en mètres autorisée selon signalisation verticale en place</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">HAUTEUR_MAX</attrlabl>
+				<attalias Sync="TRUE">HAUTEUR_MAX</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">20</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Hauteur maximale  en mètres autorisée selon signalisation verticale en place</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POIDS_MAX</attrlabl>
+				<attalias Sync="TRUE">POIDS_MAX</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">20</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Poids maximum en tonnes autorisé selon signalisation verticale en place</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">LONGUEUR_MAX</attrlabl>
+				<attalias Sync="TRUE">LONGUEUR_MAX</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">20</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Longueur maximale en mètres autorisée selon signalisation verticale en place</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ID_GM_TRONCON</attrlabl>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attalias Sync="TRUE">ID_GM_TRONCON</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atXTdesc>Identifiant unique du tronçon (unique parmi l'ensemble des graphes du GRAPHE DE LA MOBILITE)</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SHAPE</attrlabl>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attalias Sync="TRUE">SHAPE</attalias>
+				<attrtype Sync="TRUE">Geometry</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">4</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SHAPE.LEN</attrlabl>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attalias Sync="TRUE">SHAPE.LEN</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">0</attwidth>
+			</attr>
+			<enttyp>
+				<enttypl Sync="TRUE">A.GMO_GRAPHE_ROUTIER</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt>
+				<enttypc Sync="TRUE">10935</enttypc>
+			</enttyp>
+		</detailed>
+		<detailed>
+			<enttyp>
+				<enttypl Sync="TRUE">A.GMO_GRAPHE_ROUTIER</enttypl>
+				<enttypc Sync="TRUE">10770</enttypc>
+				<enttypt Sync="TRUE">Feature Class</enttypt>
+			</enttyp>
+			<attr>
+				<attrlabl Sync="TRUE">COMMENTAIRE</attrlabl>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attalias Sync="TRUE">COMMENTAIRE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">80</attwidth>
+				<atXTdesc>Commentaire, remarque</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">LIANT</attrlabl>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attalias Sync="TRUE">LIANT</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">16</attwidth>
+				<atXTdesc>Liant de la voie (constituant RVC)</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NOMVOI</attrlabl>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attalias Sync="TRUE">NOMVOI</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">50</attwidth>
+				<atXTdesc>Nom de la voie (constituant RVC)</atXTdesc>
+			</attr>
+		</detailed>
+	</eainfo>
+	<distinfo>
+		<resdesc Sync="TRUE">Downloadable Data</resdesc>
+	</distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20121004</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>REQUIRED: The organization responsible for the metadata information.</cntorg>
+					<cntper>REQUIRED: The person responsible for the metadata information.</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>REQUIRED: The mailing and/or physical address for the organization or individual.</addrtype>
+					<city>REQUIRED: The city of the address.</city>
+					<state>REQUIRED: The state or province of the address.</state>
+					<postal>REQUIRED: The ZIP or other postal code of the address.</postal>
+				</cntaddr>
+				<cntvoice>REQUIRED: The telephone number by which individuals can speak to the organization or individual.</cntvoice>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<langmeta Sync="TRUE">fr</langmeta>
+		<metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<dataIdInfo>
+		<envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.6.1500</envirDesc>
+		<dataLang>
+			<languageCode Sync="FALSE" value="fr">
+			</languageCode>
+		</dataLang>
+		<descKeys KeyTypCd="005" Sync="FALSE">
+			<keyword>administratif</keyword>
+			<keyword>trafic</keyword>
+			<keyTyp>
+				<keyTypCd value="005" Sync="FALSE">
+				</keyTypCd>
+			</keyTyp>
+		</descKeys>
+		<geoBox esriExtentType="decdegrees">
+			<westBL Sync="TRUE">5.954894</westBL>
+			<eastBL Sync="TRUE">6.311853</eastBL>
+			<northBL Sync="TRUE">46.367143</northBL>
+			<southBL Sync="TRUE">46.132577</southBL>
+			<exTypeCode Sync="TRUE">1</exTypeCode>
+		</geoBox>
+		<idAbs>LE GRAPHE DE LA MOBILITE :
+
+Le graphe de la mobilité est un regroupement des graphes de base, qui sont la forme géométrique des tronçons, et des différentes jonctions (carrefours, arrêts, gares, débarcadères) qui sont les points de connexions, de transferts entre les différents graphes.
+Ces graphes représentent les différentes voies physiques (et non virtuelles, comme une ligne de bus) sur lesquelles les usagers circulent.
+
+Données disponibles :
+Graphe routier	gmo_graphe_routier	
+Graphe de la mobilité douce	gmo_mobilite_douce	
+Graphe des voies officielles	gmo_graphe_voies_officielles	
+Graphe des accès parkings	gmo_acces_parking	
+Graphe entretien autoroute	gmo_entretien_autoroute	
+Graphe ferroviaire 	gmo_ferroviaire	
+Graphe navigable 	gmo_voie_navigable	
+Tronçons en projet	gmo_troncon_projet	
+Carrefours	gmo_carrefour	
+Quais de gare	gmo_quai_gare	
+Débarcadères	gmo_debarcadere	
+Aéroports	gmo_aeroport	
+Noeuds en projet	gmo_noeud_projet</idAbs>
+		<idCitation>
+			<resTitle>GRAPHE DE LA MOBILITE - GRAPHE ROUTIER</resTitle>
+			<presForm>
+				<PresFormCd Sync="TRUE" value="005">
+				</PresFormCd>
+			</presForm>
+			<resRefDate>
+				<refDate>20070515</refDate>
+				<refDateType>
+					<DateTypCd value="001" Sync="FALSE">
+					</DateTypCd>
+				</refDateType>
+			</resRefDate>
+			<citRespParty>
+				<rpIndName>Guy Perruchoud</rpIndName>
+				<rpCntInfo>
+					<cntPhone>
+						<voiceNum>+4122 546 72 04</voiceNum>
+						<faxNum>+4122 546 72 24</faxNum>
+					</cntPhone>
+					<cntAddress>
+						<eMailAdd>guy.perruchoud@etat.ge.ch</eMailAdd>
+						<delPoint>quai du Rhône 12</delPoint>
+						<postCode>1205</postCode>
+						<XTName>quai du Rhône</XTName>
+						<XTNumber>12</XTNumber>
+						<XTpostBox></XTpostBox>
+						<city>Genève</city>
+						<country>ch</country>
+						<XTLine></XTLine>
+						<adminArea></adminArea>
+					</cntAddress>
+					<cntOnlineRes>
+						<linkage>http://www.ge.ch/semo</linkage>
+					</cntOnlineRes>
+					<cntHours></cntHours>
+					<cntInstr></cntInstr>
+				</rpCntInfo>
+				<rpOrgName>Service de la mensuration officielle</rpOrgName>
+				<rpPosName>Adjoint de direction</rpPosName>
+				<rpXTIndFirstName>Guy</rpXTIndFirstName>
+				<rpXTIndLastName>Perruchoud</rpXTIndLastName>
+				<rpXTOrgAcronym>SEMO</rpXTOrgAcronym>
+				<rpXTPartName>DIME - Département de l'intérieur, de la mobilité et de l'environnement</rpXTPartName>
+				<rpXTBID>447c4793-c304-4c77-ab3f-f5a74a149323</rpXTBID>
+			</citRespParty>
+			<resXTUpdateFicheDate><refDate>20121004</refDate><refDateType><DateTypCd value="001" Sync="FALSE"></DateTypCd></refDateType></resXTUpdateFicheDate></idCitation>
+		<idStatus>
+			<ProgCd value="001" Sync="FALSE">
+			</ProgCd>
+			<descXT>Accompli</descXT></idStatus>
+		<idXTInfoLink>http://etat.geneve.ch/diae/site/interieur/dcmo/master-content.jsp?componentId=kmelia75&amp;nodeId=546&amp;highlight=DCMO</idXTInfoLink>
+		<idXTLegalLink>http://etat.geneve.ch/geoportail/metadataws/Publish/legal/graphe_de_la_mobilite.htm</idXTLegalLink>
+		<lnkObjects>
+			<lnkObject>
+				<lnkBID>cbabd48d-8e48-46c6-b7e9-8f951f9d0ce5</lnkBID>
+				<lnkType>Image</lnkType>
+				<lnkLink>http://etat.geneve.ch/geoportail/metadataws/Publish/images/A.GMO_GRAPHE_ROUTIER.gif</lnkLink>
+			</lnkObject>
+		</lnkObjects>
+		<resMaint>
+			<maintFreq>
+				<MaintFreqCd value="001" Sync="FALSE">
+				</MaintFreqCd>
+				<descXT>Continue</descXT></maintFreq>
+			<maintScp>
+				<ScopeCd value="005" Sync="FALSE">
+				</ScopeCd>
+			</maintScp>
+			<maintNote>Au fur et à mesure, en même temps que la couverture du sol du domaine routier</maintNote>
+		</resMaint>
+		<spatRpType>
+			<SpatRepTypCd Sync="TRUE" value="001">
+			</SpatRepTypCd>
+		</spatRpType>
+		<dataExt>
+			<geoEle>
+				<GeoBndBox esriExtentType="native">
+					<westBL Sync="TRUE">2485760.357</westBL>
+					<northBL Sync="TRUE">1135575.329</northBL>
+					<southBL Sync="TRUE">1109950.579</southBL>
+					<XTdesc>Cadre de référence MN95</XTdesc>
+					<eastBL Sync="TRUE">2512862.38</eastBL>
+					<exTypeCode Sync="TRUE">1</exTypeCode>
+				</GeoBndBox>
+			</geoEle>
+		</dataExt>
+		<dataChar>
+			<CharSetCd value="004" Sync="FALSE">
+			</CharSetCd>
+		</dataChar>
+		<idPurp>Le graphe routier est la forme géométrique des tronçons des voies de circulation 
+ainsi que les attributs spécifiques à ces tronçons.
+
+Sont compris toutes les voies qui de part leur gabarit, leur construction 
+et les obstacles permanents éventuellement présents peuvent permettre 
+la circulation de véhicules automobiles, ceci même si la signalisation 
+ (non-physique) ou des barrières amovibles l'interdit.
+
+Les voies dans la campagne ou dans les bois sont également pris en compte 
+dans le graphe routier dans la mesure ou leur gabarit, leur construction 
+et l'absence d'obstacle permanent permettent la circulation d'un véhicule 
+tout terrain.
+        
+Les voies sont découpées en tronçons (polylignes - complex 
+edges) qui sont définis par la ligne entre deux nœuds du graphe 
+routier (même s'il existe une jonction avec un autre graphe entre deux). 
+Il n'y a pas de carrefours aux intersections avec les autres graphes.
+
+Les constructions (pont, tunnel) ou infrastructures ne créent pas un tronçon 
+particulier. 
+Un changement de nom officiel (code_voie) engendre un découpage du tronçon, 
+même s'il n'y a pas de carrefour à cet endroit.
+
+Les axes sont modélisés par un seul axe central quel que soit le nombre 
+de voies et la nature de la séparation des chaussées. Seule l'autoroute 
+et ses bretelles sont gérées avec un axe par sens de circulation placé 
+à gauche de la chaussée (selon normes fédérales).
+
+Les places complexes sont modélisées de la manière la plus simplifiée 
+possible en tenant compte de des règles de connectique qui doivent pouvoir 
+être applicables.
+
+Certains attributs sont sous la responsabilité d'autres partenaires que le SEMO.</idPurp>
+		<tpCat><TopicCatCd value="015" Sync="FALSE"></TopicCatCd><descXT>Cadastre et aménagement du territoire</descXT></tpCat><tpCat><TopicCatCd value="018" Sync="FALSE"></TopicCatCd><descXT>Réseaux de transport</descXT></tpCat></dataIdInfo>
+	<distInfo>
+		<distributor>
+			<distorTran>
+				<onLineSrc>
+					<protocol></protocol>
+					<orFunct>
+						<OnFunctCd value="004" Sync="FALSE">
+						</OnFunctCd>
+					</orFunct>
+					<linkage>http://www.sitg.ch</linkage>
+					<linkOrderForm>http://etat.geneve.ch/geoportail/formsitg/</linkOrderForm>
+					<orDesc></orDesc></onLineSrc>
+				<offLineMed>
+					<medName>
+						<MedNameCd value="001" Sync="FALSE">
+						</MedNameCd>
+					</medName>
+				</offLineMed>
+				<transThirds value="True" Sync="FALSE">
+				</transThirds>
+			</distorTran>
+			<distorCont>
+				<rpIndName>Pierre Lafontaine</rpIndName>
+				<rpXTIndLastName>Lafontaine</rpXTIndLastName>
+				<rpXTIndFirstName>Pierre</rpXTIndFirstName>
+				<rpOrgName>Service de l'organisation et des systèmes d'information</rpOrgName>
+				<rpXTOrgAcronym>SOSI</rpXTOrgAcronym>
+				<rpXTPartName>DIME - Département de l'intérieur, de la mobilité et de l'environnement</rpXTPartName>
+				<rpCntInfo>
+					<cntPhone>
+						<voiceNum>+4122 546 72 81</voiceNum>
+						<faxNum>+4122 546 72 70</faxNum>
+					</cntPhone>
+					<cntAddress>
+						<eMailAdd>pierre.lafontaine@etat.ge.ch</eMailAdd>
+						<delPoint>rue des Gazomètres 7</delPoint>
+						<postCode>1211</postCode>
+						<XTLine></XTLine>
+						<XTName>rue des Gazomètres</XTName>
+						<XTNumber>7</XTNumber>
+						<XTpostBox>36</XTpostBox>
+						<city>Genève 8</city>
+						<country>ch</country>
+						<adminArea></adminArea>
+					</cntAddress>
+					<cntOnlineRes>
+						<linkage>http://etat.geneve.ch/dt/geomatique/accueil.html</linkage>
+					</cntOnlineRes>
+					<cntHours></cntHours>
+					<cntInstr></cntInstr>
+				</rpCntInfo>
+				<rpPosName>Technicien en géomatique, resp. Métadonnées</rpPosName>
+				<rpXTBID>61beb9aa-9f41-4c2f-8ab4-2765d23df7e1</rpXTBID>
+			</distorCont>
+			<distorFormat><formatName>Dwg/dxf, Géodatabase personnelle, Mif/mid, Shape file</formatName><formatVer>Sur demande</formatVer></distorFormat></distributor>
+	</distInfo>
+	<dqInfo>
+		<dqXTEdit>
+			<edtMethod>Reprise du graphe routier créé en 1996, lui-même digitalisé sur la base du plan d'ensemble au 1:2500</edtMethod>
+			<edtFiability value="True" Sync="FALSE">
+			</edtFiability>
+			<edtPrecision>Plus ou moins 1 mètre par rapport à l'axe théorique des chaussées de la voie</edtPrecision>
+			<edtScale>2500</edtScale>
+		</dqXTEdit>
+		<dqXTDisplay>
+			<dspScale>2500 à 25000</dspScale>
+		</dqXTDisplay>
+	</dqInfo>
+	<Esri>
+		<ModDate>20121004</ModDate>
+		<ModTime>10005100</ModTime>
+		<SyncDate>20121004</SyncDate>
+		<SyncOnce>FALSE</SyncOnce>
+		<SyncTime>10005100</SyncTime>
+		<CreaDate>20110720</CreaDate>
+		<CreaTime>09345000</CreaTime>
+		<DataProperties>
+			<XTinfo>
+				<esrtype>Feature Class</esrtype>
+				<esrfctype>1</esrfctype>
+				<esralias>A.GMO_GRAPHE_ROUTIER</esralias>
+				<esrname>A.GMO_GRAPHE_ROUTIER</esrname>
+			</XTinfo>
+		</DataProperties>
+		<MetaID>{A9519CCC-C7A2-4049-BD50-D1F123D9CB3D}</MetaID></Esri>
+	<mdChar>
+		<CharSetCd Sync="TRUE" value="004">
+		</CharSetCd>
+	</mdChar>
+	<mdContact>
+		<rpIndName>Pierre Lafontaine</rpIndName>
+		<rpXTIndLastName>Lafontaine</rpXTIndLastName>
+		<rpXTIndFirstName>Pierre</rpXTIndFirstName>
+		<rpOrgName>Service de l'organisation et des systèmes d'information</rpOrgName>
+		<rpXTOrgAcronym>SOSI</rpXTOrgAcronym>
+		<rpXTPartName>DIME - Département de l'intérieur, de la mobilité et de l'environnement</rpXTPartName>
+		<rpCntInfo>
+			<cntPhone>
+				<voiceNum>+4122 546 72 81</voiceNum>
+				<faxNum>+4122 546 72 70</faxNum>
+			</cntPhone>
+			<cntAddress>
+				<eMailAdd>pierre.lafontaine@etat.ge.ch</eMailAdd>
+				<delPoint>rue des Gazomètres 7</delPoint>
+				<postCode>1211</postCode>
+				<XTName>rue des Gazomètres</XTName>
+				<XTNumber>7</XTNumber>
+				<XTpostBox>36</XTpostBox>
+				<city>Genève 8</city>
+				<country>ch</country>
+				<XTLine></XTLine>
+				<adminArea></adminArea>
+			</cntAddress>
+			<cntOnlineRes>
+				<linkage>http://etat.geneve.ch/dt/geomatique/accueil.html</linkage>
+			</cntOnlineRes>
+			<cntHours></cntHours>
+			<cntInstr></cntInstr>
+		</rpCntInfo>
+		<rpPosName>Technicien en géomatique, resp. Métadonnées</rpPosName>
+		<rpXTBID>61beb9aa-9f41-4c2f-8ab4-2765d23df7e1</rpXTBID>
+	</mdContact>
+	<mdDateSt Sync="TRUE">20110720</mdDateSt>
+	<mdHrLv>
+		<ScopeCd Sync="TRUE" value="005">
+		</ScopeCd>
+	</mdHrLv>
+	<mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+	<mdLang>
+		<languageCode Sync="FALSE" value="fr">
+		</languageCode>
+	</mdLang>
+	<mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+	<mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+	<mdXTInfoLink>http://www.sitg.ch</mdXTInfoLink>
+	<refSysInfo>
+		<RefSystem>
+			<refSysID>
+				<identCode>CH1903+_LV95</identCode>
+			</refSysID>
+		</RefSystem>
+	</refSysInfo>
+	<spatRepInfo>
+		<VectSpatRep>
+			<topLvl>
+				<TopoLevCd Sync="TRUE" value="001">
+				</TopoLevCd>
+			</topLvl>
+			<geometObjs Name="A.GMO_GRAPHE_ROUTIER"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">10920</geoObjCnt></geometObjs></VectSpatRep>
+	</spatRepInfo>
+	<dataqual>
+		<lineage>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">C:\DOCUME~1\terrond\LOCALS~1\Temp\xmlEF.tmp</srcused>
+				<date Sync="TRUE">20070824</date>
+				<time Sync="TRUE">16071700</time>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">X:\SITG\METADATA\XML_BACKUP\GMO\gmo_graphe_routier.xml</srcused>
+				<date Sync="TRUE">20080819</date>
+				<time Sync="TRUE">13183000</time>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">Z:\SITG\METADATA\XML_BACKUP\GMO\gmo_graphe_routier.xml</srcused>
+				<date Sync="TRUE">20080916</date>
+				<time Sync="TRUE">13433600</time>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">D:\GMO_MN95\gmo_graphe_routier.xml</srcused><date Sync="TRUE">20110720</date><time Sync="TRUE">09345000</time></procstep></lineage>
+	</dataqual>
+	<tpXTThemes><theme>Territoire</theme></tpXTThemes></metadata>

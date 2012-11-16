@@ -1,0 +1,813 @@
+<?xml version="1.0"?>
+<!--<!DOCTYPE metadata SYSTEM "http://www.esri.com/metadata/esriprof80.dtd">-->
+<metadata xml:lang="fr">
+	<Esri>
+		<CreaDate>20110725</CreaDate>
+		<CreaTime>13540300</CreaTime>
+		<SyncOnce>FALSE</SyncOnce>
+		<DataProperties>
+			<XTinfo>
+				<esrtype>Feature Class</esrtype>
+				<esrfctype>1</esrfctype>
+				<esralias>A.OCS_BATIMENT_SECTEUR</esralias>
+				<esrname>A.OCS_BATIMENT_SECTEUR</esrname>
+			</XTinfo>
+		</DataProperties>
+		<SyncDate>20120404</SyncDate>
+		<SyncTime>13420500</SyncTime>
+		<ModDate>20120404</ModDate>
+		<ModTime>13420500</ModTime>
+		<MetaID>{F3DDBE05-0F21-4D82-A44A-0B240DF2A714}</MetaID></Esri>
+	<idinfo>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 1; ESRI ArcCatalog 9.2.6.1500</native>
+		<descript>
+			<langdata Sync="TRUE">fr</langdata>
+			<abstract>REQUIRED: A brief narrative summary of the data set.</abstract>
+			<purpose>REQUIRED: A summary of the intentions with which the data set was developed.</purpose>
+		</descript>
+		<citation>
+			<citeinfo>
+				<origin>REQUIRED: The name of an organization or individual that developed the data set.</origin>
+				<pubdate>REQUIRED: The date when the data set is published or otherwise made available for release.</pubdate>
+				<title Sync="TRUE">A.OCS_BATIMENT_SECTEUR</title>
+				<ftname Sync="TRUE">A.OCS_BATIMENT_SECTEUR</ftname>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<onlink Sync="TRUE">Server=CONSULTATION-SITG; Service=esri_sde; User=a; Version=SDE.DEFAULT</onlink>
+			</citeinfo>
+		</citation>
+		<timeperd>
+			<current>REQUIRED: The basis on which the time period of content information is determined.</current>
+			<timeinfo>
+				<sngdate>
+					<caldate>REQUIRED: The year (and optionally month, or month and day) for which the data set corresponds to the ground.</caldate>
+				</sngdate>
+			</timeinfo>
+		</timeperd>
+		<status>
+			<progress>REQUIRED: The state of the data set.</progress>
+			<update>REQUIRED: The frequency with which changes and additions are made to the data set after the initial data set is completed.</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">5.950344</westbc>
+				<eastbc Sync="TRUE">6.313355</eastbc>
+				<northbc Sync="TRUE">46.367186</northbc>
+				<southbc Sync="TRUE">46.129767</southbc>
+			</bounding>
+			<lboundng>
+				<leftbc Sync="TRUE">2485410.240000</leftbc>
+				<rightbc Sync="TRUE">2512974.020000</rightbc>
+				<bottombc Sync="TRUE">1109644.830000</bottombc>
+				<topbc Sync="TRUE">1135578.440000</topbc>
+			</lboundng>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>REQUIRED: Reference to a formally registered thesaurus or a similar authoritative source of theme keywords.</themekt>
+				<themekey>REQUIRED: Common-use word or phrase used to describe the subject of the data set.</themekey>
+			</theme>
+		</keywords>
+		<accconst>REQUIRED: Restrictions and legal prerequisites for accessing the data set.</accconst>
+		<useconst>REQUIRED: Restrictions and legal prerequisites for using the data set after access is granted.</useconst>
+		<natvform Sync="TRUE">Classe d'entités ArcSDE</natvform>
+	</idinfo>
+	<dataIdInfo>
+		<envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.6.1500</envirDesc>
+		<dataLang>
+			<languageCode Sync="FALSE" value="fr">
+			</languageCode>
+		</dataLang>
+		<idCitation>
+			<resTitle>STATISTIQUE CANTONALE DES BATIMENTS ET LOGEMENTS (Information au secteur/sous-secteur)</resTitle>
+			<presForm>
+				<PresFormCd Sync="TRUE" value="005">
+				</PresFormCd>
+			</presForm>
+			<resRefDate>
+				<refDate>20070529</refDate>
+				<refDateType>
+					<DateTypCd value="001" Sync="FALSE">
+					</DateTypCd>
+				</refDateType>
+			</resRefDate>
+			<citRespParty>
+				<rpXTBID>cbe9406d-5feb-4093-bec8-c9272a1611af</rpXTBID>
+				<rpIndName>José Juan</rpIndName>
+				<rpXTIndLastName>Juan</rpXTIndLastName>
+				<rpXTIndFirstName>José</rpXTIndFirstName>
+				<rpOrgName>Office cantonal de la statistique</rpOrgName>
+				<rpXTOrgAcronym>OCSTAT</rpXTOrgAcronym>
+				<rpXTPartName>DF - Département des finances</rpXTPartName>
+				<rpCntInfo>
+					<cntPhone>
+						<voiceNum>+4122 388 75 22</voiceNum>
+						<faxNum>+4122 388 75 10</faxNum>
+					</cntPhone>
+					<cntAddress>
+						<eMailAdd>jose.juan@etat.ge.ch</eMailAdd>
+						<XTName>route des Acacias</XTName>
+						<XTNumber>82</XTNumber>
+						<delPoint>route des Acacias 82</delPoint>
+						<postCode>1211</postCode>
+						<XTpostBox>1735</XTpostBox>
+						<city>Genève 26</city>
+						<country>ch</country>
+						<XTLine>
+						</XTLine>
+						<adminArea>
+						</adminArea>
+					</cntAddress>
+					<cntOnlineRes>
+						<linkage>http://etat.geneve.ch/des/site/</linkage>
+					</cntOnlineRes>
+					<cntHours>
+					</cntHours>
+					<cntInstr>
+					</cntInstr>
+				</rpCntInfo>
+				<rpPosName>-</rpPosName>
+			</citRespParty>
+			<resXTUpdateFicheDate><refDate>20120404</refDate><refDateType><DateTypCd value="001" Sync="FALSE"></DateTypCd></refDateType></resXTUpdateFicheDate></idCitation>
+		<spatRpType>
+			<SpatRepTypCd Sync="TRUE" value="001">
+			</SpatRepTypCd>
+		</spatRpType>
+		<dataExt>
+			<geoEle>
+				<GeoBndBox esriExtentType="native">
+					<westBL Sync="TRUE">2485410.24</westBL>
+					<eastBL Sync="TRUE">2512974.02</eastBL>
+					<northBL Sync="TRUE">1135578.44</northBL>
+					<southBL Sync="TRUE">1109644.83</southBL>
+					<exTypeCode Sync="TRUE">1</exTypeCode>
+					<XTdesc>Cadre de référence MN95</XTdesc>
+				</GeoBndBox>
+			</geoEle>
+		</dataExt>
+		<geoBox esriExtentType="decdegrees">
+			<westBL Sync="TRUE">5.950344</westBL>
+			<eastBL Sync="TRUE">6.313355</eastBL>
+			<northBL Sync="TRUE">46.367186</northBL>
+			<southBL Sync="TRUE">46.129767</southBL>
+			<exTypeCode Sync="TRUE">1</exTypeCode>
+		</geoBox>
+		<idAbs>Les adresses où au moins un logement a été détecté ont été géoréférencées et permettent d’établir la carte des bâtiments à usage d’habitation et des logements du canton. 
+Il peut parfois arriver qu’à une seule adresse correspondent plusieurs bâtiments.
+
+Les données se réfèrent à la situation au 31 décembre de l’année précédente.
+
+Source: OCSTAT</idAbs>
+		<idXTInfoLink>http://www.geneve.ch/statistique/</idXTInfoLink>
+		<idXTLegalLink>http://etat.geneve.ch/geoportail/metadataws/Publish/legal/ocstat.htm</idXTLegalLink>
+		<dataChar>
+			<CharSetCd value="004" Sync="FALSE">
+			</CharSetCd>
+		</dataChar>
+		<resMaint>
+			<maintFreq>
+				<MaintFreqCd value="006" Sync="FALSE">
+				</MaintFreqCd>
+				<descXT>Trimestriel</descXT></maintFreq>
+			<maintScp>
+				<ScopeCd value="005" Sync="FALSE">
+				</ScopeCd>
+			</maintScp>
+		</resMaint>
+		<idStatus>
+			<ProgCd value="001" Sync="FALSE">
+			</ProgCd>
+			<descXT>Accompli</descXT></idStatus>
+		<descKeys KeyTypCd="005" Sync="FALSE">
+			<keyword>administratif</keyword>
+			<keyTyp>
+				<keyTypCd value="005" Sync="FALSE">
+				</keyTypCd>
+			</keyTyp>
+		</descKeys>
+		<lnkObjects>
+			<lnkObject>
+				<lnkBID>7ca936ad-696b-46e7-a16f-9c841be73d37</lnkBID>
+				<lnkType>Image</lnkType>
+				<lnkLink>http://etat.geneve.ch/geoportail/metadataws/Publish/images/A.OCS_STATISTIQUE_SECTEUR.gif</lnkLink>
+			</lnkObject>
+			<lnkObject><lnkBID>0f226e05-a49e-4d8a-8616-90c7d5d01231</lnkBID><lnkType>Autre</lnkType><lnkNote>Conditions de diffusion des données statistiques</lnkNote><lnkLink>http://www.ge.ch/statistique/tel/questionnaires/donnees_adresse.pdf</lnkLink></lnkObject></lnkObjects>
+		<tpCat><TopicCatCd value="016" Sync="FALSE"></TopicCatCd><descXT>Culture, société et démographie</descXT></tpCat></dataIdInfo>
+	<metainfo>
+		<langmeta Sync="TRUE">fr</langmeta>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntper>REQUIRED: The person responsible for the metadata information.</cntper>
+					<cntorg>REQUIRED: The organization responsible for the metadata information.</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>REQUIRED: The mailing and/or physical address for the organization or individual.</addrtype>
+					<city>REQUIRED: The city of the address.</city>
+					<state>REQUIRED: The state or province of the address.</state>
+					<postal>REQUIRED: The ZIP or other postal code of the address.</postal>
+				</cntaddr>
+				<cntvoice>REQUIRED: The telephone number by which individuals can speak to the organization or individual.</cntvoice>
+			</cntinfo>
+		</metc>
+		<metd Sync="TRUE">20120404</metd>
+		<metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<mdLang>
+		<languageCode Sync="FALSE" value="fr">
+		</languageCode>
+	</mdLang>
+	<mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+	<mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+	<mdChar>
+		<CharSetCd Sync="TRUE" value="004">
+		</CharSetCd>
+	</mdChar>
+	<mdHrLv>
+		<ScopeCd Sync="TRUE" value="005">
+		</ScopeCd>
+	</mdHrLv>
+	<mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+	<distinfo>
+		<resdesc Sync="TRUE">Downloadable Data</resdesc>
+	</distinfo>
+	<distInfo>
+		<distributor>
+			<distorTran>
+				<onLineSrc>
+					<linkage>http://www.sitg.ch</linkage>
+					<protocol></protocol>
+					<linkOrderForm>http://etat.geneve.ch/geoportail/formsitg/</linkOrderForm>
+					<orFunct>
+						<OnFunctCd value="004" Sync="FALSE">
+						</OnFunctCd>
+					</orFunct>
+					<orDesc></orDesc></onLineSrc>
+				<offLineMed>
+					<medName>
+						<MedNameCd value="001" Sync="FALSE">
+						</MedNameCd>
+					</medName>
+				</offLineMed>
+				<transThirds value="False" Sync="FALSE">
+				</transThirds>
+			</distorTran>
+			<distorCont>
+				<rpXTBID>61beb9aa-9f41-4c2f-8ab4-2765d23df7e1</rpXTBID>
+				<rpIndName>Pierre Lafontaine</rpIndName>
+				<rpXTIndLastName>Lafontaine</rpXTIndLastName>
+				<rpXTIndFirstName>Pierre</rpXTIndFirstName>
+				<rpOrgName>Service de l'organisation et des systèmes d'information</rpOrgName>
+				<rpXTOrgAcronym>SOSI</rpXTOrgAcronym>
+				<rpXTPartName>DIM - Département de l'intérieur et de la mobilité</rpXTPartName>
+				<rpCntInfo>
+					<cntPhone>
+						<voiceNum>+4122 546 72 81</voiceNum>
+						<faxNum>+4122 546 72 70</faxNum>
+					</cntPhone>
+					<cntAddress>
+						<eMailAdd>pierre.lafontaine@etat.ge.ch</eMailAdd>
+						<XTName>rue des Gazomètres</XTName>
+						<XTNumber>7</XTNumber>
+						<delPoint>rue des Gazomètres 7</delPoint>
+						<postCode>1211</postCode>
+						<XTpostBox>36</XTpostBox>
+						<city>Genève 8</city>
+						<country>ch</country>
+						<XTLine>
+						</XTLine>
+						<adminArea>
+						</adminArea>
+					</cntAddress>
+					<cntOnlineRes>
+						<linkage>http://etat.geneve.ch/dt/geomatique/accueil.html</linkage>
+					</cntOnlineRes>
+					<cntHours>
+					</cntHours>
+					<cntInstr>
+					</cntInstr>
+				</rpCntInfo>
+				<rpPosName>Technicien en géomatique, resp. Métadonnées</rpPosName>
+			</distorCont>
+			<distorFormat><formatName>Dwg/dxf, Géodatabase personnelle, Mif/mid, Shape file</formatName><formatVer>Sur demande</formatVer></distorFormat></distributor>
+	</distInfo>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<esriterm Name="A.OCS_BATIMENT_SECTEUR">
+				<efeatyp Sync="TRUE">Simple</efeatyp>
+				<efeageom Sync="TRUE">Polygon</efeageom>
+				<esritopo Sync="TRUE">FALSE</esritopo>
+				<efeacnt Sync="TRUE">475</efeacnt>
+				<spindex Sync="TRUE">TRUE</spindex>
+				<linrefer Sync="TRUE">FALSE</linrefer>
+			</esriterm>
+			<sdtsterm Name="A.OCS_BATIMENT_SECTEUR">
+				<sdtstype Sync="TRUE">G-polygon</sdtstype>
+				<ptvctcnt Sync="TRUE">475</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<cordsysn>
+				<geogcsn Sync="TRUE">GCS_CH1903+</geogcsn>
+				<projcsn Sync="TRUE">CH1903+_LV95</projcsn>
+			</cordsysn>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<plandu Sync="TRUE">meters</plandu>
+					<coordrep>
+						<absres Sync="TRUE">0.010000</absres>
+						<ordres Sync="TRUE">0.010000</ordres>
+					</coordrep>
+				</planci>
+				<mapproj><mapprojn Sync="TRUE">Oblique Mercator</mapprojn><obqmerc><sfctrlin Sync="TRUE">1.000000</sfctrlin><obqlazim><azimangl Sync="TRUE">90.000000</azimangl><azimptl Sync="TRUE">7.439583</azimptl></obqlazim><latprjo Sync="TRUE">46.952406</latprjo><feast Sync="TRUE">2600000.000000</feast><fnorth Sync="TRUE">1200000.000000</fnorth></obqmerc></mapproj></planar>
+			<geodetic>
+				<horizdn Sync="TRUE">D_CH1903+</horizdn>
+				<ellips Sync="TRUE">Bessel_1841</ellips>
+				<semiaxis Sync="TRUE">6377397.155000</semiaxis>
+				<denflat Sync="TRUE">299.152813</denflat>
+			</geodetic>
+		</horizsys>
+		<vertdef>
+			<altsys>
+				<altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc>
+				<altres Sync="TRUE">1.000000</altres>
+			</altsys>
+		</vertdef>
+	</spref>
+	<refSysInfo>
+		<RefSystem>
+			<refSysID>
+				<identCode>CH1903+_LV95</identCode>
+			</refSysID>
+		</RefSystem>
+	</refSysInfo>
+	<spatRepInfo>
+		<VectSpatRep>
+			<topLvl>
+				<TopoLevCd Sync="TRUE" value="001">
+				</TopoLevCd>
+			</topLvl>
+			<geometObjs Name="A.OCS_BATIMENT_SECTEUR"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">475</geoObjCnt></geometObjs></VectSpatRep>
+	</spatRepInfo>
+	<eainfo>
+		<detailed Name="A.OCS_BATIMENT_SECTEUR">
+			<attr>
+				<attrlabl Sync="TRUE">NO_COM_FEDERAL</attrlabl>
+				<attalias Sync="TRUE">NO_COM_FEDERAL</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Numéro fédéral de commune</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NO_COMM</attrlabl>
+				<attalias Sync="TRUE">NO_COMM</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Numéro de commune</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SECTEUR</attrlabl>
+				<attalias Sync="TRUE">SECTEUR</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Code du secteur</atXTdesc>
+			</attr>
+			<enttyp>
+				<enttypl Sync="TRUE">A.OCS_BATIMENT_SECTEUR</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt>
+				<enttypc Sync="TRUE">475</enttypc>
+			</enttyp>
+			<attr>
+				<attrlabl Sync="TRUE">SOUS_SECTEUR</attrlabl>
+				<attalias Sync="TRUE">SOUS_SECTEUR</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">3</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Code du sous-secteur</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">DATE_REF</attrlabl>
+				<attalias Sync="TRUE">DATE_REF</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">7</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Date de référence de la statistique</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NUMERO</attrlabl>
+				<attalias Sync="TRUE">NUMERO</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">7</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Numéro du sous-secteur
+(concaténation NO_COMM_FEDERAL,SECTEUR,SOUS_SECTEUR)</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SHAPE</attrlabl>
+				<attalias Sync="TRUE">SHAPE</attalias>
+				<attrtype Sync="TRUE">Geometry</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SECTEUR_VILLE</attrlabl>
+				<attalias Sync="TRUE">SECTEUR_VILLE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">40</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nom du secteur (seulement en ville de Genève)</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">BATIMENT_HABITATION</attrlabl>
+				<attalias Sync="TRUE">BATIMENT_HABITATION</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nombre de bâtiment entièrement à usage d’habitation</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">BATIMENT_MIXTE</attrlabl>
+				<attalias Sync="TRUE">BATIMENT_MIXTE</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nombre de bâtiment mixte, c’est-à-dire d’habitation avec activités économique</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">BATIMENT_AVEC_LOGEMENTS</attrlabl>
+				<attalias Sync="TRUE">BATIMENT_AVEC_LOGEMENTS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nombre de bâtiments à usage d’habitation</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">BATIMENT_NIVEAU_01</attrlabl>
+				<attalias Sync="TRUE">BATIMENT_NIVEAU_01</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nombre de bâtiments d’habitation à 1 étage</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">BATIMENT_NIVEAUX_02</attrlabl>
+				<attalias Sync="TRUE">BATIMENT_NIVEAUX_02</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nombre de bâtiments d’habitation à 2 étages</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">BATIMENT_NIVEAUX_03</attrlabl>
+				<attalias Sync="TRUE">BATIMENT_NIVEAUX_03</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nombre de bâtiments d’habitation à 3 étages</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">BATIMENT_NIVEAUX_04_A_06</attrlabl>
+				<attalias Sync="TRUE">BATIMENT_NIVEAUX_04_A_06</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nombre de bâtiments d’habitation de 4 à 6 étages</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">BATIMENT_NIVEAUX_07_A_09</attrlabl>
+				<attalias Sync="TRUE">BATIMENT_NIVEAUX_07_A_09</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nombre de bâtiments d’habitation de 7 à 9 étages</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">BATIMENT_NIVEAUX_10_OU_PLUS</attrlabl>
+				<attalias Sync="TRUE">BATIMENT_NIVEAUX_10_OU_PLUS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nombre de bâtiments d’habitation de 10 étages ou plus</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">BATIMENT_NIVEAUX_XX</attrlabl>
+				<attalias Sync="TRUE">BATIMENT_NIVEAUX_XX</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nombre de bâtiments d’habitation avec le nombre d’étage inconnu</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">BATIMENT_EPOQUE_AVANT_1900</attrlabl>
+				<attalias Sync="TRUE">BATIMENT_EPOQUE_AVANT_1900</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nombre de bâtiments à usage d’habitation construits avant 1900</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">BATIMENT_EPOQUE_1900_1920</attrlabl>
+				<attalias Sync="TRUE">BATIMENT_EPOQUE_1900_1920</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nombre de bâtiments à usage d’habitation construits entre 1900 et 1920</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">BATIMENT_EPOQUE_1921_1946</attrlabl>
+				<attalias Sync="TRUE">BATIMENT_EPOQUE_1921_1946</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nombre de bâtiments à usage d’habitation construits entre 1921 et 1946</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">BATIMENT_EPOQUE_1947_1960</attrlabl>
+				<attalias Sync="TRUE">BATIMENT_EPOQUE_1947_1960</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nombre de bâtiments à usage d’habitation construits entre 1947 et 1960</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">BATIMENT_EPOQUE_1961_1970</attrlabl>
+				<attalias Sync="TRUE">BATIMENT_EPOQUE_1961_1970</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nombre de bâtiments à usage d’habitation construits entre 1961 et 1970</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">LOGEMENT</attrlabl>
+				<attalias Sync="TRUE">LOGEMENT</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nombre de logements</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">BATIMENT_EPOQUE_1971_1980</attrlabl>
+				<attalias Sync="TRUE">BATIMENT_EPOQUE_1971_1980</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nombre de bâtiments à usage d’habitation construits entre 1971 et 1980
+</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">BATIMENT_EPOQUE_1981_1990</attrlabl>
+				<attalias Sync="TRUE">BATIMENT_EPOQUE_1981_1990</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nombre de bâtiments à usage d’habitation construits entre 1981 et 1990</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">BATIMENT_EPOQUE_1991_2000</attrlabl>
+				<attalias Sync="TRUE">BATIMENT_EPOQUE_1991_2000</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nombre de bâtiments à usage d’habitation construits entre 1991 et 2000</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">BATIMENT_EPOQUE_2001_2010</attrlabl>
+				<attalias Sync="TRUE">BATIMENT_EPOQUE_2001_2010</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nombre de bâtiments à usage d’habitation construits entre 2001 et 2010</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">BATIMENT_00_VILLAS</attrlabl>
+				<attalias Sync="TRUE">BATIMENT_00_VILLAS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nombre de bâtiment entièrement à usage d’habitation à un seul logement (villas)</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">BATIMENT_01_A_02_LOGEMENTS</attrlabl>
+				<attalias Sync="TRUE">BATIMENT_01_A_02_LOGEMENTS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nombre de bâtiment comprenant 1 à 2 logements (y compris les logements de service)</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">OBJECTID</attrlabl>
+				<attalias Sync="TRUE">OBJECTID</attalias>
+				<attrtype Sync="TRUE">OID</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">NOM</attrlabl>
+				<attalias Sync="TRUE">NOM</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">40</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nom du sous-secteur</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">BATIMENT_03_A_09_LOGEMENTS</attrlabl>
+				<attalias Sync="TRUE">BATIMENT_03_A_09_LOGEMENTS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nombre de bâtiment comprenant de 3 à 9 logements</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">BATIMENT_10_OU_PLUS_LOGEMENTS</attrlabl>
+				<attalias Sync="TRUE">BATIMENT_10_OU_PLUS_LOGEMENTS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nombre de bâtiment comprenant 10 logements ou plus</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">LOGEMENT_1_P</attrlabl>
+				<attalias Sync="TRUE">LOGEMENT_1_P</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nombre de logement de 1 pièce</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">LOGEMENT_2_P</attrlabl>
+				<attalias Sync="TRUE">LOGEMENT_2_P</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nombre de logement de 2 pièces</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">LOGEMENT_3_P</attrlabl>
+				<attalias Sync="TRUE">LOGEMENT_3_P</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nombre de logement de 3 pièces</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">LOGEMENT_4_P</attrlabl>
+				<attalias Sync="TRUE">LOGEMENT_4_P</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nombre de logement de 4 pièces</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">LOGEMENT_5_P</attrlabl>
+				<attalias Sync="TRUE">LOGEMENT_5_P</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nombre de logement de 5 pièces</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">LOGEMENT_6_P_OU_PLUS</attrlabl>
+				<attalias Sync="TRUE">LOGEMENT_6_P_OU_PLUS</attalias>
+				<attrtype Sync="TRUE">SmallInteger</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">5</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<atXTdesc>Nombre de logement de 6 pièces ou plus</atXTdesc>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SHAPE.AREA</attrlabl>
+				<attalias Sync="TRUE">SHAPE.AREA</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">0</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SHAPE.LEN</attrlabl>
+				<attalias Sync="TRUE">SHAPE.LEN</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">0</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+		</detailed>
+	</eainfo>
+	<mdDateSt Sync="TRUE">20110725</mdDateSt>
+	<mdXTInfoLink>http://www.sitg.ch</mdXTInfoLink>
+	<mdContact>
+		<rpXTBID>61beb9aa-9f41-4c2f-8ab4-2765d23df7e1</rpXTBID>
+		<rpIndName>Pierre Lafontaine</rpIndName>
+		<rpXTIndLastName>Lafontaine</rpXTIndLastName>
+		<rpXTIndFirstName>Pierre</rpXTIndFirstName>
+		<rpOrgName>Service de l'organisation et des systèmes d'information</rpOrgName>
+		<rpXTOrgAcronym>SOSI</rpXTOrgAcronym>
+		<rpXTPartName>DIM - Département de l'intérieur et de la mobilité</rpXTPartName>
+		<rpCntInfo>
+			<cntPhone>
+				<voiceNum>+4122 546 72 81</voiceNum>
+				<faxNum>+4122 546 72 70</faxNum>
+			</cntPhone>
+			<cntAddress>
+				<eMailAdd>pierre.lafontaine@etat.ge.ch</eMailAdd>
+				<XTName>rue des Gazomètres</XTName>
+				<XTNumber>7</XTNumber>
+				<delPoint>rue des Gazomètres 7</delPoint>
+				<postCode>1211</postCode>
+				<XTpostBox>36</XTpostBox>
+				<city>Genève 8</city>
+				<country>ch</country>
+				<XTLine>
+				</XTLine>
+				<adminArea>
+				</adminArea>
+			</cntAddress>
+			<cntOnlineRes>
+				<linkage>http://etat.geneve.ch/dt/geomatique/accueil.html</linkage>
+			</cntOnlineRes>
+			<cntHours>
+			</cntHours>
+			<cntInstr>
+			</cntInstr>
+		</rpCntInfo>
+		<rpPosName>Technicien en géomatique, resp. Métadonnées</rpPosName>
+	</mdContact>
+	<dqInfo>
+		<dqXTEdit>
+			<edtMethod>Intégration fichier ASCII</edtMethod>
+			<edtPrecision>Entre 1 et 2 mètres (précision de l'adresse)</edtPrecision>
+			<edtScale>250</edtScale>
+			<edtFiability value="True" Sync="FALSE">
+			</edtFiability>
+		</dqXTEdit>
+		<dqXTDisplay>
+			<dspScale>500 à 25000</dspScale>
+		</dqXTDisplay>
+	</dqInfo>
+	<dataqual>
+		<lineage>
+			<procstep>
+				<procdesc Sync="TRUE">Metadata imported.</procdesc>
+				<srcused Sync="TRUE">X:\SITG\METADATA\XML_BACKUP\OCS\ocs_batiment_secteur.xml</srcused>
+				<date Sync="TRUE">20080819</date>
+				<time Sync="TRUE">12592800</time>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">D:\OCS_MN95\ocs_batiment_secteur.xml</srcused><date Sync="TRUE">20110725</date><time Sync="TRUE">13540300</time></procstep></lineage>
+	</dataqual>
+	<tpXTThemes><theme>Finances</theme></tpXTThemes></metadata>
